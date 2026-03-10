@@ -1,0 +1,122 @@
+{
+  "USA": {
+    "icon": "gas",
+    "impacts": [
+      "Six US troops killed. IRGC attacked 12 countries. More casualties expected as war enters second week.",
+      "Hormuz closure + Gulf energy attacks = unprecedented oil shock. Gas prices already spiking.",
+      "NATO activated ballistic missile defense. House backed the war. This is now America's biggest military engagement since Iraq 2003."
+    ]
+  },
+  "ISR": {
+    "icon": "security",
+    "impacts": [
+      "Two-front war at maximum intensity. 80% of Iran's air defenses destroyed. Ground invasion of Lebanon imminent.",
+      "800,000+ Lebanese ordered to evacuate \u2014 the largest displacement since 2006 Lebanon war.",
+      "Hezbollah targeting Israeli energy infrastructure. Home Front Command issuing shelter directives."
+    ]
+  },
+  "IRN": {
+    "icon": "security",
+    "impacts": [
+      "1,230+ killed. Navy destroyed (24 ships). Air force gone. Air defense 80% degraded. Communications down.",
+      "Girls' school attack killed 168. ICRC describes 'constant explosions and no respite' in Tehran.",
+      "Strait of Hormuz closed \u2014 20% of global oil. Iran's conventional military capability is collapsing."
+    ]
+  },
+  "SAU": {
+    "icon": "gas",
+    "impacts": [
+      "Ras Tanura refinery attacked twice. GCC invoked Article 51 self-defense. Joint air defense activated.",
+      "UAE: 165 missiles + 600 drones in 48 hours. Dubai hotels, Amazon data centers, airports hit.",
+      "Gulf neutrality effectively over. Oil market volatility will directly affect global gas prices."
+    ]
+  },
+  "LBN": {
+    "icon": "humanitarian",
+    "impacts": [
+      "800,000+ ordered to evacuate. Three IDF divisions preparing ground invasion. 250+ airstrikes since war began.",
+      "Major cities Tyre and Nabatieh in the evacuation zone. Ground clashes already underway.",
+      "Worst humanitarian crisis in Lebanon since 2006. Economy faces another devastating blow."
+    ]
+  },
+  "YEM": {
+    "icon": "shipping",
+    "impacts": [
+      "Unprecedented dual chokepoint crisis: Hormuz closed AND Houthis resuming Red Sea attacks simultaneously.",
+      "Maersk rerouting via Cape of Good Hope. Shipping costs and insurance premiums spiking.",
+      "Your consumer goods, electronics, and energy costs will all increase as global shipping routes disrupted."
+    ]
+  },
+  "RUS": {
+    "icon": "gas",
+    "impacts": [
+      "Ukraine damaged Russian warships at a naval base. Struck oil infrastructure 750 miles from border.",
+      "Russia couldn't advance on ANY axis March 5. Operational exhaustion visible across the front.",
+      "Hungary-Ukraine Druzhba pipeline dispute could affect European energy supplies."
+    ]
+  },
+  "UKR": {
+    "icon": "food",
+    "impacts": [
+      "Grain exports affect global food prices. Black Sea ports remain critical.",
+      "136 of 155 Russian drones downed in one night \u2014 air defense capability impressive and growing.",
+      "Western defense budgets expanding. Gulf drone expertise sharing builds new alliances."
+    ]
+  },
+  "CHN": {
+    "icon": "trade",
+    "impacts": [
+      "Defense spending at $277B. GDP target lowered to 4.5-5%. Economic uncertainty acknowledged.",
+      "Taiwan crisis would devastate chip supply. TSMC makes 90% of advanced semiconductors.",
+      "Hormuz closure elevates China's energy security crisis. Strategic reserves provide ~100 days."
+    ]
+  },
+  "TWN": {
+    "icon": "trade",
+    "impacts": [
+      "China's $277B defense budget continues military buildup across the strait.",
+      "US arms package delayed for Xi-Trump summit. Japan's 2027 invasion warning stands.",
+      "TSMC chip dominance is Taiwan's ultimate security \u2014 too important for the world to let fall."
+    ]
+  },
+  "PRK": {
+    "icon": "security",
+    "impacts": [
+      "New destroyer Choe Hyon launches cruise missiles \u2014 potentially nuclear-capable. Naval capability growing.",
+      "North Korean ammunition fueling Russia's war. Troops fighting alongside Russian forces.",
+      "Iran crisis provides cover for advancing weapons programs while global attention diverted."
+    ]
+  },
+  "SDN": {
+    "icon": "humanitarian",
+    "impacts": [
+      "UN Fact-Finding Mission: RSF atrocities show 'indicators of a genocidal path.' 1,000 days of war.",
+      "Up to 400,000 killed. 12M+ displaced. Basic services near total collapse. Hospitals exhausted.",
+      "Chad lost 7 soldiers to RSF \u2014 conflict regionalizing. 'Unless you act now, you will have more blood on your hands.'"
+    ]
+  },
+  "COD": {
+    "icon": "trade",
+    "impacts": [
+      "70% of global cobalt from DRC \u2014 essential for EV batteries and smartphones.",
+      "Coltan in every phone and laptop. M23 conflict disrupts mining.",
+      "Conflict minerals may be funding armed groups. Global attention elsewhere."
+    ]
+  },
+  "VEN": {
+    "icon": "gas",
+    "impacts": [
+      "World's largest oil reserves increasingly strategic as Hormuz closure disrupts 20% of global oil.",
+      "3,200+ officially released under amnesty \u2014 but independent groups verify far fewer.",
+      "Venezuela's oil is your hedge against $150/barrel. Every barrel matters during Hormuz closure."
+    ]
+  },
+  "HTI": {
+    "icon": "humanitarian",
+    "impacts": [
+      "Electoral inscriptions open March 2-12 \u2014 first real step toward elections in over a decade.",
+      "5,900+ killed in 2025. 1.4M displaced. Gangs control 90% of capital. Children recruited from age 10.",
+      "Failed state 700 miles from Miami. Security conditions nowhere near adequate for free elections."
+    ]
+  }
+}

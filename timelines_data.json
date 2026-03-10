@@ -1,0 +1,200 @@
+{
+  "Middle East": [
+    {
+      "date": "Oct 2023",
+      "event": "Hamas Storms Southern Israel",
+      "detail": "On October 7, Hamas-led gunmen killed ~1,200 Israelis and took 250 hostages in the deadliest single-day attack on Jewish people since the Holocaust, triggering Israel's declaration of war."
+    },
+    {
+      "date": "Oct 2023",
+      "event": "Israel Launches Ground Invasion of Gaza",
+      "detail": "On October 27, Israeli ground forces pushed into Gaza to dismantle Hamas and recover hostages, beginning a campaign that displaced nearly the entire Gazan population."
+    },
+    {
+      "date": "Oct 2023",
+      "event": "Hezbollah Opens Northern Front",
+      "detail": "The day after October 7, Hezbollah began firing rockets at northern Israel, forcing evacuations and opening a two-front war."
+    },
+    {
+      "date": "Sep 2024",
+      "event": "Israel Decapitates Hezbollah Leadership",
+      "detail": "Israel detonated booby-trapped pagers, killed Nasrallah in a Beirut airstrike, then invaded southern Lebanon on October 1."
+    },
+    {
+      "date": "Jan 2025",
+      "event": "Gaza Ceasefire \u2014 Phase One",
+      "detail": "A US-brokered ceasefire paused the war and began hostage exchanges, but talks for a permanent end collapsed within weeks."
+    },
+    {
+      "date": "Jun 2025",
+      "event": "The 12-Day War: US Bombs Iran's Nuclear Sites",
+      "detail": "Israel struck Iran June 13; the US joined June 22, hitting Fordow, Natanz, Isfahan \u2014 the largest B-2 strike in history \u2014 before a Qatar-brokered ceasefire on June 24."
+    },
+    {
+      "date": "Jul\u2013Feb 2026",
+      "event": "Iran Refuses Diplomacy, Crackdown Kills Thousands",
+      "detail": "Three rounds of nuclear talks collapsed. Iran enriched uranium and killed over 36,000 protesters."
+    },
+    {
+      "date": "Feb 28, 2026",
+      "event": "Operation Epic Fury \u2014 U.S. & Israel Strike Iran",
+      "detail": "Massive joint campaign. Khamenei killed. 48+ senior officials killed. IRGC vows retaliation. Iran fires missiles at 12 countries."
+    },
+    {
+      "date": "Mar 1, 2026",
+      "event": "Hezbollah Enters the War \u2014 Lebanon Front Opens",
+      "detail": "Hezbollah launched rockets at Israel for Khamenei's killing. Israel struck Beirut. Lebanese PM demanded Hezbollah disarm. Iran attacked Gulf states."
+    },
+    {
+      "date": "Mar 2, 2026",
+      "event": "Day 3: 6 U.S. Troops Killed; Iran Death Toll Rises",
+      "detail": "Six US troops killed. Iran death toll passes 555. 3 US jets downed by Kuwaiti friendly fire (crew safe). Trump says 4-5 weeks. 300,000+ stranded."
+    },
+    {
+      "date": "Mar 3\u20134, 2026",
+      "event": "Day 5: IRGC 230 Drones; Gulf Energy Hit; Hormuz Closed",
+      "detail": "IRGC launched 230 drones at US bases. QatarEnergy suspended LNG. Ras Tanura refinery hit. Iran closed the Strait of Hormuz. Israel seized ground in South Lebanon."
+    },
+    {
+      "date": "Mar 5\u20136, 2026",
+      "event": "Day 7: 1,230 Dead; House Backs War; Lebanon Invasion Imminent",
+      "detail": "Iran death toll reaches 1,230. Trump says navy, air force, air defense 'gone.' 24 ships sunk. House votes to continue Epic Fury. 168 killed in girls' school attack. Israel orders 800,000 to evacuate southern Lebanon. NATO activates missile defense. Hegseth: munitions 'full up.' GCC invokes Article 51."
+    }
+  ],
+  "Eastern Europe": [
+    {
+      "date": "Feb 2022",
+      "event": "Russia Invades Ukraine",
+      "detail": "Putin launched a full-scale invasion expecting swift collapse \u2014 Ukrainian forces repelled the northern thrust within six weeks."
+    },
+    {
+      "date": "Sep\u2013Nov 2022",
+      "event": "Ukraine Recaptures Kherson and Kharkiv",
+      "detail": "Counteroffensives liberated thousands of square kilometers in the war's most dramatic swings."
+    },
+    {
+      "date": "May 2023",
+      "event": "Russia Takes Bakhmut After Months of Slaughter",
+      "detail": "The longest, bloodiest battle \u2014 signaling attrition would define the conflict."
+    },
+    {
+      "date": "Jun\u2013Dec 2023",
+      "event": "Ukraine's Counteroffensive Stalls",
+      "detail": "Western-backed offensive made minimal gains against fortified Russian lines."
+    },
+    {
+      "date": "Aug 2024",
+      "event": "Ukraine Invades Russia's Kursk Region",
+      "detail": "Ukraine seized ~1,000 sq km of Russian territory \u2014 first foreign occupation of Russian soil since WWII."
+    },
+    {
+      "date": "Oct 2024",
+      "event": "North Korean Troops Join Russia's War",
+      "detail": "~11,000 North Korean soldiers deployed alongside Russian forces."
+    },
+    {
+      "date": "Jan 2026",
+      "event": "Trump Pushes for Ceasefire; Trilateral Talks in UAE",
+      "detail": "First trilateral talks since the invasion. Territory remains the central sticking point."
+    },
+    {
+      "date": "Feb 17\u201318, 2026",
+      "event": "Third Round of Geneva Trilateral Talks",
+      "detail": "Focused on territory, security guarantees, and an economic package. US proposed a free economic zone in Donbas."
+    },
+    {
+      "date": "Mar 1\u20136, 2026",
+      "event": "Ukraine Hits Russian Naval Base; Strikes Oil 750 Miles Deep",
+      "detail": "Ukraine damaged a Russian frigate at a naval base. Struck Saratov oil infrastructure 750+ miles from border. Downed 136 of 155 drones in one night. Russia couldn't advance on any axis March 5. Hungary-Ukraine dispute over Druzhba pipeline flares."
+    }
+  ],
+  "Indo-Pacific": [
+    {
+      "date": "Aug 2022",
+      "event": "Pelosi Visits Taiwan; China Encircles the Island",
+      "detail": "Pelosi's visit triggered China's largest military exercises in decades, including missiles fired over Taiwan."
+    },
+    {
+      "date": "Feb 2023",
+      "event": "Chinese Spy Balloon Over the US",
+      "detail": "A surveillance balloon traversed America before being shot down, exposing a global Chinese balloon intelligence program."
+    },
+    {
+      "date": "Apr\u2013Aug 2023",
+      "event": "China Holds Punitive Drills After Each US-Taiwan Contact",
+      "detail": "Beijing normalized using military exercises as diplomatic punishment after each US-Taiwan interaction."
+    },
+    {
+      "date": "Jan 2024",
+      "event": "Taiwan Elects Pro-Independence Lai Ching-te",
+      "detail": "Beijing viewed Lai as a dangerous separatist. China responded with surveillance balloons and daily military incursions."
+    },
+    {
+      "date": "May\u2013Oct 2024",
+      "event": "China Runs Back-to-Back 'Punishment' Drills",
+      "detail": "Joint Sword 2024A and 2024B deployed record warships and aircraft simulating a blockade."
+    },
+    {
+      "date": "Dec 2025",
+      "event": "China's Largest-Ever Taiwan Drills After US Arms Sale",
+      "detail": "'Justice Mission 2025' simulated seizure of Taiwan \u2014 89 aircraft and 28 warships in a single day."
+    },
+    {
+      "date": "Feb 2026",
+      "event": "North Korea's Party Congress: More Nukes, New Goals",
+      "detail": "Kim pledged to expand nuclear arsenal, develop AI-enabled submarine missiles. Daughter Kim Ju Ae in succession spotlight."
+    },
+    {
+      "date": "Mar 5\u20136, 2026",
+      "event": "China NPC: GDP 4.5-5%, Defense $277B; Kim Tests Destroyer",
+      "detail": "NPC set lowest GDP target in years (4.5-5%). Defense spending up 7% to $277B. 15th Five-Year Plan launched \u2014 AI, chips, energy security prioritized. Kim Jong Un watched cruise missiles launch from new destroyer Choe Hyon. Xi-Trump summit March 31."
+    }
+  ],
+  "Africa & Americas": [
+    {
+      "date": "Apr 2023",
+      "event": "Sudan's Army and Paramilitaries Turn on Each Other",
+      "detail": "SAF and RSF erupted in civil war after a power struggle over military integration collapsed."
+    },
+    {
+      "date": "Jun 2023",
+      "event": "RSF Seizes Darfur, Massacres Civilians",
+      "detail": "RSF swept through Darfur with UN investigators documenting mass killings on a genocidal scale."
+    },
+    {
+      "date": "Sep 2023",
+      "event": "Haiti's Gangs Unite Into One Deadly Coalition",
+      "detail": "Viv Ansanm formed \u2014 gangs turned combined firepower on the government, seizing 80% of Port-au-Prince."
+    },
+    {
+      "date": "Jan 2025",
+      "event": "M23 Rebels Capture Goma, DRC's Eastern Hub",
+      "detail": "Rwanda-backed M23 took Goma \u2014 the largest gain in a conflict displacing 7M+ people."
+    },
+    {
+      "date": "Jun\u2013Oct 2025",
+      "event": "DRC Peace Deals Collapse Repeatedly",
+      "detail": "US-mediated deals signed but M23 continued advancing through December."
+    },
+    {
+      "date": "Oct 2025",
+      "event": "RSF Captures El Fasher; Sudan Near Partition",
+      "detail": "RSF seized El Fasher \u2014 Yale confirmed mass killings. SAF retook Khartoum palace. De facto partition hardening."
+    },
+    {
+      "date": "Jan 2026",
+      "event": "US Delta Force Captures Maduro in Venezuela",
+      "detail": "Operation Absolute Resolve captured Maduro in Caracas. Flown to New York for narco-terrorism charges."
+    },
+    {
+      "date": "Feb 20, 2026",
+      "event": "Venezuela Amnesty Law Signed; 3,200+ Released",
+      "detail": "Amnesty law enacted. 3,200+ released officially. Foro Penal independently verifies only 91-109 political releases. 600 still imprisoned."
+    },
+    {
+      "date": "Mar 2\u20136, 2026",
+      "event": "Sudan: 'Genocidal Path'; Haiti Opens Electoral Inscriptions",
+      "detail": "UN Fact-Finding Mission described RSF atrocities as 'indicators of a genocidal path.' 1,000 days of war. Up to 400,000 killed. Chad lost 7 soldiers to RSF. Haiti opened electoral inscriptions March 2-12 for planned August elections."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "from": "IRN",
+    "to": "LBN",
+    "type": "proxy",
+    "label": "Hezbollah at war \u2014 250+ Israeli airstrikes in response"
+  },
+  {
+    "from": "IRN",
+    "to": "YEM",
+    "type": "proxy",
+    "label": "Dual chokepoint: Houthis + Hormuz closure"
+  },
+  {
+    "from": "IRN",
+    "to": "RUS",
+    "type": "alliance",
+    "label": "Alliance hollow \u2014 Russia offers only rhetoric"
+  },
+  {
+    "from": "USA",
+    "to": "ISR",
+    "type": "alliance",
+    "label": "Joint ops \u2014 80% of Iran air defenses destroyed"
+  },
+  {
+    "from": "USA",
+    "to": "UKR",
+    "type": "support",
+    "label": "Military aid + drone expertise sharing"
+  },
+  {
+    "from": "USA",
+    "to": "SAU",
+    "type": "alliance",
+    "label": "GCC invoked Article 51 \u2014 joint air defense active"
+  },
+  {
+    "from": "USA",
+    "to": "TWN",
+    "type": "support",
+    "label": "Arms sales (delayed for Xi summit)"
+  },
+  {
+    "from": "RUS",
+    "to": "PRK",
+    "type": "alliance",
+    "label": "Troops & ammo \u2014 new destroyer Choe Hyon tested"
+  },
+  {
+    "from": "RUS",
+    "to": "CHN",
+    "type": "alliance",
+    "label": "Joint UNSC diplomacy on Iran"
+  },
+  {
+    "from": "CHN",
+    "to": "TWN",
+    "type": "threat",
+    "label": "Defense $277B \u2014 Five-Year Plan military buildup"
+  },
+  {
+    "from": "CHN",
+    "to": "PRK",
+    "type": "support",
+    "label": "Economic lifeline"
+  },
+  {
+    "from": "SAU",
+    "to": "SDN",
+    "type": "support",
+    "label": "Backing SAF military"
+  },
+  {
+    "from": "COD",
+    "to": "SDN",
+    "type": "parallel",
+    "label": "Simultaneous African crises"
+  },
+  {
+    "from": "IRN",
+    "to": "ISR",
+    "type": "threat",
+    "label": "1,230+ killed \u2014 navy, air force destroyed"
+  },
+  {
+    "from": "RUS",
+    "to": "UKR",
+    "type": "threat",
+    "label": "Active war \u2014 Russia stalled on all axes"
+  },
+  {
+    "from": "UKR",
+    "to": "SAU",
+    "type": "support",
+    "label": "Drone interception expertise to Gulf"
+  },
+  {
+    "from": "IRN",
+    "to": "SAU",
+    "type": "threat",
+    "label": "Ras Tanura hit twice \u2014 GCC invokes self-defense"
+  },
+  {
+    "from": "USA",
+    "to": "CHN",
+    "type": "alliance",
+    "label": "Xi-Trump summit March 31 \u2014 Taiwan & trade"
+  },
+  {
+    "from": "IRN",
+    "to": "YEM",
+    "type": "threat",
+    "label": "Hormuz + Red Sea = dual chokepoint crisis"
+  }
+]
