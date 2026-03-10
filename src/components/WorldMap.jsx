@@ -1,4 +1,5 @@
-import { useEffect, useRef } from "react";
+import Plotly from "plotly.js-geo-dist";
+import { useEffect, useRef, useState } from "react";
 import {
   countryCoords,
   regions,
@@ -157,25 +158,27 @@ const config = {
 export default function WorldMap({ conflictData, currentFilter, onCountrySelect }) {
   const mapRef = useRef(null);
   const onCountrySelectRef = useRef(onCountrySelect);
+  const [mapReady, setMapReady] = useState(false);
 
   useEffect(() => {
     onCountrySelectRef.current = onCountrySelect;
   }, [onCountrySelect]);
 
   useEffect(() => {
-    const plotly = window.Plotly;
     const mapNode = mapRef.current;
 
-    if (!plotly || !mapNode || !conflictData.length) {
+    if (!mapNode || !conflictData.length) {
       return undefined;
     }
 
     let isActive = true;
 
-    plotly.newPlot(mapNode, buildMapTraces(conflictData), layout, config).then(() => {
+    Plotly.newPlot(mapNode, buildMapTraces(conflictData), layout, config).then(() => {
       if (!isActive || !mapRef.current) {
         return;
       }
+
+      setMapReady(true);
 
       const svgNodes = mapRef.current.querySelectorAll(".main-svg");
       svgNodes.forEach((svg) => {
@@ -211,28 +214,60 @@ export default function WorldMap({ conflictData, currentFilter, onCountrySelect 
     return () => {
       isActive = false;
       mapNode.removeAllListeners?.("plotly_click");
-      plotly.purge(mapNode);
+      Plotly.purge(mapNode);
     };
   }, [conflictData]);
 
   useEffect(() => {
-    const plotly = window.Plotly;
     const mapNode = mapRef.current;
 
-    if (!plotly || !mapNode || !conflictData.length) {
+    if (!mapNode || !conflictData.length) {
       return;
     }
 
     const region = regions[currentFilter] || regions.all;
-    plotly.relayout(mapNode, {
+    Plotly.relayout(mapNode, {
       "geo.lonaxis.range": region.lon,
       "geo.lataxis.range": region.lat,
     });
   }, [conflictData.length, currentFilter]);
 
-  if (!window.Plotly) {
-    return <div className="map-fallback">Plotly failed to load.</div>;
-  }
-
-  return <div id="plotly-map" ref={mapRef} />;
+  return (
+    <>
+      {!mapReady && (
+        <div
+          className="map-loading"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            position: "absolute",
+            inset: 0,
+            zIndex: 1,
+            background: "var(--color-bg, #0a0c12)",
+            color: "var(--color-text-muted, #7d829a)",
+            fontFamily: "var(--font-body, sans-serif)",
+            fontSize: "var(--text-sm, 0.85rem)",
+            gap: "0.5rem",
+          }}
+        >
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            style={{
+              animation: "spin 1.2s linear infinite",
+            }}
+          >
+            <path d="M12 2a10 10 0 0 1 10 10" strokeLinecap="round" />
+          </svg>
+          Loading map...
+        </div>
+      )}
+      <div id="plotly-map" ref={mapRef} />
+    </>
+  );
 }
