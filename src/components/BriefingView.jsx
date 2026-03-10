@@ -1,15 +1,5 @@
 import { theaterColors, theaterOrder, threatColors } from "../constants";
-
-const changeStatusMeta = {
-  escalated: { label: "Escalated", className: "escalated" },
-  holding: { label: "Holding", className: "holding" },
-  watch: { label: "Watchlist", className: "watch" },
-  improving: { label: "Improving", className: "improving" },
-};
-
-function getChangeMeta(status) {
-  return changeStatusMeta[status] || { label: "Updated", className: "holding" };
-}
+import { getChangeMeta } from "../utils";
 
 export default function BriefingView({
   snapshots,
