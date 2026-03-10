@@ -1,0 +1,227 @@
+[
+  {
+    "id": "oct-2023",
+    "label": "Oct 2023",
+    "date_range": "Shockwave",
+    "captured_at": "2023-10-27T00:00:00Z",
+    "headline": "The post-October 7 world order fractures",
+    "summary": "The Hamas attack, Israel's Gaza war, and Russia's continuing invasion create a more combustible security environment across multiple theaters at once.",
+    "global_threat_label": "ELEVATED",
+    "global_threat_value": 3,
+    "dominant_theater": "Middle East",
+    "top_items": [
+      "Gaza becomes the central strategic and humanitarian story.",
+      "Hezbollah opens a second front, raising the risk of regional war.",
+      "Ukraine remains in a grinding attritional fight with Russia."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Israel goes to war after the Hamas attack reshapes the region",
+        "note": "The center of gravity shifts immediately toward Gaza, deterrence failure, and the risk of a broader regional conflict.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "LBN",
+        "country": "Lebanon",
+        "headline": "Hezbollah opens a northern front one day after October 7",
+        "note": "Cross-border fire makes clear that Gaza will not stay isolated from the wider Iran-aligned network.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "UKR",
+        "country": "Ukraine",
+        "headline": "Ukraine keeps fighting as global focus shifts abruptly back to the Middle East",
+        "note": "Kyiv's concern becomes strategic bandwidth as much as battlefield pressure.",
+        "change_status": "holding"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 1,
+      "Eastern Europe": 1,
+      "Indo-Pacific": 0,
+      "Africa & Americas": 1
+    }
+  },
+  {
+    "id": "2024-2025",
+    "label": "2024-2025",
+    "date_range": "Proxy Pressure",
+    "captured_at": "2025-07-01T00:00:00Z",
+    "headline": "Proxy conflict and long-range disruption become the norm",
+    "summary": "The Red Sea crisis, Hezbollah pressure, and drone-heavy warfare in Ukraine make indirect escalation feel persistent rather than episodic.",
+    "global_threat_label": "HIGH",
+    "global_threat_value": 4,
+    "dominant_theater": "Middle East",
+    "top_items": [
+      "Shipping and energy become frontline indicators, not side effects.",
+      "Ukraine and Russia adapt around infrastructure strikes and drone attrition.",
+      "Taiwan and North Korea move higher on the strategic risk ladder."
+    ],
+    "story_threads": [
+      {
+        "iso": "YEM",
+        "country": "Yemen",
+        "headline": "Houthi attacks turn the Red Sea into a strategic choke point",
+        "note": "A regional militia proves it can reshape global freight behavior from one maritime corridor.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "Iran's regional influence is increasingly measured through proxies and disruption",
+        "note": "Tehran's leverage looks less like diplomacy and more like coordinated pressure on shipping, Israel, and Gulf security.",
+        "change_status": "holding"
+      },
+      {
+        "iso": "TWN",
+        "country": "Taiwan",
+        "headline": "Taiwan's defense debate becomes more urgent as Beijing's pressure hardens",
+        "note": "The island is no longer preparing for a hypothetical future problem; it is managing a live coercion campaign.",
+        "change_status": "watch"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 2,
+      "Eastern Europe": 2,
+      "Indo-Pacific": 2,
+      "Africa & Americas": 2
+    }
+  },
+  {
+    "id": "late-2025",
+    "label": "Late 2025",
+    "date_range": "System Strain",
+    "captured_at": "2025-12-15T00:00:00Z",
+    "headline": "Political systems strain as conflicts stop looking temporary",
+    "summary": "Lebanon's political reset collides with Hezbollah's battlefield reality, eastern Congo remains frozen in instability, and Haiti and Venezuela enter fragile transition periods.",
+    "global_threat_label": "HIGH",
+    "global_threat_value": 4,
+    "dominant_theater": "Africa & Americas",
+    "top_items": [
+      "States are increasingly judged by whether they can govern through war, not prevent it.",
+      "Congo, Sudan, Haiti, and Venezuela all become tests of weak-state endurance.",
+      "Taiwan's defense funding and China's military tempo become more politically salient."
+    ],
+    "story_threads": [
+      {
+        "iso": "LBN",
+        "country": "Lebanon",
+        "headline": "Lebanon's political reset collides with Hezbollah's military reality",
+        "note": "New formal leadership does not translate into full state control over security decisions.",
+        "change_status": "holding"
+      },
+      {
+        "iso": "COD",
+        "country": "Democratic Republic of Congo",
+        "headline": "Eastern Congo remains unstable despite another round of diplomacy",
+        "note": "Peace language continues to lag behind battlefield facts and external support networks.",
+        "change_status": "holding"
+      },
+      {
+        "iso": "HTI",
+        "country": "Haiti",
+        "headline": "Haiti's transition keeps narrowing as gang power outruns state authority",
+        "note": "Institutional design matters less and less when the capital itself is contested territory.",
+        "change_status": "escalated"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 3,
+      "Eastern Europe": 2,
+      "Indo-Pacific": 3,
+      "Africa & Americas": 4
+    }
+  },
+  {
+    "id": "feb-2026",
+    "label": "Feb 2026",
+    "date_range": "Open War",
+    "captured_at": "2026-02-28T00:00:00Z",
+    "headline": "The long shadow war with Iran breaks into direct regional conflict",
+    "summary": "U.S.-Israeli strikes on Iran, leadership shock in Tehran, and renewed pressure across Lebanon and Gulf energy routes push the Middle East into outright interstate war.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Middle East",
+    "top_items": [
+      "Iran's leadership transition happens during active war, not after it.",
+      "Washington shifts from deterrence signaling to active containment of spillover.",
+      "Markets and shipping react as if the Gulf itself is now unstable terrain."
+    ],
+    "story_threads": [
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "Iran enters leadership transition under direct wartime attack",
+        "note": "The state's central challenge becomes continuity under fire rather than ordinary succession management.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "USA",
+        "country": "United States",
+        "headline": "Washington moves from deterrence posture to active containment",
+        "note": "The U.S. is now managing Gulf security, shipping, and direct war spillover all at once.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "SAU",
+        "country": "Saudi Arabia",
+        "headline": "The Gulf energy system becomes a real-time war variable again",
+        "note": "Saudi Arabia's relevance rises because every missile or shipping disruption now has global price implications.",
+        "change_status": "watch"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 4,
+      "Eastern Europe": 3,
+      "Indo-Pacific": 4,
+      "Africa & Americas": 4
+    }
+  },
+  {
+    "id": "mar-2026",
+    "label": "Mar 2026",
+    "date_range": "Current Picture",
+    "captured_at": "2026-03-10T06:00:00Z",
+    "headline": "The world is now defined by simultaneous live wars, fragile transitions, and contested shipping lanes",
+    "summary": "The current briefing cycle is not just about conflict hotspots. It is about how those hotspots now overlap: energy, elections, humanitarian collapse, and military escalation are interacting across regions.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Middle East",
+    "top_items": [
+      "Iran-Israel-U.S. escalation is the fastest-moving global driver.",
+      "Ukraine remains under acute strike pressure despite diplomatic side channels.",
+      "Sudan, Congo, Haiti, and Venezuela show how governance risk now matters alongside battlefield risk."
+    ],
+    "story_threads": [
+      {
+        "iso": "USA",
+        "country": "United States",
+        "headline": "U.S. containment posture hardens as shipping and Gulf bases come under threat",
+        "note": "Washington is trying to keep regional escalation from turning into an uncontrolled energy and maritime crisis.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "UKR",
+        "country": "Ukraine",
+        "headline": "Ukraine remains under heavy strike pressure even as talks and swaps continue",
+        "note": "The war in Europe is still acute, even when global attention drifts elsewhere.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "SDN",
+        "country": "Sudan",
+        "headline": "Sudan remains one of the world's worst crises despite limited bandwidth abroad",
+        "note": "UN genocide-related findings sharpen the warning, but conditions on the ground remain catastrophic.",
+        "change_status": "escalated"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 5,
+      "Eastern Europe": 5,
+      "Indo-Pacific": 5,
+      "Africa & Americas": 5
+    }
+  }
+]

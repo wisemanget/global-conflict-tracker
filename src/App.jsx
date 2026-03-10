@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import BriefingView from "./components/BriefingView";
 import WorldMap from "./components/WorldMap";
 import {
   impactIcons,
@@ -34,13 +35,52 @@ function getDomesticEmoji(level) {
   return "\uD83D\uDC4D\uD83D\uDC4E";
 }
 
+const changeStatusMeta = {
+  escalated: { label: "Escalated", className: "escalated" },
+  holding: { label: "Holding", className: "holding" },
+  watch: { label: "Watchlist", className: "watch" },
+  improving: { label: "Improving", className: "improving" },
+};
+
+const impactOrder = [
+  "Military",
+  "U.S. Policy",
+  "Energy",
+  "Shipping",
+  "Markets",
+  "Humanitarian",
+  "Elections",
+  "Security",
+];
+
+function getChangeMeta(status) {
+  return changeStatusMeta[status] || { label: "Updated", className: "holding" };
+}
+
+function formatTimestamp(value) {
+  if (!value) {
+    return "--";
+  }
+
+  return new Date(value).toLocaleString("en-US", {
+    month: "short",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
 export default function App() {
   const [conflictData, setConflictData] = useState([]);
+  const [historySnapshots, setHistorySnapshots] = useState([]);
   const [leadersData, setLeadersData] = useState({});
   const [timelinesData, setTimelinesData] = useState({});
   const [impactData, setImpactData] = useState({});
   const [connectionsData, setConnectionsData] = useState([]);
+  const [viewMode, setViewMode] = useState("dashboard");
+  const [activeSnapshotIndex, setActiveSnapshotIndex] = useState(0);
   const [currentFilter, setCurrentFilter] = useState("all");
+  const [impactFilter, setImpactFilter] = useState("all");
   const [currentSort, setCurrentSort] = useState("threat");
   const [currentSidebarTab, setCurrentSidebarTab] = useState("intel");
   const [selectedIso, setSelectedIso] = useState(null);
@@ -57,8 +97,9 @@ export default function App() {
     async function loadData() {
       try {
         setLoading(true);
-        const [conflicts, leaders, timelines, impacts, connections] = await Promise.all([
+        const [conflicts, history, leaders, timelines, impacts, connections] = await Promise.all([
           fetchJson("/conflict_data.json"),
+          fetchJson("/history_snapshots.json"),
           fetchJson("/leaders_data.json"),
           fetchJson("/timelines_data.json"),
           fetchJson("/impact_data.json"),
@@ -70,6 +111,7 @@ export default function App() {
         }
 
         setConflictData(conflicts);
+        setHistorySnapshots(history);
         setLeadersData(leaders);
         setTimelinesData(timelines);
         setImpactData(impacts);
@@ -94,6 +136,14 @@ export default function App() {
       active = false;
     };
   }, []);
+
+  useEffect(() => {
+    if (!historySnapshots.length) {
+      return;
+    }
+
+    setActiveSnapshotIndex(historySnapshots.length - 1);
+  }, [historySnapshots]);
 
   useEffect(() => {
     const onKeyDown = (event) => {
@@ -136,18 +186,43 @@ export default function App() {
         ? [...conflictData]
         : conflictData.filter((conflict) => conflict.theater === currentFilter);
 
+    const impactFiltered =
+      impactFilter === "all"
+        ? filtered
+        : filtered.filter((conflict) => (conflict.impact_tags || []).includes(impactFilter));
+
     if (currentSort === "threat") {
-      filtered.sort((left, right) => (right.threat_level || 0) - (left.threat_level || 0));
+      impactFiltered.sort((left, right) => (right.threat_level || 0) - (left.threat_level || 0));
     } else if (currentSort === "alpha") {
-      filtered.sort((left, right) => left.country.localeCompare(right.country));
+      impactFiltered.sort((left, right) => left.country.localeCompare(right.country));
     } else if (currentSort === "theater") {
-      filtered.sort(
+      impactFiltered.sort(
         (left, right) => theaterOrder.indexOf(left.theater) - theaterOrder.indexOf(right.theater),
       );
     }
 
-    return filtered;
-  }, [conflictData, currentFilter, currentSort]);
+    return impactFiltered;
+  }, [conflictData, currentFilter, currentSort, impactFilter]);
+
+  const impactOptions = useMemo(() => {
+    const availableTags = new Set();
+
+    conflictData.forEach((conflict) => {
+      (conflict.impact_tags || []).forEach((tag) => availableTags.add(tag));
+    });
+
+    return impactOrder.filter((tag) => availableTags.has(tag));
+  }, [conflictData]);
+
+  const topDevelopments = useMemo(() => {
+    return [...conflictData]
+      .sort((left, right) => {
+        const leftRank = left.story_rank ?? Number.MAX_SAFE_INTEGER;
+        const rightRank = right.story_rank ?? Number.MAX_SAFE_INTEGER;
+        return leftRank - rightRank;
+      })
+      .slice(0, 5);
+  }, [conflictData]);
 
   const globalThreat = useMemo(() => {
     if (!conflictData.length) {
@@ -230,6 +305,11 @@ export default function App() {
     return selectedIso === iso || highlightedIsos.includes(iso);
   }
 
+  function openMapFromReplay(theater) {
+    setCurrentFilter(theater || "all");
+    setViewMode("dashboard");
+  }
+
   return (
     <>
       <div className="dashboard">
@@ -265,26 +345,45 @@ export default function App() {
           </div>
 
           <div className="header-center">
-            <div className="global-threat-meter">
-              <span className="threat-meter-label">Global Threat Level</span>
-              <div className="threat-bar">
-                <div
-                  className="threat-bar-fill"
-                  style={{
-                    width: globalThreat.fillWidth,
-                    background: globalThreat.fillBackground,
-                  }}
-                />
-                <div className="threat-bar-segments">
-                  <span />
-                  <span />
-                  <span />
-                  <span />
+            <div className="header-view-stack">
+              <div className="global-threat-meter">
+                <span className="threat-meter-label">Global Threat Level</span>
+                <div className="threat-bar">
+                  <div
+                    className="threat-bar-fill"
+                    style={{
+                      width: globalThreat.fillWidth,
+                      background: globalThreat.fillBackground,
+                    }}
+                  />
+                  <div className="threat-bar-segments">
+                    <span />
+                    <span />
+                    <span />
+                    <span />
+                  </div>
                 </div>
+                <span className="threat-meter-value" style={{ color: globalThreat.labelColor }}>
+                  {globalThreat.label}
+                </span>
               </div>
-              <span className="threat-meter-value" style={{ color: globalThreat.labelColor }}>
-                {globalThreat.label}
-              </span>
+
+              <div className="view-switcher" role="tablist" aria-label="View mode">
+                <button
+                  type="button"
+                  className={`view-switch-btn ${viewMode === "dashboard" ? "active" : ""}`}
+                  onClick={() => setViewMode("dashboard")}
+                >
+                  Map
+                </button>
+                <button
+                  type="button"
+                  className={`view-switch-btn ${viewMode === "briefing" ? "active" : ""}`}
+                  onClick={() => setViewMode("briefing")}
+                >
+                  Replay
+                </button>
+              </div>
             </div>
           </div>
 
@@ -312,7 +411,7 @@ export default function App() {
           </div>
         </header>
 
-        <main className="main">
+        <main className={`main ${viewMode === "briefing" ? "hidden" : ""}`}>
           <div className="map-container">
             <WorldMap
               conflictData={conflictData}
@@ -401,6 +500,29 @@ export default function App() {
                 ))}
               </div>
 
+              <div className={`impact-filters ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
+                <span className="filter-label">View by impact</span>
+                <div className="impact-chip-row">
+                  <button
+                    type="button"
+                    className={`filter-chip ${impactFilter === "all" ? "active" : ""}`}
+                    onClick={() => setImpactFilter("all")}
+                  >
+                    All impacts
+                  </button>
+                  {impactOptions.map((tag) => (
+                    <button
+                      key={tag}
+                      type="button"
+                      className={`filter-chip ${impactFilter === tag ? "active" : ""}`}
+                      onClick={() => setImpactFilter(tag)}
+                    >
+                      {tag}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
               <div className={`sort-controls ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
                 {[
                   ["threat", "By Threat"],
@@ -422,6 +544,42 @@ export default function App() {
             <div className={`sidebar-content ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
               {loading ? <div className="loading-state">Loading conflict data...</div> : null}
               {error ? <div className="error-state">{error}</div> : null}
+              {!loading && !error && topDevelopments.length ? (
+                <section className="briefing-panel">
+                  <div className="section-header">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+                      <path d="M2 12.5h12M4 9l2-2 2 1 4-4" />
+                    </svg>
+                    <span>Top Developments</span>
+                  </div>
+                  <div className="briefing-list">
+                    {topDevelopments.map((conflict, index) => {
+                      const changeMeta = getChangeMeta(conflict.change_status);
+
+                      return (
+                        <button
+                          key={`briefing-${conflict.iso_code}`}
+                          type="button"
+                          className="briefing-card"
+                          onClick={() => openDetail(conflict.iso_code)}
+                        >
+                          <div className="briefing-rank">{index + 1}</div>
+                          <div className="briefing-copy">
+                            <div className="briefing-topline">
+                              <span className="briefing-country">{conflict.country}</span>
+                              <span className={`change-pill ${changeMeta.className}`}>
+                                {changeMeta.label}
+                              </span>
+                            </div>
+                            <div className="briefing-headline">{conflict.headline}</div>
+                            <div className="briefing-note">{conflict.briefing_note}</div>
+                          </div>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </section>
+              ) : null}
               {!loading && !error && !filteredConflicts.length ? (
                 <div className="empty-state">No conflicts match the current filter.</div>
               ) : null}
@@ -430,6 +588,7 @@ export default function App() {
                 ? filteredConflicts.map((conflict, index) => {
                     const threatColor = threatColors[conflict.threat_level] || "#888";
                     const theaterColor = theaterColors[conflict.theater] || "#888";
+                    const changeMeta = getChangeMeta(conflict.change_status);
 
                     return (
                       <button
@@ -458,18 +617,40 @@ export default function App() {
                             {conflict.threat_label || "N/A"}
                           </span>
                         </div>
+                        <div className="card-meta-row">
+                          <span className={`change-pill ${changeMeta.className}`}>{changeMeta.label}</span>
+                          <div className="impact-tag-row">
+                            {(conflict.impact_tags || []).slice(0, 2).map((tag) => (
+                              <span key={tag} className="impact-tag">
+                                {tag}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
                         <div className="card-headline">{conflict.headline || ""}</div>
                         <div className="card-tldr">{conflict.tldr || ""}</div>
+                        {conflict.change_summary?.length ? (
+                          <ul className="card-update-list">
+                            {conflict.change_summary.slice(0, 2).map((item) => (
+                              <li key={item}>{item}</li>
+                            ))}
+                          </ul>
+                        ) : null}
                         <div className="card-footer">
                           <span className="card-theater-tag" style={{ background: theaterColor }}>
                             {conflict.theater}
                           </span>
-                          <span className="card-expand-hint">
-                            Tap for full report
-                            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
-                              <path d="M6 4l4 4-4 4" />
-                            </svg>
-                          </span>
+                          <div className="card-footer-right">
+                            <span className="card-source-count">
+                              {conflict.sources?.length || 0} sources
+                            </span>
+                            <span className="card-expand-hint">
+                              Tap for full report
+                              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
+                                <path d="M6 4l4 4-4 4" />
+                              </svg>
+                            </span>
+                          </div>
                         </div>
                       </button>
                     );
@@ -507,6 +688,23 @@ export default function App() {
             </div>
           </aside>
         </main>
+
+        {viewMode === "briefing" && historySnapshots.length ? (
+          <BriefingView
+            snapshots={historySnapshots}
+            activeSnapshotIndex={activeSnapshotIndex}
+            onSnapshotChange={setActiveSnapshotIndex}
+            timelinesData={timelinesData}
+            onOpenDetail={openDetail}
+            onOpenMap={openMapFromReplay}
+          />
+        ) : null}
+
+        {viewMode === "briefing" && !historySnapshots.length && !loading ? (
+          <section className="briefing-view">
+            <div className="empty-state">No historical snapshot archive is available yet.</div>
+          </section>
+        ) : null}
       </div>
 
       <button
@@ -571,6 +769,30 @@ export default function App() {
 
               <div className="detail-body">
                 <div className="detail-headline">{selectedCountry.headline || ""}</div>
+
+                {selectedCountry.change_summary?.length ? (
+                  <div className="detail-section detail-highlight">
+                    <div className="section-header">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+                        <path d="M2.5 8h11M8 2.5l5.5 5.5L8 13.5" />
+                      </svg>
+                      <span>What Changed</span>
+                    </div>
+                    <div className="detail-change-header">
+                      <span className={`change-pill ${getChangeMeta(selectedCountry.change_status).className}`}>
+                        {getChangeMeta(selectedCountry.change_status).label}
+                      </span>
+                      <span className="detail-updated-at">
+                        Refreshed {formatTimestamp(selectedCountry.last_updated)}
+                      </span>
+                    </div>
+                    <ul className="detail-change-list">
+                      {selectedCountry.change_summary.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
 
                 <div className="detail-section">
                   <div className="section-header">
@@ -725,6 +947,31 @@ export default function App() {
                         <li key={item}>{item}</li>
                       ))}
                     </ul>
+                  </div>
+                ) : null}
+
+                {selectedCountry.sources?.length ? (
+                  <div className="detail-section sources-section">
+                    <div className="section-header">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+                        <path d="M3 4.5h10M3 8h10M3 11.5h7" />
+                      </svg>
+                      <span>Sources</span>
+                    </div>
+                    <div className="source-list">
+                      {selectedCountry.sources.map((source) => (
+                        <a
+                          key={source.url}
+                          className="source-card"
+                          href={source.url}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <span className="source-label">{source.label}</span>
+                          <span className="source-link">Open source</span>
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 ) : null}
               </div>

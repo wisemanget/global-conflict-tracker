@@ -4,8 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "npm run archive:snapshot",
     "dev": "vite",
+    "archive:snapshot": "node scripts/archiveSnapshot.mjs",
+    "refresh:data": "npm run build",
+    "prebuild": "npm run archive:snapshot",
     "build": "vite build",
+    "prepreview": "npm run archive:snapshot",
     "preview": "vite preview"
   },
   "dependencies": {

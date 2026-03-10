@@ -3,305 +3,360 @@
     {
       "name": "Donald Trump",
       "title": "President of the United States",
-      "tagline": "Calls Iran's military 'gone' \u2014 navy, air force, air defense, communications destroyed. House backed his war authority.",
+      "tagline": "Trying to contain a widening war with Iran while promising U.S. strength and fast results.",
       "domestic": "Divisive",
-      "domestic_detail": "House defeated the Massie-Khanna resolution to curb his authority, with several Democrats joining Republicans. Public support holding but US casualties could shift opinion.",
+      "domestic_detail": "Supporters see decisive action; critics see strategic overreach and growing regional risk.",
       "global": "Controversial",
-      "global_detail": "NATO activated ballistic missile defense. UK offering bases. But international concern growing over civilian casualties, especially the girls' school attack.",
+      "global_detail": "Allies depend on U.S. military power, but many also fear Washington is normalizing a larger regional war.",
       "role": "wildcard",
-      "bio": "On Day 7, Trump declared US forces are 'totally demolishing' Iran 'far ahead of schedule.' He detailed: 24 ships sunk, no air force, no air defense, no communications, 60% of missiles and 64% of launchers gone. The House voted to let Epic Fury continue. He called on the IRGC to 'lay down their arms \u2014 they're only going to be killed.' He told reporters the war could run longer than 4-5 weeks if needed."
-    },
-    {
-      "name": "Pete Hegseth",
-      "title": "Secretary of Defense",
-      "tagline": "Visited CENTCOM in Tampa \u2014 declared munitions 'full up' and US 'will is ironclad.'",
-      "domestic": "Divisive",
-      "domestic_detail": "Confirmed amid controversy. His CENTCOM visit and bullish public statements reinforce the administration's escalatory posture.",
-      "global": "Controversial",
-      "global_detail": "European allies wary. Israel views him as the most aligned US Defense Secretary in decades.",
-      "role": "hawk",
-      "bio": "Hegseth visited CENTCOM headquarters at MacDill Air Force Base in Tampa on March 6, meeting with Admiral Cooper. He declared: 'We have no shortage of munitions. Our stockpiles of defensive and offensive weapons allow us to sustain this campaign as long as we need to. Our will is ironclad. We are built for this fight and we are in it to win it.'"
+      "bio": "Trump is balancing direct military involvement, domestic political messaging, and pressure from partners who want both protection and a diplomatic exit. His core challenge is proving control over a conflict that is still widening."
     },
     {
       "name": "Marco Rubio",
       "title": "Secretary of State",
-      "tagline": "Managing diplomacy across 12 countries now attacked by Iran while the US dismantles Iranian military capability.",
+      "tagline": "Managing crisis diplomacy with Gulf states, Israel, and uneasy partners across the region.",
       "domestic": "Popular",
-      "domestic_detail": "Bipartisan respect as foreign policy voice. Seen as the diplomatic counterbalance to Hegseth's hawkishness.",
-      "global": "Controversial",
-      "global_detail": "Gulf allies appreciate engagement. European counterparts strained by the scale of operations.",
-      "role": "hawk",
-      "bio": "Rubio is managing the diplomatic complexity of a war that now involves 12 countries attacked by Iran. He coordinates the GCC relationship, NATO's ballistic missile defense activation, and the UK's offer of bases for defensive strikes."
+      "domestic_detail": "He is viewed by many in Washington as a steadier public face of the administration's foreign policy.",
+      "global": "Respected",
+      "global_detail": "Regional governments are looking to the State Department for reassurance, coordination, and off-ramp diplomacy.",
+      "role": "diplomat",
+      "bio": "Rubio's job is to keep allied governments aligned while preventing the war from producing a broader rupture in the Gulf, energy markets, and U.S. partnerships."
     }
   ],
   "ISR": [
     {
       "name": "Benjamin Netanyahu",
       "title": "Prime Minister of Israel",
-      "tagline": "Approved ground invasion of South Lebanon while Israeli air forces achieve 'almost complete air superiority' over Iran.",
+      "tagline": "Pushing simultaneous pressure on Iran and Hezbollah while defending the campaign as strategic necessity.",
       "domestic": "Divisive",
-      "domestic_detail": "Two-front war may temporarily boost support. Corruption trials continue. Evacuation of 800,000+ in Lebanon is a massive humanitarian decision.",
+      "domestic_detail": "He still commands a wartime constituency, but critics warn that the multi-front campaign is dangerously open-ended.",
       "global": "Controversial",
-      "global_detail": "Western allies increasingly concerned about the scale of Lebanon operations and civilian displacement.",
+      "global_detail": "Partners back Israel against Iran, but concern is rising over Lebanon operations and humanitarian fallout.",
       "role": "hawk",
-      "bio": "Netanyahu approved Defense Minister Katz's instruction for the IDF to occupy additional positions inside Lebanon. Three IDF divisions are positioned for a ground invasion south of the Litani River. The IDF Chief of Staff reported destroying 80% of Iran's air defenses and achieving 'almost complete air superiority.' Netanyahu said: 'We have additional surprising moves which I do not intend to reveal. We will pursue all our enemies and reach them.'"
+      "bio": "Netanyahu is framing the current war as a chance to degrade Iran's regional network and reset Israel's security position after years of escalating proxy conflict."
     },
     {
       "name": "Israel Katz",
-      "title": "Minister of Defense",
-      "tagline": "Instructed IDF to occupy additional positions in Lebanon \u2014 ground invasion preparations underway with three divisions.",
+      "title": "Defense Minister",
+      "tagline": "Fronting the military pressure campaign against Hezbollah and Iran-linked targets.",
       "domestic": "Divisive",
-      "domestic_detail": "His instruction to expand the Lebanese ground operation, approved by Netanyahu, is the most significant escalation since October 2024.",
+      "domestic_detail": "His posture appeals to security hardliners but worries Israelis concerned about a war with no clear end-state.",
       "global": "Controversial",
-      "global_detail": "The 800,000-person evacuation order has drawn sharp international criticism and humanitarian concern.",
+      "global_detail": "Foreign diplomats see him as a clear sign that Israel is prioritizing coercion over caution.",
       "role": "hawk",
-      "bio": "Katz instructed the IDF, with Netanyahu's approval, to occupy additional positions inside Lebanese territory. The 91st, 210th, and 146th Divisions are deployed for what analysts assess will be a ground invasion south of the Litani River \u2014 the largest Israeli ground operation in Lebanon since 2006."
+      "bio": "Katz is one of the strongest advocates of sustained military pressure in Lebanon and against Iranian infrastructure tied to regional attacks."
     }
   ],
   "IRN": [
     {
-      "name": "Ali Khamenei",
-      "title": "Supreme Leader (KILLED Feb 28, 2026)",
-      "tagline": "Ruled Iran for 36 years. Killed alongside his wife in U.S.-Israeli airstrike. Over 48 senior officials also killed.",
-      "domestic": "Divisive",
-      "domestic_detail": "Revered by hardliners. Deeply unpopular among reformists and youth. His death created a massive power vacuum.",
-      "global": "Condemned",
-      "global_detail": "Viewed by the West as architect of Iran's nuclear ambitions, proxy wars, and domestic repression.",
-      "role": "hawk",
-      "bio": "Ayatollah Ali Khamenei was killed on February 28, 2026 when U.S.-Israeli strikes destroyed his Tehran compound. His wife, daughter, grandchild, and other family members were also killed. At least 48 senior officials died in the campaign."
+      "name": "Mojtaba Khamenei",
+      "title": "Supreme Leader of Iran",
+      "tagline": "Elevated under fire and now responsible for wartime command as the Islamic Republic tries to project continuity.",
+      "domestic": "Unknown",
+      "domestic_detail": "He inherits a system under direct military assault, with legitimacy still being tested inside the elite and the wider public.",
+      "global": "Hard-line",
+      "global_detail": "Outside governments expect him to be more rigid and more tightly tied to the Revolutionary Guard than his predecessors.",
+      "role": "strongman",
+      "bio": "Mojtaba Khamenei emerged as supreme leader during the most severe external shock the Islamic Republic has faced in decades. His immediate task is not reform but wartime survival and command consolidation."
     },
     {
       "name": "Masoud Pezeshkian",
-      "title": "President of Iran (Leadership Council Chair)",
-      "tagline": "Leading Iran's crisis response as the country's military is systematically dismantled \u2014 1,230+ dead, navy destroyed.",
+      "title": "President of Iran",
+      "tagline": "Publicly defending the state under bombardment while trying to preserve a functioning civilian government.",
       "domestic": "Divisive",
-      "domestic_detail": "A reformist forced into wartime leadership. Constrained by IRGC power but responsible for maintaining government function under bombardment.",
+      "domestic_detail": "He is judged both by how he manages the war and by whether he can still offer any practical governance amid collapse pressures.",
       "global": "Cautious engagement",
-      "global_detail": "Western diplomats had seen him as a potential partner. The war has eliminated that possibility for now.",
+      "global_detail": "Foreign governments see him as more pragmatic than the hardest security factions, but his room to maneuver is narrow.",
       "role": "reformer",
-      "bio": "Pezeshkian chairs the temporary leadership council managing Iran's response as the country's conventional military is systematically destroyed \u2014 navy gone, air force gone, 80% of air defenses degraded. The ICRC released audio of a Tehran civilian describing 'constant explosions.' A girls' school attack killed 168. Pezeshkian faces the impossible task of maintaining governance while Iran's military capability collapses."
-    },
-    {
-      "name": "Ayatollah Alireza Arafi",
-      "title": "Leadership Council Member (Potential Supreme Leader Successor)",
-      "tagline": "Deputy chairman of the Assembly of Experts and Guardian Council member \u2014 the frontrunner for next Supreme Leader.",
-      "domestic": "Unknown",
-      "domestic_detail": "Well-connected in the clerical establishment. Serves on both the Guardian Council and the Assembly of Experts.",
-      "global": "Unknown",
-      "global_detail": "Western intelligence still assessing. His dual role on Guardian Council and Assembly of Experts makes him the most powerful figure in the succession process.",
-      "role": "hawk",
-      "bio": "Arafi serves on both the Guardian Council (which vets laws and election candidates) and as deputy chairman of the Assembly of Experts (which selects the Supreme Leader). This dual position makes him uniquely powerful in the succession process. He was appointed to the temporary leadership council to represent the clerical establishment."
+      "bio": "Pezeshkian has become the visible political face of a state trying to survive military blows, leadership transition, and international isolation all at once."
     }
   ],
   "SAU": [
     {
       "name": "Mohammed bin Salman",
-      "title": "Crown Prince and Prime Minister of Saudi Arabia",
-      "tagline": "Invoking UN Article 51 self-defense as Iranian strikes hit energy infrastructure and Gulf solidarity hardens.",
+      "title": "Crown Prince and Prime Minister",
+      "tagline": "Trying to keep Saudi Arabia secure, solvent, and out of direct war while the Gulf absorbs Iranian pressure.",
       "domestic": "Popular",
-      "domestic_detail": "Iranian attacks on Saudi soil are strengthening nationalist support. Vision 2030 projects disrupted by security crisis.",
-      "global": "Controversial",
-      "global_detail": "GCC's Article 51 invocation and joint air-defense activation represent a historic collective response. Gulf neutrality is effectively over.",
+      "domestic_detail": "Many Saudis see him as the indispensable manager of security and economic continuity under crisis.",
+      "global": "Pragmatic",
+      "global_detail": "Partners see MBS as central to Gulf coordination, though they also watch for signs of escalation.",
       "role": "strongman",
-      "bio": "MBS faces the gravest external security crisis of his rule. The GCC invoked Article 51 of the UN Charter for collective self-defense. A second drone attack on Ras Tanura was intercepted. The UAE recalled its ambassador from Iran. Gulf states activated joint air-defense systems and reconnaissance flights. Analysts warn continued Iranian strikes could push Gulf states from defense into 'active theater of response.'"
+      "bio": "MBS wants to prove that Saudi Arabia can survive a regional war without becoming its main battleground. That means hard air defense, disciplined diplomacy, and relentless attention to oil infrastructure."
+    },
+    {
+      "name": "Faisal bin Farhan",
+      "title": "Foreign Minister",
+      "tagline": "Leading Saudi crisis diplomacy while keeping collective Gulf messaging coherent.",
+      "domestic": "Popular",
+      "domestic_detail": "He is seen as a credible steward of Saudi external messaging during a highly unstable period.",
+      "global": "Respected",
+      "global_detail": "His outreach matters because Gulf states need security guarantees and de-escalation at the same time.",
+      "role": "diplomat",
+      "bio": "Faisal bin Farhan is helping Riyadh coordinate GCC positions, maintain Western support, and keep channels open even as the military environment worsens."
     }
   ],
   "LBN": [
     {
-      "name": "Naim Qassem",
-      "title": "Secretary-General of Hezbollah",
-      "tagline": "Hezbollah facing 250+ Israeli airstrikes and an imminent ground invasion as three IDF divisions mass on the border.",
-      "domestic": "Divisive",
-      "domestic_detail": "Deep Shia loyalty but the decision to enter the war has drawn government and public condemnation. 800,000 people ordered to evacuate.",
-      "global": "Sanctioned",
-      "global_detail": "Designated terrorist. Hezbollah's war entry triggered the largest Israeli military operation in Lebanon since 2006.",
-      "role": "hawk",
-      "bio": "Qassem's decision to enter the war has triggered devastating consequences. Israel has conducted 250+ airstrikes, killed Hezbollah intelligence chief Makled and other commanders, and is now preparing a ground invasion with three divisions. 800,000+ people ordered to evacuate. Hezbollah militants clashed with IDF forces near Khiyam and Ed Dhayra on March 4."
+      "name": "Joseph Aoun",
+      "title": "President of Lebanon",
+      "tagline": "Trying to preserve the state as war conditions overwhelm normal politics and expose Hezbollah-state tensions.",
+      "domestic": "Popular",
+      "domestic_detail": "He is one of the few national figures still seen as above day-to-day factional breakdown.",
+      "global": "Respected",
+      "global_detail": "Foreign governments view Aoun as a key partner for any post-war stabilization framework.",
+      "role": "diplomat",
+      "bio": "Aoun is trying to keep Lebanon from becoming only a battlefield for other actors. His leverage is limited, but he remains central to any international effort to restore state authority."
     },
     {
       "name": "Nawaf Salam",
       "title": "Prime Minister of Lebanon",
-      "tagline": "Demanding Hezbollah disarm as 800,000 Lebanese are ordered to evacuate ahead of Israeli ground invasion.",
+      "tagline": "Managing war administration, displacement pressure, and a shrinking space for reform politics.",
       "domestic": "Popular",
-      "domestic_detail": "His opposition to Hezbollah's war has broad support. The humanitarian crisis strengthens his position as the voice of Lebanese sovereignty.",
+      "domestic_detail": "He still carries reformist credibility, but the war has pushed governance into pure crisis management.",
       "global": "Respected",
-      "global_detail": "International community views Salam as the legitimate voice of Lebanon against Hezbollah's unilateral war decision.",
-      "role": "diplomat",
-      "bio": "Salam continues demanding Hezbollah disarm as Israel prepares the largest ground operation in Lebanon since 2006. 800,000+ ordered to evacuate. The humanitarian catastrophe strengthens his case that Hezbollah's decision to enter the war was a disaster for Lebanon."
+      "global_detail": "International donors and diplomats see Salam as one of the few Lebanese officials still trying to govern through institutions.",
+      "role": "reformer",
+      "bio": "Salam's government is juggling emergency relief, diplomacy, and the impossible task of defending state legitimacy while Hezbollah and Israel fight around it."
+    },
+    {
+      "name": "Naim Qassem",
+      "title": "Secretary-General of Hezbollah",
+      "tagline": "Keeping Hezbollah in the fight despite direct pressure from Israel and growing anger inside Lebanon.",
+      "domestic": "Divisive",
+      "domestic_detail": "Supporters view Hezbollah as deterrence; critics see it as dragging Lebanon into catastrophe.",
+      "global": "Sanctioned",
+      "global_detail": "Outside governments view him as a principal escalatory actor in the regional war.",
+      "role": "hawk",
+      "bio": "Qassem is trying to show Hezbollah still matters militarily and politically, even as the Lebanese state and the wider public pay a rising price."
     }
   ],
   "YEM": [
     {
       "name": "Abdul-Malik al-Houthi",
-      "title": "Supreme Leader of Ansar Allah (the Houthis)",
-      "tagline": "Creating an unprecedented dual chokepoint crisis \u2014 Red Sea attacks resume while Iran closes Hormuz.",
-      "domestic": "Popular",
-      "domestic_detail": "Commands genuine support in Houthi territory. Framing resumed attacks as defense of Iran and Islam.",
+      "title": "Houthi movement leader",
+      "tagline": "Still able to threaten shipping and regional stability even without controlling all of Yemen.",
+      "domestic": "Divisive",
+      "domestic_detail": "He commands a loyal base in Houthi-held areas but remains a central driver of war and repression.",
       "global": "Sanctioned",
-      "global_detail": "Designated Foreign Terrorist Organization. The dual chokepoint crisis (Hormuz + Red Sea) is the worst maritime disruption in decades.",
-      "role": "strongman",
-      "bio": "Al-Houthi's forces announced resumed Red Sea shipping attacks, ending a 3.5-month pause. Combined with Iran's Hormuz closure, this creates an unprecedented dual chokepoint crisis. Maersk already rerouting via Cape of Good Hope. UKMTO issued formal security advisories. Military analysts confirm the Houthis retained full capabilities during the pause."
+      "global_detail": "Regional powers and Western governments see him as a persistent maritime and missile threat.",
+      "role": "hawk",
+      "bio": "Al-Houthi retains leverage because a relatively small number of attacks can force a global shipping response and reshape regional risk perception."
+    },
+    {
+      "name": "Rashad al-Alimi",
+      "title": "Head of Yemen's Presidential Leadership Council",
+      "tagline": "Trying to keep the anti-Houthi camp together while the Red Sea and regional war distort Yemen's priorities.",
+      "domestic": "Unknown",
+      "domestic_detail": "His authority depends heavily on coalition backing and the coherence of fragmented anti-Houthi factions.",
+      "global": "Respected",
+      "global_detail": "Partners see him as the formal face of Yemen's internationally recognized camp, but not as a decisive battlefield leader.",
+      "role": "diplomat",
+      "bio": "Al-Alimi's challenge is political survival and coalition maintenance, not sweeping battlefield gains. Yemen's internal fractures still define his ceiling."
     }
   ],
   "RUS": [
     {
       "name": "Vladimir Putin",
-      "title": "President of the Russian Federation",
-      "tagline": "Using Iran crisis for anti-US propaganda while Ukraine damages Russian warships and strikes deep into Russia.",
-      "domestic": "Popular",
-      "domestic_detail": "State-controlled polling shows 70%+ approval. Iran crisis provides propaganda ammunition against the US.",
+      "title": "President of Russia",
+      "tagline": "Using sustained military pressure and limited talks to keep the initiative and test Western endurance.",
+      "domestic": "Strong",
+      "domestic_detail": "The state still controls the core political space, but the long war continues to consume resources and attention.",
       "global": "Isolated",
-      "global_detail": "ICC warrant. Iran alliance exposed as hollow. Nuclear personnel depletion. Ukraine striking ever deeper into Russia.",
+      "global_detail": "Russia retains partners and commercial workarounds, but it remains strategically constrained by sanctions and war costs.",
       "role": "strongman",
-      "bio": "Putin's officials are using the Iran war to harshly criticize the US and position Russia alongside Iran as a victim of Western aggression. But material support remains zero. Meanwhile, Ukraine damaged a Russian frigate at a naval base and struck oil infrastructure 750+ miles from the border. Russian forces failed to advance on any axis on March 5. A new diplomatic dispute with Hungary over the Druzhba pipeline adds complications."
+      "bio": "Putin is still betting that time, attrition, and fractured Western focus will produce better political conditions than any compromise offered now."
     },
     {
-      "name": "Andrei Belousov",
-      "title": "Minister of Defense of the Russian Federation",
-      "tagline": "Managing a war where Russia cannot advance on any axis while Ukraine strikes deeper into the homeland.",
-      "domestic": "Divisive",
-      "domestic_detail": "Industrial output focus. Career officers bristle at economist leadership. Manpower crisis deepening.",
-      "global": "Sanctioned",
-      "global_detail": "US, EU, UK, Canadian sanctions. Russia's inability to advance suggests operational exhaustion.",
-      "role": "hawk",
-      "bio": "Belousov faces a grim picture: Russian forces failed to advance on any axis on March 5. Ukraine is striking Russian naval bases and oil infrastructure hundreds of miles from the border. The ISW assessed Russia has 'decreased intensity of infiltration efforts' near Pokrovsk due to logistical constraints."
+      "name": "Sergei Lavrov",
+      "title": "Foreign Minister",
+      "tagline": "Keeping diplomatic channels open just enough to reduce pressure without changing Russia's war aims.",
+      "domestic": "Stable",
+      "domestic_detail": "He remains one of the Kremlin's most durable foreign policy figures and is trusted by the system.",
+      "global": "Controversial",
+      "global_detail": "Foreign governments treat him as an experienced negotiator, but not as a signal of softer Russian policy.",
+      "role": "diplomat",
+      "bio": "Lavrov's task is to turn tactical diplomacy into strategic relief, whether through prisoner swaps, sanctions erosion, or blame shifting."
     }
   ],
   "UKR": [
     {
-      "name": "Volodymyr Zelensky",
+      "name": "Volodymyr Zelenskyy",
       "title": "President of Ukraine",
-      "tagline": "Ukraine striking Russian warships and oil infrastructure while downing 136 of 155 drones in one night.",
-      "domestic": "Divisive",
-      "domestic_detail": "Trust polling around 61%. Battlefield successes provide morale but Hungary dispute adds diplomatic friction.",
+      "tagline": "Trying to keep air defenses, aid, and diplomatic attention alive under relentless strike pressure.",
+      "domestic": "Popular",
+      "domestic_detail": "He still embodies resistance for many Ukrainians, though fatigue and loss remain severe.",
       "global": "Respected",
-      "global_detail": "European leaders and NATO view him as symbol of resistance. Gulf drone expertise sharing builds new alliances.",
-      "role": "diplomat",
-      "bio": "Zelensky's forces damaged a Russian frigate, struck oil infrastructure 750+ miles from the border, and downed 136 of 155 drones in one night. Russian forces couldn't advance on any axis March 5. A new dispute with Hungary over the Druzhba pipeline and detained bank employees adds diplomatic complexity. Trilateral peace talks may move to Florida."
+      "global_detail": "Partners still see Zelenskyy as the indispensable voice of Ukraine's defense and reconstruction case.",
+      "role": "wildcard",
+      "bio": "Zelenskyy is balancing public morale, military necessity, and diplomacy in a year when other global crises are competing hard for attention."
+    },
+    {
+      "name": "Oleksandr Syrskyi",
+      "title": "Commander-in-Chief of the Armed Forces",
+      "tagline": "Managing a battlefield defined by air defense strain, drone adaptation, and constant Russian pressure.",
+      "domestic": "Divisive",
+      "domestic_detail": "He is respected for stamina and control, but battlefield demands make every decision politically costly.",
+      "global": "Respected",
+      "global_detail": "Foreign militaries study Ukraine's command adaptations closely, especially on drones and dispersed defense.",
+      "role": "hawk",
+      "bio": "Syrskyi's job is not glamorous: hold the line, absorb strikes, innovate fast, and preserve enough combat power to keep Russia from converting pressure into collapse."
     }
   ],
   "CHN": [
     {
       "name": "Xi Jinping",
-      "title": "General Secretary of the CPC, President of China, Chairman of the CMC",
-      "tagline": "Set GDP target at 4.5-5%, defense at $277B, launching Five-Year Plan focused on tech self-reliance amid global turmoil.",
-      "domestic": "Popular",
-      "domestic_detail": "Lower GDP target acknowledges headwinds. Youth unemployment and property crisis managed but not solved.",
-      "global": "Controversial",
-      "global_detail": "Most sought-after partner for developing nations. Most feared by Western democracies. Xi-Trump summit March 31 looms.",
+      "title": "President of China",
+      "tagline": "Pairing diplomatic calm with continued military modernization and an unchanged line on Taiwan.",
+      "domestic": "Strong",
+      "domestic_detail": "Xi still dominates the political system, though economic weakness makes performance legitimacy more important.",
+      "global": "Powerful",
+      "global_detail": "Foreign governments treat Xi as both the key stabilizing interlocutor and the main driver of strategic rivalry.",
       "role": "strongman",
-      "bio": "Xi oversaw the NPC setting a 4.5-5% GDP target (lowest in years), 7% defense spending increase to $277B, and launching the 15th Five-Year Plan prioritizing AI, chips, quantum tech, and energy security. R&D investment to grow 7%+ annually. The Iran war has elevated energy security as a top policy concern. Xi-Trump summit March 31-April 2 will be defining."
+      "bio": "Xi is trying to stabilize ties with Washington enough to protect China's wider interests without softening on Taiwan, security, or industrial strategy."
+    },
+    {
+      "name": "Wang Yi",
+      "title": "Foreign Minister",
+      "tagline": "Selling a more stable tone abroad while preserving Beijing's hard red lines.",
+      "domestic": "Stable",
+      "domestic_detail": "He remains a trusted executor of Xi's external messaging.",
+      "global": "Respected",
+      "global_detail": "Counterparts see Wang as disciplined, experienced, and completely aligned with Beijing's hierarchy.",
+      "role": "diplomat",
+      "bio": "Wang Yi is trying to create diplomatic space for summitry and trade stabilization without conceding anything substantive on Taiwan or China's military trajectory."
     }
   ],
   "TWN": [
     {
       "name": "Lai Ching-te",
-      "title": "President of Taiwan (Republic of China)",
-      "tagline": "Facing China's $277B defense budget and delayed US arms while 2027 invasion warnings mount.",
+      "title": "President of Taiwan",
+      "tagline": "Using a relative lull in Chinese air pressure to press for bigger, faster defense investments.",
       "domestic": "Divisive",
-      "domestic_detail": "Approval at 28-33%. Opposition blocks agenda. Impeachment proceedings ongoing.",
+      "domestic_detail": "Supporters see resolve; critics worry about cost, U.S. dependence, and confrontation with Beijing.",
       "global": "Respected",
-      "global_detail": "Viewed as sovereignty defender. Sharper rhetoric creates some allied anxiety.",
+      "global_detail": "Partners increasingly see Lai as serious about long-term defense reform, not just symbolic resistance.",
+      "role": "reformer",
+      "bio": "Lai is trying to convert broad awareness of the threat from China into durable defense capacity before Beijing decides to raise the pressure again."
+    },
+    {
+      "name": "Wellington Koo",
+      "title": "Defense Minister",
+      "tagline": "Overseeing the budget fight, arms acquisition pipeline, and the push for more resilient air defense.",
+      "domestic": "Divisive",
+      "domestic_detail": "He sits at the center of Taiwan's debate over how much urgency is enough.",
+      "global": "Respected",
+      "global_detail": "Foreign defense officials treat Taiwan's procurement and readiness choices as a test of political seriousness.",
       "role": "hawk",
-      "bio": "Lai faces China's confirmed 7% defense increase to $277B while the US arms package remains delayed for the Xi-Trump summit. Japan's 2027 invasion warning stands. TSMC chip dominance remains Taiwan's de facto security guarantee."
+      "bio": "Koo is working the practical side of deterrence: procurement, stockpiles, interoperability, and making sure political messaging becomes actual capability."
     }
   ],
   "PRK": [
     {
       "name": "Kim Jong Un",
-      "title": "General Secretary, Chairman of State Affairs Commission",
-      "tagline": "Watched cruise missiles fire from new destroyer \u2014 expanding North Korea's naval strike capability while the world looks at Iran.",
-      "domestic": "Popular",
-      "domestic_detail": "Absolute authority. New destroyer demonstrates growing military capability to domestic audience.",
-      "global": "Isolated",
-      "global_detail": "Under comprehensive UN sanctions. Russia alliance provides partial lifeline. New destroyer shows growing capability.",
+      "title": "Leader of North Korea",
+      "tagline": "Turning warship tests and missile theatrics into proof that North Korea's deterrent keeps expanding.",
+      "domestic": "Strong",
+      "domestic_detail": "The regime controls the narrative tightly and uses military spectacle to reinforce internal legitimacy.",
+      "global": "Threatening",
+      "global_detail": "Outside governments see Kim as increasingly capable, more risk-tolerant, and still uninterested in real arms control.",
       "role": "strongman",
-      "bio": "Kim watched cruise missiles launch from the Choe Hyon, North Korea's newest destroyer, believed to carry dozens of potentially nuclear-capable missiles. This follows two ballistic missile tests in 2026. The Workers' Party five-year nuclear plan is in effect. Troops fight in Ukraine alongside Russia. The Iran crisis provides ideal cover."
+      "bio": "Kim is using naval modernization and strategic missile messaging to broaden North Korea's coercive toolkit beyond the familiar cycle of land-based tests."
     }
   ],
   "SDN": [
     {
       "name": "Abdel Fattah al-Burhan",
-      "title": "Commander of the Sudanese Armed Forces",
-      "tagline": "Presiding over what the UN calls 'indicators of a genocidal path' as the war passes 1,000 days.",
+      "title": "Army chief and de facto head of state",
+      "tagline": "Trying to turn military gains into political legitimacy while Sudan's civilian catastrophe deepens.",
       "domestic": "Divisive",
-      "domestic_detail": "Backed by military establishment. SAF drone strikes continue hitting civilian infrastructure.",
-      "global": "Controversial",
-      "global_detail": "Backed by Egypt, Saudi Arabia, Turkey. Co-responsible for a conflict the UN fact-finding mission links to genocide indicators.",
+      "domestic_detail": "Some see him as the only counterweight to the RSF; many others see only another military ruler.",
+      "global": "Pragmatic engagement",
+      "global_detail": "Foreign governments work with Burhan because he controls formal state structures, not because confidence is high.",
       "role": "strongman",
-      "bio": "Al-Burhan leads the SAF as the war passes 1,000 days. The UN Fact-Finding Mission described RSF atrocities as 'indicators of a genocidal path.' Up to 400,000 estimated killed. 12M+ displaced. Basic services near total collapse. El Obeid besieged. Chad lost 7 soldiers to RSF \u2014 the conflict is regionalizing."
+      "bio": "Burhan remains essential to any state-level settlement in Sudan, but his military-first approach has not produced a path back to normal governance."
     },
     {
       "name": "Mohamed Hamdan Dagalo",
-      "title": "Commander of the Rapid Support Forces (RSF)",
-      "tagline": "Known as 'Hemedti' \u2014 his forces described by UN fact-finding mission as showing 'indicators of a genocidal path.'",
-      "domestic": "Popular",
-      "domestic_detail": "Commands loyalty in some communities. RSF widely accused of mass atrocities including those triggering genocide indicators.",
-      "global": "Sanctioned",
-      "global_detail": "US Treasury sanctioned for genocide. ICC investigation. UAE support a major friction point. UN genocide indicators now documented.",
-      "role": "strongman",
-      "bio": "Hemedti's RSF was specifically named in the UN Fact-Finding Mission report for atrocities in El Fasher described as 'indicators of a genocidal path.' The RSF besieges El Obeid from three sides. Fighting across North Darfur, North Kordofan, South Kordofan, and Blue Nile. Chad border clashes show regionalization."
+      "title": "Leader of the Rapid Support Forces",
+      "tagline": "Still central to the war despite mounting evidence of atrocity crimes and genocidal patterns.",
+      "domestic": "Feared",
+      "domestic_detail": "His power rests on armed force, coercion, and networked patronage rather than broad legitimacy.",
+      "global": "Condemned",
+      "global_detail": "International scrutiny of RSF conduct has sharpened dramatically, especially after UN findings on El Fasher.",
+      "role": "hawk",
+      "bio": "Hemedti remains one of the most destabilizing figures in Sudan because he can still wage war even while his movement's crimes are drawing deeper international condemnation."
     }
   ],
   "COD": [
     {
-      "name": "F\u00e9lix Tshisekedi",
-      "title": "President of the Democratic Republic of the Congo",
-      "tagline": "Accusing Rwanda of violating the Washington Accords as M23 consolidates gains.",
+      "name": "Felix Tshisekedi",
+      "title": "President of the Democratic Republic of Congo",
+      "tagline": "Relying on outside pressure and diplomacy to blunt an insurgency the state still cannot fully reverse.",
       "domestic": "Divisive",
-      "domestic_detail": "Criticized for corruption but retains nationalist support against Rwanda.",
+      "domestic_detail": "He is judged by whether he can restore state control in the east, which remains deeply uncertain.",
       "global": "Respected",
-      "global_detail": "Western capitals engage. US minerals-for-security deal continues.",
+      "global_detail": "Foreign partners still see Tshisekedi as the legitimate counterparty, but patience is thin.",
       "role": "diplomat",
-      "bio": "Tshisekedi accuses Rwanda of violating the Washington Accords. M23 maintains control in eastern DRC. The minerals-for-security deal with the US remains his strongest leverage."
+      "bio": "Tshisekedi is trying to turn U.S. and regional pressure on Rwanda into better conditions on the ground, but eastern Congo remains only loosely governable."
     },
     {
-      "name": "Paul Kagame",
-      "title": "President of Rwanda",
-      "tagline": "Bankrolling M23 despite signing the Washington Accords.",
-      "domestic": "Popular",
-      "domestic_detail": "Strong approval. Opposition suppressed.",
-      "global": "Controversial",
-      "global_detail": "Post-genocide transformation credited. M23 support condemned. ~4,000 RDF troops in eastern DRC.",
-      "role": "strongman",
-      "bio": "Kagame signed the Washington Accords but Rwandan-backed forces continue operations. UN estimates 4,000 RDF troops inside eastern DRC."
+      "name": "Corneille Nangaa",
+      "title": "AFC-M23 political figure",
+      "tagline": "Providing a political frame for an armed movement that still rules through territorial control.",
+      "domestic": "Controversial",
+      "domestic_detail": "Supporters present him as an alternative to Kinshasa; critics see him as the civilian face of rebellion.",
+      "global": "Sanctioned",
+      "global_detail": "Outside governments largely judge him through the violence and coercion linked to M23's expansion.",
+      "role": "wildcard",
+      "bio": "Nangaa matters because he tries to convert battlefield leverage into political bargaining power, which could shape how any eventual settlement is framed."
     }
   ],
   "VEN": [
     {
-      "name": "Delcy Rodr\u00edguez",
+      "name": "Delcy Rodriguez",
       "title": "Acting President of Venezuela",
-      "tagline": "3,200+ released under amnesty but independent groups verify far fewer. Oil leverage growing as Hormuz closes.",
+      "tagline": "Trying to steer a controlled transition by mixing prisoner releases with diplomatic reopening.",
       "domestic": "Divisive",
-      "domestic_detail": "Accepted by Chavista base. Military and opposition skeptical.",
-      "global": "Controversial",
-      "global_detail": "Most nations don't recognize legitimacy. Oil leverage growing as global supply tightens.",
+      "domestic_detail": "She still carries regime baggage, but some Venezuelans see the current phase as less closed than Maduro's rule.",
+      "global": "Cautious engagement",
+      "global_detail": "Foreign governments are testing whether Rodriguez is managing a real transition or only a tactical reset.",
       "role": "wildcard",
-      "bio": "Rodr\u00edguez oversaw 3,200+ releases under the amnesty law, but Foro Penal independently verifies only 91-109 political releases \u2014 a dramatic gap. Venezuela's oil reserves are the world's largest and increasingly strategic as Iran's Hormuz closure disrupts 20% of global oil."
+      "bio": "Rodriguez is positioned between continuity and change. Her credibility depends on whether releases, monitoring, and election steps become institutional rather than symbolic."
+    },
+    {
+      "name": "Maria Corina Machado",
+      "title": "Opposition leader",
+      "tagline": "Still the most recognizable opposition figure, now trying to shape the next phase rather than only resist the old one.",
+      "domestic": "Popular",
+      "domestic_detail": "She remains a focal point for anti-regime energy, even if the political terrain has shifted.",
+      "global": "Respected",
+      "global_detail": "Foreign governments still treat Machado as a critical democratic benchmark for any Venezuelan transition.",
+      "role": "reformer",
+      "bio": "Machado's relevance has survived dramatic political changes because she still embodies the demand for a genuinely competitive post-Maduro order."
     }
   ],
   "HTI": [
     {
-      "name": "Alix Didier Fils-Aim\u00e9",
-      "title": "Prime Minister and Head of Government of Haiti",
-      "tagline": "Opened electoral inscriptions as a step toward elections despite 90% gang control of the capital.",
+      "name": "Alix Didier Fils-Aime",
+      "title": "Prime Minister and interim leader of Haiti",
+      "tagline": "Carrying the electoral timetable and security burden alone after the presidential council dissolved.",
       "domestic": "Divisive",
-      "domestic_detail": "Backed by private sector and diaspora. Grassroots skeptical.",
-      "global": "Respected",
-      "global_detail": "US, UN, international institutions back him as best path to stability.",
-      "role": "reformer",
-      "bio": "Fils-Aim\u00e9's government opened electoral inscriptions March 2-12. Elections planned late August. Police chief says security plan in development. 900 new cadets graduated but force drastically understaffed."
+      "domestic_detail": "Many Haitians want movement toward elections, but trust in interim authorities remains weak.",
+      "global": "Supported",
+      "global_detail": "He retains U.S. backing, which matters because Haiti's institutions still depend heavily on outside support.",
+      "role": "wildcard",
+      "bio": "Fils-Aime has become the sole face of a transition still threatened by gangs, displacement, and fragile state capacity. His room for error is extremely small."
     },
     {
-      "name": "Jimmy Ch\u00e9rizier",
-      "title": "Head of Viv Ansanm Gang Coalition (\"Barbecue\")",
-      "tagline": "Controls 90% of Port-au-Prince as the government tries to plan elections.",
-      "domestic": "Divisive",
-      "domestic_detail": "Robin Hood image in some areas. Associated with massacres, rape, displacement elsewhere.",
-      "global": "Sanctioned",
-      "global_detail": "US indicted with $5M reward. Viv Ansanm designated FTO.",
-      "role": "wildcard",
-      "bio": "Ch\u00e9rizier's coalition controls 90% of Port-au-Prince and expanding into central Haiti. 1.4M displaced. 5,900+ killed in 2025. Children recruited from age 10."
+      "name": "Andre Jonas Vladimir Paraison",
+      "title": "Head of the Haitian National Police",
+      "tagline": "Tasked with making an election security plan credible in a city where gangs still dominate most territory.",
+      "domestic": "Respected",
+      "domestic_detail": "Security institutions remain fragile, but police leadership is one of the few levers the state still has.",
+      "global": "Respected",
+      "global_detail": "International partners need the police to hold together because outside missions alone cannot stabilize Haiti.",
+      "role": "hawk",
+      "bio": "Paraison sits at the center of Haiti's immediate dilemma: elections cannot be credible without security, but security itself is still deeply contested."
     }
   ]
 }
