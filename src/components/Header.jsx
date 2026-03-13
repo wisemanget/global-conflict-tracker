@@ -65,8 +65,8 @@ export default function Header({
           <div className="view-switcher" role="tablist" aria-label="View mode">
             <button
               type="button"
-              className={`view-switch-btn ${viewMode === "dashboard" ? "active" : ""}`}
-              onClick={() => onViewModeChange("dashboard")}
+              className={`view-switch-btn ${viewMode === "map" ? "active" : ""}`}
+              onClick={() => onViewModeChange("map")}
             >
               Map
             </button>
@@ -74,6 +74,13 @@ export default function Header({
               type="button"
               className={`view-switch-btn ${viewMode === "briefing" ? "active" : ""}`}
               onClick={() => onViewModeChange("briefing")}
+            >
+              Briefing
+            </button>
+            <button
+              type="button"
+              className={`view-switch-btn ${viewMode === "replay" ? "active" : ""}`}
+              onClick={() => onViewModeChange("replay")}
             >
               Replay
             </button>

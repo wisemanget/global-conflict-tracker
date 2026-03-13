@@ -50,7 +50,7 @@ export default function App() {
   const [timelinesData, setTimelinesData] = useState({});
   const [impactData, setImpactData] = useState({});
   const [connectionsData, setConnectionsData] = useState([]);
-  const [viewMode, setViewMode] = useState("dashboard");
+  const [viewMode, setViewMode] = useState("map");
   const [activeSnapshotIndex, setActiveSnapshotIndex] = useState(0);
   const [currentFilter, setCurrentFilter] = useState("all");
   const [impactFilter, setImpactFilter] = useState("all");
@@ -331,7 +331,7 @@ export default function App() {
 
   function openMapFromReplay(theater) {
     setCurrentFilter(theater || "all");
-    setViewMode("dashboard");
+    setViewMode("map");
   }
 
   function openFocusedCountry(conflict) {
@@ -351,8 +351,8 @@ export default function App() {
           timestamp={timestamp}
         />
 
-        <main className={`main ${viewMode === "briefing" ? "hidden" : ""}`}>
-          <div className="primary-stage">
+        <main className={`map-workspace ${viewMode === "map" ? "" : "hidden"}`}>
+          <section className="map-stage">
             <section className="map-shell">
               <div className="map-shell-header">
                 <div className="map-shell-summary">
@@ -364,13 +364,20 @@ export default function App() {
                   </h3>
                 </div>
                 <div className="map-shell-actions">
+                  <button
+                    type="button"
+                    className="map-shell-brief-btn"
+                    onClick={() => setViewMode("briefing")}
+                  >
+                    Open briefing
+                  </button>
                   {leadStory ? (
                     <button
                       type="button"
                       className="map-shell-brief-btn"
                       onClick={() => openDetail(leadStory.iso_code)}
                     >
-                      Open lead briefing
+                      Open lead report
                     </button>
                   ) : null}
                 </div>
@@ -447,7 +454,11 @@ export default function App() {
                 ))}
               </div>
             </section>
+          </section>
+        </main>
 
+        <main className={`main briefing-workspace ${viewMode === "briefing" ? "" : "hidden"}`}>
+          <div className="primary-stage briefing-stage">
             <DashboardOverview
               topDevelopments={topDevelopments}
               conflictData={conflictData}
@@ -478,7 +489,7 @@ export default function App() {
           />
         </main>
 
-        {viewMode === "briefing" && historySnapshots.length ? (
+        {viewMode === "replay" && historySnapshots.length ? (
           <Suspense
             fallback={
               <section className="briefing-view">
@@ -497,7 +508,7 @@ export default function App() {
           </Suspense>
         ) : null}
 
-        {viewMode === "briefing" && !historySnapshots.length && !loading ? (
+        {viewMode === "replay" && !historySnapshots.length && !loading ? (
           <section className="briefing-view">
             <div className="empty-state">No historical snapshot archive is available yet.</div>
           </section>
