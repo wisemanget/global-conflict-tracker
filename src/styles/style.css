@@ -770,11 +770,26 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   background: rgba(108,138,255,0.12);
 }
 
+.map-toolbar-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
 .map-focus-toolbar {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
   align-items: center;
+}
+
+.map-toolbar-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+  margin-right: 2px;
 }
 
 .map-focus-chip {

@@ -43,6 +43,25 @@ const mapFocusModes = {
   },
 };
 
+const mapOverlayModes = {
+  pressure: {
+    label: "Pressure lanes",
+    description: "Show directional threat, proxy, and support relationships between active conflict nodes.",
+  },
+  escalation: {
+    label: "Escalation",
+    description: "Pulse the places where the conflict picture is worsening or still unstable.",
+  },
+  shipping: {
+    label: "Shipping risk",
+    description: "Highlight energy and shipping-linked pressure corridors across the map.",
+  },
+  theaters: {
+    label: "Theaters only",
+    description: "Keep the map clean and color-coded by theater without extra overlays.",
+  },
+};
+
 export default function App() {
   const [conflictData, setConflictData] = useState([]);
   const [historySnapshots, setHistorySnapshots] = useState([]);
@@ -57,6 +76,7 @@ export default function App() {
   const [currentSort, setCurrentSort] = useState("threat");
   const [currentSidebarTab, setCurrentSidebarTab] = useState("intel");
   const [mapFocusMode, setMapFocusMode] = useState("urgent");
+  const [mapOverlayMode, setMapOverlayMode] = useState("pressure");
   const [selectedIso, setSelectedIso] = useState(null);
   const [highlightedIsos, setHighlightedIsos] = useState([]);
   const [expandedLeaderIndexes, setExpandedLeaderIndexes] = useState([]);
@@ -387,8 +407,10 @@ export default function App() {
                 <Suspense fallback={<div className="map-fallback">Loading interactive map...</div>}>
                   <WorldMap
                     conflictData={conflictData}
+                    connectionsData={connectionsData}
                     currentFilter={currentFilter}
                     focusMode={mapFocusMode}
+                    overlayMode={mapOverlayMode}
                     focusedIsos={focusedIsos}
                     onCountrySelect={openDetail}
                   />
@@ -418,18 +440,36 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="map-focus-toolbar">
-                {Object.entries(mapFocusModes).map(([modeKey, mode]) => (
-                  <button
-                    key={modeKey}
-                    type="button"
-                    className={`map-focus-chip ${mapFocusMode === modeKey ? "active" : ""}`}
-                    onClick={() => setMapFocusMode(modeKey)}
-                  >
-                    {mode.label}
-                  </button>
-                ))}
-                <span className="map-shell-copy">{mapFocusModes[mapFocusMode].description}</span>
+              <div className="map-toolbar-stack">
+                <div className="map-focus-toolbar">
+                  <span className="map-toolbar-label">Lens</span>
+                  {Object.entries(mapFocusModes).map(([modeKey, mode]) => (
+                    <button
+                      key={modeKey}
+                      type="button"
+                      className={`map-focus-chip ${mapFocusMode === modeKey ? "active" : ""}`}
+                      onClick={() => setMapFocusMode(modeKey)}
+                    >
+                      {mode.label}
+                    </button>
+                  ))}
+                  <span className="map-shell-copy">{mapFocusModes[mapFocusMode].description}</span>
+                </div>
+
+                <div className="map-focus-toolbar map-overlay-toolbar">
+                  <span className="map-toolbar-label">Overlay</span>
+                  {Object.entries(mapOverlayModes).map(([modeKey, mode]) => (
+                    <button
+                      key={modeKey}
+                      type="button"
+                      className={`map-focus-chip ${mapOverlayMode === modeKey ? "active" : ""}`}
+                      onClick={() => setMapOverlayMode(modeKey)}
+                    >
+                      {mode.label}
+                    </button>
+                  ))}
+                  <span className="map-shell-copy">{mapOverlayModes[mapOverlayMode].description}</span>
+                </div>
               </div>
 
               <div className="map-focus-rail">

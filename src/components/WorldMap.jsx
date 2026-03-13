@@ -8,7 +8,240 @@ import {
   threatColors,
 } from "../constants";
 
-function buildMapTraces(conflictData, focusMode, focusedIsos) {
+const connectionStyles = {
+  alliance: { color: "#6c8aff", width: 1.8, dash: "dot", symbol: "diamond" },
+  support: { color: "#3dd98a", width: 1.8, dash: "dash", symbol: "square" },
+  proxy: { color: "#ffb340", width: 2.2, dash: "dot", symbol: "triangle-up" },
+  threat: { color: "#ff5c5c", width: 2.8, dash: "solid", symbol: "triangle-down" },
+  parallel: { color: "#7d829a", width: 1.4, dash: "dash", symbol: "circle-open" },
+};
+
+function hexToRgba(hex, alpha) {
+  const clean = hex.replace("#", "");
+  const value = Number.parseInt(clean, 16);
+  const red = (value >> 16) & 255;
+  const green = (value >> 8) & 255;
+  const blue = value & 255;
+  return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
+}
+
+function buildArcPath(fromCoord, toCoord) {
+  const midLon = (fromCoord.lon + toCoord.lon) / 2;
+  const midLat = (fromCoord.lat + toCoord.lat) / 2;
+  const distance = Math.hypot(toCoord.lon - fromCoord.lon, toCoord.lat - fromCoord.lat);
+  const lift = Math.min(13, Math.max(4, distance * 0.09));
+
+  return {
+    lon: [fromCoord.lon, midLon, toCoord.lon],
+    lat: [fromCoord.lat, midLat + lift, toCoord.lat],
+    midLon,
+    midLat: midLat + lift,
+  };
+}
+
+function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedSet, hasFocus) {
+  const traces = [];
+  const conflictByIso = new Map(conflictData.map((conflict) => [conflict.iso_code, conflict]));
+
+  if (overlayMode === "theaters") {
+    return traces;
+  }
+
+  if (overlayMode === "escalation") {
+    conflictData
+      .filter(
+        (conflict) =>
+          conflict.change_status === "escalated" ||
+          conflict.change_status === "watch" ||
+          (conflict.threat_level || 0) >= 5,
+      )
+      .forEach((conflict) => {
+        const coord = countryCoords[conflict.iso_code];
+
+        if (!coord) {
+          return;
+        }
+
+        const isFocused = !hasFocus || focusedSet.has(conflict.iso_code);
+        const statusColor =
+          conflict.change_status === "watch"
+            ? threatColors[4]
+            : conflict.change_status === "improving"
+              ? threatColors[2]
+              : threatColors[5];
+        const outerSize = 34 + (conflict.threat_level || 3) * 3;
+        const innerSize = 20 + (conflict.threat_level || 3) * 2;
+
+        traces.push({
+          type: "scattergeo",
+          lat: [coord.lat],
+          lon: [coord.lon],
+          hoverinfo: "skip",
+          marker: {
+            size: outerSize,
+            color: "rgba(0,0,0,0)",
+            opacity: isFocused ? 0.75 : 0.25,
+            line: { color: hexToRgba(statusColor, isFocused ? 0.55 : 0.24), width: 2 },
+            symbol: "circle-open",
+          },
+          showlegend: false,
+        });
+
+        traces.push({
+          type: "scattergeo",
+          lat: [coord.lat],
+          lon: [coord.lon],
+          text: [
+            `<b>${conflict.country}</b><br>Escalation signal: ${conflict.change_status}<br><span style="color:#7d829a">${conflict.headline || conflict.tldr || ""}</span>`,
+          ],
+          customdata: [conflict.iso_code],
+          hoverinfo: "text",
+          hoverlabel: {
+            bgcolor: "#171b2a",
+            bordercolor: statusColor,
+            font: { family: "Inter, sans-serif", size: 12, color: "#e4e6ed" },
+            align: "left",
+          },
+          marker: {
+            size: innerSize,
+            color: "rgba(0,0,0,0)",
+            opacity: isFocused ? 0.95 : 0.42,
+            line: { color: statusColor, width: 2.5 },
+            symbol: "circle-open",
+          },
+          showlegend: false,
+        });
+      });
+
+    return traces;
+  }
+
+  const visibleConnections = connectionsData.filter((connection) => {
+    const fromConflict = conflictByIso.get(connection.from);
+    const toConflict = conflictByIso.get(connection.to);
+
+    if (!fromConflict || !toConflict) {
+      return false;
+    }
+
+    if (overlayMode === "pressure") {
+      return connection.type !== "parallel";
+    }
+
+    if (overlayMode === "shipping") {
+      const impactTags = new Set([
+        ...(fromConflict.impact_tags || []),
+        ...(toConflict.impact_tags || []),
+      ]);
+      return impactTags.has("Shipping") || impactTags.has("Energy") || impactTags.has("Markets");
+    }
+
+    return true;
+  });
+
+  visibleConnections.forEach((connection) => {
+    const fromCoord = countryCoords[connection.from];
+    const toCoord = countryCoords[connection.to];
+    const fromConflict = conflictByIso.get(connection.from);
+    const toConflict = conflictByIso.get(connection.to);
+
+    if (!fromCoord || !toCoord || !fromConflict || !toConflict) {
+      return;
+    }
+
+    const style = connectionStyles[connection.type] || connectionStyles.parallel;
+    const isFocused = !hasFocus || focusedSet.has(connection.from) || focusedSet.has(connection.to);
+    const path = buildArcPath(fromCoord, toCoord);
+    const opacity = overlayMode === "shipping" ? (isFocused ? 0.8 : 0.24) : isFocused ? 0.66 : 0.16;
+    const markerSymbol = overlayMode === "shipping" ? "diamond" : style.symbol;
+
+    traces.push({
+      type: "scattergeo",
+      mode: "lines",
+      lon: path.lon,
+      lat: path.lat,
+      text: [connection.label, connection.label, connection.label],
+      hoverinfo: "text",
+      hoverlabel: {
+        bgcolor: "#171b2a",
+        bordercolor: style.color,
+        font: { family: "Inter, sans-serif", size: 12, color: "#e4e6ed" },
+        align: "left",
+      },
+      line: {
+        color: hexToRgba(style.color, opacity),
+        width: overlayMode === "shipping" ? style.width + 0.8 : style.width,
+        dash: style.dash,
+      },
+      showlegend: false,
+    });
+
+    traces.push({
+      type: "scattergeo",
+      mode: "markers",
+      lon: [path.midLon],
+      lat: [path.midLat],
+      text: [
+        `<b>${fromConflict.country} → ${toConflict.country}</b><br>${connection.label}<br><span style="color:#7d829a">${connection.type}</span>`,
+      ],
+      customdata: [connection.to],
+      hoverinfo: "text",
+      hoverlabel: {
+        bgcolor: "#171b2a",
+        bordercolor: style.color,
+        font: { family: "Inter, sans-serif", size: 12, color: "#e4e6ed" },
+        align: "left",
+      },
+      marker: {
+        size: overlayMode === "shipping" ? 10 : 9,
+        color: hexToRgba(style.color, isFocused ? 0.95 : 0.45),
+        line: { color: "#ffffff", width: 1 },
+        symbol: markerSymbol,
+      },
+      showlegend: false,
+    });
+  });
+
+  if (overlayMode === "shipping") {
+    const shippingNodes = conflictData
+      .filter((conflict) => {
+        const tags = new Set(conflict.impact_tags || []);
+        return tags.has("Shipping") || tags.has("Energy") || tags.has("Markets");
+      })
+      .map((conflict) => ({ conflict, coord: countryCoords[conflict.iso_code] }))
+      .filter((item) => item.coord);
+
+    traces.push({
+      type: "scattergeo",
+      mode: "markers",
+      lat: shippingNodes.map(({ coord }) => coord.lat),
+      lon: shippingNodes.map(({ coord }) => coord.lon),
+      text: shippingNodes.map(
+        ({ conflict }) =>
+          `<b>${conflict.country}</b><br>Shipping and energy pressure node<br><span style="color:#7d829a">${conflict.headline || conflict.tldr || ""}</span>`,
+      ),
+      customdata: shippingNodes.map(({ conflict }) => conflict.iso_code),
+      hoverinfo: "text",
+      hoverlabel: {
+        bgcolor: "#171b2a",
+        bordercolor: "#ffb340",
+        font: { family: "Inter, sans-serif", size: 12, color: "#e4e6ed" },
+        align: "left",
+      },
+      marker: {
+        size: shippingNodes.map(({ conflict }) => 9 + (conflict.threat_level || 3) * 2),
+        color: "rgba(255,179,64,0.18)",
+        line: { color: "#ffb340", width: 2 },
+        symbol: "diamond-open",
+      },
+      showlegend: false,
+    });
+  }
+
+  return traces;
+}
+
+function buildMapTraces(conflictData, connectionsData, focusMode, focusedIsos, overlayMode) {
   const traces = [];
   const focusedSet = new Set(focusedIsos);
   const hasFocus = focusMode !== "standard" && focusedSet.size > 0;
@@ -49,6 +282,8 @@ function buildMapTraces(conflictData, focusMode, focusedIsos) {
       showlegend: false,
     });
   });
+
+  traces.push(...buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedSet, hasFocus));
 
   conflictData.forEach((conflict) => {
     const coord = countryCoords[conflict.iso_code];
@@ -158,7 +393,15 @@ const config = {
   responsive: true,
 };
 
-export default function WorldMap({ conflictData, currentFilter, focusMode, focusedIsos, onCountrySelect }) {
+export default function WorldMap({
+  conflictData,
+  connectionsData,
+  currentFilter,
+  focusMode,
+  overlayMode,
+  focusedIsos,
+  onCountrySelect,
+}) {
   const mapRef = useRef(null);
   const onCountrySelectRef = useRef(onCountrySelect);
   const [mapReady, setMapReady] = useState(false);
@@ -176,7 +419,12 @@ export default function WorldMap({ conflictData, currentFilter, focusMode, focus
 
     let isActive = true;
 
-    Plotly.newPlot(mapNode, buildMapTraces(conflictData, focusMode, focusedIsos), layout, config).then(() => {
+    Plotly.newPlot(
+      mapNode,
+      buildMapTraces(conflictData, connectionsData, focusMode, focusedIsos, overlayMode),
+      layout,
+      config,
+    ).then(() => {
       if (!isActive || !mapRef.current) {
         return;
       }
@@ -219,7 +467,7 @@ export default function WorldMap({ conflictData, currentFilter, focusMode, focus
       mapNode.removeAllListeners?.("plotly_click");
       Plotly.purge(mapNode);
     };
-  }, [conflictData, focusMode, focusedIsos]);
+  }, [conflictData, connectionsData, focusMode, focusedIsos, overlayMode]);
 
   useEffect(() => {
     const mapNode = mapRef.current;
