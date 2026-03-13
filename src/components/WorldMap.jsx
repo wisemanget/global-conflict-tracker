@@ -39,7 +39,49 @@ function buildArcPath(fromCoord, toCoord) {
   };
 }
 
-function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedSet, hasFocus) {
+function getConnectionDistance(fromCoord, toCoord) {
+  return Math.hypot(toCoord.lon - fromCoord.lon, toCoord.lat - fromCoord.lat);
+}
+
+function isConnectionVisible(connection, fromConflict, toConflict, overlayMode, currentFilter, focusedSet, hasFocus) {
+  const fromCoord = countryCoords[connection.from];
+  const toCoord = countryCoords[connection.to];
+
+  if (!fromCoord || !toCoord) {
+    return false;
+  }
+
+  const inFocusedTheater =
+    currentFilter === "all" ||
+    fromConflict.theater === currentFilter ||
+    toConflict.theater === currentFilter;
+
+  if (!inFocusedTheater) {
+    return false;
+  }
+
+  const isFocused = !hasFocus || focusedSet.has(connection.from) || focusedSet.has(connection.to);
+  const distance = getConnectionDistance(fromCoord, toCoord);
+  const sameTheater = fromConflict.theater === toConflict.theater;
+
+  if (currentFilter === "all") {
+    if (overlayMode === "pressure") {
+      if (connection.type === "threat" || connection.type === "proxy") {
+        return true;
+      }
+
+      return isFocused || sameTheater || distance < 45;
+    }
+
+    if (overlayMode === "shipping") {
+      return isFocused || sameTheater || distance < 65;
+    }
+  }
+
+  return true;
+}
+
+function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedSet, hasFocus, currentFilter) {
   const traces = [];
   const conflictByIso = new Map(conflictData.map((conflict) => [conflict.iso_code, conflict]));
 
@@ -133,10 +175,29 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
         ...(fromConflict.impact_tags || []),
         ...(toConflict.impact_tags || []),
       ]);
-      return impactTags.has("Shipping") || impactTags.has("Energy") || impactTags.has("Markets");
+      return (
+        (impactTags.has("Shipping") || impactTags.has("Energy") || impactTags.has("Markets")) &&
+        isConnectionVisible(
+          connection,
+          fromConflict,
+          toConflict,
+          overlayMode,
+          currentFilter,
+          focusedSet,
+          hasFocus,
+        )
+      );
     }
 
-    return true;
+    return isConnectionVisible(
+      connection,
+      fromConflict,
+      toConflict,
+      overlayMode,
+      currentFilter,
+      focusedSet,
+      hasFocus,
+    );
   });
 
   visibleConnections.forEach((connection) => {
@@ -206,7 +267,8 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
     const shippingNodes = conflictData
       .filter((conflict) => {
         const tags = new Set(conflict.impact_tags || []);
-        return tags.has("Shipping") || tags.has("Energy") || tags.has("Markets");
+        const regionMatch = currentFilter === "all" || conflict.theater === currentFilter;
+        return regionMatch && (tags.has("Shipping") || tags.has("Energy") || tags.has("Markets"));
       })
       .map((conflict) => ({ conflict, coord: countryCoords[conflict.iso_code] }))
       .filter((item) => item.coord);
@@ -238,10 +300,44 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
     });
   }
 
+  if (currentFilter !== "all") {
+    const theaterLabels = conflictData
+      .filter(
+        (conflict) =>
+          conflict.theater === currentFilter &&
+          ((overlayMode === "escalation" &&
+            (conflict.change_status === "escalated" ||
+              conflict.change_status === "watch" ||
+              (conflict.threat_level || 0) >= 4)) ||
+            (overlayMode !== "escalation" && (conflict.threat_level || 0) >= 4)),
+      )
+      .map((conflict) => ({ conflict, coord: countryCoords[conflict.iso_code] }))
+      .filter((item) => item.coord)
+      .slice(0, 4);
+
+    if (theaterLabels.length) {
+      traces.push({
+        type: "scattergeo",
+        mode: "text",
+        lat: theaterLabels.map(({ coord }) => coord.lat + 2.6),
+        lon: theaterLabels.map(({ coord }) => coord.lon),
+        text: theaterLabels.map(({ conflict }) => conflict.country),
+        textfont: {
+          family: "Inter, sans-serif",
+          size: 11,
+          color: "#e4e6ed",
+        },
+        textposition: "top center",
+        hoverinfo: "skip",
+        showlegend: false,
+      });
+    }
+  }
+
   return traces;
 }
 
-function buildMapTraces(conflictData, connectionsData, focusMode, focusedIsos, overlayMode) {
+function buildMapTraces(conflictData, connectionsData, focusMode, focusedIsos, overlayMode, currentFilter) {
   const traces = [];
   const focusedSet = new Set(focusedIsos);
   const hasFocus = focusMode !== "standard" && focusedSet.size > 0;
@@ -283,7 +379,16 @@ function buildMapTraces(conflictData, connectionsData, focusMode, focusedIsos, o
     });
   });
 
-  traces.push(...buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedSet, hasFocus));
+  traces.push(
+    ...buildOverlayTraces(
+      conflictData,
+      connectionsData,
+      overlayMode,
+      focusedSet,
+      hasFocus,
+      currentFilter,
+    ),
+  );
 
   conflictData.forEach((conflict) => {
     const coord = countryCoords[conflict.iso_code];
@@ -421,7 +526,14 @@ export default function WorldMap({
 
     Plotly.newPlot(
       mapNode,
-      buildMapTraces(conflictData, connectionsData, focusMode, focusedIsos, overlayMode),
+      buildMapTraces(
+        conflictData,
+        connectionsData,
+        focusMode,
+        focusedIsos,
+        overlayMode,
+        currentFilter,
+      ),
       layout,
       config,
     ).then(() => {
@@ -467,7 +579,7 @@ export default function WorldMap({
       mapNode.removeAllListeners?.("plotly_click");
       Plotly.purge(mapNode);
     };
-  }, [conflictData, connectionsData, focusMode, focusedIsos, overlayMode]);
+  }, [conflictData, connectionsData, focusMode, focusedIsos, overlayMode, currentFilter]);
 
   useEffect(() => {
     const mapNode = mapRef.current;

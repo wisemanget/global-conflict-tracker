@@ -62,6 +62,29 @@ const mapOverlayModes = {
   },
 };
 
+const overlayLegendItems = {
+  pressure: [
+    { label: "Threat / strike pressure", tone: "threat" },
+    { label: "Proxy / partner lanes", tone: "proxy" },
+    { label: "Alliance / support lanes", tone: "support" },
+  ],
+  escalation: [
+    { label: "Escalating flashpoint", tone: "threat" },
+    { label: "Watch closely", tone: "watch" },
+    { label: "Labels appear in theater zoom", tone: "neutral" },
+  ],
+  shipping: [
+    { label: "Energy and shipping corridor", tone: "shipping" },
+    { label: "Market-sensitive node", tone: "shipping-node" },
+    { label: "Regional detail appears when filtered", tone: "neutral" },
+  ],
+  theaters: [
+    { label: "Country color = theater", tone: "theater" },
+    { label: "Hotspot size = threat level", tone: "neutral" },
+    { label: "Use lens controls to reprioritize", tone: "support" },
+  ],
+};
+
 export default function App() {
   const [conflictData, setConflictData] = useState([]);
   const [historySnapshots, setHistorySnapshots] = useState([]);
@@ -322,6 +345,8 @@ export default function App() {
   const leaders = selectedCountry ? leadersData[selectedCountry.iso_code] || [] : [];
   const timelineEvents = selectedCountry ? timelinesData[selectedCountry.theater] || [] : [];
   const impact = selectedCountry ? impactData[selectedCountry.iso_code] : null;
+  const currentRegionLabel = currentFilter === "all" ? "Global view" : currentFilter;
+  const activeOverlayLegend = overlayLegendItems[mapOverlayMode];
 
   function openDetail(iso) {
     setSelectedIso(iso);
@@ -419,11 +444,19 @@ export default function App() {
                 <div className="map-legend">
                   <span className="legend-title">Theaters of Operation</span>
                   <div className="legend-items">
+                    <button
+                      type="button"
+                      className={`legend-item ${currentFilter === "all" ? "active" : ""}`}
+                      onClick={() => setCurrentFilter("all")}
+                    >
+                      <span className="legend-dot legend-dot-global" />
+                      <span>Global view</span>
+                    </button>
                     {Object.entries(theaterColors).map(([theater, color]) => (
                       <button
                         key={theater}
                         type="button"
-                        className="legend-item"
+                        className={`legend-item ${currentFilter === theater ? "active" : ""}`}
                         onClick={() => setCurrentFilter(theater)}
                       >
                         <span className="legend-dot" style={{ background: color }} />
@@ -435,6 +468,21 @@ export default function App() {
                               : theater}
                         </span>
                       </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="map-overlay-legend">
+                  <div className="map-overlay-legend-header">
+                    <span className="legend-title">Overlay key</span>
+                    <span className="map-overlay-context">{currentRegionLabel}</span>
+                  </div>
+                  <div className="map-overlay-legend-items">
+                    {activeOverlayLegend.map((item) => (
+                      <div key={`${mapOverlayMode}-${item.label}`} className="map-overlay-legend-item">
+                        <span className={`map-overlay-swatch ${item.tone}`} />
+                        <span>{item.label}</span>
+                      </div>
                     ))}
                   </div>
                 </div>
