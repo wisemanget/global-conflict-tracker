@@ -81,12 +81,32 @@ function isConnectionVisible(connection, fromConflict, toConflict, overlayMode, 
   return true;
 }
 
+function createAnimationTargets() {
+  return {
+    pulses: [],
+    lanes: [],
+    laneMarkers: [],
+    shippingNodes: [],
+  };
+}
+
 function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedSet, hasFocus, currentFilter) {
   const traces = [];
+  const animationTargets = createAnimationTargets();
   const conflictByIso = new Map(conflictData.map((conflict) => [conflict.iso_code, conflict]));
+  const recordTrace = (trace, animationMeta) => {
+    const index = traces.length;
+    traces.push(trace);
+
+    if (animationMeta?.kind && animationTargets[animationMeta.kind]) {
+      animationTargets[animationMeta.kind].push({ index, ...animationMeta });
+    }
+
+    return index;
+  };
 
   if (overlayMode === "theaters") {
-    return traces;
+    return { traces, animationTargets };
   }
 
   if (overlayMode === "escalation") {
@@ -114,7 +134,7 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
         const outerSize = 34 + (conflict.threat_level || 3) * 3;
         const innerSize = 20 + (conflict.threat_level || 3) * 2;
 
-        traces.push({
+        recordTrace({
           type: "scattergeo",
           lat: [coord.lat],
           lon: [coord.lon],
@@ -127,9 +147,16 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
             symbol: "circle-open",
           },
           showlegend: false,
+        }, {
+          kind: "pulses",
+          baseSize: outerSize,
+          baseOpacity: isFocused ? 0.75 : 0.25,
+          baseLineWidth: 2,
+          color: statusColor,
+          variant: "outer",
         });
 
-        traces.push({
+        recordTrace({
           type: "scattergeo",
           lat: [coord.lat],
           lon: [coord.lon],
@@ -152,10 +179,17 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
             symbol: "circle-open",
           },
           showlegend: false,
+        }, {
+          kind: "pulses",
+          baseSize: innerSize,
+          baseOpacity: isFocused ? 0.95 : 0.42,
+          baseLineWidth: 2.5,
+          color: statusColor,
+          variant: "inner",
         });
       });
 
-    return traces;
+    return { traces, animationTargets };
   }
 
   const visibleConnections = connectionsData.filter((connection) => {
@@ -216,7 +250,7 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
     const opacity = overlayMode === "shipping" ? (isFocused ? 0.8 : 0.24) : isFocused ? 0.66 : 0.16;
     const markerSymbol = overlayMode === "shipping" ? "diamond" : style.symbol;
 
-    traces.push({
+    recordTrace({
       type: "scattergeo",
       mode: "lines",
       lon: path.lon,
@@ -235,9 +269,14 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
         dash: style.dash,
       },
       showlegend: false,
+    }, {
+      kind: "lanes",
+      baseWidth: overlayMode === "shipping" ? style.width + 0.8 : style.width,
+      baseOpacity: opacity,
+      color: style.color,
     });
 
-    traces.push({
+    recordTrace({
       type: "scattergeo",
       mode: "markers",
       lon: [path.midLon],
@@ -260,6 +299,11 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
         symbol: markerSymbol,
       },
       showlegend: false,
+    }, {
+      kind: "laneMarkers",
+      baseSize: overlayMode === "shipping" ? 10 : 9,
+      baseOpacity: isFocused ? 0.95 : 0.45,
+      color: style.color,
     });
   });
 
@@ -273,7 +317,7 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
       .map((conflict) => ({ conflict, coord: countryCoords[conflict.iso_code] }))
       .filter((item) => item.coord);
 
-    traces.push({
+    recordTrace({
       type: "scattergeo",
       mode: "markers",
       lat: shippingNodes.map(({ coord }) => coord.lat),
@@ -297,6 +341,12 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
         symbol: "diamond-open",
       },
       showlegend: false,
+    }, {
+      kind: "shippingNodes",
+      baseSizes: shippingNodes.map(({ conflict }) => 9 + (conflict.threat_level || 3) * 2),
+      baseOpacity: 0.18,
+      color: "#ffb340",
+      baseLineWidth: 2,
     });
   }
 
@@ -316,7 +366,7 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
       .slice(0, 4);
 
     if (theaterLabels.length) {
-      traces.push({
+      recordTrace({
         type: "scattergeo",
         mode: "text",
         lat: theaterLabels.map(({ coord }) => coord.lat + 2.6),
@@ -334,13 +384,14 @@ function buildOverlayTraces(conflictData, connectionsData, overlayMode, focusedS
     }
   }
 
-  return traces;
+  return { traces, animationTargets };
 }
 
 function buildMapTraces(conflictData, connectionsData, focusMode, focusedIsos, overlayMode, currentFilter) {
   const traces = [];
   const focusedSet = new Set(focusedIsos);
   const hasFocus = focusMode !== "standard" && focusedSet.size > 0;
+  const animationTargets = createAnimationTargets();
 
   Object.entries(theaterISO).forEach(([theater, isos]) => {
     const color = theaterColors[theater];
@@ -379,16 +430,22 @@ function buildMapTraces(conflictData, connectionsData, focusMode, focusedIsos, o
     });
   });
 
-  traces.push(
-    ...buildOverlayTraces(
-      conflictData,
-      connectionsData,
-      overlayMode,
-      focusedSet,
-      hasFocus,
-      currentFilter,
-    ),
+  const overlayResult = buildOverlayTraces(
+    conflictData,
+    connectionsData,
+    overlayMode,
+    focusedSet,
+    hasFocus,
+    currentFilter,
   );
+
+  traces.push(...overlayResult.traces);
+  Object.keys(animationTargets).forEach((key) => {
+    animationTargets[key] = overlayResult.animationTargets[key].map((entry) => ({
+      ...entry,
+      index: entry.index + traces.length - overlayResult.traces.length,
+    }));
+  });
 
   conflictData.forEach((conflict) => {
     const coord = countryCoords[conflict.iso_code];
@@ -458,7 +515,7 @@ function buildMapTraces(conflictData, connectionsData, focusMode, focusedIsos, o
     });
   });
 
-  return traces;
+  return { traces, animationTargets };
 }
 
 const layout = {
@@ -509,6 +566,7 @@ export default function WorldMap({
 }) {
   const mapRef = useRef(null);
   const onCountrySelectRef = useRef(onCountrySelect);
+  const animationTargetsRef = useRef(createAnimationTargets());
   const [mapReady, setMapReady] = useState(false);
 
   useEffect(() => {
@@ -523,17 +581,20 @@ export default function WorldMap({
     }
 
     let isActive = true;
+    setMapReady(false);
+    const { traces, animationTargets } = buildMapTraces(
+      conflictData,
+      connectionsData,
+      focusMode,
+      focusedIsos,
+      overlayMode,
+      currentFilter,
+    );
+    animationTargetsRef.current = animationTargets;
 
     Plotly.newPlot(
       mapNode,
-      buildMapTraces(
-        conflictData,
-        connectionsData,
-        focusMode,
-        focusedIsos,
-        overlayMode,
-        currentFilter,
-      ),
+      traces,
       layout,
       config,
     ).then(() => {
@@ -594,6 +655,92 @@ export default function WorldMap({
       "geo.lataxis.range": region.lat,
     });
   }, [conflictData.length, currentFilter]);
+
+  useEffect(() => {
+    const mapNode = mapRef.current;
+    const animationTargets = animationTargetsRef.current;
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (!mapNode || !mapReady || overlayMode === "theaters" || prefersReducedMotion) {
+      return undefined;
+    }
+
+    let tick = 0;
+    const timer = window.setInterval(() => {
+      tick += 0.45;
+      const phase = (Math.sin(tick) + 1) / 2;
+
+      if (animationTargets.pulses.length) {
+        Plotly.restyle(
+          mapNode,
+          {
+            "marker.size": animationTargets.pulses.map((target) =>
+              target.baseSize + (target.variant === "outer" ? 9 : 4) * phase,
+            ),
+            "marker.opacity": animationTargets.pulses.map((target) =>
+              target.baseOpacity * (target.variant === "outer" ? 1.1 - phase * 0.65 : 0.82 + phase * 0.12),
+            ),
+            "marker.line.width": animationTargets.pulses.map((target) =>
+              target.baseLineWidth + (target.variant === "outer" ? 0.9 : 0.45) * phase,
+            ),
+            "marker.line.color": animationTargets.pulses.map((target) =>
+              hexToRgba(
+                target.color,
+                (target.variant === "outer" ? 0.3 : 0.72) + phase * (target.variant === "outer" ? 0.22 : 0.12),
+              ),
+            ),
+          },
+          animationTargets.pulses.map((target) => target.index),
+        );
+      }
+
+      if (animationTargets.lanes.length) {
+        Plotly.restyle(
+          mapNode,
+          {
+            "line.width": animationTargets.lanes.map((target) => target.baseWidth + 0.55 * phase),
+            "line.color": animationTargets.lanes.map((target) =>
+              hexToRgba(target.color, target.baseOpacity * (0.72 + phase * 0.38)),
+            ),
+          },
+          animationTargets.lanes.map((target) => target.index),
+        );
+      }
+
+      if (animationTargets.laneMarkers.length) {
+        Plotly.restyle(
+          mapNode,
+          {
+            "marker.size": animationTargets.laneMarkers.map((target) => target.baseSize + 1.4 * phase),
+            "marker.color": animationTargets.laneMarkers.map((target) =>
+              hexToRgba(target.color, target.baseOpacity * (0.78 + phase * 0.22)),
+            ),
+          },
+          animationTargets.laneMarkers.map((target) => target.index),
+        );
+      }
+
+      if (animationTargets.shippingNodes.length) {
+        Plotly.restyle(
+          mapNode,
+          {
+            "marker.size": animationTargets.shippingNodes.map((target) =>
+              target.baseSizes.map((size) => size + 1.25 * phase),
+            ),
+            "marker.opacity": animationTargets.shippingNodes.map(
+              (target) => target.baseOpacity * (1.05 + phase * 0.45),
+            ),
+            "marker.line.width": animationTargets.shippingNodes.map(
+              (target) => target.baseLineWidth + 0.7 * phase,
+            ),
+          },
+          animationTargets.shippingNodes.map((target) => target.index),
+        );
+      }
+    }, 260);
+
+    return () => window.clearInterval(timer);
+  }, [mapReady, overlayMode]);
 
   return (
     <>
