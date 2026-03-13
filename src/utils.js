@@ -39,12 +39,39 @@ export function formatTimestamp(value) {
     return "--";
   }
 
-  return new Date(value).toLocaleString("en-US", {
+  return new Intl.DateTimeFormat("en-US", {
     month: "short",
     day: "numeric",
-    hour: "2-digit",
+    year: "numeric",
+    hour: "numeric",
     minute: "2-digit",
-  });
+    timeZoneName: "short",
+  }).format(new Date(value));
+}
+
+export function formatRefreshStatus(value) {
+  if (!value) {
+    return {
+      stale: false,
+      text: "Refresh time unavailable",
+    };
+  }
+
+  const refreshedAt = new Date(value);
+  const deltaHours = (Date.now() - refreshedAt.getTime()) / (1000 * 60 * 60);
+  const absoluteText = formatTimestamp(value);
+
+  if (deltaHours > 48) {
+    return {
+      stale: true,
+      text: `Data from ${absoluteText}`,
+    };
+  }
+
+  return {
+    stale: false,
+    text: `Updated ${absoluteText}`,
+  };
 }
 
 export function truncateText(value, maxLength = 120) {

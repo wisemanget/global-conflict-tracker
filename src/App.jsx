@@ -4,7 +4,7 @@ import DetailPanel from "./components/DetailPanel";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import { theaterColors, theaterOrder, threatColors } from "./constants";
-import { fetchJson } from "./utils";
+import { fetchJson, formatRefreshStatus } from "./utils";
 
 const BriefingView = lazy(() => import("./components/BriefingView"));
 const WorldMap = lazy(() => import("./components/WorldMap"));
@@ -317,26 +317,7 @@ export default function App() {
   }, [mapFocusItems, mapFocusMode]);
 
   const timestamp = useMemo(() => {
-    const lastUpdated = conflictData[0]?.last_updated;
-    let displayDate = new Date();
-    let hoursAgo = 0;
-
-    if (lastUpdated) {
-      displayDate = new Date(lastUpdated);
-      hoursAgo = (Date.now() - displayDate.getTime()) / (1000 * 60 * 60);
-    }
-
-    const timeText = displayDate.toLocaleDateString("en-US", {
-      month: "short",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-    });
-
-    return {
-      stale: hoursAgo > 48,
-      text: hoursAgo > 48 ? `Data from ${timeText} - may be outdated` : `Updated ${timeText}`,
-    };
+    return formatRefreshStatus(conflictData[0]?.last_updated);
   }, [conflictData]);
 
   const activeCount = conflictData.length;
