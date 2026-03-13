@@ -1,11 +1,13 @@
-import { useEffect, useMemo, useRef, useState } from "react";
-import BriefingView from "./components/BriefingView";
+import { Suspense, lazy, useEffect, useMemo, useRef, useState } from "react";
+import DashboardOverview from "./components/DashboardOverview";
 import DetailPanel from "./components/DetailPanel";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
-import WorldMap from "./components/WorldMap";
 import { theaterColors, theaterOrder, threatColors } from "./constants";
 import { fetchJson } from "./utils";
+
+const BriefingView = lazy(() => import("./components/BriefingView"));
+const WorldMap = lazy(() => import("./components/WorldMap"));
 
 const impactOrder = [
   "Military",
@@ -17,6 +19,29 @@ const impactOrder = [
   "Elections",
   "Security",
 ];
+
+const mapFocusModes = {
+  standard: {
+    label: "Standard",
+    description: "See the full theater picture without extra weighting.",
+  },
+  urgent: {
+    label: "Most urgent",
+    description: "Surface the conflicts with the highest immediate escalation risk.",
+  },
+  changed: {
+    label: "Most changed",
+    description: "Highlight the places where the picture is moving fastest.",
+  },
+  markets: {
+    label: "Markets",
+    description: "Bring energy, shipping, and market-sensitive conflicts to the front.",
+  },
+  humanitarian: {
+    label: "Humanitarian",
+    description: "Center conflicts with the biggest civilian and displacement impact.",
+  },
+};
 
 export default function App() {
   const [conflictData, setConflictData] = useState([]);
@@ -31,6 +56,7 @@ export default function App() {
   const [impactFilter, setImpactFilter] = useState("all");
   const [currentSort, setCurrentSort] = useState("threat");
   const [currentSidebarTab, setCurrentSidebarTab] = useState("intel");
+  const [mapFocusMode, setMapFocusMode] = useState("urgent");
   const [selectedIso, setSelectedIso] = useState(null);
   const [highlightedIsos, setHighlightedIsos] = useState([]);
   const [expandedLeaderIndexes, setExpandedLeaderIndexes] = useState([]);
@@ -194,6 +220,59 @@ export default function App() {
     };
   }, [conflictData]);
 
+  const mapFocusItems = useMemo(() => {
+    const scored = conflictData.map((conflict) => {
+      const hasTag = (tag) => (conflict.impact_tags || []).includes(tag);
+      const rankWeight = Math.max(0, 6 - (conflict.story_rank || 6));
+      const changeWeight =
+        conflict.change_status === "escalated"
+          ? 4
+          : conflict.change_status === "watch"
+            ? 3
+            : conflict.change_status === "improving"
+              ? 2
+              : 1;
+
+      let score = (conflict.threat_level || 0) * 2 + rankWeight;
+
+      if (mapFocusMode === "changed") {
+        score = changeWeight * 4 + rankWeight + (conflict.change_summary?.length || 0);
+      } else if (mapFocusMode === "markets") {
+        score =
+          (hasTag("Energy") ? 5 : 0) +
+          (hasTag("Shipping") ? 5 : 0) +
+          (hasTag("Markets") ? 4 : 0) +
+          (conflict.threat_level || 0);
+      } else if (mapFocusMode === "humanitarian") {
+        score =
+          (hasTag("Humanitarian") ? 6 : 0) +
+          (hasTag("Security") ? 3 : 0) +
+          (hasTag("Elections") ? 2 : 0) +
+          changeWeight +
+          (conflict.threat_level || 0);
+      } else if (mapFocusMode === "urgent") {
+        score = (conflict.threat_level || 0) * 4 + changeWeight * 2 + rankWeight;
+      }
+
+      return { ...conflict, focusScore: score };
+    });
+
+    const sorted =
+      mapFocusMode === "standard"
+        ? [...topDevelopments]
+        : scored.sort((left, right) => right.focusScore - left.focusScore).slice(0, 5);
+
+    return sorted;
+  }, [conflictData, mapFocusMode, topDevelopments]);
+
+  const focusedIsos = useMemo(() => {
+    if (mapFocusMode === "standard") {
+      return [];
+    }
+
+    return mapFocusItems.map((conflict) => conflict.iso_code);
+  }, [mapFocusItems, mapFocusMode]);
+
   const timestamp = useMemo(() => {
     const lastUpdated = conflictData[0]?.last_updated;
     let displayDate = new Date();
@@ -219,6 +298,7 @@ export default function App() {
 
   const activeCount = conflictData.length;
   const criticalCount = conflictData.filter((conflict) => conflict.threat_level >= 5).length;
+  const leadStory = topDevelopments[0] || null;
   const leaders = selectedCountry ? leadersData[selectedCountry.iso_code] || [] : [];
   const timelineEvents = selectedCountry ? timelinesData[selectedCountry.theater] || [] : [];
   const impact = selectedCountry ? impactData[selectedCountry.iso_code] : null;
@@ -254,6 +334,11 @@ export default function App() {
     setViewMode("dashboard");
   }
 
+  function openFocusedCountry(conflict) {
+    setCurrentFilter(conflict.theater || "all");
+    openDetail(conflict.iso_code);
+  }
+
   return (
     <>
       <div className="dashboard">
@@ -267,35 +352,108 @@ export default function App() {
         />
 
         <main className={`main ${viewMode === "briefing" ? "hidden" : ""}`}>
-          <div className="map-container">
-            <WorldMap
-              conflictData={conflictData}
-              currentFilter={currentFilter}
-              onCountrySelect={openDetail}
-            />
+          <div className="primary-stage">
+            <section className="map-shell">
+              <div className="map-shell-header">
+                <div className="map-shell-summary">
+                  <span className="map-shell-kicker">Live Map</span>
+                  <h3 className="map-shell-title">
+                    {leadStory
+                      ? `${leadStory.country}: ${leadStory.briefing_note || leadStory.tldr}`
+                      : "Track the most important active conflict signals on the map."}
+                  </h3>
+                </div>
+                <div className="map-shell-actions">
+                  {leadStory ? (
+                    <button
+                      type="button"
+                      className="map-shell-brief-btn"
+                      onClick={() => openDetail(leadStory.iso_code)}
+                    >
+                      Open lead briefing
+                    </button>
+                  ) : null}
+                </div>
+              </div>
 
-            <div className="map-legend">
-              <span className="legend-title">Theaters of Operation</span>
-              <div className="legend-items">
-                {Object.entries(theaterColors).map(([theater, color]) => (
+              <div className="map-container">
+                <Suspense fallback={<div className="map-fallback">Loading interactive map...</div>}>
+                  <WorldMap
+                    conflictData={conflictData}
+                    currentFilter={currentFilter}
+                    focusMode={mapFocusMode}
+                    focusedIsos={focusedIsos}
+                    onCountrySelect={openDetail}
+                  />
+                </Suspense>
+
+                <div className="map-legend">
+                  <span className="legend-title">Theaters of Operation</span>
+                  <div className="legend-items">
+                    {Object.entries(theaterColors).map(([theater, color]) => (
+                      <button
+                        key={theater}
+                        type="button"
+                        className="legend-item"
+                        onClick={() => setCurrentFilter(theater)}
+                      >
+                        <span className="legend-dot" style={{ background: color }} />
+                        <span>
+                          {theater === "Eastern Europe"
+                            ? "E. Europe"
+                            : theater === "Africa & Americas"
+                              ? "Africa/Americas"
+                              : theater}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="map-focus-toolbar">
+                {Object.entries(mapFocusModes).map(([modeKey, mode]) => (
                   <button
-                    key={theater}
+                    key={modeKey}
                     type="button"
-                    className="legend-item"
-                    onClick={() => setCurrentFilter(theater)}
+                    className={`map-focus-chip ${mapFocusMode === modeKey ? "active" : ""}`}
+                    onClick={() => setMapFocusMode(modeKey)}
                   >
-                    <span className="legend-dot" style={{ background: color }} />
-                    <span>
-                      {theater === "Eastern Europe"
-                        ? "E. Europe"
-                        : theater === "Africa & Americas"
-                          ? "Africa/Americas"
-                          : theater}
-                    </span>
+                    {mode.label}
+                  </button>
+                ))}
+                <span className="map-shell-copy">{mapFocusModes[mapFocusMode].description}</span>
+              </div>
+
+              <div className="map-focus-rail">
+                {mapFocusItems.map((conflict, index) => (
+                  <button
+                    key={`${mapFocusMode}-${conflict.iso_code}`}
+                    type="button"
+                    className="map-focus-card"
+                    onClick={() => openFocusedCountry(conflict)}
+                  >
+                    <span className="map-focus-rank">{index + 1}</span>
+                    <div className="map-focus-copy">
+                      <div className="map-focus-top">
+                        <span className="map-focus-country">{conflict.country}</span>
+                        <span className="map-focus-theater">{conflict.theater}</span>
+                      </div>
+                      <div className="map-focus-note">
+                        {conflict.briefing_note || conflict.tldr || conflict.headline}
+                      </div>
+                    </div>
                   </button>
                 ))}
               </div>
-            </div>
+            </section>
+
+            <DashboardOverview
+              topDevelopments={topDevelopments}
+              conflictData={conflictData}
+              onOpenDetail={openDetail}
+              timestamp={timestamp}
+            />
           </div>
 
           <Sidebar
@@ -310,8 +468,6 @@ export default function App() {
             onSortChange={setCurrentSort}
             loading={loading}
             error={error}
-            totalCount={conflictData.length}
-            topDevelopments={topDevelopments}
             filteredConflicts={filteredConflicts}
             connectionsData={connectionsData}
             selectedIso={selectedIso}
@@ -323,14 +479,22 @@ export default function App() {
         </main>
 
         {viewMode === "briefing" && historySnapshots.length ? (
-          <BriefingView
-            snapshots={historySnapshots}
-            activeSnapshotIndex={activeSnapshotIndex}
-            onSnapshotChange={setActiveSnapshotIndex}
-            timelinesData={timelinesData}
-            onOpenDetail={openDetail}
-            onOpenMap={openMapFromReplay}
-          />
+          <Suspense
+            fallback={
+              <section className="briefing-view">
+                <div className="map-fallback">Loading replay briefing...</div>
+              </section>
+            }
+          >
+            <BriefingView
+              snapshots={historySnapshots}
+              activeSnapshotIndex={activeSnapshotIndex}
+              onSnapshotChange={setActiveSnapshotIndex}
+              timelinesData={timelinesData}
+              onOpenDetail={openDetail}
+              onOpenMap={openMapFromReplay}
+            />
+          </Suspense>
         ) : null}
 
         {viewMode === "briefing" && !historySnapshots.length && !loading ? (

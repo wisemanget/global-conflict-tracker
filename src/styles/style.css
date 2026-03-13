@@ -280,6 +280,572 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   overflow: hidden;
 }
 
+.primary-stage {
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: minmax(560px, 72vh) auto;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+
+.glance-shell {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.glance-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.95fr);
+  gap: var(--space-4);
+  padding: var(--space-4);
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(108,138,255,0.16);
+  background:
+    radial-gradient(circle at top left, rgba(108,138,255,0.16), transparent 40%),
+    linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)),
+    var(--color-surface);
+  box-shadow: 0 18px 48px rgba(0,0,0,0.2);
+}
+
+.glance-hero-copy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.glance-kicker,
+.map-shell-kicker,
+.sidebar-section-label,
+.glance-panel-caption {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: var(--color-primary-hover);
+}
+
+.glance-title {
+  margin: 0;
+  font-size: clamp(1.35rem, 1rem + 1vw, 2.2rem);
+  line-height: 1.05;
+  color: var(--color-text);
+  max-width: 16ch;
+}
+
+.glance-summary {
+  margin: 0;
+  max-width: 62ch;
+  font-size: var(--text-sm);
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+
+.glance-metric-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.glance-bullet-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.glance-bullet-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-3);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.03);
+  text-align: left;
+  transition: all var(--transition);
+}
+
+.glance-bullet-card:hover {
+  border-color: rgba(108,138,255,0.28);
+  background: rgba(108,138,255,0.06);
+}
+
+.glance-bullet-country {
+  min-width: 96px;
+  color: var(--color-text);
+  font-size: var(--text-xs);
+  font-weight: 700;
+}
+
+.glance-bullet-text {
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  line-height: 1.55;
+}
+
+.glance-metric-card,
+.glance-panel,
+.map-shell {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background: var(--color-surface);
+}
+
+.glance-metric-card {
+  padding: var(--space-3);
+  background: rgba(255,255,255,0.03);
+}
+
+.glance-metric-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 10px;
+  color: var(--color-text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.glance-metric-value {
+  display: block;
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.glance-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.glance-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: rgba(255,255,255,0.03);
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  transition: all var(--transition);
+}
+
+.glance-filter-chip:hover,
+.glance-filter-chip.active {
+  border-color: rgba(108,138,255,0.35);
+  background: rgba(108,138,255,0.12);
+  color: var(--color-text);
+}
+
+.glance-lead-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  min-width: 0;
+  padding: var(--space-4);
+  text-align: left;
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(255,255,255,0.08);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02)),
+    var(--color-surface-2);
+  transition: all var(--transition);
+}
+
+.glance-lead-card:hover {
+  transform: translateY(-1px);
+  border-color: rgba(108,138,255,0.3);
+}
+
+.glance-briefing-controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.glance-carousel-buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.glance-carousel-btn,
+.glance-open-briefing {
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: rgba(255,255,255,0.04);
+  color: var(--color-text);
+  transition: all var(--transition);
+}
+
+.glance-carousel-btn {
+  min-width: 34px;
+  height: 34px;
+  padding: 0 12px;
+  font-size: var(--text-xs);
+  font-weight: 700;
+}
+
+.glance-carousel-btn:hover,
+.glance-open-briefing:hover {
+  border-color: rgba(108,138,255,0.3);
+  background: rgba(108,138,255,0.12);
+}
+
+.glance-lead-top,
+.glance-lead-country-row,
+.glance-lead-footer,
+.glance-story-top,
+.glance-change-top,
+.map-shell-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.glance-lead-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-faint);
+}
+
+.glance-lead-threat {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.glance-lead-country {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.glance-lead-headline {
+  margin: 0;
+  font-size: var(--text-lg);
+  line-height: 1.2;
+  color: var(--color-text);
+}
+
+.glance-lead-snapshot {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.glance-lead-point {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: var(--space-3);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.03);
+}
+
+.glance-lead-point-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-faint);
+  font-weight: 700;
+}
+
+.glance-lead-point-text {
+  color: var(--color-text);
+  font-size: var(--text-xs);
+  line-height: 1.55;
+}
+
+.glance-carousel-dots {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.glance-carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.18);
+  transition: all var(--transition);
+}
+
+.glance-carousel-dot.active {
+  width: 28px;
+  background: var(--color-primary);
+}
+
+.glance-lead-note,
+.glance-story-note,
+.glance-change-text,
+.map-shell-copy {
+  margin: 0;
+  font-size: var(--text-xs);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.glance-lead-footer {
+  padding-top: var(--space-2);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-faint);
+}
+
+.glance-open-briefing {
+  padding: 8px 12px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.glance-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.glance-panel {
+  padding: var(--space-3);
+  min-width: 0;
+}
+
+.glance-panel-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.glance-panel-title {
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+.glance-story-list,
+.glance-change-list,
+.sidebar-report-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.glance-story-card,
+.glance-change-card {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  width: 100%;
+  padding: var(--space-3);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.03);
+  text-align: left;
+  transition: all var(--transition);
+}
+
+.glance-story-card:hover,
+.glance-change-card:hover {
+  border-color: rgba(108,138,255,0.28);
+  background: rgba(108,138,255,0.06);
+}
+
+.glance-story-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(108,138,255,0.15);
+  color: var(--color-primary-hover);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.glance-story-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.glance-story-country,
+.glance-change-country {
+  color: var(--color-text);
+  font-size: var(--text-xs);
+  font-weight: 700;
+}
+
+.glance-story-headline {
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.map-shell {
+  min-height: 560px;
+  height: min(72vh, 820px);
+  padding: var(--space-3);
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto auto;
+  gap: var(--space-3);
+  overflow: hidden;
+}
+
+.map-shell-title {
+  margin: 4px 0 0;
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  line-height: 1.45;
+}
+
+.map-shell-summary {
+  min-width: 0;
+}
+
+.map-shell-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.map-shell-brief-btn {
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: rgba(255,255,255,0.04);
+  color: var(--color-text);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: all var(--transition);
+}
+
+.map-shell-brief-btn:hover {
+  border-color: rgba(108,138,255,0.3);
+  background: rgba(108,138,255,0.12);
+}
+
+.map-focus-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+.map-focus-chip {
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: rgba(255,255,255,0.03);
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  transition: all var(--transition);
+}
+
+.map-focus-chip:hover,
+.map-focus-chip.active {
+  border-color: rgba(108,138,255,0.35);
+  background: rgba(108,138,255,0.12);
+  color: var(--color-text);
+}
+
+.map-focus-rail {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.map-focus-card {
+  display: flex;
+  gap: var(--space-2);
+  align-items: flex-start;
+  padding: var(--space-3);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.03);
+  text-align: left;
+  transition: all var(--transition);
+}
+
+.map-focus-card:hover {
+  border-color: rgba(108,138,255,0.28);
+  background: rgba(108,138,255,0.06);
+}
+
+.map-focus-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(108,138,255,0.15);
+  color: var(--color-primary-hover);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.map-focus-copy {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.map-focus-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.map-focus-country {
+  color: var(--color-text);
+  font-size: var(--text-xs);
+  font-weight: 700;
+}
+
+.map-focus-theater {
+  color: var(--color-text-faint);
+  font-size: 10px;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.map-focus-note {
+  color: var(--color-text-muted);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
 .briefing-view {
   min-height: 0;
   overflow-y: auto;
@@ -626,7 +1192,11 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
 /* ═══ MAP ═══ */
 .map-container {
   position: relative;
-  overflow: visible;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--color-border);
 }
 
 /* Allow Plotly hover labels to extend beyond map container */
@@ -635,7 +1205,11 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   overflow: visible !important;
 }
 
-#plotly-map { width: 100%; height: 100%; }
+#plotly-map {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
 
 .map-legend {
   position: absolute;
@@ -845,6 +1419,10 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
+}
+
+.sidebar-section-label {
+  color: var(--color-text-faint);
 }
 
 .briefing-panel {
@@ -1092,6 +1670,45 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   background: rgba(255,255,255,0.02);
 }
 
+.card-signal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: var(--space-2);
+}
+
+.card-signal-row {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr);
+  gap: var(--space-2);
+  align-items: start;
+}
+
+.card-signal-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-faint);
+}
+
+.card-signal-text {
+  color: var(--color-text);
+  font-size: var(--text-xs);
+  line-height: 1.5;
+}
+
+.card-change-callout {
+  margin-bottom: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-left: 2px solid rgba(108,138,255,0.35);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: rgba(108,138,255,0.08);
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  line-height: 1.45;
+}
+
 .card-tldr {
   font-size: var(--text-xs);
   color: var(--color-text-muted);
@@ -1301,6 +1918,66 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   border-bottom: 1px solid var(--color-divider);
 }
 
+.detail-snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.detail-snapshot-card,
+.detail-quick-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-2);
+}
+
+.detail-snapshot-card {
+  padding: var(--space-3);
+}
+
+.detail-snapshot-label,
+.detail-quick-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-faint);
+  font-weight: 700;
+}
+
+.detail-snapshot-text {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--text-xs);
+  line-height: 1.6;
+}
+
+.detail-quick-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.detail-quick-card {
+  padding: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detail-quick-value {
+  color: var(--color-text);
+  font-size: var(--text-xs);
+  line-height: 1.5;
+}
+
+.detail-impact-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
 .detail-section {}
 
 .detail-highlight {
@@ -1473,10 +2150,31 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
 @media (max-width: 960px) {
   .main {
     grid-template-columns: 1fr;
-    grid-template-rows: 45% 55%;
+    grid-template-rows: minmax(0, 1fr) minmax(360px, 55%);
   }
 
   .sidebar { border-left: none; border-top: 1px solid var(--color-border); }
+
+  .primary-stage,
+  .glance-grid,
+  .glance-hero,
+  .glance-metric-row,
+  .glance-lead-snapshot,
+  .detail-snapshot-grid,
+  .detail-quick-strip,
+  .map-focus-rail {
+    grid-template-columns: 1fr;
+  }
+
+  .primary-stage {
+    overflow-y: auto;
+  }
+
+  .map-shell {
+    min-height: 460px;
+    height: min(62vh, 640px);
+    grid-template-rows: auto minmax(0, 1fr) auto auto;
+  }
 
   .header-center {
     width: 100%;
@@ -1501,9 +2199,35 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   .detail-change-header,
   .source-card,
   .briefing-topline,
-  .replay-thread-top {
+  .replay-thread-top,
+  .glance-lead-top,
+  .glance-lead-country-row,
+  .glance-lead-footer,
+  .glance-story-top,
+  .glance-change-top,
+  .map-shell-header,
+  .glance-panel-header,
+  .map-focus-top,
+  .glance-briefing-controls,
+  .map-shell-actions {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .primary-stage {
+    padding: var(--space-3);
+    gap: var(--space-3);
+  }
+  .glance-hero,
+  .glance-panel,
+  .map-shell {
+    padding: var(--space-3);
+  }
+  .map-shell {
+    min-height: 380px;
+    height: 52vh;
+  }
+  .glance-filter-row {
+    gap: 6px;
   }
   .briefing-view {
     padding: var(--space-3);

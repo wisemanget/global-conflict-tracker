@@ -89,6 +89,52 @@ export default function DetailPanel({
               <div className="detail-body">
                 <div className="detail-headline">{selectedCountry.headline || ""}</div>
 
+                <section className="detail-snapshot-grid">
+                  <div className="detail-snapshot-card">
+                    <span className="detail-snapshot-label">Now</span>
+                    <p className="detail-snapshot-text">{selectedCountry.tldr || ""}</p>
+                  </div>
+
+                  <div className="detail-snapshot-card">
+                    <span className="detail-snapshot-label">Why It Matters</span>
+                    <p className="detail-snapshot-text">
+                      {selectedCountry.briefing_note || selectedCountry.alliances_short || ""}
+                    </p>
+                  </div>
+
+                  <div className="detail-snapshot-card">
+                    <span className="detail-snapshot-label">Watch Next</span>
+                    <p className="detail-snapshot-text">
+                      {selectedCountry.forecast || selectedCountry.next_actions || ""}
+                    </p>
+                  </div>
+                </section>
+
+                <div className="detail-quick-strip">
+                  <div className="detail-quick-card">
+                    <span className="detail-quick-label">Trend</span>
+                    <span className={`change-pill ${getChangeMeta(selectedCountry.change_status).className}`}>
+                      {getChangeMeta(selectedCountry.change_status).label}
+                    </span>
+                  </div>
+
+                  <div className="detail-quick-card">
+                    <span className="detail-quick-label">Refreshed</span>
+                    <span className="detail-quick-value">{formatTimestamp(selectedCountry.last_updated)}</span>
+                  </div>
+
+                  <div className="detail-quick-card">
+                    <span className="detail-quick-label">Impact</span>
+                    <div className="detail-impact-chip-row">
+                      {(selectedCountry.impact_tags || []).slice(0, 3).map((tag) => (
+                        <span key={tag} className="impact-tag">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+
                 {selectedCountry.change_summary?.length ? (
                   <div className="detail-section detail-highlight">
                     <div className="section-header">
@@ -112,17 +158,6 @@ export default function DetailPanel({
                     </ul>
                   </div>
                 ) : null}
-
-                <div className="detail-section">
-                  <div className="section-header">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
-                      <circle cx="8" cy="8" r="6" />
-                      <path d="M8 5v3l2 2" />
-                    </svg>
-                    <span>What's Happening</span>
-                  </div>
-                  <p>{selectedCountry.tldr || ""}</p>
-                </div>
 
                 <div className="detail-section">
                   <div className="section-header">

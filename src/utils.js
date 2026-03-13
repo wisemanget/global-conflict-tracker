@@ -46,3 +46,15 @@ export function formatTimestamp(value) {
     minute: "2-digit",
   });
 }
+
+export function truncateText(value, maxLength = 120) {
+  if (!value) {
+    return "";
+  }
+
+  if (value.length <= maxLength) {
+    return value;
+  }
+
+  return `${value.slice(0, maxLength).trimEnd()}...`;
+}

@@ -15,7 +15,6 @@ export default function Sidebar({
   loading,
   error,
   totalCount,
-  topDevelopments,
   filteredConflicts,
   connectionsData,
   selectedIso,
@@ -57,8 +56,8 @@ export default function Sidebar({
         </div>
 
         <div className={`sidebar-title-row ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
-          <h2 className="sidebar-title">Intel Feed</h2>
-          <span className="feed-badge">{totalCount} reports</span>
+          <h2 className="sidebar-title">Explore Reports</h2>
+          <span className="feed-badge">{filteredConflicts.length} shown</span>
         </div>
 
         <div className={`theater-filters ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
@@ -130,48 +129,14 @@ export default function Sidebar({
       <div className={`sidebar-content ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
         {loading ? <div className="loading-state">Loading conflict data...</div> : null}
         {error ? <div className="error-state">{error}</div> : null}
-        {!loading && !error && topDevelopments.length ? (
-          <section className="briefing-panel">
-            <div className="section-header">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <path d="M2 12.5h12M4 9l2-2 2 1 4-4" />
-              </svg>
-              <span>Top Developments</span>
-            </div>
-            <div className="briefing-list">
-              {topDevelopments.map((conflict, index) => {
-                const changeMeta = getChangeMeta(conflict.change_status);
-
-                return (
-                  <button
-                    key={`briefing-${conflict.iso_code}`}
-                    type="button"
-                    className="briefing-card"
-                    onClick={() => onOpenDetail(conflict.iso_code)}
-                  >
-                    <div className="briefing-rank">{index + 1}</div>
-                    <div className="briefing-copy">
-                      <div className="briefing-topline">
-                        <span className="briefing-country">{conflict.country}</span>
-                        <span className={`change-pill ${changeMeta.className}`}>
-                          {changeMeta.label}
-                        </span>
-                      </div>
-                      <div className="briefing-headline">{conflict.headline}</div>
-                      <div className="briefing-note">{conflict.briefing_note}</div>
-                    </div>
-                  </button>
-                );
-              })}
-            </div>
-          </section>
-        ) : null}
         {!loading && !error && !filteredConflicts.length ? (
           <div className="empty-state">No conflicts match the current filter.</div>
         ) : null}
 
-        {!loading && !error
-          ? filteredConflicts.map((conflict, index) => (
+        {!loading && !error ? (
+          <div className="sidebar-report-stack">
+            <div className="sidebar-section-label">Signal cards</div>
+            {filteredConflicts.map((conflict, index) => (
               <CountryCard
                 key={conflict.iso_code}
                 conflict={conflict}
@@ -179,8 +144,9 @@ export default function Sidebar({
                 animationDelay={index * 40}
                 onClick={() => onOpenDetail(conflict.iso_code)}
               />
-            ))
-          : null}
+            ))}
+          </div>
+        ) : null}
       </div>
 
       <div className={`sidebar-content ${currentSidebarTab === "connections" ? "" : "hidden"}`}>

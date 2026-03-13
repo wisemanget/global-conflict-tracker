@@ -1,4 +1,4 @@
-import { getChangeMeta } from "../utils";
+import { getChangeMeta, truncateText } from "../utils";
 import { theaterColors, threatColors } from "../constants";
 
 export default function CountryCard({ conflict, isActive, animationDelay, onClick }) {
@@ -42,15 +42,26 @@ export default function CountryCard({ conflict, isActive, animationDelay, onClic
           ))}
         </div>
       </div>
-      <div className="card-headline">{conflict.headline || ""}</div>
-      <div className="card-tldr">{conflict.tldr || ""}</div>
-      {conflict.change_summary?.length ? (
-        <ul className="card-update-list">
-          {conflict.change_summary.slice(0, 2).map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
+
+      <div className="card-signal-list">
+        <div className="card-signal-row">
+          <span className="card-signal-label">Now</span>
+          <span className="card-signal-text">{truncateText(conflict.headline || "", 88)}</span>
+        </div>
+        <div className="card-signal-row">
+          <span className="card-signal-label">Why</span>
+          <span className="card-signal-text">{truncateText(conflict.briefing_note || conflict.tldr || "", 106)}</span>
+        </div>
+        <div className="card-signal-row">
+          <span className="card-signal-label">Watch</span>
+          <span className="card-signal-text">{truncateText(conflict.next_actions || conflict.forecast || "", 110)}</span>
+        </div>
+      </div>
+
+      {conflict.change_summary?.[0] ? (
+        <div className="card-change-callout">{truncateText(conflict.change_summary[0], 110)}</div>
       ) : null}
+
       <div className="card-footer">
         <span className="card-theater-tag" style={{ background: theaterColor }}>
           {conflict.theater}

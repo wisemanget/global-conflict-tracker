@@ -8,8 +8,10 @@ import {
   threatColors,
 } from "../constants";
 
-function buildMapTraces(conflictData) {
+function buildMapTraces(conflictData, focusMode, focusedIsos) {
   const traces = [];
+  const focusedSet = new Set(focusedIsos);
+  const hasFocus = focusMode !== "standard" && focusedSet.size > 0;
 
   Object.entries(theaterISO).forEach(([theater, isos]) => {
     const color = theaterColors[theater];
@@ -39,8 +41,8 @@ function buildMapTraces(conflictData) {
         align: "left",
       },
       colorscale: [
-        [0, `${color}25`],
-        [1, `${color}25`],
+        [0, `${color}${hasFocus ? "16" : "25"}`],
+        [1, `${color}${hasFocus ? "16" : "25"}`],
       ],
       showscale: false,
       marker: { line: { color: `${color}60`, width: 1 } },
@@ -57,6 +59,7 @@ function buildMapTraces(conflictData) {
 
     const color = theaterColors[conflict.theater];
     const threatSize = 6 + (conflict.threat_level || 3) * 3;
+    const isFocused = !hasFocus || focusedSet.has(conflict.iso_code);
     const shortTldr =
       (conflict.tldr || "").length > 100 ? `${conflict.tldr.substring(0, 100)}...` : conflict.tldr || "";
 
@@ -66,9 +69,9 @@ function buildMapTraces(conflictData) {
       lon: [coord.lon],
       hoverinfo: "skip",
       marker: {
-        size: threatSize + 12,
+        size: threatSize + (isFocused ? 14 : 8),
         color,
-        opacity: 0.15,
+        opacity: isFocused ? 0.18 : 0.05,
         line: { width: 0 },
       },
       showlegend: false,
@@ -80,9 +83,9 @@ function buildMapTraces(conflictData) {
       lon: [coord.lon],
       hoverinfo: "skip",
       marker: {
-        size: threatSize + 6,
+        size: threatSize + (isFocused ? 8 : 3),
         color,
-        opacity: 0.25,
+        opacity: isFocused ? 0.28 : 0.08,
         line: { width: 0 },
       },
       showlegend: false,
@@ -105,10 +108,10 @@ function buildMapTraces(conflictData) {
         namelength: -1,
       },
       marker: {
-        size: threatSize,
+        size: threatSize + (isFocused ? 2 : -2),
         color: conflict.threat_level >= 5 ? threatColors[5] : color,
-        opacity: 0.9,
-        line: { color: "#fff", width: 1.5 },
+        opacity: isFocused ? 0.95 : 0.42,
+        line: { color: "#fff", width: isFocused ? 2.4 : 1 },
         symbol: "circle",
       },
       showlegend: false,
@@ -155,7 +158,7 @@ const config = {
   responsive: true,
 };
 
-export default function WorldMap({ conflictData, currentFilter, onCountrySelect }) {
+export default function WorldMap({ conflictData, currentFilter, focusMode, focusedIsos, onCountrySelect }) {
   const mapRef = useRef(null);
   const onCountrySelectRef = useRef(onCountrySelect);
   const [mapReady, setMapReady] = useState(false);
@@ -173,7 +176,7 @@ export default function WorldMap({ conflictData, currentFilter, onCountrySelect 
 
     let isActive = true;
 
-    Plotly.newPlot(mapNode, buildMapTraces(conflictData), layout, config).then(() => {
+    Plotly.newPlot(mapNode, buildMapTraces(conflictData, focusMode, focusedIsos), layout, config).then(() => {
       if (!isActive || !mapRef.current) {
         return;
       }
@@ -216,7 +219,7 @@ export default function WorldMap({ conflictData, currentFilter, onCountrySelect 
       mapNode.removeAllListeners?.("plotly_click");
       Plotly.purge(mapNode);
     };
-  }, [conflictData]);
+  }, [conflictData, focusMode, focusedIsos]);
 
   useEffect(() => {
     const mapNode = mapRef.current;

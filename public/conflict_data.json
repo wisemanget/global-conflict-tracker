@@ -5,20 +5,20 @@
     "theater": "Middle East",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "U.S. containment posture hardens as Hormuz traffic and Gulf defenses come under heavier strain",
-    "tldr": "Washington is backing Israeli operations while helping Gulf partners intercept drones, secure bases, and manage a shipping crisis around the Strait of Hormuz.",
+    "headline": "U.S. containment posture hardens as oil hits $100 and Gulf defenses stay under strain",
+    "tldr": "Washington is backing Israeli operations while helping Gulf partners protect bases, energy sites, and shipping as the Hormuz crisis pushes oil above $100 a barrel.",
     "alliances_short": "Israel remains the core military partner; Gulf states want U.S. protection and a controlled off-ramp.",
-    "forecast": "Expect more air defense deployments, emergency maritime routing, and pressure to keep the Gulf crisis from becoming an open-ended regional war economy.",
-    "current_events": "U.S. military activity is now centered as much on protecting Gulf infrastructure and shipping as on backing Israeli operations. AP reported that American forces destroyed Iranian minelayers in the Strait of Hormuz while Saudi Arabia and Kuwait intercepted drones headed toward energy sites. Washington is also coordinating evacuations for foreign nationals as insurers and shipping companies treat Hormuz as effectively closed.",
+    "forecast": "Expect more air defense deployments, emergency maritime routing, and economic stabilization measures as Washington tries to keep the Gulf crisis from becoming an open-ended war economy.",
+    "current_events": "U.S. military activity is now centered as much on protecting Gulf infrastructure and shipping as on backing Israeli operations. AP reported on March 13 that crude briefly hit $100 a barrel as Iran's new supreme leader vowed to keep fighting and Hormuz remained effectively shut. Washington is juggling force protection, shipping security, and measures to limit the global economic shock from the war.",
     "alliances": "The U.S.-Israel security partnership is driving the current campaign. Saudi Arabia, the UAE, Bahrain, and Kuwait are relying on American air and missile defense support even as they push for de-escalation. NATO allies are watching for spillover risks rather than joining the war directly.",
-    "next_actions": "Watch for more U.S. naval protection around Hormuz, expanded evacuation support, and pressure on Gulf partners to hold a common line. The key question is whether Washington can protect shipping without sliding into a larger regional campaign.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "next_actions": "Watch for more U.S. naval protection around Hormuz, expanded economic emergency measures, and pressure on Gulf partners to hold a common line. The key question is whether Washington can protect shipping and stabilize prices without sliding into a larger regional campaign.",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 2,
     "briefing_note": "Washington is trying to keep a regional war from becoming a full Gulf shipping shutdown.",
     "change_status": "escalated",
     "change_summary": [
       "U.S. force protection in the Gulf has become a daily operational concern.",
-      "Hormuz security and foreign evacuations are now central to American crisis management."
+      "Oil-price stabilization and Hormuz security are now central to American crisis management."
     ],
     "impact_tags": [
       "U.S. Policy",
@@ -28,8 +28,8 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 11: U.S. destroys Iranian minelayers as Hormuz traffic seizes up",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/iran-keeps-up-pressure-on-oil-infrastructure-as-concerns-of-global-energy-crisis-grow/articleshow/129439541.cms"
+        "label": "AP, Mar 13: Crude hits $100 as Iran vows to keep fighting",
+        "url": "https://apnews.com/article/99a2316e9089b2ffa9eadd104e787591"
       },
       {
         "label": "AP, Mar 6: Gulf allies say U.S. left them exposed after Iran attacks",
@@ -50,7 +50,7 @@
     "current_events": "Israeli strikes on Tehran and on Hezbollah-linked targets in Lebanon continued into March 11. AP reporting described fresh attacks on Al-Qard al-Hassan branches in Beirut's southern suburbs and more cross-border fire from Lebanon, underscoring that the northern front is now tightly linked to the direct war with Iran. Israeli leaders are presenting the campaign as a bid to break Iran's regional deterrent network before it can regroup.",
     "alliances": "The United States remains Israel's essential military and diplomatic backstop. Saudi and other Gulf states are not aligned publicly with Israeli operations, but they share the objective of containing Iranian regional power.",
     "next_actions": "Expect Israel to keep balancing the Tehran campaign with efforts to blunt Hezbollah fire and avoid a war of attrition along the northern border. Civilian displacement in Lebanon and missile defense strain inside Israel remain the main warning signs.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 1,
     "briefing_note": "Israel is fighting Iran directly while trying to keep Lebanon from becoming a wider second war.",
     "change_status": "escalated",
@@ -80,14 +80,14 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Iran keeps pressure on oil infrastructure as the war turns into a shipping and energy crisis",
-    "tldr": "Mojtaba Khamenei's government is pairing missile and drone retaliation with pressure on Gulf shipping and energy infrastructure.",
+    "headline": "Iran vows to keep fighting as the war drives oil above $100 and keeps Hormuz under pressure",
+    "tldr": "Mojtaba Khamenei's government is pairing defiant wartime messaging with continued pressure on Gulf shipping and energy infrastructure.",
     "alliances_short": "Iran still relies on Hezbollah, the Houthis, and other aligned militias, but wartime coordination is under strain.",
-    "forecast": "Expect more asymmetric retaliation, more threats to energy routes, and a continued effort to prove the new leadership can impose costs even under heavy attack.",
-    "current_events": "Iran is now using the Gulf energy system itself as a pressure point. AP reporting on March 11 said Tehran had effectively halted shipping through Hormuz while drones and missiles continued targeting Israel and Gulf infrastructure. The wartime logic is clear: Iran is trying to show that even under direct bombardment it can still push the conflict outward into oil, insurance, and maritime risk.",
+    "forecast": "Expect more asymmetric retaliation, more threats to energy routes, and a continued effort by the new leadership to prove it can impose costs even under heavy attack.",
+    "current_events": "In his first public remarks as supreme leader, Mojtaba Khamenei vowed on March 13 to keep fighting and threatened further attacks on Gulf states and U.S. bases, according to AP reporting. Iran is still using the Gulf energy system itself as a pressure point, with shipping disruptions and attacks on regional infrastructure feeding the sharp rise in oil prices. The wartime logic is clear: Tehran wants to show that even under bombardment it can still expand the cost of the war well beyond its borders.",
     "alliances": "Iran's regional network still matters, especially Hezbollah and the Houthis, but partners are operating under heavy military pressure. Russia and China remain more useful diplomatically than militarily.",
-    "next_actions": "The most important indicators are whether Tehran presses the Hormuz crisis further, whether proxy groups intensify operations, and whether the new supreme leader can centralize wartime control quickly.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "next_actions": "The most important indicators are whether Tehran presses the Hormuz crisis further, whether proxy groups intensify operations, and whether the new supreme leader can translate defiant rhetoric into centralized wartime control.",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 3,
     "briefing_note": "Iran is under direct wartime pressure and trying to prove its new leadership can still retaliate across the region.",
     "change_status": "escalated",
@@ -107,8 +107,8 @@
         "url": "https://apnews.com/article/f0b20dbffaea9351ae1e54183ffe53ff"
       },
       {
-        "label": "AP, Mar 11: Iran keeps pressure on oil infrastructure as energy crisis fears rise",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/iran-keeps-up-pressure-on-oil-infrastructure-as-concerns-of-global-energy-crisis-grow/articleshow/129439541.cms"
+        "label": "AP, Mar 13: Iran's supreme leader says the country will keep fighting",
+        "url": "https://apnews.com/article/90e17dbf7354d1e9428994ab2a036506"
       }
     ]
   },
@@ -125,7 +125,7 @@
     "current_events": "Saudi Arabia and Kuwait both intercepted Iranian drones on March 11, including aircraft headed toward the Shaybah oil field according to AP reporting. Riyadh is coordinating with Gulf partners on air defense and crisis messaging while trying to avoid becoming a full belligerent. The kingdom still wants Iran contained without turning Saudi territory into the war's main battlefield, but the risk is now more immediate than abstract.",
     "alliances": "Saudi Arabia is working through the GCC and leaning on U.S. defense support. Coordination with the UAE, Bahrain, and Kuwait is centered on shared air defense and infrastructure protection.",
     "next_actions": "Watch Shaybah, Ras Tanura, the East-West pipeline, and any renewed Iranian messaging toward Gulf energy assets. If interceptions fail or attacks intensify, Saudi diplomacy could give way to a more openly coercive regional posture.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 6,
     "briefing_note": "Saudi Arabia is not the main combatant, but its energy infrastructure is now under more immediate pressure.",
     "change_status": "escalated",
@@ -162,7 +162,7 @@
     "current_events": "Lebanon's parliament extended its own term because war conditions and mass displacement have made normal politics nearly impossible. Israeli airstrikes and ground activity in the south, new attacks on Hezbollah-linked financial structures in Beirut's southern suburbs, and retaliatory rocket fire have left the government trying to contain a conflict it does not fully control. Calls for U.S.-mediated diplomacy show how urgently Beirut wants an exit.",
     "alliances": "President Joseph Aoun and Prime Minister Nawaf Salam are aligned with international donors and Arab states that want a stronger Lebanese state. Hezbollah remains tied to Iran and is acting as both a militia and a political veto player.",
     "next_actions": "Watch whether Beirut can constrain Hezbollah more directly, whether Israel broadens its operations, and whether outside diplomacy can produce a ceasefire framework that the Lebanese state can enforce.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 4,
     "briefing_note": "Lebanon is becoming the clearest spillover arena of the Iran war, with the state losing room to maneuver.",
     "change_status": "escalated",
@@ -199,7 +199,7 @@
     "current_events": "Yemen's conflict remains split between the Houthi north and the internationally backed leadership council. Shipping companies have cautiously resumed some Red Sea traffic, but analysts continue to warn that the route is vulnerable if the Houthis decide to synchronize pressure with Iran's regional campaign. Internal fissures inside the anti-Houthi camp still limit any decisive anti-Houthi push on land.",
     "alliances": "The Houthis are aligned with Iran and frame their actions through the wider regional war. The presidential leadership council relies on Saudi, Emirati, and broader international backing but remains politically fragmented.",
     "next_actions": "Watch the Red Sea more than the Yemeni front line. A single successful maritime strike or coordinated anti-ship drone campaign would put freight rerouting and insurance costs back into crisis mode.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 10,
     "briefing_note": "The Red Sea is quieter than before, but a single Houthi strike could scramble shipping again.",
     "change_status": "holding",
@@ -237,7 +237,7 @@
     "current_events": "Russia's latest large-scale strikes on Ukraine again hit energy infrastructure and civilian areas, including Kharkiv. At the same time, Moscow has participated in another prisoner exchange sequence, signaling that talks remain active at the margins even though the war itself has not slowed. The Kremlin continues trying to outlast Western attention and exploit global distractions.",
     "alliances": "North Korea remains a material partner, especially on ammunition and military symbolism. China is still the more important strategic relationship, especially for sanctions resilience and diplomatic breathing room.",
     "next_actions": "Watch whether Russia uses the current diplomatic channel only for swaps and optics, or whether it tries to convert battlefield pressure into a new negotiating push. The tempo of long-range strikes remains the clearest indicator.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 6,
     "briefing_note": "Russia is still prosecuting the war aggressively while using prisoner swaps to imply diplomacy is alive.",
     "change_status": "holding",
@@ -274,7 +274,7 @@
     "current_events": "A recent Russian barrage killed civilians in Kharkiv and struck infrastructure across multiple regions. Ukrainian air defenses intercepted much of the incoming attack, but not enough to prevent serious damage. Kyiv is still participating in prisoner exchanges and limited talks while warning that Russia is using diplomacy tactically, not strategically.",
     "alliances": "The United States and European partners remain central to Ukraine's survival. Kyiv is also trying to convert its drone warfare expertise into additional support, including through security cooperation abroad.",
     "next_actions": "Watch the scale of Russian long-range attacks, the durability of Ukrainian air defenses, and whether ongoing talks yield anything beyond exchanges. The war remains defined by military pressure, not meaningful de-escalation.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 5,
     "briefing_note": "Ukraine is still under acute military pressure and at risk of getting crowded out by other crises.",
     "change_status": "escalated",
@@ -312,7 +312,7 @@
     "current_events": "Chinese leaders are pitching 2026 as a potentially important year in relations with the United States while still increasing defense spending and stressing national security. Beijing appears to have temporarily reduced visible military activity around Taiwan ahead of anticipated leader-level diplomacy, but the underlying coercive posture has not changed. China continues to frame Taiwan as a core sovereignty issue and views military modernization as non-negotiable.",
     "alliances": "China's most important external relationship remains the United States, even in rivalry. Russia remains a strategic partner, but Beijing's broader goal is to avoid a coalition that hardens around it while preserving freedom of action around Taiwan.",
     "next_actions": "Watch whether summit diplomacy changes military signaling around Taiwan or only delays it. Defense budget follow-through, industrial policy, and renewed PLA activity will matter more than conciliatory language.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 8,
     "briefing_note": "China is moderating tone before summit diplomacy, not reducing its strategic pressure tools.",
     "change_status": "holding",
@@ -349,7 +349,7 @@
     "current_events": "Taiwanese leaders are describing ties with the United States as solid and are still working to secure major arms purchases and domestic defense upgrades. Chinese military flights around the island have dropped sharply in recent weeks, but analysts largely view that as a temporary diplomatic adjustment ahead of a Xi-Trump summit rather than a genuine relaxation of pressure. Taipei is treating the pause as breathing room, not reassurance.",
     "alliances": "The island's unofficial alliance with the United States remains central. Japan and other regional democracies matter politically, but Washington remains the decisive external security partner.",
     "next_actions": "Watch whether Taiwan's defense budget clears domestic political hurdles and whether Chinese air and naval pressure resumes after summit diplomacy. The strategic trajectory remains tense.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 9,
     "briefing_note": "Taipei is using a breathing spell to move money and politics toward defense readiness.",
     "change_status": "holding",
@@ -386,7 +386,7 @@
     "current_events": "Kim Jong Un has personally overseen inspections and missile tests tied to North Korea's new destroyer program, using them to underline his push toward a more survivable and more visibly modern nuclear force. Outside analysts still question how operational some of these systems are, but the direction of travel is clear: more maritime strike capability and more political theater around it.",
     "alliances": "North Korea's partnership with Russia gives it diplomatic cover and practical military value. China remains economically important, but Moscow is the more visible wartime partner.",
     "next_actions": "Watch for further sea-based missile testing, submarine announcements, and messaging timed to U.S., South Korean, or Japanese activity. The danger is less immediate war than steady capability growth and miscalculation.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 12,
     "briefing_note": "North Korea is still advancing its military theater even without a live shooting crisis in its own theater.",
     "change_status": "holding",
@@ -417,7 +417,7 @@
     "current_events": "AP reported on March 11 that a drone strike hit a school and medical center in southern Sudan, killing 17 people, most of them schoolgirls. That attack sits on top of already dire UN findings around El Fasher, where investigators have described genocidal patterns against non-Arab communities. Sudan remains trapped between military escalation and a collapsed civilian protection environment.",
     "alliances": "Army chief Abdel Fattah al-Burhan and the SAF retain backing from states that fear RSF dominance, while the RSF benefits from external logistical and political networks that keep it viable despite global condemnation.",
     "next_actions": "Watch Darfur, attacks on schools and medical infrastructure, aid access, and cross-border military involvement. The conflict is unlikely to cool without outside pressure on the war's foreign enablers, not just its internal commanders.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 11,
     "briefing_note": "Sudan remains one of the worst humanitarian and atrocity crises in the world, even when global attention goes elsewhere.",
     "change_status": "escalated",
@@ -446,20 +446,20 @@
     "theater": "Africa & Americas",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Eastern Congo stays unstable as M23 holds ground despite new outside pressure",
-    "tldr": "Peace frameworks remain weak on the ground: M23 is still entrenched, civilians are still displaced, and outside backing remains the key variable.",
+    "headline": "Eastern Congo stays unstable after a drone strike in Goma killed a UNICEF aid worker",
+    "tldr": "Peace frameworks remain weak on the ground: M23 is still entrenched, civilians are still displaced, and humanitarian workers are now again in the line of fire.",
     "alliances_short": "Kinshasa is leaning on U.S. and regional diplomacy while M23 still benefits from external support networks.",
-    "forecast": "Negotiations will matter only if pressure on M23's outside backers starts changing battlefield realities.",
-    "current_events": "Washington has now moved beyond rhetoric, sanctioning and restricting senior Rwandan figures for backing instability in eastern Congo. Even so, M23 remains the most powerful armed actor in parts of the east, and humanitarian conditions remain severe. The peace frameworks signed in late 2025 have not yet translated into restored state control.",
+    "forecast": "Negotiations will matter only if pressure on M23's outside backers starts changing battlefield realities and aid workers regain basic protection.",
+    "current_events": "A March 11 drone strike in Goma killed a UNICEF worker in a residence used by relief staff, according to AP reporting. That attack underlined how unstable eastern Congo remains even after sanctions, visa restrictions, and peace language directed at Rwanda-backed M23. Humanitarian conditions remain severe, and the frameworks signed in late 2025 still have not translated into restored state control.",
     "alliances": "President Felix Tshisekedi is leaning heavily on U.S.-brokered diplomacy and external pressure on Kigali. M23's durability still appears tied to outside backing and the weakness of Congolese state control in the east.",
-    "next_actions": "Watch whether sanctions and visa restrictions change behavior on the ground, and whether humanitarian access improves in rebel-held areas. A diplomatic framework without enforcement will not be enough.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "next_actions": "Watch whether sanctions and visa restrictions change behavior on the ground, whether humanitarian access improves in and around Goma, and whether armed actors keep escalating with drone strikes. A diplomatic framework without enforcement will not be enough.",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 13,
     "briefing_note": "Eastern Congo still turns on external support to M23 more than on peace language.",
-    "change_status": "holding",
+    "change_status": "escalated",
     "change_summary": [
-      "Washington has moved from rhetoric to sanctions and visa restrictions tied to Rwanda's role.",
-      "M23 still holds enough ground to keep civilians and aid access under pressure."
+      "A drone strike in Goma killed a UNICEF worker, showing aid personnel remain directly exposed to the fighting.",
+      "M23 still holds enough ground to keep civilians and humanitarian access under pressure."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -468,12 +468,12 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 2026: U.S. imposes visa restrictions over Rwanda support for M23",
-        "url": "https://apnews.com/article/e0a444a4bca0a3bb007b1e873627df04"
+        "label": "AP, Mar 11: Drone strike in Goma kills a UNICEF aid worker",
+        "url": "https://abcnews.go.com/International/wireStory/drone-strike-reportedly-kills-1-person-eastern-congo-130960021"
       },
       {
-        "label": "U.S. Treasury, Mar 2026: sanctions tied to eastern Congo instability",
-        "url": "https://home.treasury.gov/news/press-releases/sb0411"
+        "label": "AP, Mar 2026: U.S. imposes visa restrictions over Rwanda support for M23",
+        "url": "https://apnews.com/article/e0a444a4bca0a3bb007b1e873627df04"
       }
     ]
   },
@@ -490,7 +490,7 @@
     "current_events": "The acting government has released additional detainees and moved to restore diplomatic ties with the United States. Human rights groups still say hundreds of political prisoners remain behind bars, and skepticism is high about whether the transition will produce real accountability and competitive elections. For now, Caracas is trying to trade prisoner releases and diplomatic reopening for breathing room and investment.",
     "alliances": "Delcy Rodriguez is balancing between regime continuity and international normalization. Maria Corina Machado and the broader opposition remain politically important but are no longer dealing with the exact same power structure as under Maduro.",
     "next_actions": "Watch whether releases continue, whether international monitors gain better access, and whether the acting government sets a credible election path. Symbolic openings are not yet a durable transition.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 14,
     "briefing_note": "Venezuela is still fragile, but the immediate trajectory is more transitional than explosive.",
     "change_status": "improving",
@@ -521,19 +521,19 @@
     "theater": "Africa & Americas",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Haiti moves toward elections while gangs still dominate the security picture",
-    "tldr": "Party registration is open, but gang control, displacement, and weak state capacity still threaten the entire transition.",
+    "headline": "Haiti draws record party registration for elections while gangs still dominate the security picture",
+    "tldr": "A record 280 political parties registered for Haiti's first election in a decade, but gang control, displacement, and weak state capacity still threaten the transition.",
     "alliances_short": "The interim government remains dependent on U.S. backing, Haitian police operations, and an underpowered international mission.",
-    "forecast": "Without a credible security plan for Port-au-Prince and key transport routes, the election timeline will remain highly fragile.",
-    "current_events": "Prime Minister Alix Didier Fils-Aime now leads alone after the presidential council dissolved. His government has opened party registration for what would be Haiti's first national vote in a decade, yet gangs still dominate most of Port-au-Prince and displacement remains at record levels. Human rights reporting on drone attacks and civilian harm underscores how desperate and improvised the security environment has become.",
+    "forecast": "Without a credible security plan for Port-au-Prince and key transport routes, the election timeline will remain highly fragile despite stronger political participation.",
+    "current_events": "AP reported on March 13 that a record 280 political parties registered by the March 12 deadline for Haiti's first general election in a decade. That surge shows real political demand for a way out of the crisis, but gangs still dominate most of Port-au-Prince and displacement remains at record levels. Human rights reporting on drone attacks and civilian harm underscores how desperate and improvised the security environment has become.",
     "alliances": "The Haitian government relies on U.S. political support and an international mission that has been too small and too slow. Domestic legitimacy remains thin because state reach remains weak.",
-    "next_actions": "Watch whether the government can secure the registration window, publish a workable election security plan, and reduce gang control over key transport corridors. Otherwise the electoral schedule will keep slipping.",
-    "last_updated": "2026-03-11T18:00:00Z",
+    "next_actions": "Watch whether the electoral council can certify parties credibly, whether the government publishes a workable election security plan, and whether gang control over key transport corridors eases at all. Otherwise the electoral schedule will keep slipping.",
+    "last_updated": "2026-03-13T18:00:00Z",
     "story_rank": 15,
     "briefing_note": "Haiti has an election calendar again, but the security situation still dominates everything that matters.",
     "change_status": "watch",
     "change_summary": [
-      "The government opened party registration for elections, but gang control still defines the operating environment.",
+      "A record number of parties registered for elections, showing political demand is outrunning security conditions.",
       "Civilian harm from emergency security tactics is becoming a second legitimacy problem."
     ],
     "impact_tags": [
@@ -544,8 +544,8 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 2026: Haiti opens registration for its first election in a decade",
-        "url": "https://apnews.com/article/86a6f681d62827d496e2d358940bd12f"
+        "label": "AP, Mar 13: Record 280 parties register for Haiti's first election in a decade",
+        "url": "https://apnews.com/article/870a26224ec31be5e664726fb7033d1c"
       },
       {
         "label": "AP, Mar 2026: HRW details civilian harm from Haitian police drone attacks",
