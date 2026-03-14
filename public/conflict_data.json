@@ -346,7 +346,7 @@
     "tldr": "Chinese air activity has eased for now, but Taipei is treating the pause as a tactical opening to accelerate weapons funding and readiness.",
     "alliances_short": "Taiwan's security still rests on U.S. backing, even as domestic politics shape the pace of defense reform.",
     "forecast": "The current lull looks temporary; the real test is whether Taiwan can turn political urgency into durable military capacity.",
-    "current_events": "Taiwanese leaders are describing ties with the United States as solid and are still working to secure major arms purchases and domestic defense upgrades. Chinese military flights around the island have dropped sharply in recent weeks, but analysts largely view that as a temporary diplomatic adjustment ahead of a Xi-Trump summit rather than a genuine relaxation of pressure. Taipei is treating the pause as breathing room, not reassurance.",
+    "current_events": "AP reported on March 13 that Chinese military flights around Taiwan had dropped sharply, including a seven-day stretch with no warplanes entering Taiwan's ADIZ. Taipei is treating the lull as tactical rather than reassuring, noting that Chinese naval activity remains steady and that Beijing may simply be shifting the shape of its pressure campaign ahead of summit diplomacy with Washington.",
     "alliances": "The island's unofficial alliance with the United States remains central. Japan and other regional democracies matter politically, but Washington remains the decisive external security partner.",
     "next_actions": "Watch whether Taiwan's defense budget clears domestic political hurdles and whether Chinese air and naval pressure resumes after summit diplomacy. The strategic trajectory remains tense.",
     "last_updated": "2026-03-14T01:21:39Z",
@@ -368,8 +368,8 @@
         "url": "https://apnews.com/article/c1f34ad69a12b9599f4a356abd3b31c4"
       },
       {
-        "label": "Reuters, Mar 2026: Chinese flights around Taiwan drop ahead of summitry",
-        "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/03/06/2003853356"
+        "label": "AP, Mar 13: What to know about the falloff in China's military flights around Taiwan",
+        "url": "https://apnews.com/article/b24b743955ab9544513c1de151e2b870"
       }
     ]
   },
@@ -379,28 +379,32 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "North Korea keeps widening its military signaling with naval missile tests",
-    "tldr": "Pyongyang is not in an active war, but it is using destroyer-linked missile tests and nuclear navy rhetoric to expand its deterrence profile.",
+    "headline": "North Korea fires about 10 missiles during allied drills, keeping military pressure high",
+    "tldr": "Pyongyang launched about 10 ballistic missiles toward the eastern sea as the U.S. and South Korea continued Freedom Shield drills, signaling it can still generate rapid military friction.",
     "alliances_short": "North Korea remains closely aligned with Moscow and openly hostile to the U.S.-South Korea-Japan security bloc.",
-    "forecast": "Expect more weapons demonstrations timed to regional diplomacy and allied military activity.",
-    "current_events": "Kim Jong Un has personally overseen inspections and missile tests tied to North Korea's new destroyer program, using them to underline his push toward a more survivable and more visibly modern nuclear force. Outside analysts still question how operational some of these systems are, but the direction of travel is clear: more maritime strike capability and more political theater around it.",
+    "forecast": "Expect more launches or naval-linked tests tied to allied drills, U.S. force posture changes, and any sign of resumed diplomacy.",
+    "current_events": "AP reported on March 14 that North Korea fired about 10 ballistic missiles from the Sunan area near Pyongyang, with the weapons flying roughly 350 kilometers into the eastern sea. The launch came during the U.S.-South Korea Freedom Shield exercise and after Pyongyang had already showcased cruise missile tests and warship-linked firing drills earlier in the week. The pattern points to a familiar playbook: answer allied exercises with repeated demonstrations of readiness and range.",
     "alliances": "North Korea's partnership with Russia gives it diplomatic cover and practical military value. China remains economically important, but Moscow is the more visible wartime partner.",
-    "next_actions": "Watch for further sea-based missile testing, submarine announcements, and messaging timed to U.S., South Korean, or Japanese activity. The danger is less immediate war than steady capability growth and miscalculation.",
+    "next_actions": "Watch for more missile launches during Freedom Shield, new naval firing demonstrations, and rhetoric tied to any U.S. redeployment of missile defense assets. The danger is still less immediate war than steady capability growth and miscalculation.",
     "last_updated": "2026-03-14T01:21:39Z",
     "story_rank": 12,
-    "briefing_note": "North Korea is still advancing its military theater even without a live shooting crisis in its own theater.",
-    "change_status": "holding",
+    "briefing_note": "North Korea has returned to overt missile signaling as allied drills continue nearby.",
+    "change_status": "watch",
     "change_summary": [
-      "Kim is widening the regime's signaling from ballistic missiles to warship-linked launch displays.",
-      "The message is capability growth, not diplomatic re-engagement."
+      "North Korea fired about 10 ballistic missiles during the current U.S.-South Korea exercise cycle.",
+      "This week's signaling now includes both cruise-missile and ballistic-missile demonstrations."
     ],
     "impact_tags": [
       "Military"
     ],
     "sources": [
       {
-        "label": "AP, Mar 5: Kim inspects new warship and pushes nuclear-armed navy claim",
-        "url": "https://www.yahoo.com/news/articles/north-korean-leader-kim-inspects-000002661.html"
+        "label": "AP, Mar 14: North Korea fires about 10 missiles toward sea in show of force",
+        "url": "https://apnews.com/article/44a03aff91a068f76b6dfd89023dd378"
+      },
+      {
+        "label": "AP, Mar 11: Kim watches cruise missile tests with his daughter",
+        "url": "https://apnews.com/article/a091960cc5f438b2313aae5e243c9c13"
       }
     ]
   },
@@ -446,20 +450,20 @@
     "theater": "Africa & Americas",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Eastern Congo stays unstable after a drone strike in Goma killed a UNICEF aid worker",
-    "tldr": "Peace frameworks remain weak on the ground: M23 is still entrenched, civilians are still displaced, and humanitarian workers are now again in the line of fire.",
+    "headline": "Eastern Congo's fragile ceasefire is under strain as drone strikes and clashes continue",
+    "tldr": "Recent drone strikes and clashes around Goma show that ceasefire language still is not protecting civilians or stabilizing the front against M23.",
     "alliances_short": "Kinshasa is leaning on U.S. and regional diplomacy while M23 still benefits from external support networks.",
-    "forecast": "Negotiations will matter only if pressure on M23's outside backers starts changing battlefield realities and aid workers regain basic protection.",
-    "current_events": "A March 11 drone strike in Goma killed a UNICEF worker in a residence used by relief staff, according to AP reporting. That attack underlined how unstable eastern Congo remains even after sanctions, visa restrictions, and peace language directed at Rwanda-backed M23. Humanitarian conditions remain severe, and the frameworks signed in late 2025 still have not translated into restored state control.",
+    "forecast": "Negotiations will matter only if the ceasefire holds on the ground, drone strikes ease, and outside pressure starts changing M23's military confidence.",
+    "current_events": "AP reported on March 13 that fresh drone strikes and clashes were threatening the region's fragile ceasefire, with both Congo's government and M23 accusing each other of violations. A French U.N. staff member was killed in a drone strike in Goma, reinforcing how exposed civilians and international personnel remain despite diplomatic efforts backed by Washington and Qatar. Eastern Congo is still being shaped more by battlefield coercion than by signed frameworks.",
     "alliances": "President Felix Tshisekedi is leaning heavily on U.S.-brokered diplomacy and external pressure on Kigali. M23's durability still appears tied to outside backing and the weakness of Congolese state control in the east.",
-    "next_actions": "Watch whether sanctions and visa restrictions change behavior on the ground, whether humanitarian access improves in and around Goma, and whether armed actors keep escalating with drone strikes. A diplomatic framework without enforcement will not be enough.",
+    "next_actions": "Watch whether ceasefire monitoring gains any credibility, whether humanitarian access around Goma improves, and whether drone strikes continue despite peace talks. A diplomatic framework without enforcement will not be enough.",
     "last_updated": "2026-03-14T01:21:39Z",
     "story_rank": 13,
     "briefing_note": "Eastern Congo still turns on external support to M23 more than on peace language.",
     "change_status": "escalated",
     "change_summary": [
-      "A drone strike in Goma killed a UNICEF worker, showing aid personnel remain directly exposed to the fighting.",
-      "M23 still holds enough ground to keep civilians and humanitarian access under pressure."
+      "Fresh drone strikes and clashes are now threatening the latest ceasefire effort directly.",
+      "U.N. personnel and civilians around Goma remain exposed despite active diplomacy."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -468,8 +472,8 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 11: Drone strike in Goma kills a UNICEF aid worker",
-        "url": "https://abcnews.go.com/International/wireStory/drone-strike-reportedly-kills-1-person-eastern-congo-130960021"
+        "label": "AP, Mar 13: Drone strikes and clashes in eastern Congo threaten peace efforts",
+        "url": "https://apnews.com/article/ca408e184f7da1e0ff31d2335fa5a576"
       },
       {
         "label": "AP, Mar 2026: U.S. imposes visa restrictions over Rwanda support for M23",
