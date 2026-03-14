@@ -358,5 +358,50 @@
       "Indo-Pacific": 5,
       "Africa & Americas": 5
     }
+  },
+  {
+    "id": "2026-03-14",
+    "label": "Mar 2026",
+    "date_range": "Mar 14, 2026",
+    "captured_at": "2026-03-14T22:19:06.585Z",
+    "headline": "Israel widens pressure on Iran and Hezbollah as the Gulf shipping crisis deepens",
+    "summary": "Israel is fighting Iran directly while trying to keep Lebanon from becoming a wider second war.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Eastern Europe",
+    "top_items": [
+      "Israel is fighting Iran directly while trying to keep Lebanon from becoming a wider second war.",
+      "Washington is trying to keep a regional war from becoming a full Gulf shipping shutdown.",
+      "Iran is under direct wartime pressure and trying to prove its new leadership can still retaliate across the region."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Israel widens pressure on Iran and Hezbollah as the Gulf shipping crisis deepens",
+        "note": "Israel is fighting Iran directly while trying to keep Lebanon from becoming a wider second war.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "USA",
+        "country": "United States",
+        "headline": "U.S. containment posture hardens as oil hits $100 and Gulf defenses stay under strain",
+        "note": "Washington is trying to keep a regional war from becoming a full Gulf shipping shutdown.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "Iran vows to keep fighting as the war drives oil above $100 and keeps Hormuz under pressure",
+        "note": "Iran is under direct wartime pressure and trying to prove its new leadership can still retaliate across the region.",
+        "change_status": "escalated"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 5,
+      "Eastern Europe": 5,
+      "Indo-Pacific": 5,
+      "Africa & Americas": 5
+    }
   }
 ]
