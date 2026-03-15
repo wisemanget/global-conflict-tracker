@@ -403,5 +403,50 @@
       "Indo-Pacific": 5,
       "Africa & Americas": 5
     }
+  },
+  {
+    "id": "2026-03-15",
+    "label": "Mar 2026",
+    "date_range": "Mar 15, 2026",
+    "captured_at": "2026-03-15T13:59:37.000Z",
+    "headline": "Israel keeps pressure on Iran and Hezbollah as the regional war grinds into a wider humanitarian and security crisis",
+    "summary": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Eastern Europe",
+    "top_items": [
+      "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+      "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
+      "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Israel keeps pressure on Iran and Hezbollah as the regional war grinds into a wider humanitarian and security crisis",
+        "note": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "USA",
+        "country": "United States",
+        "headline": "U.S. containment posture hardens as Gulf defenses absorb fresh Iranian missile and drone pressure",
+        "note": "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "Iran signals endurance and wider regional retaliation as energy and shipping disruption deepen",
+        "note": "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure.",
+        "change_status": "escalated"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 5,
+      "Eastern Europe": 5,
+      "Indo-Pacific": 5,
+      "Africa & Americas": 5
+    }
   }
 ]

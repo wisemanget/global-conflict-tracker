@@ -3,24 +3,24 @@
     {
       "name": "Donald Trump",
       "title": "President of the United States",
-      "tagline": "Trying to contain a widening war with Iran while promising U.S. strength and fast results.",
+      "tagline": "Trying to contain a widening Gulf war without letting U.S. protection duties become an open-ended commitment.",
       "domestic": "Divisive",
       "domestic_detail": "Supporters see decisive action; critics see strategic overreach and growing regional risk.",
       "global": "Controversial",
       "global_detail": "Allies depend on U.S. military power, but many also fear Washington is normalizing a larger regional war.",
       "role": "wildcard",
-      "bio": "Trump is balancing direct military involvement, domestic political messaging, and pressure from partners who want both protection and a diplomatic exit. His core challenge is proving control over a conflict that is still widening."
+      "bio": "Trump is balancing direct military backing for partners, economic pressure from disrupted oil flows, and demands for a ceasefire strategy. His core test is proving that U.S. containment can hold without becoming a deeper regional war."
     },
     {
       "name": "Marco Rubio",
       "title": "Secretary of State",
-      "tagline": "Managing crisis diplomacy with Gulf states, Israel, and uneasy partners across the region.",
+      "tagline": "Managing crisis diplomacy with Gulf states, Israel, and uneasy partners as fresh interceptions keep the war regional.",
       "domestic": "Popular",
       "domestic_detail": "He is viewed by many in Washington as a steadier public face of the administration's foreign policy.",
       "global": "Respected",
       "global_detail": "Regional governments are looking to the State Department for reassurance, coordination, and off-ramp diplomacy.",
       "role": "diplomat",
-      "bio": "Rubio's job is to keep allied governments aligned while preventing the war from producing a broader rupture in the Gulf, energy markets, and U.S. partnerships."
+      "bio": "Rubio's immediate job is to keep U.S. partners aligned on air defense, maritime security, and any ceasefire path while preventing the Gulf crisis from breaking wider."
     }
   ],
   "ISR": [
@@ -75,7 +75,7 @@
     {
       "name": "Mohammed bin Salman",
       "title": "Crown Prince and Prime Minister",
-      "tagline": "Trying to keep Saudi Arabia secure, solvent, and out of direct war while the Gulf absorbs Iranian pressure.",
+      "tagline": "Trying to keep Saudi Arabia secure, solvent, and out of direct war while repeated interceptions test Gulf defenses.",
       "domestic": "Popular",
       "domestic_detail": "Many Saudis see him as the indispensable manager of security and economic continuity under crisis.",
       "global": "Pragmatic",
@@ -86,7 +86,7 @@
     {
       "name": "Faisal bin Farhan",
       "title": "Foreign Minister",
-      "tagline": "Leading Saudi crisis diplomacy while keeping collective Gulf messaging coherent.",
+      "tagline": "Coordinating Saudi crisis diplomacy while Gulf states absorb fresh Iranian missile and drone pressure.",
       "domestic": "Popular",
       "domestic_detail": "He is seen as a credible steward of Saudi external messaging during a highly unstable period.",
       "global": "Respected",
@@ -182,7 +182,7 @@
     {
       "name": "Volodymyr Zelenskyy",
       "title": "President of Ukraine",
-      "tagline": "Trying to keep air defenses, aid, and diplomatic attention alive under relentless strike pressure.",
+      "tagline": "Trying to keep air defenses, aid, and diplomatic attention alive as the next talks round remains unsettled.",
       "domestic": "Popular",
       "domestic_detail": "He still embodies resistance for many Ukrainians, though fatigue and loss remain severe.",
       "global": "Respected",
@@ -206,7 +206,7 @@
     {
       "name": "Xi Jinping",
       "title": "President of China",
-      "tagline": "Pairing diplomatic calm with continued military modernization and an unchanged line on Taiwan.",
+      "tagline": "Pairing summit diplomacy with renewed military signaling around Taiwan and an unchanged line on sovereignty.",
       "domestic": "Strong",
       "domestic_detail": "Xi still dominates the political system, though economic weakness makes performance legitimacy more important.",
       "global": "Powerful",
@@ -230,7 +230,7 @@
     {
       "name": "Lai Ching-te",
       "title": "President of Taiwan",
-      "tagline": "Using a relative lull in Chinese air pressure to press for bigger, faster defense investments.",
+      "tagline": "Using a short-lived lull in Chinese pressure to argue for faster defense investment before the next spike in sorties.",
       "domestic": "Divisive",
       "domestic_detail": "Supporters see resolve; critics worry about cost, U.S. dependence, and confrontation with Beijing.",
       "global": "Respected",
@@ -241,7 +241,7 @@
     {
       "name": "Wellington Koo",
       "title": "Defense Minister",
-      "tagline": "Overseeing the budget fight, arms acquisition pipeline, and the push for more resilient air defense.",
+      "tagline": "Overseeing the budget fight and readiness push as Chinese aircraft numbers rise again near Taiwan.",
       "domestic": "Divisive",
       "domestic_detail": "He sits at the center of Taiwan's debate over how much urgency is enough.",
       "global": "Respected",
@@ -315,7 +315,7 @@
     {
       "name": "Delcy Rodriguez",
       "title": "Acting President of Venezuela",
-      "tagline": "Trying to steer a controlled transition by mixing prisoner releases with diplomatic reopening.",
+      "tagline": "Trying to steer a controlled transition by mixing limited openings with diplomatic normalization and regime continuity.",
       "domestic": "Divisive",
       "domestic_detail": "She still carries regime baggage, but some Venezuelans see the current phase as less closed than Maduro's rule.",
       "global": "Cautious engagement",
@@ -339,7 +339,7 @@
     {
       "name": "Alix Didier Fils-Aime",
       "title": "Prime Minister and interim leader of Haiti",
-      "tagline": "Carrying the electoral timetable and security burden alone after the presidential council dissolved.",
+      "tagline": "Carrying the electoral timetable and security burden while gangs still dominate the core threat picture.",
       "domestic": "Divisive",
       "domestic_detail": "Many Haitians want movement toward elections, but trust in interim authorities remains weak.",
       "global": "Supported",

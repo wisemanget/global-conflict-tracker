@@ -5,20 +5,20 @@
     "theater": "Middle East",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "U.S. containment posture hardens as oil hits $100 and Gulf defenses stay under strain",
-    "tldr": "Washington is backing Israeli operations while helping Gulf partners protect bases, energy sites, and shipping as the Hormuz crisis pushes oil above $100 a barrel.",
+    "headline": "U.S. containment posture hardens as Gulf defenses absorb fresh Iranian missile and drone pressure",
+    "tldr": "Washington is balancing military backing for Israel with urgent efforts to protect Gulf partners, bases, and shipping after another round of Iranian missile and drone attacks.",
     "alliances_short": "Israel remains the core military partner; Gulf states want U.S. protection and a controlled off-ramp.",
-    "forecast": "Expect more air defense deployments, emergency maritime routing, and economic stabilization measures as Washington tries to keep the Gulf crisis from becoming an open-ended war economy.",
-    "current_events": "U.S. military activity is now centered as much on protecting Gulf infrastructure and shipping as on backing Israeli operations. AP reported on March 13 that crude briefly hit $100 a barrel as Iran's new supreme leader vowed to keep fighting and Hormuz remained effectively shut. Washington is juggling force protection, shipping security, and measures to limit the global economic shock from the war.",
+    "forecast": "Expect more air and missile defense moves, maritime security coordination, and pressure for a ceasefire if Gulf oil and shipping disruptions deepen.",
+    "current_events": "AP reported on March 15 that Gulf Arab states intercepted another wave of Iranian missiles and drones as Tehran threatened to widen the war. For Washington, the crisis is now about deterring Iran, protecting partners, and limiting the economic fallout from disruptions around the Strait of Hormuz.",
     "alliances": "The U.S.-Israel security partnership is driving the current campaign. Saudi Arabia, the UAE, Bahrain, and Kuwait are relying on American air and missile defense support even as they push for de-escalation. NATO allies are watching for spillover risks rather than joining the war directly.",
-    "next_actions": "Watch for more U.S. naval protection around Hormuz, expanded economic emergency measures, and pressure on Gulf partners to hold a common line. The key question is whether Washington can protect shipping and stabilize prices without sliding into a larger regional campaign.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "next_actions": "Watch whether the U.S. adds more maritime escorts or missile defenses, and whether Washington can pair force protection with a credible diplomatic off-ramp.",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 2,
-    "briefing_note": "Washington is trying to keep a regional war from becoming a full Gulf shipping shutdown.",
+    "briefing_note": "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
     "change_status": "escalated",
     "change_summary": [
-      "U.S. force protection in the Gulf has become a daily operational concern.",
-      "Oil-price stabilization and Hormuz security are now central to American crisis management."
+      "Fresh Gulf interceptions show U.S.-linked force protection is still an active daily requirement.",
+      "Containment now depends as much on shielding partners and shipping as on backing Israeli strikes."
     ],
     "impact_tags": [
       "U.S. Policy",
@@ -28,12 +28,12 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 13: Crude hits $100 as Iran vows to keep fighting",
-        "url": "https://apnews.com/article/99a2316e9089b2ffa9eadd104e787591"
+        "label": "AP, Mar 15: Gulf Arab states intercept new missiles and drones as Iran threatens to widen the war",
+        "url": "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
       },
       {
-        "label": "AP, Mar 6: Gulf allies say U.S. left them exposed after Iran attacks",
-        "url": "https://apnews.com/article/69d5bc227e468f06e20e5ad069330c7d"
+        "label": "AP, Mar 13: Iran war disrupts energy supplies as Iran's new leader resolves to keep fighting",
+        "url": "https://apnews.com/article/90e17dbf7354d1e9428994ab2a036506"
       }
     ]
   },
@@ -43,20 +43,20 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Israel widens pressure on Iran and Hezbollah as the Gulf shipping crisis deepens",
-    "tldr": "Israel is sustaining strikes tied to the Iran war while intensifying attacks on Hezbollah-linked infrastructure in southern Lebanon and Beirut's southern suburbs.",
+    "headline": "Israel keeps pressure on Iran and Hezbollah as the regional war grinds into a wider humanitarian and security crisis",
+    "tldr": "Israel is sustaining strikes tied to the Iran war while continuing operations against Hezbollah-linked targets in Lebanon, with no clear diplomatic off-ramp yet in view.",
     "alliances_short": "Military coordination with Washington is tight, with quiet alignment from Gulf states against Iranian escalation.",
-    "forecast": "The main risk is a deeper Lebanon offensive or a heavier missile exchange with Iran and Hezbollah.",
-    "current_events": "Israeli strikes on Tehran and on Hezbollah-linked targets in Lebanon continued into March 11. AP reporting described fresh attacks on Al-Qard al-Hassan branches in Beirut's southern suburbs and more cross-border fire from Lebanon, underscoring that the northern front is now tightly linked to the direct war with Iran. Israeli leaders are presenting the campaign as a bid to break Iran's regional deterrent network before it can regroup.",
+    "forecast": "The main near-term risks are deeper strikes in Lebanon, heavier exchanges with Iran, and more pressure from partners over civilian harm.",
+    "current_events": "Israeli operations against Iran and Hezbollah-linked targets continued through mid-March as the regional war entered a third week. AP reporting on March 15 described further Iranian attacks on Gulf states and worsening humanitarian fallout in Lebanon, underscoring that Israel is now operating inside a conflict far larger than a single front.",
     "alliances": "The United States remains Israel's essential military and diplomatic backstop. Saudi and other Gulf states are not aligned publicly with Israeli operations, but they share the objective of containing Iranian regional power.",
-    "next_actions": "Expect Israel to keep balancing the Tehran campaign with efforts to blunt Hezbollah fire and avoid a war of attrition along the northern border. Civilian displacement in Lebanon and missile defense strain inside Israel remain the main warning signs.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "next_actions": "Watch whether Israel widens operations in Beirut's southern suburbs or shifts more assets back toward direct confrontation with Iran.",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 1,
-    "briefing_note": "Israel is fighting Iran directly while trying to keep Lebanon from becoming a wider second war.",
+    "briefing_note": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
     "change_status": "escalated",
     "change_summary": [
-      "Strikes on Hezbollah-linked financial and military targets in Lebanon continued alongside attacks tied to Iran.",
-      "Israel is balancing direct war pressure on Iran with a more active northern containment campaign."
+      "The regional war is extending Israel's campaign well beyond its original Gaza-centered frame.",
+      "Humanitarian pressure tied to Lebanon is rising alongside the direct confrontation with Iran."
     ],
     "impact_tags": [
       "Military",
@@ -65,12 +65,12 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 10: Lebanese parliament extends term as Israel intensifies attacks",
-        "url": "https://apnews.com/article/dcb94eb15145a3e9194f05727757822f"
+        "label": "AP, Mar 15: Gulf Arab states intercept new missiles and drones as Iran threatens to widen the war",
+        "url": "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
       },
       {
-        "label": "AP, Mar 8: New strikes hit Tehran as Israel vows more surprises",
-        "url": "https://apnews.com/article/d347fd6a03185f51d670bf4e7cbf5373"
+        "label": "AP, Mar 10: Lebanese parliament extends term as Israel intensifies attacks on Lebanon",
+        "url": "https://apnews.com/article/dcb94eb15145a3e9194f05727757822f"
       }
     ]
   },
@@ -80,20 +80,20 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Iran vows to keep fighting as the war drives oil above $100 and keeps Hormuz under pressure",
-    "tldr": "Mojtaba Khamenei's government is pairing defiant wartime messaging with continued pressure on Gulf shipping and energy infrastructure.",
+    "headline": "Iran signals endurance and wider regional retaliation as energy and shipping disruption deepen",
+    "tldr": "Tehran is pairing defiant wartime messaging with continued pressure on Gulf targets and energy routes in an effort to spread the costs of the war.",
     "alliances_short": "Iran still relies on Hezbollah, the Houthis, and other aligned militias, but wartime coordination is under strain.",
-    "forecast": "Expect more asymmetric retaliation, more threats to energy routes, and a continued effort by the new leadership to prove it can impose costs even under heavy attack.",
-    "current_events": "In his first public remarks as supreme leader, Mojtaba Khamenei vowed on March 13 to keep fighting and threatened further attacks on Gulf states and U.S. bases, according to AP reporting. Iran is still using the Gulf energy system itself as a pressure point, with shipping disruptions and attacks on regional infrastructure feeding the sharp rise in oil prices. The wartime logic is clear: Tehran wants to show that even under bombardment it can still expand the cost of the war well beyond its borders.",
+    "forecast": "Expect Iran to keep testing Gulf air defenses, threatening shipping, and using proxy leverage rather than seeking immediate de-escalation.",
+    "current_events": "AP reported on March 13 that Iran's new supreme leader vowed to keep fighting as oil hit $100 and the Strait of Hormuz remained under pressure. Two days later, Gulf states reported a fresh wave of Iranian missiles and drones, reinforcing that Tehran still sees regional escalation as a core lever of coercion.",
     "alliances": "Iran's regional network still matters, especially Hezbollah and the Houthis, but partners are operating under heavy military pressure. Russia and China remain more useful diplomatically than militarily.",
-    "next_actions": "The most important indicators are whether Tehran presses the Hormuz crisis further, whether proxy groups intensify operations, and whether the new supreme leader can translate defiant rhetoric into centralized wartime control.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "next_actions": "Watch whether Iran widens attacks on Gulf infrastructure, renews pressure through allied militias, or shifts toward more direct bargaining over a ceasefire.",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 3,
-    "briefing_note": "Iran is under direct wartime pressure and trying to prove its new leadership can still retaliate across the region.",
+    "briefing_note": "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure.",
     "change_status": "escalated",
     "change_summary": [
-      "Mojtaba Khamenei has formally taken over during active war conditions.",
-      "Iranian retaliation is now tied as much to Hormuz disruption and energy risk as to direct missile exchange."
+      "Fresh missile and drone launches show Tehran is still willing to widen the conflict beyond Israel.",
+      "Energy disruption and Hormuz pressure remain central to Iran's retaliation strategy."
     ],
     "impact_tags": [
       "Military",
@@ -103,11 +103,11 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 9: Iran appoints Mojtaba Khamenei as supreme leader",
-        "url": "https://apnews.com/article/f0b20dbffaea9351ae1e54183ffe53ff"
+        "label": "AP, Mar 15: Gulf Arab states intercept new missiles and drones as Iran threatens to widen the war",
+        "url": "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
       },
       {
-        "label": "AP, Mar 13: Iran's supreme leader says the country will keep fighting",
+        "label": "AP, Mar 13: Iran war disrupts energy supplies as Iran's new leader resolves to keep fighting",
         "url": "https://apnews.com/article/90e17dbf7354d1e9428994ab2a036506"
       }
     ]
@@ -118,20 +118,20 @@
     "theater": "Middle East",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Saudi Arabia moves to high alert as Iranian drones and Hormuz disruption hit Gulf energy security",
-    "tldr": "Riyadh is not leading the war, but drone interceptions and the effective closure of Hormuz have pushed Saudi energy security into a much sharper risk phase.",
+    "headline": "Saudi Arabia stays on high alert as fresh Iranian barrages keep Gulf energy and transit routes exposed",
+    "tldr": "Riyadh is relying on interception, coalition coordination, and crisis diplomacy as Iranian attacks keep Gulf infrastructure and shipping at risk.",
     "alliances_short": "Saudi Arabia is coordinating closely with Gulf partners and relying on U.S. security guarantees while publicly urging restraint.",
-    "forecast": "The threat stays high as long as Gulf energy infrastructure and export routes remain plausible Iranian targets.",
-    "current_events": "Saudi Arabia and Kuwait both intercepted Iranian drones on March 11, including aircraft headed toward the Shaybah oil field according to AP reporting. Riyadh is coordinating with Gulf partners on air defense and crisis messaging while trying to avoid becoming a full belligerent. The kingdom still wants Iran contained without turning Saudi territory into the war's main battlefield, but the risk is now more immediate than abstract.",
+    "forecast": "Threat levels stay high while Iran keeps probing Gulf defenses and while oil export routes remain vulnerable.",
+    "current_events": "AP reported on March 15 that Gulf Arab states intercepted another round of Iranian missiles and drones. Saudi Arabia is still prioritizing infrastructure protection and coordination with partners over direct retaliation, but repeated interceptions show that Gulf territory remains exposed.",
     "alliances": "Saudi Arabia is working through the GCC and leaning on U.S. defense support. Coordination with the UAE, Bahrain, and Kuwait is centered on shared air defense and infrastructure protection.",
-    "next_actions": "Watch Shaybah, Ras Tanura, the East-West pipeline, and any renewed Iranian messaging toward Gulf energy assets. If interceptions fail or attacks intensify, Saudi diplomacy could give way to a more openly coercive regional posture.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "next_actions": "Watch energy sites, export terminals, and whether Riyadh shifts from defensive messaging toward a more openly coercive posture with partners.",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 6,
-    "briefing_note": "Saudi Arabia is not the main combatant, but its energy infrastructure is now under more immediate pressure.",
+    "briefing_note": "Saudi Arabia is still trying to stay out of direct war while its energy infrastructure sits inside Iran's threat envelope.",
     "change_status": "escalated",
     "change_summary": [
-      "Saudi and Kuwaiti intercepts show Gulf energy sites are now seeing more immediate wartime pressure.",
-      "Riyadh is still prioritizing interception and energy continuity over direct retaliation."
+      "New interceptions confirm Saudi Arabia remains inside the active retaliation zone.",
+      "Riyadh is still emphasizing defense continuity rather than direct military counterstrikes."
     ],
     "impact_tags": [
       "Energy",
@@ -140,12 +140,12 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 11: Saudi and Kuwaiti intercepts underscore direct Gulf energy risk",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/iran-keeps-up-pressure-on-oil-infrastructure-as-concerns-of-global-energy-crisis-grow/articleshow/129439541.cms"
+        "label": "AP, Mar 15: Gulf Arab states intercept new missiles and drones as Iran threatens to widen the war",
+        "url": "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
       },
       {
-        "label": "AP, Mar 9: Trump warns Iran not to disrupt global oil supplies",
-        "url": "https://apnews.com/article/b2aa51ef51d4b57103ffee0c95bc2ff7"
+        "label": "AP, Mar 13: Iran war disrupts energy supplies as Iran's new leader resolves to keep fighting",
+        "url": "https://apnews.com/article/90e17dbf7354d1e9428994ab2a036506"
       }
     ]
   },
@@ -155,20 +155,20 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Lebanon sinks deeper into the regional war as displacement and state strain worsen",
-    "tldr": "Israeli strikes and raids against Hezbollah are intensifying while Beirut struggles to preserve state authority and manage mass displacement.",
+    "headline": "Lebanon sinks deeper into the regional war as displacement and Israeli pressure on Hezbollah intensify",
+    "tldr": "Israeli strikes, Hezbollah exchanges, and mass displacement are pushing Lebanon further into a crisis the state still cannot fully control.",
     "alliances_short": "The Lebanese state wants separation from Hezbollah's war, but Hezbollah remains the most powerful armed actor on the ground.",
-    "forecast": "Lebanon faces simultaneous risks of a broader Israeli campaign and a deeper internal rupture between the state and Hezbollah.",
-    "current_events": "Lebanon's parliament extended its own term because war conditions and mass displacement have made normal politics nearly impossible. Israeli airstrikes and ground activity in the south, new attacks on Hezbollah-linked financial structures in Beirut's southern suburbs, and retaliatory rocket fire have left the government trying to contain a conflict it does not fully control. Calls for U.S.-mediated diplomacy show how urgently Beirut wants an exit.",
+    "forecast": "Lebanon faces simultaneous risks of broader Israeli operations, deeper state strain, and worsening humanitarian conditions for displaced civilians.",
+    "current_events": "AP reported on March 10 that Lebanon's parliament extended its term by two years because war conditions and displacement made normal politics untenable. By March 15, AP was describing a worsening humanitarian toll in Lebanon as the broader Iran war continued, reinforcing how exposed the country remains to decisions made elsewhere.",
     "alliances": "President Joseph Aoun and Prime Minister Nawaf Salam are aligned with international donors and Arab states that want a stronger Lebanese state. Hezbollah remains tied to Iran and is acting as both a militia and a political veto player.",
-    "next_actions": "Watch whether Beirut can constrain Hezbollah more directly, whether Israel broadens its operations, and whether outside diplomacy can produce a ceasefire framework that the Lebanese state can enforce.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "next_actions": "Watch whether Israeli operations in Beirut's southern suburbs intensify, whether displacement rises again, and whether outside diplomacy yields any credible ceasefire framework.",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 4,
-    "briefing_note": "Lebanon is becoming the clearest spillover arena of the Iran war, with the state losing room to maneuver.",
+    "briefing_note": "Lebanon is still the clearest spillover arena of the regional war, with the state losing room to manage events.",
     "change_status": "escalated",
     "change_summary": [
-      "Parliament delayed elections because war conditions made normal politics impossible.",
-      "Israeli pressure on Hezbollah finances, Beirut strongholds, and southern positions is adding to displacement and state strain."
+      "Parliament's term extension confirmed that war conditions are overriding normal Lebanese politics.",
+      "The humanitarian burden is worsening as Hezbollah-Israel fighting stays tied to the Iran conflict."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -177,12 +177,12 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 10: Lebanese parliament extends term by 2 years as attacks intensify",
+        "label": "AP, Mar 10: Lebanese parliament extends term by 2 years as Israel intensifies attacks on Lebanon",
         "url": "https://apnews.com/article/dcb94eb15145a3e9194f05727757822f"
       },
       {
-        "label": "AP, Mar 8: New strikes in Tehran coincide with fresh Israeli attacks in Lebanon",
-        "url": "https://apnews.com/article/d347fd6a03185f51d670bf4e7cbf5373"
+        "label": "AP, Mar 15: Gulf Arab states intercept new missiles and drones as Iran threatens to widen the war",
+        "url": "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
       }
     ]
   },
@@ -192,20 +192,20 @@
     "theater": "Middle East",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "The Red Sea is calmer, but the Houthis remain a fast-moving escalation risk",
-    "tldr": "Shipping conditions have improved from the peak crisis, but the Houthis can still reignite maritime disruption quickly if the wider Iran war expands.",
+    "headline": "Yemen stays a latent maritime escalation risk even as the Houthis hold back for now",
+    "tldr": "The Houthis have not yet joined the latest phase of the regional war directly, but their restraint looks tactical rather than durable.",
     "alliances_short": "The Houthis remain part of Iran's regional pressure network while Yemen's recognized government stays fragmented and Saudi-backed.",
-    "forecast": "A single successful anti-ship strike could push freight rerouting and insurance costs back into crisis territory.",
-    "current_events": "Yemen's conflict remains split between the Houthi north and the internationally backed leadership council. Shipping companies have cautiously resumed some Red Sea traffic, but analysts continue to warn that the route is vulnerable if the Houthis decide to synchronize pressure with Iran's regional campaign. Internal fissures inside the anti-Houthi camp still limit any decisive anti-Houthi push on land.",
+    "forecast": "A resumed Houthi attack on shipping or Gulf infrastructure would quickly reverse the current relative calm in the Red Sea.",
+    "current_events": "AP reported on March 15 that the Houthis have so far held back from direct involvement in the Iran war even as other Tehran-aligned groups became active. Analysts told AP that the group still retains drones, missiles, and the ability to target oil shipping if Iran decides broader pressure is needed.",
     "alliances": "The Houthis are aligned with Iran and frame their actions through the wider regional war. The presidential leadership council relies on Saudi, Emirati, and broader international backing but remains politically fragmented.",
-    "next_actions": "Watch the Red Sea more than the Yemeni front line. A single successful maritime strike or coordinated anti-ship drone campaign would put freight rerouting and insurance costs back into crisis mode.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "next_actions": "Watch for any trigger that gives the Houthis a local justification to re-enter the fight and for signs of renewed anti-ship operations.",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 10,
-    "briefing_note": "The Red Sea is quieter than before, but a single Houthi strike could scramble shipping again.",
+    "briefing_note": "The Red Sea is quieter than earlier peaks, but the Houthi risk is still best understood as delayed rather than gone.",
     "change_status": "holding",
     "change_summary": [
-      "Commercial traffic has improved, but shipping remains highly sensitive to renewed Houthi action.",
-      "The wider Iran war increases the chance of opportunistic maritime escalation."
+      "Houthi restraint is still notable, but AP reporting suggests it is tactical and reversible.",
+      "Maritime risk remains tied to whether Tehran decides it needs another pressure point."
     ],
     "impact_tags": [
       "Shipping",
@@ -215,12 +215,12 @@
     ],
     "sources": [
       {
-        "label": "AP, Jul 2025: UN extends scrutiny of Houthi attacks on Red Sea shipping",
-        "url": "https://apnews.com/article/50c0ba1045fc5c01838a780d05182c9e"
+        "label": "AP, Mar 15: As other Iran-allied groups are engaging in the Mideast war, Yemen's Houthis hold back",
+        "url": "https://apnews.com/article/1fc2a646d0cc42131385e7e61c409565"
       },
       {
-        "label": "AP, Mar 10: Gulf energy war raises regional maritime risk",
-        "url": "https://apnews.com/article/24c4b439d2c6a5b571fea90e4d1227d8"
+        "label": "AP, Jul 2025: UN extends scrutiny of Houthi attacks on Red Sea shipping",
+        "url": "https://apnews.com/article/50c0ba1045fc5c01838a780d05182c9e"
       }
     ]
   },
@@ -230,20 +230,20 @@
     "theater": "Eastern Europe",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Russia keeps up strike pressure while using swaps to signal limited diplomacy",
-    "tldr": "Moscow is still hitting Ukrainian cities and infrastructure at scale while keeping narrow diplomatic channels alive through prisoner exchanges.",
+    "headline": "Russia keeps up strike pressure while waiting to see whether delayed talks produce any advantage",
+    "tldr": "Moscow is still prosecuting the war through barrages and pressure on civilian systems while treating diplomacy as a tactical side channel.",
     "alliances_short": "Russia still leans on North Korean support and Chinese diplomatic cover, but neither has changed the war's core trajectory.",
-    "forecast": "Expect more long-range strikes paired with controlled diplomatic gestures that stop well short of real compromise.",
-    "current_events": "Russia's latest large-scale strikes on Ukraine again hit energy infrastructure and civilian areas, including Kharkiv. At the same time, Moscow has participated in another prisoner exchange sequence, signaling that talks remain active at the margins even though the war itself has not slowed. The Kremlin continues trying to outlast Western attention and exploit global distractions.",
+    "forecast": "Expect continued long-range strikes and narrow diplomatic engagement focused on leverage rather than compromise.",
+    "current_events": "AP reported on March 15 that Ukraine is still waiting on Washington and Moscow to set the next round of talks after delays tied partly to the Middle East war. The Kremlin continues to pair military pressure with just enough diplomatic motion to suggest negotiations remain possible on its terms.",
     "alliances": "North Korea remains a material partner, especially on ammunition and military symbolism. China is still the more important strategic relationship, especially for sanctions resilience and diplomatic breathing room.",
-    "next_actions": "Watch whether Russia uses the current diplomatic channel only for swaps and optics, or whether it tries to convert battlefield pressure into a new negotiating push. The tempo of long-range strikes remains the clearest indicator.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "next_actions": "Watch whether Russia uses the talks track to pursue an energy truce or simply to buy time while strikes continue.",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 6,
-    "briefing_note": "Russia is still prosecuting the war aggressively while using prisoner swaps to imply diplomacy is alive.",
+    "briefing_note": "Russia is still fighting an attritional war while treating diplomacy as an instrument of pressure, not de-escalation.",
     "change_status": "holding",
     "change_summary": [
-      "The Kremlin continues large strike packages on Ukrainian cities and energy systems.",
-      "Diplomatic movement is still tactical, centered on exchanges rather than settlement terms."
+      "Talks are still in play, but delays have not changed Moscow's military posture.",
+      "The Kremlin retains freedom to mix negotiation language with continued strike pressure."
     ],
     "impact_tags": [
       "Military",
@@ -252,12 +252,12 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 7: Russian barrage kills civilians in Kharkiv",
-        "url": "https://apnews.com/article/f555c370a7439a41393e74a6e603db43"
+        "label": "AP, Mar 15: Zelenskyy says Ukraine waiting on U.S. and Russia to set next round of talks",
+        "url": "https://apnews.com/article/da43331a99bfcfd80b14e64159c26d8f"
       },
       {
-        "label": "Reuters, Mar 2026: Russia and Ukraine swap 300 troops each",
-        "url": "https://www.investing.com/news/world-news/ukraine-returns-300-soldiers-in-second-day-of-pow-swaps-with-russia-zelenskiy-says-4546361"
+        "label": "AP, Mar 7: Russian barrage kills civilians in Kharkiv",
+        "url": "https://apnews.com/article/f555c370a7439a41393e74a6e603db43"
       }
     ]
   },
@@ -267,20 +267,20 @@
     "theater": "Eastern Europe",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Ukraine absorbs fresh Russian barrages while fighting to hold military and diplomatic momentum",
-    "tldr": "Recent strikes on Kharkiv and energy infrastructure show Ukraine remains under severe pressure even as Kyiv continues swaps and limited talks.",
+    "headline": "Ukraine tries to keep military and diplomatic momentum as talks stall and air-defense strain persists",
+    "tldr": "Kyiv remains under acute military pressure while trying to preserve outside support and push the next round of talks back onto the agenda.",
     "alliances_short": "Ukraine still depends on Western air defense, intelligence, financing, and political attention.",
-    "forecast": "Air defense strain, energy resilience, and sustaining foreign support remain the decisive variables in the near term.",
-    "current_events": "A recent Russian barrage killed civilians in Kharkiv and struck infrastructure across multiple regions. Ukrainian air defenses intercepted much of the incoming attack, but not enough to prevent serious damage. Kyiv is still participating in prisoner exchanges and limited talks while warning that Russia is using diplomacy tactically, not strategically.",
+    "forecast": "Air defense supply, energy resilience, and whether the talks track produces anything practical remain the decisive near-term variables.",
+    "current_events": "AP reported on March 15 that Ukraine is ready for the next round of U.S.- and Russia-linked talks but is still waiting on Washington and Moscow to settle logistics after delays. Kyiv is also warning that the war in the Middle East could crowd out the air-defense support and political attention it still needs to withstand Russian strikes.",
     "alliances": "The United States and European partners remain central to Ukraine's survival. Kyiv is also trying to convert its drone warfare expertise into additional support, including through security cooperation abroad.",
-    "next_actions": "Watch the scale of Russian long-range attacks, the durability of Ukrainian air defenses, and whether ongoing talks yield anything beyond exchanges. The war remains defined by military pressure, not meaningful de-escalation.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "next_actions": "Watch whether talks resume soon, whether Ukraine secures substitute air-defense support, and whether Russian barrage tempo rises while diplomacy is in limbo.",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 5,
-    "briefing_note": "Ukraine is still under acute military pressure and at risk of getting crowded out by other crises.",
-    "change_status": "escalated",
+    "briefing_note": "Ukraine is still under acute military pressure and now also risks losing attention to the Middle East war.",
+    "change_status": "holding",
     "change_summary": [
-      "Fresh Russian strikes hit Kharkiv and critical infrastructure again.",
-      "Kyiv is still combining defense, exchanges, and diplomacy without any real battlefield relief."
+      "Kyiv is still pushing for talks, but the process is delayed and offers no battlefield relief yet.",
+      "Ukrainian officials are openly worried that the Iran war could strain air-defense support."
     ],
     "impact_tags": [
       "Military",
@@ -290,12 +290,12 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 7: Russian barrage strikes Kharkiv and energy infrastructure",
-        "url": "https://apnews.com/article/f555c370a7439a41393e74a6e603db43"
+        "label": "AP, Mar 15: Zelenskyy says Ukraine waiting on U.S. and Russia to set next round of talks",
+        "url": "https://apnews.com/article/da43331a99bfcfd80b14e64159c26d8f"
       },
       {
-        "label": "Reuters, Mar 2026: Prisoner swap signals talks continue at the margins",
-        "url": "https://www.investing.com/news/world-news/ukraine-returns-300-soldiers-in-second-day-of-pow-swaps-with-russia-zelenskiy-says-4546361"
+        "label": "AP, Mar 7: Russian barrage strikes Kharkiv and energy infrastructure",
+        "url": "https://apnews.com/article/f555c370a7439a41393e74a6e603db43"
       }
     ]
   },
@@ -305,20 +305,20 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "China pairs summit diplomacy with steady military modernization",
-    "tldr": "Beijing is trying to stabilize ties with Washington while keeping pressure around Taiwan calibrated and defense spending on an upward track.",
+    "headline": "China pairs summit diplomacy with renewed military signaling around Taiwan",
+    "tldr": "Beijing is keeping a steadier diplomatic tone toward Washington while showing that the recent lull in pressure around Taiwan was temporary.",
     "alliances_short": "China wants a more stable U.S. relationship without conceding anything meaningful on Taiwan or military buildup.",
-    "forecast": "Expect softer diplomatic language than military reality; Beijing is moderating tone, not abandoning leverage.",
-    "current_events": "Chinese leaders are pitching 2026 as a potentially important year in relations with the United States while still increasing defense spending and stressing national security. Beijing appears to have temporarily reduced visible military activity around Taiwan ahead of anticipated leader-level diplomacy, but the underlying coercive posture has not changed. China continues to frame Taiwan as a core sovereignty issue and views military modernization as non-negotiable.",
+    "forecast": "Expect alternating cycles of reduced visible pressure and renewed sorties as China manages both coercion and summit optics.",
+    "current_events": "After a roughly two-week lull, Taiwan reported 26 Chinese military aircraft near the island on March 15, including 16 that entered its ADIZ, according to AP. The spike suggests Beijing is calibrating, not abandoning, its military pressure even as it keeps space open for leader-level diplomacy with Washington.",
     "alliances": "China's most important external relationship remains the United States, even in rivalry. Russia remains a strategic partner, but Beijing's broader goal is to avoid a coalition that hardens around it while preserving freedom of action around Taiwan.",
-    "next_actions": "Watch whether summit diplomacy changes military signaling around Taiwan or only delays it. Defense budget follow-through, industrial policy, and renewed PLA activity will matter more than conciliatory language.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "next_actions": "Watch whether China sustains the renewed air tempo, how summit preparations shape signaling, and whether Beijing couples military moves with a calmer diplomatic message.",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 8,
-    "briefing_note": "China is moderating tone before summit diplomacy, not reducing its strategic pressure tools.",
+    "briefing_note": "China is still moderating tone for diplomacy without meaningfully reducing pressure on Taiwan.",
     "change_status": "holding",
     "change_summary": [
-      "Beijing is signaling steadier diplomacy with Washington ahead of top-level talks.",
-      "Defense spending and long-term military modernization remain unchanged priorities."
+      "The recent lull in sorties ended, showing the pressure campaign was paused rather than softened.",
+      "Beijing still appears to be balancing military signaling with summit-era optics."
     ],
     "impact_tags": [
       "Markets",
@@ -327,12 +327,12 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 2026: China says 2026 could be a landmark year with the U.S.",
-        "url": "https://apnews.com/article/dafb8e2439eabf1d9a0d1328635dece5"
+        "label": "AP, Mar 15: After quieter weeks, Taiwan reports large-scale Chinese military aircraft presence near the island",
+        "url": "https://apnews.com/article/c7a1dfa0bd5fba6b74ccf430a422c178"
       },
       {
-        "label": "Reuters, Mar 2026: Chinese military flights around Taiwan fall sharply",
-        "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/03/06/2003853356"
+        "label": "AP, Mar 2026: China says 2026 could be a landmark year with the U.S.",
+        "url": "https://apnews.com/article/dafb8e2439eabf1d9a0d1328635dece5"
       }
     ]
   },
@@ -342,20 +342,20 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "Taiwan uses a brief lull in PLA activity to push defense spending higher",
-    "tldr": "Chinese air activity has eased for now, but Taipei is treating the pause as a tactical opening to accelerate weapons funding and readiness.",
+    "headline": "Taiwan sees the lull break as Chinese flights resume in force near the island",
+    "tldr": "Taipei is treating the recent pause in PLA activity as tactical after reporting another sizable burst of Chinese aircraft and naval presence on March 15.",
     "alliances_short": "Taiwan's security still rests on U.S. backing, even as domestic politics shape the pace of defense reform.",
-    "forecast": "The current lull looks temporary; the real test is whether Taiwan can turn political urgency into durable military capacity.",
-    "current_events": "AP reported on March 13 that Chinese military flights around Taiwan had dropped sharply, including a seven-day stretch with no warplanes entering Taiwan's ADIZ. Taipei is treating the lull as tactical rather than reassuring, noting that Chinese naval activity remains steady and that Beijing may simply be shifting the shape of its pressure campaign ahead of summit diplomacy with Washington.",
+    "forecast": "Taiwan still has a brief window to strengthen readiness, but the resumed tempo suggests Beijing can raise pressure again quickly.",
+    "current_events": "AP reported on March 15 that Taiwan detected 26 Chinese military aircraft and seven naval vessels near the island after nearly two quieter weeks. The resumption reinforces Taipei's view that pauses in PLA activity are tactical and that defense budgeting and readiness work cannot wait for a calmer political season.",
     "alliances": "The island's unofficial alliance with the United States remains central. Japan and other regional democracies matter politically, but Washington remains the decisive external security partner.",
-    "next_actions": "Watch whether Taiwan's defense budget clears domestic political hurdles and whether Chinese air and naval pressure resumes after summit diplomacy. The strategic trajectory remains tense.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "next_actions": "Watch whether the renewed sorties continue after summit diplomacy and whether Taiwan can turn political urgency into actual procurement and readiness gains.",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 9,
-    "briefing_note": "Taipei is using a breathing spell to move money and politics toward defense readiness.",
-    "change_status": "holding",
+    "briefing_note": "Taipei got only a brief breathing spell; the renewed PLA presence puts the deterrence debate back on a hotter footing.",
+    "change_status": "escalated",
     "change_summary": [
-      "Chinese air pressure has dipped, but Taiwan is treating that as tactical, not reassuring.",
-      "The main near-term question is whether defense spending clears domestic political hurdles."
+      "Taiwan's reported lull in Chinese flights ended with another sizable burst of aircraft and naval activity.",
+      "The renewed pressure strengthens arguments for faster defense spending and readiness measures."
     ],
     "impact_tags": [
       "Military",
@@ -364,8 +364,8 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 2026: Taiwan plans a $40 billion defense package",
-        "url": "https://apnews.com/article/c1f34ad69a12b9599f4a356abd3b31c4"
+        "label": "AP, Mar 15: After quieter weeks, Taiwan reports large-scale Chinese military aircraft presence near the island",
+        "url": "https://apnews.com/article/c7a1dfa0bd5fba6b74ccf430a422c178"
       },
       {
         "label": "AP, Mar 13: What to know about the falloff in China's military flights around Taiwan",
@@ -386,7 +386,7 @@
     "current_events": "AP reported on March 14 that North Korea fired about 10 ballistic missiles from the Sunan area near Pyongyang, with the weapons flying roughly 350 kilometers into the eastern sea. The launch came during the U.S.-South Korea Freedom Shield exercise and after Pyongyang had already showcased cruise missile tests and warship-linked firing drills earlier in the week. The pattern points to a familiar playbook: answer allied exercises with repeated demonstrations of readiness and range.",
     "alliances": "North Korea's partnership with Russia gives it diplomatic cover and practical military value. China remains economically important, but Moscow is the more visible wartime partner.",
     "next_actions": "Watch for more missile launches during Freedom Shield, new naval firing demonstrations, and rhetoric tied to any U.S. redeployment of missile defense assets. The danger is still less immediate war than steady capability growth and miscalculation.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 12,
     "briefing_note": "North Korea has returned to overt missile signaling as allied drills continue nearby.",
     "change_status": "watch",
@@ -421,7 +421,7 @@
     "current_events": "AP reported on March 11 that a drone strike hit a school and medical center in southern Sudan, killing 17 people, most of them schoolgirls. That attack sits on top of already dire UN findings around El Fasher, where investigators have described genocidal patterns against non-Arab communities. Sudan remains trapped between military escalation and a collapsed civilian protection environment.",
     "alliances": "Army chief Abdel Fattah al-Burhan and the SAF retain backing from states that fear RSF dominance, while the RSF benefits from external logistical and political networks that keep it viable despite global condemnation.",
     "next_actions": "Watch Darfur, attacks on schools and medical infrastructure, aid access, and cross-border military involvement. The conflict is unlikely to cool without outside pressure on the war's foreign enablers, not just its internal commanders.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 11,
     "briefing_note": "Sudan remains one of the worst humanitarian and atrocity crises in the world, even when global attention goes elsewhere.",
     "change_status": "escalated",
@@ -457,7 +457,7 @@
     "current_events": "AP reported on March 13 that fresh drone strikes and clashes were threatening the region's fragile ceasefire, with both Congo's government and M23 accusing each other of violations. A French U.N. staff member was killed in a drone strike in Goma, reinforcing how exposed civilians and international personnel remain despite diplomatic efforts backed by Washington and Qatar. Eastern Congo is still being shaped more by battlefield coercion than by signed frameworks.",
     "alliances": "President Felix Tshisekedi is leaning heavily on U.S.-brokered diplomacy and external pressure on Kigali. M23's durability still appears tied to outside backing and the weakness of Congolese state control in the east.",
     "next_actions": "Watch whether ceasefire monitoring gains any credibility, whether humanitarian access around Goma improves, and whether drone strikes continue despite peace talks. A diplomatic framework without enforcement will not be enough.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 13,
     "briefing_note": "Eastern Congo still turns on external support to M23 more than on peace language.",
     "change_status": "escalated",
@@ -494,7 +494,7 @@
     "current_events": "The acting government has released additional detainees and moved to restore diplomatic ties with the United States. Human rights groups still say hundreds of political prisoners remain behind bars, and skepticism is high about whether the transition will produce real accountability and competitive elections. For now, Caracas is trying to trade prisoner releases and diplomatic reopening for breathing room and investment.",
     "alliances": "Delcy Rodriguez is balancing between regime continuity and international normalization. Maria Corina Machado and the broader opposition remain politically important but are no longer dealing with the exact same power structure as under Maduro.",
     "next_actions": "Watch whether releases continue, whether international monitors gain better access, and whether the acting government sets a credible election path. Symbolic openings are not yet a durable transition.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 14,
     "briefing_note": "Venezuela is still fragile, but the immediate trajectory is more transitional than explosive.",
     "change_status": "improving",
@@ -532,7 +532,7 @@
     "current_events": "AP reported on March 13 that a record 280 political parties registered by the March 12 deadline for Haiti's first general election in a decade. That surge shows real political demand for a way out of the crisis, but gangs still dominate most of Port-au-Prince and displacement remains at record levels. Human rights reporting on drone attacks and civilian harm underscores how desperate and improvised the security environment has become.",
     "alliances": "The Haitian government relies on U.S. political support and an international mission that has been too small and too slow. Domestic legitimacy remains thin because state reach remains weak.",
     "next_actions": "Watch whether the electoral council can certify parties credibly, whether the government publishes a workable election security plan, and whether gang control over key transport corridors eases at all. Otherwise the electoral schedule will keep slipping.",
-    "last_updated": "2026-03-14T22:19:06.585Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 15,
     "briefing_note": "Haiti has an election calendar again, but the security situation still dominates everything that matters.",
     "change_status": "watch",

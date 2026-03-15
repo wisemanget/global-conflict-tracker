@@ -2,9 +2,9 @@
   "USA": {
     "icon": "security",
     "impacts": [
-      "Higher defense tempo across the Gulf means more strain on U.S. forces, bases, and missile defenses.",
-      "Energy price spikes and shipping disruptions can feed directly into inflation and market volatility.",
-      "If the war drags on, domestic politics will shift from deterrence messaging to questions about end-state and cost."
+      "Repeated Gulf interceptions mean U.S. force protection, air defense, and maritime security remain tightly linked.",
+      "Oil and shipping disruptions can feed directly into inflation, insurance costs, and wider market volatility.",
+      "If the war drags on, the domestic debate will keep shifting from deterrence toward cost, duration, and end-state."
     ]
   },
   "ISR": {
@@ -42,9 +42,9 @@
   "YEM": {
     "icon": "shipping",
     "impacts": [
-      "A fragile improvement in Red Sea shipping can reverse quickly if the Houthis resume coordinated attacks.",
-      "Yemen's internal divisions still block a stable anti-Houthi political center.",
-      "Regional war elsewhere gives the Houthis openings to raise their profile at relatively low cost."
+      "The current pause in Houthi action could reverse quickly if Tehran wants another pressure point on shipping.",
+      "Even a limited return to anti-ship attacks would ripple quickly through freight, insurance, and energy routing.",
+      "Yemen's internal fragmentation still blocks any stable political center capable of containing escalation on its own."
     ]
   },
   "RUS": {
@@ -59,24 +59,24 @@
     "icon": "security",
     "impacts": [
       "Air defense and energy resilience remain Ukraine's most immediate civilian survival issues.",
-      "Prisoner exchanges matter politically and emotionally, but they do not change the battlefield trend on their own.",
-      "Ukraine's drone expertise is becoming a diplomatic asset as well as a military one."
+      "Delays in talks matter because they prolong uncertainty without reducing Russian military pressure.",
+      "Competition with the Middle East for attention and interceptors could become a material strategic problem for Kyiv."
     ]
   },
   "CHN": {
     "icon": "trade",
     "impacts": [
-      "China's slower growth expectations raise the importance of stable external conditions and summit optics.",
-      "Defense spending increases confirm that military modernization remains a core political priority.",
-      "Any pause in pressure around Taiwan should be treated as tactical breathing room, not strategic moderation."
+      "China still wants summit stability with Washington, but renewed sorties show coercion around Taiwan remains active.",
+      "Military pressure that turns on and off can still wear down Taiwanese readiness and international confidence.",
+      "A steadier diplomatic tone should not be mistaken for a softer sovereignty or modernization agenda."
     ]
   },
   "TWN": {
     "icon": "security",
     "impacts": [
       "Budget fights in Taipei are now part of the deterrence story, not just domestic politics.",
-      "A short-term dip in PLA activity lowers immediate pressure but does not reduce long-term risk.",
-      "Arms delivery speed and readiness matter more than symbolic declarations of support."
+      "The end of the recent lull shows Taiwan may get only narrow windows to strengthen readiness.",
+      "Arms delivery speed, stockpiles, and resilient command systems matter more than symbolic declarations of support."
     ]
   },
   "PRK": {
