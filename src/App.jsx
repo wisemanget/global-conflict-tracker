@@ -105,52 +105,54 @@ export default function App() {
   const [expandedLeaderIndexes, setExpandedLeaderIndexes] = useState([]);
   const [expandedTimelineIndexes, setExpandedTimelineIndexes] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState("");
   const detailInnerRef = useRef(null);
+  const activeRef = useRef(true);
 
-  useEffect(() => {
-    let active = true;
+  async function loadData(isRefresh = false) {
+    const setter = isRefresh ? setRefreshing : setLoading;
+    try {
+      setter(true);
+      const [conflicts, history, leaders, timelines, impacts, connections] = await Promise.all([
+        fetchJson("/conflict_data.json"),
+        fetchJson("/history_snapshots.json"),
+        fetchJson("/leaders_data.json"),
+        fetchJson("/timelines_data.json"),
+        fetchJson("/impact_data.json"),
+        fetchJson("/connections_data.json"),
+      ]);
 
-    async function loadData() {
-      try {
-        setLoading(true);
-        const [conflicts, history, leaders, timelines, impacts, connections] = await Promise.all([
-          fetchJson("/conflict_data.json"),
-          fetchJson("/history_snapshots.json"),
-          fetchJson("/leaders_data.json"),
-          fetchJson("/timelines_data.json"),
-          fetchJson("/impact_data.json"),
-          fetchJson("/connections_data.json"),
-        ]);
+      if (!activeRef.current) {
+        return;
+      }
 
-        if (!active) {
-          return;
-        }
+      setConflictData(conflicts);
+      setHistorySnapshots(history);
+      setLeadersData(leaders);
+      setTimelinesData(timelines);
+      setImpactData(impacts);
+      setConnectionsData(connections);
+      setError("");
+    } catch (loadError) {
+      if (!activeRef.current) {
+        return;
+      }
 
-        setConflictData(conflicts);
-        setHistorySnapshots(history);
-        setLeadersData(leaders);
-        setTimelinesData(timelines);
-        setImpactData(impacts);
-        setConnectionsData(connections);
-        setError("");
-      } catch (loadError) {
-        if (!active) {
-          return;
-        }
-
-        setError(loadError.message || "Failed to load application data.");
-      } finally {
-        if (active) {
-          setLoading(false);
-        }
+      setError(loadError.message || "Failed to load application data.");
+    } finally {
+      if (activeRef.current) {
+        setter(false);
       }
     }
+  }
 
+  useEffect(() => {
+    activeRef.current = true;
     loadData();
 
     return () => {
-      active = false;
+      activeRef.current = false;
     };
   }, []);
 
@@ -375,6 +377,8 @@ export default function App() {
           activeCount={activeCount}
           criticalCount={criticalCount}
           timestamp={timestamp}
+          refreshing={refreshing}
+          onRefresh={() => loadData(true)}
         />
 
         <main className={`map-workspace ${viewMode === "map" ? "" : "hidden"}`}>

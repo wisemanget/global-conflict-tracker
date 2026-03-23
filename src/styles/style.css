@@ -272,6 +272,46 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   opacity: 1;
 }
 
+.refresh-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  transition: all var(--transition);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.refresh-btn:hover:not(:disabled) {
+  border-color: rgba(108,138,255,0.35);
+  background: rgba(108,138,255,0.12);
+  color: var(--color-text);
+}
+
+.refresh-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.refresh-btn svg {
+  flex-shrink: 0;
+  transition: transform 600ms linear;
+}
+
+.refresh-btn.refreshing svg {
+  animation: spinIcon 700ms linear infinite;
+}
+
+@keyframes spinIcon {
+  to { transform: rotate(360deg); }
+}
+
 
 /* ═══ MAIN ═══ */
 .main {
@@ -2288,11 +2328,12 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
 @media (max-width: 960px) {
   .main {
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(0, 1fr) minmax(360px, 55%);
+    grid-template-rows: minmax(0, 1fr) minmax(360px, 45vh);
   }
 
   .map-workspace {
     padding: var(--space-3);
+    overflow-y: auto;
   }
 
   .sidebar { border-left: none; border-top: 1px solid var(--color-border); }
@@ -2303,10 +2344,19 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   .glance-metric-row,
   .glance-lead-snapshot,
   .detail-snapshot-grid,
-  .detail-quick-strip,
-  .map-focus-rail {
+  .detail-quick-strip {
     grid-template-columns: 1fr;
   }
+
+  /* Focus rail becomes horizontally scrollable at tablet */
+  .map-focus-rail {
+    grid-template-columns: repeat(5, minmax(180px, 1fr));
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: var(--space-1);
+  }
+  .map-focus-rail::-webkit-scrollbar { display: none; }
 
   .primary-stage {
     overflow-y: auto;
@@ -2333,18 +2383,31 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
     width: 100%;
     justify-content: space-between;
   }
+
   .briefing-hero,
   .replay-grid,
   .theater-track-grid,
   .briefing-summary-list {
     grid-template-columns: 1fr;
   }
+
+  /* Toolbar scrolls horizontally on tablet instead of wrapping */
+  .map-focus-toolbar {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .map-focus-toolbar::-webkit-scrollbar { display: none; }
+  .map-shell-copy { display: none; }
 }
 
 @media (max-width: 600px) {
-  .header { padding: var(--space-2) var(--space-3); gap: var(--space-2); }
+  .header { padding: var(--space-2) var(--space-3); gap: var(--space-2); flex-wrap: wrap; }
   .stat-pill { display: none; }
   .last-updated-pill { font-size: 10px; padding: var(--space-1) var(--space-2); }
+  .refresh-btn-label { display: none; }
   .detail-panel { width: 100vw; }
   .map-legend { bottom: var(--space-2); left: var(--space-2); }
   .map-overlay-legend {
@@ -2371,7 +2434,6 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   .glance-change-top,
   .map-shell-header,
   .glance-panel-header,
-  .map-focus-top,
   .glance-briefing-controls,
   .map-shell-actions {
     flex-direction: column;
@@ -2390,8 +2452,8 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
     padding: var(--space-3);
   }
   .map-shell {
-    min-height: 380px;
-    height: 52vh;
+    min-height: 340px;
+    height: 48vh;
   }
   .glance-filter-row {
     gap: 6px;
@@ -2401,6 +2463,85 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   }
   .replay-stops {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ═══ EXTRA SMALL (≤480px) ═══ */
+@media (max-width: 480px) {
+  /* Header: show logo + view switcher only, stack right side below */
+  .header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    row-gap: var(--space-2);
+    align-items: center;
+    padding: var(--space-2) var(--space-3);
+  }
+
+  .header-left { grid-column: 1; grid-row: 1; }
+  .header-right { grid-column: 2; grid-row: 1; justify-content: flex-end; }
+  .header-center { grid-column: 1 / -1; grid-row: 2; width: 100%; justify-content: flex-start; }
+
+  .header-tagline { display: none; }
+
+  /* Keep view switcher full-width row */
+  .header-view-stack {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .view-switcher {
+    flex: 1;
+    display: flex;
+  }
+
+  .view-switch-btn { flex: 1; text-align: center; padding: 6px 4px; }
+
+  /* Map layout on very small phones */
+  .map-shell {
+    min-height: 300px;
+    height: 44vh;
+    padding: var(--space-2);
+    gap: var(--space-2);
+  }
+
+  .map-shell-header { display: none; }
+
+  .map-toolbar-stack { gap: var(--space-1); }
+
+  /* Focus rail: fixed-width cards, scroll horizontally */
+  .map-focus-rail {
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+  }
+
+  /* Sidebar filters: horizontal scroll instead of wrap */
+  .theater-filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .theater-filters::-webkit-scrollbar { display: none; }
+
+  .impact-chip-row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .impact-chip-row::-webkit-scrollbar { display: none; }
+
+  /* Detail panel full screen */
+  .detail-panel { width: 100vw; border-radius: 0; }
+
+  /* Briefing hero padding */
+  .briefing-hero { padding: var(--space-3); }
+
+  /* Glance metric row: 2 columns */
+  .glance-metric-row {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
