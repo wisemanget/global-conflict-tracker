@@ -5,20 +5,20 @@
     "theater": "Middle East",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险",
-    "tldr": "Latest reporting on United States is centered on \"再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险.\" A second fresh signal highlights \"« Παραγωγικές συνομιλίες με το Ιράν », ανακοίνωσε ο Τραμπ.\"",
+    "headline": "U.S. containment posture hardens as Gulf defenses absorb fresh Iranian missile and drone pressure",
+    "tldr": "Washington is balancing military backing for Israel with urgent efforts to protect Gulf partners, bases, and shipping after another round of Iranian missile and drone attacks.",
     "alliances_short": "Israel remains the core military partner; Gulf states want U.S. protection and a controlled off-ramp.",
     "forecast": "Expect more air and missile defense moves, maritime security coordination, and pressure for a ceasefire if Gulf oil and shipping disruptions deepen.",
-    "current_events": "Fresh source monitoring for United States points to News China Com Cn on Mar 23, 2026: 再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险; Dialogos Com Cy on Mar 23, 2026: « Παραγωγικές συνομιλίες με το Ιράν », ανακοίνωσε ο Τραμπ; Hnonline Sk on Mar 23, 2026: Európska komisia vyzýva členské štáty , aby sa chystali na zimu a začali plniť zásobníky plynu.",
+    "current_events": "AP reported on March 15 that Gulf Arab states intercepted another wave of Iranian missiles and drones as Tehran threatened to widen the war. For Washington, the crisis is now about deterring Iran, protecting partners, and limiting the economic fallout from disruptions around the Strait of Hormuz.",
     "alliances": "The U.S.-Israel security partnership is driving the current campaign. Saudi Arabia, the UAE, Bahrain, and Kuwait are relying on American air and missile defense support even as they push for de-escalation. NATO allies are watching for spillover risks rather than joining the war directly.",
     "next_actions": "Watch whether the U.S. adds more maritime escorts or missile defenses, and whether Washington can pair force protection with a credible diplomatic off-ramp.",
-    "last_updated": "2026-03-23T14:45:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 2,
     "briefing_note": "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
-    "change_status": "watch",
+    "change_status": "escalated",
     "change_summary": [
-      "Watch signal: 再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险.",
-      "Also worth watching: « Παραγωγικές συνομιλίες με το Ιράν », ανακοίνωσε ο Τραμπ."
+      "Fresh Gulf interceptions show U.S.-linked force protection is still an active daily requirement.",
+      "Containment now depends as much on shielding partners and shipping as on backing Israeli strikes."
     ],
     "impact_tags": [
       "U.S. Policy",
@@ -28,20 +28,12 @@
     ],
     "sources": [
       {
-        "label": "News China Com Cn, Mar 23, 2026: 再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险",
-        "url": "http://news.china.com.cn/2026-03/23/content_118397819.shtml"
+        "label": "AP, Mar 15: Gulf Arab states intercept new missiles and drones as Iran threatens to widen the war",
+        "url": "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
       },
       {
-        "label": "Dialogos Com Cy, Mar 23, 2026: « Παραγωγικές συνομιλίες με το Ιράν », ανακοίνωσε ο Τραμπ",
-        "url": "https://dialogos.com.cy/paragogikes-synomilies-me-to-iran-anakoinose-o-tramp-diapseydei-i-techerani/"
-      },
-      {
-        "label": "Hnonline Sk, Mar 23, 2026: Európska komisia vyzýva členské štáty , aby sa chystali na zimu a začali plniť zásobníky plynu",
-        "url": "https://hnonline.sk/finweb/zahranicna-ekonomika/96271821-europska-komisia-vyzyva-clenske-staty-aby-sa-chystali-na-zimu-a-zacali-plnit-zasobniky-plynu"
-      },
-      {
-        "label": "Elimparcial Com, Mar 23, 2026: Cuando Dios manda , nadie se pone de acuerdo",
-        "url": "https://www.elimparcial.com/columnas/2026/03/23/cuando-dios-manda-nadie-se-pone-de-acuerdo/"
+        "label": "AP, Mar 13: Iran war disrupts energy supplies as Iran's new leader resolves to keep fighting",
+        "url": "https://apnews.com/article/90e17dbf7354d1e9428994ab2a036506"
       }
     ]
   },
@@ -51,20 +43,20 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte",
-    "tldr": "Latest reporting on Israel is centered on \"Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte.\" A second fresh signal highlights \"Tahiri i AAK - së bën kërkesë që Qeveria të vendosë...",
+    "headline": "Israel keeps pressure on Iran and Hezbollah as the regional war grinds into a wider humanitarian and security crisis",
+    "tldr": "Israel is sustaining strikes tied to the Iran war while continuing operations against Hezbollah-linked targets in Lebanon, with no clear diplomatic off-ramp yet in view.",
     "alliances_short": "Military coordination with Washington is tight, with quiet alignment from Gulf states against Iranian escalation.",
     "forecast": "The main near-term risks are deeper strikes in Lebanon, heavier exchanges with Iran, and more pressure from partners over civilian harm.",
-    "current_events": "Fresh source monitoring for Israel points to Zazoom It on Mar 23, 2026: Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte; Botasot Info on Mar 23, 2026: Tahiri i AAK - së bën kërkesë që Qeveria të vendosë masa urgjente për situatën ekonomike; Hnonline Sk on Mar 23, 2026: Európska komisia vyzýva členské štáty , aby sa chystali na zimu a začali plniť zásobníky plynu.",
+    "current_events": "Israeli operations against Iran and Hezbollah-linked targets continued through mid-March as the regional war entered a third week. AP reporting on March 15 described further Iranian attacks on Gulf states and worsening humanitarian fallout in Lebanon, underscoring that Israel is now operating inside a conflict far larger than a single front.",
     "alliances": "The United States remains Israel's essential military and diplomatic backstop. Saudi and other Gulf states are not aligned publicly with Israeli operations, but they share the objective of containing Iranian regional power.",
     "next_actions": "Watch whether Israel widens operations in Beirut's southern suburbs or shifts more assets back toward direct confrontation with Iran.",
-    "last_updated": "2026-03-23T14:45:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 1,
     "briefing_note": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
-    "change_status": "watch",
+    "change_status": "escalated",
     "change_summary": [
-      "Watch signal: Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte.",
-      "Also worth watching: Tahiri i AAK - së bën kërkesë që Qeveria të vendosë masa urgjente për situatën ekonomike."
+      "The regional war is extending Israel's campaign well beyond its original Gaza-centered frame.",
+      "Humanitarian pressure tied to Lebanon is rising alongside the direct confrontation with Iran."
     ],
     "impact_tags": [
       "Military",
@@ -73,20 +65,12 @@
     ],
     "sources": [
       {
-        "label": "Zazoom It, Mar 23, 2026: Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte",
-        "url": "https://www.zazoom.it/2026-03-23/il-papa-si-bombarda-ancora-nessuno-dovrebbe-aver-paura-che-dal-cielo-arrivi-la-morte/18877087/"
+        "label": "AP, Mar 15: Gulf Arab states intercept new missiles and drones as Iran threatens to widen the war",
+        "url": "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
       },
       {
-        "label": "Botasot Info, Mar 23, 2026: Tahiri i AAK - së bën kërkesë që Qeveria të vendosë masa urgjente për situatën ekonomike",
-        "url": "https://www.botasot.info/aktuale-lajme/2462689/tahiri-i-aak-se-ben-kerkese-qe-qeveria-te-vendose-masa-urgjente-per-situaten-ekonomike/"
-      },
-      {
-        "label": "Hnonline Sk, Mar 23, 2026: Európska komisia vyzýva členské štáty , aby sa chystali na zimu a začali plniť zásobníky plynu",
-        "url": "https://hnonline.sk/finweb/zahranicna-ekonomika/96271821-europska-komisia-vyzyva-clenske-staty-aby-sa-chystali-na-zimu-a-zacali-plnit-zasobniky-plynu"
-      },
-      {
-        "label": "Eleftherostypos Gr, Mar 23, 2026: Επίθεση Ισραήλ στον Σάντσεθ : Πώς νιώθεις που τα λόγια σου βρίσκονται πάνω σε αυτούς τους πυραύλους που σκοτώνουν ; [ βίντεο ]",
-        "url": "https://www.eleftherostypos.gr/diethni/epithesi-israil-ston-santseth-pos-niotheis-pou-ta-logia-sou-vriskontai-pano-se-aftous-tous-pyravlous-pou-skotonoun-vinteo"
+        "label": "AP, Mar 10: Lebanese parliament extends term as Israel intensifies attacks on Lebanon",
+        "url": "https://apnews.com/article/dcb94eb15145a3e9194f05727757822f"
       }
     ]
   },
@@ -96,20 +80,20 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险",
-    "tldr": "Latest reporting on Iran is centered on \"再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险.\" A second fresh signal highlights \"Európska komisia vyzýva členské štáty , aby sa chystali na zimu a začali plniť zásobník....\"",
+    "headline": "Iran signals endurance and wider regional retaliation as energy and shipping disruption deepen",
+    "tldr": "Tehran is pairing defiant wartime messaging with continued pressure on Gulf targets and energy routes in an effort to spread the costs of the war.",
     "alliances_short": "Iran still relies on Hezbollah, the Houthis, and other aligned militias, but wartime coordination is under strain.",
     "forecast": "Expect Iran to keep testing Gulf air defenses, threatening shipping, and using proxy leverage rather than seeking immediate de-escalation.",
-    "current_events": "Fresh source monitoring for Iran points to News China Com Cn on Mar 23, 2026: 再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险; Hnonline Sk on Mar 23, 2026: Európska komisia vyzýva členské štáty , aby sa chystali na zimu a začali plniť zásobníky plynu; Eleftherostypos Gr on Mar 23, 2026: Επίθεση Ισραήλ στον Σάντσεθ : Πώς νιώθεις που τα λόγια σου βρίσκονται πάνω σε αυτούς τους πυραύλους που σκοτώνουν ; [ βίντεο ].",
+    "current_events": "AP reported on March 13 that Iran's new supreme leader vowed to keep fighting as oil hit $100 and the Strait of Hormuz remained under pressure. Two days later, Gulf states reported a fresh wave of Iranian missiles and drones, reinforcing that Tehran still sees regional escalation as a core lever of coercion.",
     "alliances": "Iran's regional network still matters, especially Hezbollah and the Houthis, but partners are operating under heavy military pressure. Russia and China remain more useful diplomatically than militarily.",
     "next_actions": "Watch whether Iran widens attacks on Gulf infrastructure, renews pressure through allied militias, or shifts toward more direct bargaining over a ceasefire.",
-    "last_updated": "2026-03-23T14:45:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 3,
     "briefing_note": "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure.",
-    "change_status": "watch",
+    "change_status": "escalated",
     "change_summary": [
-      "Watch signal: 再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险.",
-      "Also worth watching: Európska komisia vyzýva členské štáty , aby sa chystali na zimu a začali plniť zásobníky plynu."
+      "Fresh missile and drone launches show Tehran is still willing to widen the conflict beyond Israel.",
+      "Energy disruption and Hormuz pressure remain central to Iran's retaliation strategy."
     ],
     "impact_tags": [
       "Military",
@@ -119,20 +103,12 @@
     ],
     "sources": [
       {
-        "label": "News China Com Cn, Mar 23, 2026: 再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险",
-        "url": "http://news.china.com.cn/2026-03/23/content_118397819.shtml"
+        "label": "AP, Mar 15: Gulf Arab states intercept new missiles and drones as Iran threatens to widen the war",
+        "url": "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
       },
       {
-        "label": "Hnonline Sk, Mar 23, 2026: Európska komisia vyzýva členské štáty , aby sa chystali na zimu a začali plniť zásobníky plynu",
-        "url": "https://hnonline.sk/finweb/zahranicna-ekonomika/96271821-europska-komisia-vyzyva-clenske-staty-aby-sa-chystali-na-zimu-a-zacali-plnit-zasobniky-plynu"
-      },
-      {
-        "label": "Eleftherostypos Gr, Mar 23, 2026: Επίθεση Ισραήλ στον Σάντσεθ : Πώς νιώθεις που τα λόγια σου βρίσκονται πάνω σε αυτούς τους πυραύλους που σκοτώνουν ; [ βίντεο ]",
-        "url": "https://www.eleftherostypos.gr/diethni/epithesi-israil-ston-santseth-pos-niotheis-pou-ta-logia-sou-vriskontai-pano-se-aftous-tous-pyravlous-pou-skotonoun-vinteo"
-      },
-      {
-        "label": "Elimparcial Com, Mar 23, 2026: Cuando Dios manda , nadie se pone de acuerdo",
-        "url": "https://www.elimparcial.com/columnas/2026/03/23/cuando-dios-manda-nadie-se-pone-de-acuerdo/"
+        "label": "AP, Mar 13: Iran war disrupts energy supplies as Iran's new leader resolves to keep fighting",
+        "url": "https://apnews.com/article/90e17dbf7354d1e9428994ab2a036506"
       }
     ]
   },
@@ -179,20 +155,20 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte",
-    "tldr": "Latest reporting on Lebanon is centered on \"Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte.\" A second fresh signal highlights \"BM Görev Gücü , Lübnan ın güneyindeki karargahına...",
+    "headline": "Lebanon sinks deeper into the regional war as displacement and Israeli pressure on Hezbollah intensify",
+    "tldr": "Israeli strikes, Hezbollah exchanges, and mass displacement are pushing Lebanon further into a crisis the state still cannot fully control.",
     "alliances_short": "The Lebanese state wants separation from Hezbollah's war, but Hezbollah remains the most powerful armed actor on the ground.",
     "forecast": "Lebanon faces simultaneous risks of broader Israeli operations, deeper state strain, and worsening humanitarian conditions for displaced civilians.",
-    "current_events": "Fresh source monitoring for Lebanon points to Zazoom It on Mar 23, 2026: Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte; Haberler Com on Mar 23, 2026: BM Görev Gücü , Lübnan ın güneyindeki karargahına roket ve mühimmat isabet ettiğini açıkladı; Hoy Com Do on Mar 23, 2026: Conflicto Irán - Israel hoy : resumen actualizado y claves del enfrentamiento.",
+    "current_events": "AP reported on March 10 that Lebanon's parliament extended its term by two years because war conditions and displacement made normal politics untenable. By March 15, AP was describing a worsening humanitarian toll in Lebanon as the broader Iran war continued, reinforcing how exposed the country remains to decisions made elsewhere.",
     "alliances": "President Joseph Aoun and Prime Minister Nawaf Salam are aligned with international donors and Arab states that want a stronger Lebanese state. Hezbollah remains tied to Iran and is acting as both a militia and a political veto player.",
     "next_actions": "Watch whether Israeli operations in Beirut's southern suburbs intensify, whether displacement rises again, and whether outside diplomacy yields any credible ceasefire framework.",
-    "last_updated": "2026-03-23T14:45:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 4,
     "briefing_note": "Lebanon is still the clearest spillover arena of the regional war, with the state losing room to manage events.",
-    "change_status": "watch",
+    "change_status": "escalated",
     "change_summary": [
-      "Watch signal: Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte.",
-      "Also worth watching: BM Görev Gücü , Lübnan ın güneyindeki karargahına roket ve mühimmat isabet ettiğini açıkladı."
+      "Parliament's term extension confirmed that war conditions are overriding normal Lebanese politics.",
+      "The humanitarian burden is worsening as Hezbollah-Israel fighting stays tied to the Iran conflict."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -201,20 +177,12 @@
     ],
     "sources": [
       {
-        "label": "Zazoom It, Mar 23, 2026: Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte",
-        "url": "https://www.zazoom.it/2026-03-23/il-papa-si-bombarda-ancora-nessuno-dovrebbe-aver-paura-che-dal-cielo-arrivi-la-morte/18877087/"
+        "label": "AP, Mar 10: Lebanese parliament extends term by 2 years as Israel intensifies attacks on Lebanon",
+        "url": "https://apnews.com/article/dcb94eb15145a3e9194f05727757822f"
       },
       {
-        "label": "Haberler Com, Mar 23, 2026: BM Görev Gücü , Lübnan ın güneyindeki karargahına roket ve mühimmat isabet ettiğini açıkladı",
-        "url": "https://www.haberler.com/guncel/bm-den-lubnan-daki-unifil-karargahina-saldiri-aciklamasi-19681910-haberi/"
-      },
-      {
-        "label": "Hoy Com Do, Mar 23, 2026: Conflicto Irán - Israel hoy : resumen actualizado y claves del enfrentamiento",
-        "url": "https://hoy.com.do/el-mundo/estados-unidos/conflicto-iran-israel-hoy-resumen-actualizado-claves-enfrentamiento_1080725.html"
-      },
-      {
-        "label": "Jordantimes Com, Mar 23, 2026: Israel launches new strikes on Tehran as Iran takes aim at Gulf sites",
-        "url": "https://jordantimes.com/news/region/israel-launches-new-strikes-on-tehran-as-iran-takes-aim-at-gulf-sites-1268500"
+        "label": "AP, Mar 15: Gulf Arab states intercept new missiles and drones as Iran threatens to widen the war",
+        "url": "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
       }
     ]
   },
@@ -224,20 +192,20 @@
     "theater": "Middle East",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "False flag attack : Iran denies claims it fired missiles at Diego Garcia",
-    "tldr": "Latest reporting on Yemen is centered on \"False flag attack : Iran denies claims it fired missiles at Diego Garcia.\" A second fresh signal highlights \"UPSC Current Affairs : From Hormuz to Malacca : India stakes in gl...",
+    "headline": "Yemen stays a latent maritime escalation risk even as the Houthis hold back for now",
+    "tldr": "The Houthis have not yet joined the latest phase of the regional war directly, but their restraint looks tactical rather than durable.",
     "alliances_short": "The Houthis remain part of Iran's regional pressure network while Yemen's recognized government stays fragmented and Saudi-backed.",
     "forecast": "A resumed Houthi attack on shipping or Gulf infrastructure would quickly reverse the current relative calm in the Red Sea.",
-    "current_events": "Fresh source monitoring for Yemen points to Yahoo Com on Mar 23, 2026: False flag attack : Iran denies claims it fired missiles at Diego Garcia; Indianexpress Com on Mar 23, 2026: UPSC Current Affairs : From Hormuz to Malacca : India stakes in global chokepoints; Ensonhaber Com on Mar 23, 2026: BAE : İrandan fırlatılan 7 balistik füze ile 16 İHA etkisiz hale getirildi.",
+    "current_events": "AP reported on March 15 that the Houthis have so far held back from direct involvement in the Iran war even as other Tehran-aligned groups became active. Analysts told AP that the group still retains drones, missiles, and the ability to target oil shipping if Iran decides broader pressure is needed.",
     "alliances": "The Houthis are aligned with Iran and frame their actions through the wider regional war. The presidential leadership council relies on Saudi, Emirati, and broader international backing but remains politically fragmented.",
     "next_actions": "Watch for any trigger that gives the Houthis a local justification to re-enter the fight and for signs of renewed anti-ship operations.",
-    "last_updated": "2026-03-23T14:30:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 10,
     "briefing_note": "The Red Sea is quieter than earlier peaks, but the Houthi risk is still best understood as delayed rather than gone.",
-    "change_status": "escalated",
+    "change_status": "holding",
     "change_summary": [
-      "Escalated signal: False flag attack : Iran denies claims it fired missiles at Diego Garcia.",
-      "Also worth watching: UPSC Current Affairs : From Hormuz to Malacca : India stakes in global chokepoints."
+      "Houthi restraint is still notable, but AP reporting suggests it is tactical and reversible.",
+      "Maritime risk remains tied to whether Tehran decides it needs another pressure point."
     ],
     "impact_tags": [
       "Shipping",
@@ -247,20 +215,12 @@
     ],
     "sources": [
       {
-        "label": "Yahoo Com, Mar 23, 2026: False flag attack : Iran denies claims it fired missiles at Diego Garcia",
-        "url": "https://www.yahoo.com/news/articles/false-flag-attack-iran-denies-130011614.html"
+        "label": "AP, Mar 15: As other Iran-allied groups are engaging in the Mideast war, Yemen's Houthis hold back",
+        "url": "https://apnews.com/article/1fc2a646d0cc42131385e7e61c409565"
       },
       {
-        "label": "Indianexpress Com, Mar 23, 2026: UPSC Current Affairs : From Hormuz to Malacca : India stakes in global chokepoints",
-        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/from-hormuz-to-malacca-indias-stakes-in-global-chokepoints-10596980/"
-      },
-      {
-        "label": "Ensonhaber Com, Mar 23, 2026: BAE : İrandan fırlatılan 7 balistik füze ile 16 İHA etkisiz hale getirildi",
-        "url": "https://www.ensonhaber.com/dunya/bae-irandan-firlatilan-7-balistik-fuze-ile-16-iha-etkisiz-hale-getirildi"
-      },
-      {
-        "label": "Kikar Co Il, Mar 23, 2026: הדיל הסעודי : החות ים בוחרים בין מיליארדים למלחמה",
-        "url": "https://www.kikar.co.il/arab-news/houthis-iran-silence-strategy"
+        "label": "AP, Jul 2025: UN extends scrutiny of Houthi attacks on Red Sea shipping",
+        "url": "https://apnews.com/article/50c0ba1045fc5c01838a780d05182c9e"
       }
     ]
   },
@@ -270,20 +230,20 @@
     "theater": "Eastern Europe",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Kremlin Silent After French Navy Detains Tanker Deyna in Mediterranean",
-    "tldr": "Latest reporting on Russia is centered on \"Kremlin Silent After French Navy Detains Tanker Deyna in Mediterranean.\" A second fresh signal highlights \"El OIEA prevé la peor crisis energética « en décadas ».\"",
+    "headline": "Russia keeps up strike pressure while waiting to see whether delayed talks produce any advantage",
+    "tldr": "Moscow is still prosecuting the war through barrages and pressure on civilian systems while treating diplomacy as a tactical side channel.",
     "alliances_short": "Russia still leans on North Korean support and Chinese diplomatic cover, but neither has changed the war's core trajectory.",
     "forecast": "Expect continued long-range strikes and narrow diplomatic engagement focused on leverage rather than compromise.",
-    "current_events": "Fresh source monitoring for Russia points to English Pravda Ru on Mar 23, 2026: Kremlin Silent After French Navy Detains Tanker Deyna in Mediterranean; Elcorreo Com on Mar 23, 2026: El OIEA prevé la peor crisis energética « en décadas »; Famigliacristiana It on Mar 23, 2026: Patriarca Filaret morto , chi era il protagonista dello scisma ortodosso tra Russia e Ucraina.",
+    "current_events": "AP reported on March 15 that Ukraine is still waiting on Washington and Moscow to set the next round of talks after delays tied partly to the Middle East war. The Kremlin continues to pair military pressure with just enough diplomatic motion to suggest negotiations remain possible on its terms.",
     "alliances": "North Korea remains a material partner, especially on ammunition and military symbolism. China is still the more important strategic relationship, especially for sanctions resilience and diplomatic breathing room.",
     "next_actions": "Watch whether Russia uses the talks track to pursue an energy truce or simply to buy time while strikes continue.",
-    "last_updated": "2026-03-23T14:45:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 6,
     "briefing_note": "Russia is still fighting an attritional war while treating diplomacy as an instrument of pressure, not de-escalation.",
-    "change_status": "escalated",
+    "change_status": "holding",
     "change_summary": [
-      "Escalated signal: Kremlin Silent After French Navy Detains Tanker Deyna in Mediterranean.",
-      "Also worth watching: El OIEA prevé la peor crisis energética « en décadas »."
+      "Talks are still in play, but delays have not changed Moscow's military posture.",
+      "The Kremlin retains freedom to mix negotiation language with continued strike pressure."
     ],
     "impact_tags": [
       "Military",
@@ -292,20 +252,12 @@
     ],
     "sources": [
       {
-        "label": "English Pravda Ru, Mar 23, 2026: Kremlin Silent After French Navy Detains Tanker Deyna in Mediterranean",
-        "url": "https://english.pravda.ru/news/world/166270-russia-france-tanker-deyna-seizure/"
+        "label": "AP, Mar 15: Zelenskyy says Ukraine waiting on U.S. and Russia to set next round of talks",
+        "url": "https://apnews.com/article/da43331a99bfcfd80b14e64159c26d8f"
       },
       {
-        "label": "Elcorreo Com, Mar 23, 2026: El OIEA prevé la peor crisis energética « en décadas »",
-        "url": "https://www.elcorreo.com/internacional/oriente-proximo/oiea-preve-peor-crisis-energetica-decadas-20260323125535-ntrc.html"
-      },
-      {
-        "label": "Famigliacristiana It, Mar 23, 2026: Patriarca Filaret morto , chi era il protagonista dello scisma ortodosso tra Russia e Ucraina",
-        "url": "https://www.famigliacristiana.it/attualita/mondo/patriarca-filaret-morto-scisma-ortodossi-russia-ucraina-m9vebh82"
-      },
-      {
-        "label": "Seekingalpha Com, Mar 23, 2026: Tracking The Sector Outperformers Of The Iran War",
-        "url": "https://seekingalpha.com/article/4884913-tracking-the-sector-outperformers-of-the-iran-war"
+        "label": "AP, Mar 7: Russian barrage kills civilians in Kharkiv",
+        "url": "https://apnews.com/article/f555c370a7439a41393e74a6e603db43"
       }
     ]
   },
@@ -315,20 +267,20 @@
     "theater": "Eastern Europe",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Kremlin Silent After French Navy Detains Tanker Deyna in Mediterranean",
-    "tldr": "Latest reporting on Ukraine is centered on \"Kremlin Silent After French Navy Detains Tanker Deyna in Mediterranean.\" A second fresh signal highlights \"Tracking The Sector Outperformers Of The Iran War.\"",
+    "headline": "Ukraine tries to keep military and diplomatic momentum as talks stall and air-defense strain persists",
+    "tldr": "Kyiv remains under acute military pressure while trying to preserve outside support and push the next round of talks back onto the agenda.",
     "alliances_short": "Ukraine still depends on Western air defense, intelligence, financing, and political attention.",
     "forecast": "Air defense supply, energy resilience, and whether the talks track produces anything practical remain the decisive near-term variables.",
-    "current_events": "Fresh source monitoring for Ukraine points to English Pravda Ru on Mar 23, 2026: Kremlin Silent After French Navy Detains Tanker Deyna in Mediterranean; Seekingalpha Com on Mar 23, 2026: Tracking The Sector Outperformers Of The Iran War; Lenta Ru on Mar 23, 2026: Раскрыт план властей ЕС дестабилизировать Венгрию перед выборами и обвинить Россию.",
+    "current_events": "AP reported on March 15 that Ukraine is ready for the next round of U.S.- and Russia-linked talks but is still waiting on Washington and Moscow to settle logistics after delays. Kyiv is also warning that the war in the Middle East could crowd out the air-defense support and political attention it still needs to withstand Russian strikes.",
     "alliances": "The United States and European partners remain central to Ukraine's survival. Kyiv is also trying to convert its drone warfare expertise into additional support, including through security cooperation abroad.",
     "next_actions": "Watch whether talks resume soon, whether Ukraine secures substitute air-defense support, and whether Russian barrage tempo rises while diplomacy is in limbo.",
-    "last_updated": "2026-03-23T14:45:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 5,
     "briefing_note": "Ukraine is still under acute military pressure and now also risks losing attention to the Middle East war.",
-    "change_status": "watch",
+    "change_status": "holding",
     "change_summary": [
-      "Watch signal: Kremlin Silent After French Navy Detains Tanker Deyna in Mediterranean.",
-      "Also worth watching: Tracking The Sector Outperformers Of The Iran War."
+      "Kyiv is still pushing for talks, but the process is delayed and offers no battlefield relief yet.",
+      "Ukrainian officials are openly worried that the Iran war could strain air-defense support."
     ],
     "impact_tags": [
       "Military",
@@ -338,20 +290,12 @@
     ],
     "sources": [
       {
-        "label": "English Pravda Ru, Mar 23, 2026: Kremlin Silent After French Navy Detains Tanker Deyna in Mediterranean",
-        "url": "https://english.pravda.ru/news/world/166270-russia-france-tanker-deyna-seizure/"
+        "label": "AP, Mar 15: Zelenskyy says Ukraine waiting on U.S. and Russia to set next round of talks",
+        "url": "https://apnews.com/article/da43331a99bfcfd80b14e64159c26d8f"
       },
       {
-        "label": "Seekingalpha Com, Mar 23, 2026: Tracking The Sector Outperformers Of The Iran War",
-        "url": "https://seekingalpha.com/article/4884913-tracking-the-sector-outperformers-of-the-iran-war"
-      },
-      {
-        "label": "Lenta Ru, Mar 23, 2026: Раскрыт план властей ЕС дестабилизировать Венгрию перед выборами и обвинить Россию",
-        "url": "https://lenta.ru/news/2026/03/23/raskryt-plan-vlastey-es-destabilizirovat-vengriyu-pered-vyborami-i-obvinit-rossiyu/"
-      },
-      {
-        "label": "Yahoo Com, Mar 23, 2026: Putin says Russian economy contracted in January",
-        "url": "https://www.yahoo.com/news/articles/putin-says-russian-economy-contracted-134430426.html"
+        "label": "AP, Mar 7: Russian barrage strikes Kharkiv and energy infrastructure",
+        "url": "https://apnews.com/article/f555c370a7439a41393e74a6e603db43"
       }
     ]
   },
@@ -361,20 +305,20 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "从 苹果首选 到 德企组团 ， 成都凭什么 ？ ｜成都发展",
-    "tldr": "Latest reporting on China is centered on \"从 苹果首选 到 德企组团 ， 成都凭什么 ？ ｜成都发展.\" A second fresh signal highlights \"台外長 ： 成立榮邦經貿辦事處 攜手民企實踐計劃 | 榮邦計畫 | 外交部 | 台灣.\"",
+    "headline": "China pairs summit diplomacy with renewed military signaling around Taiwan",
+    "tldr": "Beijing is keeping a steadier diplomatic tone toward Washington while showing that the recent lull in pressure around Taiwan was temporary.",
     "alliances_short": "China wants a more stable U.S. relationship without conceding anything meaningful on Taiwan or military buildup.",
     "forecast": "Expect alternating cycles of reduced visible pressure and renewed sorties as China manages both coercion and summit optics.",
-    "current_events": "Fresh source monitoring for China points to Baijiahao Baidu Com on Mar 23, 2026: 从 苹果首选 到 德企组团 ， 成都凭什么 ？ ｜成都发展; Epochtimes Com on Mar 23, 2026: 台外長 ： 成立榮邦經貿辦事處 攜手民企實踐計劃 | 榮邦計畫 | 外交部 | 台灣; Anlatilaninotesi Com Tr on Mar 23, 2026: Yapay zeka hedef listeleri oluşturuyor , otonom silahlar devrede - 23 . 03 . 2026 , Sputnik Türkiye.",
+    "current_events": "After a roughly two-week lull, Taiwan reported 26 Chinese military aircraft near the island on March 15, including 16 that entered its ADIZ, according to AP. The spike suggests Beijing is calibrating, not abandoning, its military pressure even as it keeps space open for leader-level diplomacy with Washington.",
     "alliances": "China's most important external relationship remains the United States, even in rivalry. Russia remains a strategic partner, but Beijing's broader goal is to avoid a coalition that hardens around it while preserving freedom of action around Taiwan.",
     "next_actions": "Watch whether China sustains the renewed air tempo, how summit preparations shape signaling, and whether Beijing couples military moves with a calmer diplomatic message.",
-    "last_updated": "2026-03-23T14:45:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 8,
     "briefing_note": "China is still moderating tone for diplomacy without meaningfully reducing pressure on Taiwan.",
-    "change_status": "watch",
+    "change_status": "holding",
     "change_summary": [
-      "Watch signal: 从 苹果首选 到 德企组团 ， 成都凭什么 ？ ｜成都发展.",
-      "Also worth watching: 台外長 ： 成立榮邦經貿辦事處 攜手民企實踐計劃 | 榮邦計畫 | 外交部 | 台灣."
+      "The recent lull in sorties ended, showing the pressure campaign was paused rather than softened.",
+      "Beijing still appears to be balancing military signaling with summit-era optics."
     ],
     "impact_tags": [
       "Markets",
@@ -383,20 +327,12 @@
     ],
     "sources": [
       {
-        "label": "Baijiahao Baidu Com, Mar 23, 2026: 从 苹果首选 到 德企组团 ， 成都凭什么 ？ ｜成都发展",
-        "url": "https://baijiahao.baidu.com/s?id=1860459810963563230"
+        "label": "AP, Mar 15: After quieter weeks, Taiwan reports large-scale Chinese military aircraft presence near the island",
+        "url": "https://apnews.com/article/c7a1dfa0bd5fba6b74ccf430a422c178"
       },
       {
-        "label": "Epochtimes Com, Mar 23, 2026: 台外長 ： 成立榮邦經貿辦事處 攜手民企實踐計劃 | 榮邦計畫 | 外交部 | 台灣",
-        "url": "https://www.epochtimes.com/b5/26/3/23/n14725267.htm"
-      },
-      {
-        "label": "Anlatilaninotesi Com Tr, Mar 23, 2026: Yapay zeka hedef listeleri oluşturuyor , otonom silahlar devrede - 23 . 03 . 2026 , Sputnik Türkiye",
-        "url": "https://anlatilaninotesi.com.tr/20260323/yapay-zeka-hedef-listeleri-olusturuyor-otonom-silahlar-devrede-1104435831.html"
-      },
-      {
-        "label": "Haitisun Com, Mar 23, 2026: Deepening the U . S .- Japan Alliance : U . S . Congress Introduces Historic Resolution Urging Japan to Legislate Ban on Dog and Cat Meat...",
-        "url": "http://www.haitisun.com/news/278938734/deepening-the-us-japan-alliance-us-congress-introduces-historic-resolution-urging-japan-to-legislate-ban-on-dog-and-cat-meat-consumption"
+        "label": "AP, Mar 2026: China says 2026 could be a landmark year with the U.S.",
+        "url": "https://apnews.com/article/dafb8e2439eabf1d9a0d1328635dece5"
       }
     ]
   },
@@ -443,40 +379,32 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "加油声震破天 ！ 杭州体育中考场地考今日开启",
-    "tldr": "Latest reporting on North Korea is centered on \"加油声震破天 ！ 杭州体育中考场地考今日开启.\" A second fresh signal highlights \"Easing Sanctions On Iranian Oil - A Pragmatic Move ?.\"",
+    "headline": "North Korea fires about 10 missiles during allied drills, keeping military pressure high",
+    "tldr": "Pyongyang launched about 10 ballistic missiles toward the eastern sea as the U.S. and South Korea continued Freedom Shield drills, signaling it can still generate rapid military friction.",
     "alliances_short": "North Korea remains closely aligned with Moscow and openly hostile to the U.S.-South Korea-Japan security bloc.",
     "forecast": "Expect more launches or naval-linked tests tied to allied drills, U.S. force posture changes, and any sign of resumed diplomacy.",
-    "current_events": "Fresh source monitoring for North Korea points to Ori Hangzhou Com Cn on Mar 23, 2026: 加油声震破天 ！ 杭州体育中考场地考今日开启; Ummid Com on Mar 23, 2026: Easing Sanctions On Iranian Oil - A Pragmatic Move ?; Aei Org on Mar 23, 2026: Insect - ifying Humanity : The Paul Ehrlich Legacy.",
+    "current_events": "AP reported on March 14 that North Korea fired about 10 ballistic missiles from the Sunan area near Pyongyang, with the weapons flying roughly 350 kilometers into the eastern sea. The launch came during the U.S.-South Korea Freedom Shield exercise and after Pyongyang had already showcased cruise missile tests and warship-linked firing drills earlier in the week. The pattern points to a familiar playbook: answer allied exercises with repeated demonstrations of readiness and range.",
     "alliances": "North Korea's partnership with Russia gives it diplomatic cover and practical military value. China remains economically important, but Moscow is the more visible wartime partner.",
     "next_actions": "Watch for more missile launches during Freedom Shield, new naval firing demonstrations, and rhetoric tied to any U.S. redeployment of missile defense assets. The danger is still less immediate war than steady capability growth and miscalculation.",
-    "last_updated": "2026-03-23T14:45:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 12,
     "briefing_note": "North Korea has returned to overt missile signaling as allied drills continue nearby.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: 加油声震破天 ！ 杭州体育中考场地考今日开启.",
-      "Also worth watching: Easing Sanctions On Iranian Oil - A Pragmatic Move ?."
+      "North Korea fired about 10 ballistic missiles during the current U.S.-South Korea exercise cycle.",
+      "This week's signaling now includes both cruise-missile and ballistic-missile demonstrations."
     ],
     "impact_tags": [
       "Military"
     ],
     "sources": [
       {
-        "label": "Ori Hangzhou Com Cn, Mar 23, 2026: 加油声震破天 ！ 杭州体育中考场地考今日开启",
-        "url": "https://ori.hangzhou.com.cn/ornews/content/2026-03/23/content_9195546.htm"
+        "label": "AP, Mar 14: North Korea fires about 10 missiles toward sea in show of force",
+        "url": "https://apnews.com/article/44a03aff91a068f76b6dfd89023dd378"
       },
       {
-        "label": "Ummid Com, Mar 23, 2026: Easing Sanctions On Iranian Oil - A Pragmatic Move ?",
-        "url": "https://www.ummid.com/news/2026/3/23/easing-sanctions-on-iranian-oil-a-pragmatic-move.html"
-      },
-      {
-        "label": "Aei Org, Mar 23, 2026: Insect - ifying Humanity : The Paul Ehrlich Legacy",
-        "url": "https://www.aei.org/op-eds/insect-ifying-humanity-the-paul-ehrlich-legacy/"
-      },
-      {
-        "label": "Punjabkesari In, Mar 23, 2026: पुतिन ने किम जोंग को तीसरी बार चुने जाने पर दी बधाई , कहा - रूस और उत्तर कोरिया की दोस्ती होगी और मजबूत - putin congratulates north korea...",
-        "url": "https://www.punjabkesari.in/international/news/putin-congratulates-north-korea-s-kim-on-reelection-voices-hope-for-closer-ties-2311730"
+        "label": "AP, Mar 11: Kim watches cruise missile tests with his daughter",
+        "url": "https://apnews.com/article/a091960cc5f438b2313aae5e243c9c13"
       }
     ]
   },
@@ -486,20 +414,20 @@
     "theater": "Africa & Americas",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Rama Duwaji , NYC first lady , faces new scrutiny over her art and social media",
-    "tldr": "Latest reporting on Sudan is centered on \"Rama Duwaji , NYC first lady , faces new scrutiny over her art and social media.\" A second fresh signal highlights \"美以对伊朗军事打击战事速览 （ 23日下午版 ）.\"",
+    "headline": "Sudan remains at catastrophic risk after a drone strike killed schoolgirls at a southern school complex",
+    "tldr": "UN findings on El Fasher and a deadly March 11 drone strike on a school and medical center underline how civilians remain exposed across Sudan's war.",
     "alliances_short": "Both the SAF and RSF still rely on foreign support networks, keeping outside actors central to the war.",
     "forecast": "Expect continued fragmentation, more attacks on civilian sites, and no serious settlement without pressure on the war's foreign enablers.",
-    "current_events": "Fresh source monitoring for Sudan points to Us Cnn Com on Mar 23, 2026: Rama Duwaji , NYC first lady , faces new scrutiny over her art and social media; News China Com Cn on Mar 23, 2026: 美以对伊朗军事打击战事速览 （ 23日下午版 ）; Baijiahao Baidu Com on Mar 23, 2026: 伊朗 ： 整体战局正发生扭转.",
+    "current_events": "AP reported on March 11 that a drone strike hit a school and medical center in southern Sudan, killing 17 people, most of them schoolgirls. That attack sits on top of already dire UN findings around El Fasher, where investigators have described genocidal patterns against non-Arab communities. Sudan remains trapped between military escalation and a collapsed civilian protection environment.",
     "alliances": "Army chief Abdel Fattah al-Burhan and the SAF retain backing from states that fear RSF dominance, while the RSF benefits from external logistical and political networks that keep it viable despite global condemnation.",
     "next_actions": "Watch Darfur, attacks on schools and medical infrastructure, aid access, and cross-border military involvement. The conflict is unlikely to cool without outside pressure on the war's foreign enablers, not just its internal commanders.",
-    "last_updated": "2026-03-23T14:45:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 11,
     "briefing_note": "Sudan remains one of the worst humanitarian and atrocity crises in the world, even when global attention goes elsewhere.",
-    "change_status": "watch",
+    "change_status": "escalated",
     "change_summary": [
-      "Watch signal: Rama Duwaji , NYC first lady , faces new scrutiny over her art and social media.",
-      "Also worth watching: 美以对伊朗军事打击战事速览 （ 23日下午版 ）."
+      "A March 11 drone strike on a school and medical site showed that civilian infrastructure remains directly in the line of fire.",
+      "Civilian protection conditions continue to deteriorate with no credible settlement in view."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -507,20 +435,12 @@
     ],
     "sources": [
       {
-        "label": "Us Cnn Com, Mar 23, 2026: Rama Duwaji , NYC first lady , faces new scrutiny over her art and social media",
-        "url": "https://us.cnn.com/2026/03/23/us/rama-duwaji-nycs-first-lady-faces-new-scrutiny-over-her-art-and-social-media"
+        "label": "AP, Mar 11: Drone strike kills mostly schoolgirls at a Sudan school and medical complex",
+        "url": "https://abcnews.go.com/International/wireStory/drone-strike-hits-school-medical-center-southern-sudan-121680373"
       },
       {
-        "label": "News China Com Cn, Mar 23, 2026: 美以对伊朗军事打击战事速览 （ 23日下午版 ）",
-        "url": "http://news.china.com.cn/2026-03/23/content_118397818.shtml"
-      },
-      {
-        "label": "Baijiahao Baidu Com, Mar 23, 2026: 伊朗 ： 整体战局正发生扭转",
-        "url": "https://baijiahao.baidu.com/s?id=1860444640432103665"
-      },
-      {
-        "label": "Edition Cnn Com, Mar 23, 2026: Rama Duwaji , NYC first lady , faces new scrutiny over her art and social media",
-        "url": "https://edition.cnn.com/2026/03/23/us/rama-duwaji-nycs-first-lady-faces-new-scrutiny-over-her-art-and-social-media"
+        "label": "AP, Mar 2026: UN findings sharpen alarm over El Fasher atrocities",
+        "url": "https://apnews.com/article/6399bc86352cecd459dd5dd77e5e11f2"
       }
     ]
   },
@@ -530,20 +450,20 @@
     "theater": "Africa & Americas",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Τα παιδιά του Κονγκό πεθαίνουν για τις ηλεκτρονικές συσκευές της Δύσης – Μια « ανεπίσημη » γενοκτονία",
-    "tldr": "Latest reporting on Democratic Republic of Congo is centered on \"Τα παιδιά του Κονγκό πεθαίνουν για τις ηλεκτρονικές συσκευές της Δύσης – Μια « ανεπίσημη » γενοκτονία.\" A second fresh signal highlights \"Ovaj čovjek up...",
+    "headline": "Eastern Congo's fragile ceasefire is under strain as drone strikes and clashes continue",
+    "tldr": "Recent drone strikes and clashes around Goma show that ceasefire language still is not protecting civilians or stabilizing the front against M23.",
     "alliances_short": "Kinshasa is leaning on U.S. and regional diplomacy while M23 still benefits from external support networks.",
     "forecast": "Negotiations will matter only if the ceasefire holds on the ground, drone strikes ease, and outside pressure starts changing M23's military confidence.",
-    "current_events": "Fresh source monitoring for Democratic Republic of Congo points to Newpost Gr on Mar 22, 2026: Τα παιδιά του Κονγκό πεθαίνουν για τις ηλεκτρονικές συσκευές της Δύσης – Μια « ανεπίσημη » γενοκτονία; Net Hr on Mar 22, 2026: Ovaj čovjek upravlja nezamislivom količinom novca , a evo što time financira : Bez riječi smo ...; Universityworldnews Com on Mar 22, 2026: Innovative African network takes accredited HE to refugees.",
+    "current_events": "AP reported on March 13 that fresh drone strikes and clashes were threatening the region's fragile ceasefire, with both Congo's government and M23 accusing each other of violations. A French U.N. staff member was killed in a drone strike in Goma, reinforcing how exposed civilians and international personnel remain despite diplomatic efforts backed by Washington and Qatar. Eastern Congo is still being shaped more by battlefield coercion than by signed frameworks.",
     "alliances": "President Felix Tshisekedi is leaning heavily on U.S.-brokered diplomacy and external pressure on Kigali. M23's durability still appears tied to outside backing and the weakness of Congolese state control in the east.",
     "next_actions": "Watch whether ceasefire monitoring gains any credibility, whether humanitarian access around Goma improves, and whether drone strikes continue despite peace talks. A diplomatic framework without enforcement will not be enough.",
-    "last_updated": "2026-03-22T18:15:00.000Z",
+    "last_updated": "2026-03-15T13:59:37.000Z",
     "story_rank": 13,
     "briefing_note": "Eastern Congo still turns on external support to M23 more than on peace language.",
-    "change_status": "watch",
+    "change_status": "escalated",
     "change_summary": [
-      "Watch signal: Τα παιδιά του Κονγκό πεθαίνουν για τις ηλεκτρονικές συσκευές της Δύσης – Μια « ανεπίσημη » γενοκτονία.",
-      "Also worth watching: Ovaj čovjek upravlja nezamislivom količinom novca , a evo što time financira : Bez riječi smo ...."
+      "Fresh drone strikes and clashes are now threatening the latest ceasefire effort directly.",
+      "U.N. personnel and civilians around Goma remain exposed despite active diplomacy."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -552,20 +472,12 @@
     ],
     "sources": [
       {
-        "label": "Newpost Gr, Mar 22, 2026: Τα παιδιά του Κονγκό πεθαίνουν για τις ηλεκτρονικές συσκευές της Δύσης – Μια « ανεπίσημη » γενοκτονία",
-        "url": "https://newpost.gr/eidiseis/ta-paidia-toy-kongko-pethainoyn-gia-tis-ilektronikes-syskeyes-tis-dysis-mia-anepisimi-genoktonia/"
+        "label": "AP, Mar 13: Drone strikes and clashes in eastern Congo threaten peace efforts",
+        "url": "https://apnews.com/article/ca408e184f7da1e0ff31d2335fa5a576"
       },
       {
-        "label": "Net Hr, Mar 22, 2026: Ovaj čovjek upravlja nezamislivom količinom novca , a evo što time financira : Bez riječi smo ...",
-        "url": "https://net.hr/danas/vijesti/filantrop-otkrio-koliko-bi-novca-trebalo-da-financijski-zbrinemo-sve-humanitarne-krize-cifra-je-sokantna-05fa7a25-2385-11f1-936f-9600040c8f8e"
-      },
-      {
-        "label": "Universityworldnews Com, Mar 22, 2026: Innovative African network takes accredited HE to refugees",
-        "url": "https://www.universityworldnews.com/post.php?story=20260302210824328"
-      },
-      {
-        "label": "Fr Allafrica Com, Mar 22, 2026: Congo - Kinshasa : Est de la RDC - Des populations traumatisées racontent lampleur des exactions des ADF",
-        "url": "https://fr.allafrica.com/stories/202603220004.html"
+        "label": "AP, Mar 2026: U.S. imposes visa restrictions over Rwanda support for M23",
+        "url": "https://apnews.com/article/e0a444a4bca0a3bb007b1e873627df04"
       }
     ]
   },
