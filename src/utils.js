@@ -1,5 +1,7 @@
 export function fetchJson(path) {
-  return fetch(path).then((response) => {
+  const separator = path.includes("?") ? "&" : "?";
+  const url = `${path}${separator}_t=${Date.now()}`;
+  return fetch(url, { cache: "no-store" }).then((response) => {
     if (!response.ok) {
       throw new Error(`Failed to load ${path}`);
     }
