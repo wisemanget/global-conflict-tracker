@@ -448,5 +448,50 @@
       "Indo-Pacific": 5,
       "Africa & Americas": 5
     }
+  },
+  {
+    "id": "2026-03-23",
+    "label": "Mar 2026",
+    "date_range": "Mar 23, 2026",
+    "captured_at": "2026-03-23T14:45:00.000Z",
+    "headline": "Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte",
+    "summary": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Eastern Europe",
+    "top_items": [
+      "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+      "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
+      "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Il Papa | Si bombarda ancora Nessuno dovrebbe aver paura che dal cielo arrivi la morte",
+        "note": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+        "change_status": "watch"
+      },
+      {
+        "iso": "USA",
+        "country": "United States",
+        "headline": "再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险",
+        "note": "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
+        "change_status": "watch"
+      },
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "再陷越战式泥潭 ？ 军事专家详解美对伊地面作战风险",
+        "note": "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure.",
+        "change_status": "watch"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 5,
+      "Eastern Europe": 5,
+      "Indo-Pacific": 5,
+      "Africa & Americas": 5
+    }
   }
 ]
