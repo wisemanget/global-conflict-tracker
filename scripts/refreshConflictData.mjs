@@ -228,6 +228,21 @@ function cleanHeadline(value) {
   return truncate((value || "").replace(/\s+/g, " ").trim(), 140);
 }
 
+function isLikelyReadableHeadline(value) {
+  if (!value) {
+    return false;
+  }
+
+  if (/[ÃÂåœž¢€™]/.test(value)) {
+    return false;
+  }
+
+  const asciiLetterMatches = value.match(/[A-Za-z]/g) || [];
+  const asciiLetterRatio = asciiLetterMatches.length / value.length;
+
+  return asciiLetterMatches.length >= 12 && asciiLetterRatio >= 0.55;
+}
+
 function describeSource(source) {
   return `${source.providerLabel} on ${formatSourceDate(source.publishedAt)}: ${source.title}`;
 }
@@ -319,7 +334,7 @@ function buildChangeSummary(conflict, sources, changeStatus) {
 function normalizeGdeltArticle(article) {
   const title = cleanHeadline(article?.title);
   const url = article?.url;
-  if (!title || !url) {
+  if (!title || !url || !isLikelyReadableHeadline(title)) {
     return null;
   }
 
@@ -360,7 +375,7 @@ function sortSourcesByDate(sources) {
 
 async function fetchGdeltSources(query) {
   const params = new URLSearchParams({
-    query,
+    query: `${query} sourcelang:english`,
     mode: "artlist",
     format: "json",
     maxrecords: "6",
