@@ -318,9 +318,26 @@ export default function App() {
     return mapFocusItems.map((conflict) => conflict.iso_code);
   }, [mapFocusItems, mapFocusMode]);
 
-  const timestamp = useMemo(() => {
-    return formatRefreshStatus(conflictData[0]?.last_updated);
+  const latestDatasetTimestamp = useMemo(() => {
+    if (!conflictData.length) {
+      return null;
+    }
+
+    const latest = conflictData.reduce((currentLatest, conflict) => {
+      const value = Date.parse(conflict.last_updated || "");
+      if (Number.isNaN(value)) {
+        return currentLatest;
+      }
+
+      return currentLatest === null || value > currentLatest ? value : currentLatest;
+    }, null);
+
+    return latest ? new Date(latest).toISOString() : null;
   }, [conflictData]);
+
+  const timestamp = useMemo(() => {
+    return formatRefreshStatus(latestDatasetTimestamp);
+  }, [latestDatasetTimestamp]);
 
   const activeCount = conflictData.length;
   const criticalCount = conflictData.filter((conflict) => conflict.threat_level >= 5).length;

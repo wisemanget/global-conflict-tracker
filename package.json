@@ -6,9 +6,10 @@
   "scripts": {
     "predev": "npm run archive:snapshot",
     "dev": "vite",
+    "refresh:sources": "node scripts/refreshConflictData.mjs",
     "refresh:stamp": "node scripts/stampLastUpdated.mjs",
     "archive:snapshot": "node scripts/archiveSnapshot.mjs",
-    "refresh:data": "npm run refresh:stamp && npm run build",
+    "refresh:data": "npm run refresh:sources && npm run build",
     "prebuild": "npm run archive:snapshot",
     "build": "vite build",
     "prepreview": "npm run archive:snapshot",

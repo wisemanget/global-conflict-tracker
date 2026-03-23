@@ -116,13 +116,14 @@ export default function Header({
           className={`refresh-btn ${refreshing ? "refreshing" : ""}`}
           onClick={onRefresh}
           disabled={refreshing}
-          aria-label="Refresh data"
+          aria-label="Reload current dataset"
+          title="Reloads the current published dataset from this app. It does not fetch new source data by itself."
         >
           <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8">
             <path d="M13.5 8A5.5 5.5 0 1 1 8 2.5c1.8 0 3.4.87 4.4 2.2" />
             <path d="M13.5 2.5v2.5H11" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-          <span className="refresh-btn-label">{refreshing ? "Refreshing…" : "Refresh"}</span>
+          <span className="refresh-btn-label">{refreshing ? "Reloading..." : "Reload data"}</span>
         </button>
       </div>
     </header>
