@@ -12,48 +12,123 @@ const MAX_RETRIES = 4;
 const countryConfigs = {
   USA: {
     gdeltQuery: '("United States" OR Washington OR Pentagon) AND (Iran OR Israel OR "Persian Gulf" OR Hormuz OR "Red Sea")',
+    mustInclude: [
+      ["united states", "u.s.", "u.s ", "washington", "pentagon", "american", "trump"],
+      ["iran", "israel", "persian gulf", "gulf", "hormuz", "red sea", "middle east"],
+    ],
+    boostTerms: ["strike", "missile", "drone", "war", "talks", "ceasefire", "shipping", "oil"],
   },
   ISR: {
     gdeltQuery: '(Israel OR Israeli) AND (Iran OR Hezbollah OR Lebanon OR Gaza)',
+    mustInclude: [
+      ["israel", "israeli"],
+      ["iran", "hezbollah", "lebanon", "gaza"],
+    ],
+    boostTerms: ["strike", "attack", "war", "ceasefire", "hostage", "missile", "airstrike"],
   },
   IRN: {
     gdeltQuery: '(Iran OR Iranian) AND (Israel OR Hormuz OR sanctions OR drone OR missile)',
+    mustInclude: [
+      ["iran", "iranian", "tehran"],
+      ["israel", "hormuz", "sanction", "drone", "missile", "gulf"],
+    ],
+    boostTerms: ["strike", "talks", "war", "oil", "nuclear", "retaliat"],
   },
   SAU: {
     gdeltQuery: '("Saudi Arabia" OR Riyadh) AND (Iran OR Yemen OR Houthis OR oil OR missile)',
+    mustInclude: [
+      ["saudi arabia", "riyadh", "saudi"],
+      ["iran", "yemen", "houthi", "houthis", "oil", "missile", "gulf"],
+    ],
+    boostTerms: ["shipping", "energy", "strike", "drone", "air defense"],
   },
   LBN: {
     gdeltQuery: '(Lebanon OR Lebanese) AND (Israel OR Hezbollah OR displacement OR strike)',
+    mustInclude: [
+      ["lebanon", "lebanese", "beirut"],
+      ["israel", "hezbollah", "displacement", "strike", "war"],
+    ],
+    boostTerms: ["ceasefire", "civilian", "humanitarian", "airstrike"],
   },
   YEM: {
     gdeltQuery: '(Yemen OR Houthi OR Houthis) AND ("Red Sea" OR shipping OR missile OR strike)',
+    mustInclude: [
+      ["yemen", "houthi", "houthis"],
+      ["red sea", "shipping", "missile", "strike", "iran"],
+    ],
+    boostTerms: ["ship", "vessel", "merchant", "drone", "port"],
   },
   RUS: {
     gdeltQuery: '(Russia OR Russian OR Kremlin) AND (Ukraine OR ceasefire OR missile OR drone)',
+    mustInclude: [
+      ["russia", "russian", "kremlin", "moscow"],
+      ["ukraine", "ceasefire", "missile", "drone", "strike", "talks"],
+    ],
+    boostTerms: ["putin", "frontline", "airstrike", "negotiat"],
   },
   UKR: {
     gdeltQuery: '(Ukraine OR Ukrainian OR Kyiv) AND (Russia OR ceasefire OR missile OR drone)',
+    mustInclude: [
+      ["ukraine", "ukrainian", "kyiv", "kyiv"],
+      ["russia", "ceasefire", "missile", "drone", "strike", "talks"],
+    ],
+    boostTerms: ["zelensky", "air defense", "frontline", "negotiat"],
   },
   CHN: {
     gdeltQuery: '(China OR Chinese OR Beijing) AND (Taiwan OR PLA OR "South China Sea")',
+    mustInclude: [
+      ["china", "chinese", "beijing"],
+      ["taiwan", "pla", "south china sea", "military", "drill"],
+    ],
+    boostTerms: ["sortie", "incursion", "navy", "aircraft", "exercise"],
   },
   TWN: {
     gdeltQuery: '(Taiwan OR Taipei) AND (China OR PLA OR incursion OR drills)',
+    mustInclude: [
+      ["taiwan", "taipei"],
+      ["china", "pla", "incursion", "drills", "aircraft", "military"],
+    ],
+    boostTerms: ["adiz", "sortie", "navy", "exercise"],
   },
   PRK: {
     gdeltQuery: '("North Korea" OR Pyongyang OR DPRK) AND (missile OR naval OR test OR South Korea)',
+    mustInclude: [
+      ["north korea", "pyongyang", "dprk", "kim jong"],
+      ["missile", "naval", "test", "south korea", "launch"],
+    ],
+    boostTerms: ["ballistic", "cruise", "exercise", "nuclear"],
   },
   SDN: {
     gdeltQuery: '(Sudan OR Darfur OR RSF OR "Rapid Support Forces") AND (displacement OR attack OR famine)',
+    mustInclude: [
+      ["sudan", "darfur", "rsf", "rapid support forces"],
+      ["displacement", "attack", "famine", "aid", "civilian", "drone"],
+    ],
+    boostTerms: ["el fasher", "khartoum", "school", "medical", "atrocity"],
   },
   COD: {
     gdeltQuery: '("Democratic Republic of the Congo" OR Congo OR M23 OR Goma) AND (clash OR displacement OR ceasefire)',
+    mustInclude: [
+      ["democratic republic of the congo", "congo", "goma", "m23"],
+      ["clash", "displacement", "ceasefire", "drone", "rebel"],
+    ],
+    boostTerms: ["rwanda", "peace talks", "civilian", "un"],
   },
   VEN: {
     gdeltQuery: '(Venezuela OR Caracas) AND (election OR transition OR sanctions OR opposition)',
+    mustInclude: [
+      ["venezuela", "caracas", "venezuelan"],
+      ["election", "transition", "sanction", "opposition", "maduro"],
+    ],
+    boostTerms: ["vote", "prisoner", "diplomatic", "oil"],
   },
   HTI: {
     gdeltQuery: '(Haiti OR Haitian OR "Port-au-Prince") AND (gang OR election OR violence OR displacement)',
+    mustInclude: [
+      ["haiti", "haitian", "port-au-prince"],
+      ["gang", "election", "violence", "displacement", "security"],
+    ],
+    boostTerms: ["police", "transition", "council", "kidnapping"],
   },
 };
 
@@ -228,6 +303,10 @@ function cleanHeadline(value) {
   return truncate((value || "").replace(/\s+/g, " ").trim(), 140);
 }
 
+function includesAny(haystack, terms = []) {
+  return terms.some((term) => haystack.includes(term));
+}
+
 function isLikelyReadableHeadline(value) {
   if (!value) {
     return false;
@@ -245,6 +324,74 @@ function isLikelyReadableHeadline(value) {
 
 function describeSource(source) {
   return `${source.providerLabel} on ${formatSourceDate(source.publishedAt)}: ${source.title}`;
+}
+
+function getRelevantSources(conflict, sources, config) {
+  const conflictTerms = [...escalationKeywords, ...improvementKeywords];
+
+  const scored = sources
+    .map((source) => {
+      const haystack = `${source.title} ${source.summary}`.toLowerCase();
+
+      for (const group of config.mustInclude || []) {
+        if (!includesAny(haystack, group)) {
+          return null;
+        }
+      }
+
+      let score = 0;
+      score += (config.mustInclude || []).length * 3;
+
+      for (const term of config.boostTerms || []) {
+        if (haystack.includes(term)) {
+          score += 1;
+        }
+      }
+
+      for (const keyword of conflictTerms) {
+        if (haystack.includes(keyword)) {
+          score += 0.5;
+        }
+      }
+
+      if (source.summary) {
+        score += 0.5;
+      }
+
+      return {
+        ...source,
+        relevanceScore: score,
+      };
+    })
+    .filter(Boolean)
+    .sort((left, right) => {
+      if (right.relevanceScore !== left.relevanceScore) {
+        return right.relevanceScore - left.relevanceScore;
+      }
+
+      const leftTime = parseTimestamp(left.publishedAt) || 0;
+      const rightTime = parseTimestamp(right.publishedAt) || 0;
+      return rightTime - leftTime;
+    });
+
+  return scored.slice(0, 4);
+}
+
+function getHeadlineSource(conflict, sources, config) {
+  const conflictTerms = [...(config.boostTerms || []), ...escalationKeywords, ...improvementKeywords];
+
+  return (
+    sources.find((source) => {
+      const titleHaystack = source.title.toLowerCase();
+      const firstGroup = config.mustInclude?.[0] || [];
+      const secondGroup = config.mustInclude?.[1] || [];
+
+      return (
+        includesAny(titleHaystack, firstGroup) &&
+        (includesAny(titleHaystack, secondGroup) || includesAny(titleHaystack, conflictTerms))
+      );
+    }) || null
+  );
 }
 
 function computeKeywordBalance(sources) {
@@ -423,7 +570,7 @@ async function refreshConflict(conflict) {
     gdeltResult.status === "fulfilled" ? gdeltResult.value : [],
   );
 
-  const liveSources = sortSourcesByDate(combinedSources).slice(0, 4);
+  const liveSources = getRelevantSources(conflict, combinedSources, config);
   if (!liveSources.length) {
     return {
       conflict,
@@ -433,16 +580,19 @@ async function refreshConflict(conflict) {
     };
   }
 
+  const headlineSource = getHeadlineSource(conflict, liveSources, config);
   const nextChangeStatus = deriveChangeStatus(conflict, liveSources);
 
   return {
     conflict: {
       ...conflict,
-      headline: liveSources[0]?.title || conflict.headline,
-      tldr: buildTldr(conflict, liveSources),
+      headline: headlineSource?.title || conflict.headline,
+      tldr: headlineSource ? buildTldr(conflict, liveSources) : conflict.tldr,
       current_events: buildCurrentEvents(conflict, liveSources),
       change_status: nextChangeStatus,
-      change_summary: buildChangeSummary(conflict, liveSources, nextChangeStatus),
+      change_summary: headlineSource
+        ? buildChangeSummary(conflict, liveSources, nextChangeStatus)
+        : conflict.change_summary,
       last_updated: determineLatestTimestamp(conflict, liveSources),
       sources: liveSources.map((source) => ({
         label: source.label,
