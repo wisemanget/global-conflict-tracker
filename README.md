@@ -21,3 +21,22 @@ The GitHub Action in `.github/workflows/refresh-data.yml` runs every 6 hours and
 - The in-app button reloads the latest published dataset; it does not call external APIs directly from the browser.
 - Source-backed refresh currently updates `headline`, `tldr`, `current_events`, `sources`, `change_status`, and `last_updated` in `public/conflict_data.json`.
 - The live refresh path is now approval-free and does not require any repository secrets.
+
+### Optional in-app live refresh trigger
+
+On Vercel, the repo now includes `api/refresh.js`, so the app can use `/api/refresh` by default.
+
+Configure these Vercel environment variables:
+
+- `GITHUB_ACTIONS_TOKEN`
+- `ALLOWED_ORIGIN`
+
+Optional:
+
+- `GITHUB_REPO_OWNER`
+- `GITHUB_REPO_NAME`
+- `GITHUB_REFRESH_WORKFLOW`
+- `GITHUB_REFRESH_COOLDOWN_MS`
+- `VITE_REFRESH_ENDPOINT`
+
+The app will `POST` to that endpoint, then poll the published dataset for a newer `last_updated` value. This backend is required because a static browser app cannot safely trigger GitHub or other refresh jobs on its own.

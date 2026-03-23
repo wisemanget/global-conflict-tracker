@@ -85,6 +85,29 @@ const overlayLegendItems = {
   ],
 };
 
+function getLatestTimestampFromConflicts(conflicts) {
+  if (!conflicts.length) {
+    return null;
+  }
+
+  const latest = conflicts.reduce((currentLatest, conflict) => {
+    const value = Date.parse(conflict.last_updated || "");
+    if (Number.isNaN(value)) {
+      return currentLatest;
+    }
+
+    return currentLatest === null || value > currentLatest ? value : currentLatest;
+  }, null);
+
+  return latest ? new Date(latest).toISOString() : null;
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    window.setTimeout(resolve, ms);
+  });
+}
+
 export default function App() {
   const [conflictData, setConflictData] = useState([]);
   const [historySnapshots, setHistorySnapshots] = useState([]);
@@ -106,9 +129,11 @@ export default function App() {
   const [expandedTimelineIndexes, setExpandedTimelineIndexes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
+  const [refreshFeedback, setRefreshFeedback] = useState("");
   const [error, setError] = useState("");
   const detailInnerRef = useRef(null);
   const activeRef = useRef(true);
+  const refreshEndpoint = import.meta.env.VITE_REFRESH_ENDPOINT?.trim() || "/api/refresh";
 
   async function loadData(isRefresh = false) {
     const setter = isRefresh ? setRefreshing : setLoading;
@@ -134,12 +159,21 @@ export default function App() {
       setImpactData(impacts);
       setConnectionsData(connections);
       setError("");
+      return {
+        conflicts,
+        history,
+        leaders,
+        timelines,
+        impacts,
+        connections,
+      };
     } catch (loadError) {
       if (!activeRef.current) {
         return;
       }
 
       setError(loadError.message || "Failed to load application data.");
+      return null;
     } finally {
       if (activeRef.current) {
         setter(false);
@@ -318,22 +352,10 @@ export default function App() {
     return mapFocusItems.map((conflict) => conflict.iso_code);
   }, [mapFocusItems, mapFocusMode]);
 
-  const latestDatasetTimestamp = useMemo(() => {
-    if (!conflictData.length) {
-      return null;
-    }
-
-    const latest = conflictData.reduce((currentLatest, conflict) => {
-      const value = Date.parse(conflict.last_updated || "");
-      if (Number.isNaN(value)) {
-        return currentLatest;
-      }
-
-      return currentLatest === null || value > currentLatest ? value : currentLatest;
-    }, null);
-
-    return latest ? new Date(latest).toISOString() : null;
-  }, [conflictData]);
+  const latestDatasetTimestamp = useMemo(
+    () => getLatestTimestampFromConflicts(conflictData),
+    [conflictData],
+  );
 
   const timestamp = useMemo(() => {
     return formatRefreshStatus(latestDatasetTimestamp);
@@ -384,6 +406,71 @@ export default function App() {
     openDetail(conflict.iso_code);
   }
 
+  async function waitForUpdatedDataset(previousTimestamp) {
+    for (let attempt = 0; attempt < 10; attempt += 1) {
+      if (attempt > 0) {
+        await sleep(8000);
+      }
+
+      const payload = await loadData(true);
+      const nextTimestamp = getLatestTimestampFromConflicts(payload?.conflicts || []);
+      if (nextTimestamp && nextTimestamp !== previousTimestamp) {
+        return nextTimestamp;
+      }
+    }
+
+    return null;
+  }
+
+  async function handleRefresh() {
+    const previousTimestamp = latestDatasetTimestamp;
+
+    if (!refreshEndpoint) {
+      setRefreshFeedback("Reloaded the latest published dataset. Live refresh endpoint is not configured.");
+      await loadData(true);
+      return;
+    }
+
+    try {
+      setRefreshing(true);
+      setRefreshFeedback("Requesting a live refresh...");
+
+      const response = await fetch(refreshEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          requested_at: new Date().toISOString(),
+          source: "app",
+        }),
+      });
+
+      const payload = await response.json().catch(() => null);
+      const message = payload?.message || "";
+
+      if (!response.ok) {
+        throw new Error(message || `Refresh request failed (${response.status})`);
+      }
+
+      setRefreshFeedback(message || "Live refresh requested. Waiting for the new dataset to publish...");
+      const nextTimestamp = await waitForUpdatedDataset(previousTimestamp);
+
+      if (nextTimestamp) {
+        setRefreshFeedback("Live data updated.");
+      } else {
+        setRefreshFeedback("Refresh requested, but the new dataset is still publishing.");
+      }
+    } catch (refreshError) {
+      setRefreshFeedback(refreshError.message || "Unable to request a live refresh.");
+      await loadData(true);
+    } finally {
+      if (activeRef.current) {
+        setRefreshing(false);
+      }
+    }
+  }
+
   return (
     <>
       <div className="dashboard">
@@ -395,7 +482,9 @@ export default function App() {
           criticalCount={criticalCount}
           timestamp={timestamp}
           refreshing={refreshing}
-          onRefresh={() => loadData(true)}
+          refreshFeedback={refreshFeedback}
+          liveRefreshEnabled={Boolean(refreshEndpoint)}
+          onRefresh={handleRefresh}
         />
 
         <main className={`map-workspace ${viewMode === "map" ? "" : "hidden"}`}>
