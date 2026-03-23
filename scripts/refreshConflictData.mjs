@@ -6,6 +6,8 @@ const conflictPath = resolve(root, "public/conflict_data.json");
 
 const GDELT_ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc";
 const REQUEST_TIMEOUT_MS = 20000;
+const REQUEST_GAP_MS = 1500;
+const MAX_RETRIES = 4;
 
 const countryConfigs = {
   USA: {
@@ -98,28 +100,57 @@ function writeJson(path, value) {
   writeFileSync(path, `${JSON.stringify(value, null, 2)}\n`);
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
 async function fetchWithTimeout(url, options = {}) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  let attempt = 0;
 
-  try {
-    const response = await fetch(url, {
-      ...options,
-      headers: {
-        Accept: "application/json",
-        ...(options.headers || {}),
-      },
-      signal: controller.signal,
-    });
+  while (attempt < MAX_RETRIES) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
 
-    if (!response.ok) {
-      throw new Error(`${response.status} ${response.statusText}`);
+    try {
+      const response = await fetch(url, {
+        ...options,
+        headers: {
+          Accept: "application/json",
+          "User-Agent": "global-conflict-tracker/1.0",
+          ...(options.headers || {}),
+        },
+        signal: controller.signal,
+      });
+
+      if (response.status === 429) {
+        const retryAfterHeader = response.headers.get("retry-after");
+        const retryAfterSeconds = Number.parseInt(retryAfterHeader || "", 10);
+        const delayMs = Number.isFinite(retryAfterSeconds)
+          ? retryAfterSeconds * 1000
+          : REQUEST_GAP_MS * (attempt + 2);
+
+        attempt += 1;
+        if (attempt >= MAX_RETRIES) {
+          throw new Error(`${response.status} ${response.statusText}`);
+        }
+
+        await sleep(delayMs);
+        continue;
+      }
+
+      if (!response.ok) {
+        throw new Error(`${response.status} ${response.statusText}`);
+      }
+
+      return response.json();
+    } finally {
+      clearTimeout(timer);
     }
-
-    return response.json();
-  } finally {
-    clearTimeout(timer);
   }
+
+  throw new Error("Request failed after retries");
 }
 
 function titleCaseProvider(value) {
@@ -394,6 +425,10 @@ async function main() {
 
   const errors = [];
   for (const conflict of conflictData) {
+    if (refreshed.length > 0) {
+      await sleep(REQUEST_GAP_MS);
+    }
+
     const result = await refreshConflict(conflict);
     refreshed.push(result.conflict);
     stats.conflictsUpdated += result.updated ? 1 : 0;
