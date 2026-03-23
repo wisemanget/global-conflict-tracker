@@ -6,7 +6,7 @@ const conflictPath = resolve(root, "public/conflict_data.json");
 
 const GDELT_ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc";
 const REQUEST_TIMEOUT_MS = 20000;
-const REQUEST_GAP_MS = 1500;
+const REQUEST_GAP_MS = 2500;
 const MAX_RETRIES = 4;
 
 const countryConfigs = {
@@ -193,6 +193,37 @@ function truncate(value, maxLength) {
   return `${value.slice(0, maxLength - 3).trimEnd()}...`;
 }
 
+function parseTimestamp(value) {
+  if (!value || typeof value !== "string") {
+    return null;
+  }
+
+  const trimmed = value.trim();
+
+  const nativeTimestamp = Date.parse(trimmed);
+  if (!Number.isNaN(nativeTimestamp)) {
+    return nativeTimestamp;
+  }
+
+  const gdeltMatch = trimmed.match(
+    /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z?$/,
+  );
+
+  if (gdeltMatch) {
+    const [, year, month, day, hour, minute, second] = gdeltMatch;
+    return Date.UTC(
+      Number.parseInt(year, 10),
+      Number.parseInt(month, 10) - 1,
+      Number.parseInt(day, 10),
+      Number.parseInt(hour, 10),
+      Number.parseInt(minute, 10),
+      Number.parseInt(second, 10),
+    );
+  }
+
+  return null;
+}
+
 function cleanHeadline(value) {
   return truncate((value || "").replace(/\s+/g, " ").trim(), 140);
 }
@@ -294,15 +325,16 @@ function normalizeGdeltArticle(article) {
 
   const provider = article?.domain || article?.sourcecountry || "GDELT";
   const publishedAt = article?.seendate || article?.published || null;
+  const parsedTimestamp = parseTimestamp(publishedAt);
 
   return {
     provider: "gdelt",
     providerLabel: titleCaseProvider(provider),
-    publishedAt,
+    publishedAt: parsedTimestamp ? new Date(parsedTimestamp).toISOString() : null,
     title,
     summary: article?.snippet || "",
     url,
-    label: `${titleCaseProvider(provider)}, ${formatSourceDate(publishedAt)}: ${title}`,
+    label: `${titleCaseProvider(provider)}, ${formatSourceDate(parsedTimestamp ? new Date(parsedTimestamp).toISOString() : null)}: ${title}`,
   };
 }
 
@@ -320,8 +352,8 @@ function dedupeSources(sources) {
 
 function sortSourcesByDate(sources) {
   return [...sources].sort((left, right) => {
-    const leftTime = Date.parse(left.publishedAt || "") || 0;
-    const rightTime = Date.parse(right.publishedAt || "") || 0;
+    const leftTime = parseTimestamp(left.publishedAt) || 0;
+    const rightTime = parseTimestamp(right.publishedAt) || 0;
     return rightTime - leftTime;
   });
 }
@@ -343,8 +375,8 @@ async function fetchGdeltSources(query) {
 
 function determineLatestTimestamp(conflict, sources) {
   const timestamps = sources
-    .map((source) => Date.parse(source.publishedAt || ""))
-    .filter((value) => !Number.isNaN(value));
+    .map((source) => parseTimestamp(source.publishedAt))
+    .filter((value) => value !== null);
 
   if (!timestamps.length) {
     return conflict.last_updated;
