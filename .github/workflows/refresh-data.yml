@@ -1,0 +1,36 @@
+name: Refresh Data
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC — adjust to your preferred cadence
+    - cron: '0 6 * * *'
+  workflow_dispatch: # also allows a manual "Run workflow" button in GitHub Actions UI
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Stamp last_updated timestamps
+        run: node scripts/stampLastUpdated.mjs
+
+      - name: Archive snapshot
+        run: node scripts/archiveSnapshot.mjs
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/conflict_data.json public/history_snapshots.json
+          git diff --quiet --cached || git commit -m "chore: daily data refresh [skip ci]"
+          git push
