@@ -493,5 +493,50 @@
       "Indo-Pacific": 5,
       "Africa & Americas": 5
     }
+  },
+  {
+    "id": "2026-03-23",
+    "label": "Mar 2026",
+    "date_range": "Mar 23, 2026",
+    "captured_at": "2026-03-23T20:00:00.000Z",
+    "headline": "Trump says the U . S . is in talks with Iran to end the war , which Iran denies",
+    "summary": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Eastern Europe",
+    "top_items": [
+      "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+      "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
+      "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Trump says the U . S . is in talks with Iran to end the war , which Iran denies",
+        "note": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+        "change_status": "watch"
+      },
+      {
+        "iso": "USA",
+        "country": "United States",
+        "headline": "Trump scolds MAGA outlet reporter for asking ICE question : Youre not doing a good job , you hear me ?",
+        "note": "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "Strait of Hormuz remains blocked by Iran while zombie ships sail through",
+        "note": "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure.",
+        "change_status": "escalated"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 5,
+      "Eastern Europe": 5,
+      "Indo-Pacific": 5,
+      "Africa & Americas": 5
+    }
   }
 ]
