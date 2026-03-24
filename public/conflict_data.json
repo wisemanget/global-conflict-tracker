@@ -5,20 +5,19 @@
     "theater": "Middle East",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war",
-    "tldr": "Latest reporting on United States is centered on \"Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war.\" A second fresh signal highlights \"Iran Attacks Continue Amid Trump Talk Cla...",
+    "headline": "Asian shares mostly rebound after Trump hints at a possible end to the Iran war",
+    "tldr": "Latest reporting on United States is centered on \"Asian shares mostly rebound after Trump hints at a possible end to the Iran war.\"",
     "alliances_short": "Israel remains the core military partner; Gulf states want U.S. protection and a controlled off-ramp.",
     "forecast": "Expect more air and missile defense moves, maritime security coordination, and pressure for a ceasefire if Gulf oil and shipping disruptions deepen.",
-    "current_events": "Fresh source monitoring for United States points to Krmg Com on Mar 24, 2026: Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war; Deccanchronicle Com on Mar 24, 2026: Iran Attacks Continue Amid Trump Talk Claims.",
+    "current_events": "Fresh source monitoring for United States points to Morningsun Net on Mar 24, 2026: Asian shares mostly rebound after Trump hints at a possible end to the Iran war.",
     "alliances": "The U.S.-Israel security partnership is driving the current campaign. Saudi Arabia, the UAE, Bahrain, and Kuwait are relying on American air and missile defense support even as they push for de-escalation. NATO allies are watching for spillover risks rather than joining the war directly.",
     "next_actions": "Watch whether the U.S. adds more maritime escorts or missile defenses, and whether Washington can pair force protection with a credible diplomatic off-ramp.",
-    "last_updated": "2026-03-24T07:15:00.000Z",
+    "last_updated": "2026-03-24T15:15:00.000Z",
     "story_rank": 2,
     "briefing_note": "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war.",
-      "Also worth watching: Iran Attacks Continue Amid Trump Talk Claims."
+      "Escalated signal: Asian shares mostly rebound after Trump hints at a possible end to the Iran war."
     ],
     "impact_tags": [
       "U.S. Policy",
@@ -28,12 +27,8 @@
     ],
     "sources": [
       {
-        "label": "Krmg Com, Mar 24, 2026: Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war",
-        "url": "https://krmg.com/2026/03/24/iran-targets-israel-and-gulf-arab-states-even-as-trump-says-us-is-in-talks-to-end-the-war/"
-      },
-      {
-        "label": "Deccanchronicle Com, Mar 24, 2026: Iran Attacks Continue Amid Trump Talk Claims",
-        "url": "https://www.deccanchronicle.com/west-asia/iran-attacks-continue-amid-trumps-talk-claims-1945910"
+        "label": "Morningsun Net, Mar 24, 2026: Asian shares mostly rebound after Trump hints at a possible end to the Iran war",
+        "url": "http://www.morningsun.net/stories/asian-shares-mostly-rebound-after-trump-hints-at-a-possible-end-to-the-iran-war,323550"
       }
     ]
   },
@@ -43,19 +38,19 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Israeli Strikes Near Beirut Kill 2 , Hit Targets in Southern Lebanon",
-    "tldr": "Latest reporting on Israel is centered on \"Israeli Strikes Near Beirut Kill 2 , Hit Targets in Southern Lebanon.\"",
+    "headline": "Strikes hit Iran as Tehran targets Israel and Gulf states",
+    "tldr": "Latest reporting on Israel is centered on \"Strikes hit Iran as Tehran targets Israel and Gulf states.\"",
     "alliances_short": "Military coordination with Washington is tight, with quiet alignment from Gulf states against Iranian escalation.",
     "forecast": "The main near-term risks are deeper strikes in Lebanon, heavier exchanges with Iran, and more pressure from partners over civilian harm.",
-    "current_events": "Fresh source monitoring for Israel points to Deccanchronicle Com on Mar 24, 2026: Israeli Strikes Near Beirut Kill 2 , Hit Targets in Southern Lebanon.",
+    "current_events": "Fresh source monitoring for Israel points to Glasgowtimes Co Uk on Mar 24, 2026: Strikes hit Iran as Tehran targets Israel and Gulf states.",
     "alliances": "The United States remains Israel's essential military and diplomatic backstop. Saudi and other Gulf states are not aligned publicly with Israeli operations, but they share the objective of containing Iranian regional power.",
     "next_actions": "Watch whether Israel widens operations in Beirut's southern suburbs or shifts more assets back toward direct confrontation with Iran.",
-    "last_updated": "2026-03-24T07:15:00.000Z",
+    "last_updated": "2026-03-24T15:15:00.000Z",
     "story_rank": 1,
     "briefing_note": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Israeli Strikes Near Beirut Kill 2 , Hit Targets in Southern Lebanon."
+      "Watch signal: Strikes hit Iran as Tehran targets Israel and Gulf states."
     ],
     "impact_tags": [
       "Military",
@@ -64,8 +59,8 @@
     ],
     "sources": [
       {
-        "label": "Deccanchronicle Com, Mar 24, 2026: Israeli Strikes Near Beirut Kill 2 , Hit Targets in Southern Lebanon",
-        "url": "https://www.deccanchronicle.com/west-asia/israeli-strikes-near-beirut-kill-2-hit-targets-in-southern-lebanon-1945899"
+        "label": "Glasgowtimes Co Uk, Mar 24, 2026: Strikes hit Iran as Tehran targets Israel and Gulf states",
+        "url": "https://www.glasgowtimes.co.uk/news/national/25962637.strikes-hit-iran-tehran-targets-israel-gulf-states/"
       }
     ]
   },
@@ -75,19 +70,19 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Strait of Hormuz remains blocked by Iran while zombie ships sail through",
-    "tldr": "Latest reporting on Iran is centered on \"Strait of Hormuz remains blocked by Iran while zombie ships sail through.\"",
+    "headline": "Strikes hit Iran as Tehran targets Israel and Gulf states",
+    "tldr": "Latest reporting on Iran is centered on \"Strikes hit Iran as Tehran targets Israel and Gulf states.\"",
     "alliances_short": "Iran still relies on Hezbollah, the Houthis, and other aligned militias, but wartime coordination is under strain.",
     "forecast": "Expect Iran to keep testing Gulf air defenses, threatening shipping, and using proxy leverage rather than seeking immediate de-escalation.",
-    "current_events": "Fresh source monitoring for Iran points to Rnz Co Nz on Mar 24, 2026: Strait of Hormuz remains blocked by Iran while zombie ships sail through.",
+    "current_events": "Fresh source monitoring for Iran points to Glasgowtimes Co Uk on Mar 24, 2026: Strikes hit Iran as Tehran targets Israel and Gulf states.",
     "alliances": "Iran's regional network still matters, especially Hezbollah and the Houthis, but partners are operating under heavy military pressure. Russia and China remain more useful diplomatically than militarily.",
     "next_actions": "Watch whether Iran widens attacks on Gulf infrastructure, renews pressure through allied militias, or shifts toward more direct bargaining over a ceasefire.",
-    "last_updated": "2026-03-24T04:45:00.000Z",
+    "last_updated": "2026-03-24T15:15:00.000Z",
     "story_rank": 3,
     "briefing_note": "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Strait of Hormuz remains blocked by Iran while zombie ships sail through."
+      "Escalated signal: Strikes hit Iran as Tehran targets Israel and Gulf states."
     ],
     "impact_tags": [
       "Military",
@@ -97,8 +92,8 @@
     ],
     "sources": [
       {
-        "label": "Rnz Co Nz, Mar 24, 2026: Strait of Hormuz remains blocked by Iran while zombie ships sail through",
-        "url": "https://www.rnz.co.nz/news/world/590479/strait-of-hormuz-remains-blocked-by-iran-while-zombie-ships-sail-through"
+        "label": "Glasgowtimes Co Uk, Mar 24, 2026: Strikes hit Iran as Tehran targets Israel and Gulf states",
+        "url": "https://www.glasgowtimes.co.uk/news/national/25962637.strikes-hit-iran-tehran-targets-israel-gulf-states/"
       }
     ]
   },
@@ -153,20 +148,19 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Lebanon sinks deeper into the regional war as displacement and Israeli pressure on Hezbollah intensify",
-    "tldr": "Israeli strikes, Hezbollah exchanges, and mass displacement are pushing Lebanon further into a crisis the state still cannot fully control.",
+    "headline": "France urges Israel to refrain from seizing south Lebanon zone",
+    "tldr": "Latest reporting on Lebanon is centered on \"France urges Israel to refrain from seizing south Lebanon zone.\"",
     "alliances_short": "The Lebanese state wants separation from Hezbollah's war, but Hezbollah remains the most powerful armed actor on the ground.",
     "forecast": "Lebanon faces simultaneous risks of broader Israeli operations, deeper state strain, and worsening humanitarian conditions for displaced civilians.",
-    "current_events": "AP reported on March 10 that Lebanon's parliament extended its term by two years because war conditions and displacement made normal politics untenable. By March 15, AP was describing a worsening humanitarian toll in Lebanon as the broader Iran war continued, reinforcing how exposed the country remains to decisions made elsewhere.",
+    "current_events": "Fresh source monitoring for Lebanon points to Spacewar Com on Mar 24, 2026: France urges Israel to refrain from seizing south Lebanon zone.",
     "alliances": "President Joseph Aoun and Prime Minister Nawaf Salam are aligned with international donors and Arab states that want a stronger Lebanese state. Hezbollah remains tied to Iran and is acting as both a militia and a political veto player.",
     "next_actions": "Watch whether Israeli operations in Beirut's southern suburbs intensify, whether displacement rises again, and whether outside diplomacy yields any credible ceasefire framework.",
-    "last_updated": "2026-03-15T13:59:37.000Z",
+    "last_updated": "2026-03-24T15:15:00.000Z",
     "story_rank": 4,
     "briefing_note": "Lebanon is still the clearest spillover arena of the regional war, with the state losing room to manage events.",
     "change_status": "escalated",
     "change_summary": [
-      "Parliament's term extension confirmed that war conditions are overriding normal Lebanese politics.",
-      "The humanitarian burden is worsening as Hezbollah-Israel fighting stays tied to the Iran conflict."
+      "Escalated signal: France urges Israel to refrain from seizing south Lebanon zone."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -175,12 +169,8 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 10: Lebanese parliament extends term by 2 years as Israel intensifies attacks on Lebanon",
-        "url": "https://apnews.com/article/dcb94eb15145a3e9194f05727757822f"
-      },
-      {
-        "label": "AP, Mar 15: Gulf Arab states intercept new missiles and drones as Iran threatens to widen the war",
-        "url": "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
+        "label": "Spacewar Com, Mar 24, 2026: France urges Israel to refrain from seizing south Lebanon zone",
+        "url": "https://www.spacewar.com/afp/260324140311.o4jynrz9.html"
       }
     ]
   },
@@ -314,19 +304,20 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "B . C . premier planning China trade trip , LNG likely on agenda amid war in Iran",
-    "tldr": "Latest reporting on China is centered on \"B . C . premier planning China trade trip , LNG likely on agenda amid war in Iran.\"",
+    "headline": "Why military base on contested Paracels will be of limited value to Beijing",
+    "tldr": "Latest reporting on China is centered on \"Why military base on contested Paracels will be of limited value to Beijing.\" A second fresh signal highlights \"Update : One - China principle is political premise for Taiwan...",
     "alliances_short": "China wants a more stable U.S. relationship without conceding anything meaningful on Taiwan or military buildup.",
     "forecast": "Expect alternating cycles of reduced visible pressure and renewed sorties as China manages both coercion and summit optics.",
-    "current_events": "Fresh source monitoring for China points to Terracestandard Com on Mar 24, 2026: B . C . premier planning China trade trip , LNG likely on agenda amid war in Iran.",
+    "current_events": "Fresh source monitoring for China points to Scmp Com on Mar 24, 2026: Why military base on contested Paracels will be of limited value to Beijing; Africaleader Com on Mar 24, 2026: Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson.",
     "alliances": "China's most important external relationship remains the United States, even in rivalry. Russia remains a strategic partner, but Beijing's broader goal is to avoid a coalition that hardens around it while preserving freedom of action around Taiwan.",
     "next_actions": "Watch whether China sustains the renewed air tempo, how summit preparations shape signaling, and whether Beijing couples military moves with a calmer diplomatic message.",
-    "last_updated": "2026-03-24T04:45:00.000Z",
+    "last_updated": "2026-03-24T15:00:00.000Z",
     "story_rank": 8,
     "briefing_note": "China is still moderating tone for diplomacy without meaningfully reducing pressure on Taiwan.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: B . C . premier planning China trade trip , LNG likely on agenda amid war in Iran."
+      "Watch signal: Why military base on contested Paracels will be of limited value to Beijing.",
+      "Also worth watching: Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson."
     ],
     "impact_tags": [
       "Markets",
@@ -335,8 +326,12 @@
     ],
     "sources": [
       {
-        "label": "Terracestandard Com, Mar 24, 2026: B . C . premier planning China trade trip , LNG likely on agenda amid war in Iran",
-        "url": "https://terracestandard.com/2026/03/23/b-c-s-premier-planning-china-trade-trip-lng-likely-on-agenda-amid-war-in-iran/"
+        "label": "Scmp Com, Mar 24, 2026: Why military base on contested Paracels will be of limited value to Beijing",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3347748/why-military-base-contested-paracels-will-be-limited-value-beijing"
+      },
+      {
+        "label": "Africaleader Com, Mar 24, 2026: Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson",
+        "url": "http://www.africaleader.com/news/278941061/update-one-china-principle-is-political-premise-for-taiwan-participation-in-wto-spokesperson"
       }
     ]
   },
@@ -346,20 +341,19 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "Promising Large Cap Stocks To Research – March 23rd",
-    "tldr": "Latest reporting on Taiwan is centered on \"Promising Large Cap Stocks To Research – March 23rd.\" A second fresh signal highlights \"Promising Large Cap Stocks To Research – March 23rd.\"",
+    "headline": "Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson",
+    "tldr": "Latest reporting on Taiwan is centered on \"Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson.\"",
     "alliances_short": "Taiwan's security still rests on U.S. backing, even as domestic politics shape the pace of defense reform.",
     "forecast": "Taiwan still has a brief window to strengthen readiness, but the resumed tempo suggests Beijing can raise pressure again quickly.",
-    "current_events": "Fresh source monitoring for Taiwan points to Tickerreport Com on Mar 23, 2026: Promising Large Cap Stocks To Research – March 23rd; Dailypolitical Com on Mar 23, 2026: Promising Large Cap Stocks To Research – March 23rd; Rfa Org on Mar 23, 2026: Vietnam protests China development of disputed reef in South China Sea – Radio Free Asia.",
+    "current_events": "Fresh source monitoring for Taiwan points to Africaleader Com on Mar 24, 2026: Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson.",
     "alliances": "The island's unofficial alliance with the United States remains central. Japan and other regional democracies matter politically, but Washington remains the decisive external security partner.",
     "next_actions": "Watch whether the renewed sorties continue after summit diplomacy and whether Taiwan can turn political urgency into actual procurement and readiness gains.",
-    "last_updated": "2026-03-23T20:00:00.000Z",
+    "last_updated": "2026-03-24T15:00:00.000Z",
     "story_rank": 9,
     "briefing_note": "Taipei got only a brief breathing spell; the renewed PLA presence puts the deterrence debate back on a hotter footing.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Promising Large Cap Stocks To Research – March 23rd.",
-      "Also worth watching: Promising Large Cap Stocks To Research – March 23rd."
+      "Watch signal: Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson."
     ],
     "impact_tags": [
       "Military",
@@ -368,20 +362,8 @@
     ],
     "sources": [
       {
-        "label": "Tickerreport Com, Mar 23, 2026: Promising Large Cap Stocks To Research – March 23rd",
-        "url": "https://www.tickerreport.com/banking-finance/13389123/promising-large-cap-stocks-to-research-march-23rd.html"
-      },
-      {
-        "label": "Dailypolitical Com, Mar 23, 2026: Promising Large Cap Stocks To Research – March 23rd",
-        "url": "https://www.dailypolitical.com/2026/03/23/promising-large-cap-stocks-to-research-march-23rd.html"
-      },
-      {
-        "label": "Rfa Org, Mar 23, 2026: Vietnam protests China development of disputed reef in South China Sea – Radio Free Asia",
-        "url": "https://www.rfa.org:443/english/southchinasea/2026/03/23/vietnam-china-paracels-antelope-reef/"
-      },
-      {
-        "label": "Foreignpolicy Com, Mar 23, 2026: Iran War Impact on Gas Markets in Europe , Asia Will Last for Years",
-        "url": "https://foreignpolicy.com/2026/03/23/iran-war-natural-gas-lng-prices-markets-impact-qatar-asia/?tpcc=recirc_trending062921"
+        "label": "Africaleader Com, Mar 24, 2026: Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson",
+        "url": "http://www.africaleader.com/news/278941061/update-one-china-principle-is-political-premise-for-taiwan-participation-in-wto-spokesperson"
       }
     ]
   },
@@ -434,20 +416,19 @@
     "theater": "Africa & Americas",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "♦ Sudan news highlights ♦ - Dabanga Radio TV Online",
-    "tldr": "Latest reporting on Sudan is centered on \"♦ Sudan news highlights ♦ - Dabanga Radio TV Online.\" A second fresh signal highlights \"64 dead in East Darfur hospital strike , WHO reports 2 , 000+ killed in Sudan health fa...",
+    "headline": "Civilian Deaths Surge Amid Escalating Sudan Conflict",
+    "tldr": "Latest reporting on Sudan is centered on \"Civilian Deaths Surge Amid Escalating Sudan Conflict.\"",
     "alliances_short": "Both the SAF and RSF still rely on foreign support networks, keeping outside actors central to the war.",
     "forecast": "Expect continued fragmentation, more attacks on civilian sites, and no serious settlement without pressure on the war's foreign enablers.",
-    "current_events": "Fresh source monitoring for Sudan points to Dabangasudan Org on Mar 23, 2026: ♦ Sudan news highlights ♦ - Dabanga Radio TV Online; Dabangasudan Org on Mar 23, 2026: 64 dead in East Darfur hospital strike , WHO reports 2 , 000+ killed in Sudan health facilities; Channelafrica Co Za on Mar 23, 2026: Chad relocates Sudan refugees as army deploys near border – Channel Africa.",
+    "current_events": "Fresh source monitoring for Sudan points to Miragenews Com on Mar 24, 2026: Civilian Deaths Surge Amid Escalating Sudan Conflict.",
     "alliances": "Army chief Abdel Fattah al-Burhan and the SAF retain backing from states that fear RSF dominance, while the RSF benefits from external logistical and political networks that keep it viable despite global condemnation.",
     "next_actions": "Watch Darfur, attacks on schools and medical infrastructure, aid access, and cross-border military involvement. The conflict is unlikely to cool without outside pressure on the war's foreign enablers, not just its internal commanders.",
-    "last_updated": "2026-03-23T20:00:00.000Z",
+    "last_updated": "2026-03-24T11:15:00.000Z",
     "story_rank": 11,
     "briefing_note": "Sudan remains one of the worst humanitarian and atrocity crises in the world, even when global attention goes elsewhere.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: ♦ Sudan news highlights ♦ - Dabanga Radio TV Online.",
-      "Also worth watching: 64 dead in East Darfur hospital strike , WHO reports 2 , 000+ killed in Sudan health facilities."
+      "Escalated signal: Civilian Deaths Surge Amid Escalating Sudan Conflict."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -455,20 +436,8 @@
     ],
     "sources": [
       {
-        "label": "Dabangasudan Org, Mar 23, 2026: ♦ Sudan news highlights ♦ - Dabanga Radio TV Online",
-        "url": "https://www.dabangasudan.org/en/all-news/article/%E2%99%A6-sudan-news-highlights-%E2%99%A6-10"
-      },
-      {
-        "label": "Dabangasudan Org, Mar 23, 2026: 64 dead in East Darfur hospital strike , WHO reports 2 , 000+ killed in Sudan health facilities",
-        "url": "https://www.dabangasudan.org/en/all-news/article/64-dead-in-east-darfur-hospital-strike-who-reports-2000-killed-in-sudan-health-facilities"
-      },
-      {
-        "label": "Channelafrica Co Za, Mar 23, 2026: Chad relocates Sudan refugees as army deploys near border – Channel Africa",
-        "url": "https://www.channelafrica.co.za/channelafrica/news/chad-relocates-sudan-refugees-as-army-deploys-near-border/"
-      },
-      {
-        "label": "Moderntokyotimes Com, Mar 23, 2026: Sudan Drone Attack Hits Key Hospital in Darfur ( Many Killed ) – Modern Tokyo Times",
-        "url": "https://moderntokyotimes.com/sudan-drone-attack-hits-key-hospital-in-darfur-many-killed/"
+        "label": "Miragenews Com, Mar 24, 2026: Civilian Deaths Surge Amid Escalating Sudan Conflict",
+        "url": "https://www.miragenews.com/civilian-deaths-surge-amid-escalating-sudan-1643047/"
       }
     ]
   },
@@ -478,20 +447,19 @@
     "theater": "Africa & Americas",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Eastern Congo's fragile ceasefire is under strain as drone strikes and clashes continue",
-    "tldr": "Recent drone strikes and clashes around Goma show that ceasefire language still is not protecting civilians or stabilizing the front against M23.",
+    "headline": "Congo - Kinshasa : Kabila Speaks Out On Goma Drone Attack , Slams Tshisekedi Tyranny",
+    "tldr": "Latest reporting on Democratic Republic of Congo is centered on \"Congo - Kinshasa : Kabila Speaks Out On Goma Drone Attack , Slams Tshisekedi Tyranny.\"",
     "alliances_short": "Kinshasa is leaning on U.S. and regional diplomacy while M23 still benefits from external support networks.",
     "forecast": "Negotiations will matter only if the ceasefire holds on the ground, drone strikes ease, and outside pressure starts changing M23's military confidence.",
-    "current_events": "AP reported on March 13 that fresh drone strikes and clashes were threatening the region's fragile ceasefire, with both Congo's government and M23 accusing each other of violations. A French U.N. staff member was killed in a drone strike in Goma, reinforcing how exposed civilians and international personnel remain despite diplomatic efforts backed by Washington and Qatar. Eastern Congo is still being shaped more by battlefield coercion than by signed frameworks.",
+    "current_events": "Fresh source monitoring for Democratic Republic of Congo points to Allafrica Com on Mar 24, 2026: Congo - Kinshasa : Kabila Speaks Out On Goma Drone Attack , Slams Tshisekedi Tyranny.",
     "alliances": "President Felix Tshisekedi is leaning heavily on U.S.-brokered diplomacy and external pressure on Kigali. M23's durability still appears tied to outside backing and the weakness of Congolese state control in the east.",
     "next_actions": "Watch whether ceasefire monitoring gains any credibility, whether humanitarian access around Goma improves, and whether drone strikes continue despite peace talks. A diplomatic framework without enforcement will not be enough.",
-    "last_updated": "2026-03-15T13:59:37.000Z",
+    "last_updated": "2026-03-24T06:30:00.000Z",
     "story_rank": 13,
     "briefing_note": "Eastern Congo still turns on external support to M23 more than on peace language.",
     "change_status": "escalated",
     "change_summary": [
-      "Fresh drone strikes and clashes are now threatening the latest ceasefire effort directly.",
-      "U.N. personnel and civilians around Goma remain exposed despite active diplomacy."
+      "Escalated signal: Congo - Kinshasa : Kabila Speaks Out On Goma Drone Attack , Slams Tshisekedi Tyranny."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -500,12 +468,8 @@
     ],
     "sources": [
       {
-        "label": "AP, Mar 13: Drone strikes and clashes in eastern Congo threaten peace efforts",
-        "url": "https://apnews.com/article/ca408e184f7da1e0ff31d2335fa5a576"
-      },
-      {
-        "label": "AP, Mar 2026: U.S. imposes visa restrictions over Rwanda support for M23",
-        "url": "https://apnews.com/article/e0a444a4bca0a3bb007b1e873627df04"
+        "label": "Allafrica Com, Mar 24, 2026: Congo - Kinshasa : Kabila Speaks Out On Goma Drone Attack , Slams Tshisekedi Tyranny",
+        "url": "https://allafrica.com/stories/202603240049.html"
       }
     ]
   },
@@ -561,20 +525,19 @@
     "theater": "Africa & Americas",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Haiti - Elections : Risks of infiltration on the CEP list by political parties complicit with gangs",
-    "tldr": "Latest reporting on Haiti is centered on \"Haiti - Elections : Risks of infiltration on the CEP list by political parties complicit with gangs.\" A second fresh signal highlights \"ALLIANCE FOR WOMEN IN MEDIA FOUNDATION...",
+    "headline": "Haitian Gangs Expand , Police Face Execution Accusations",
+    "tldr": "Latest reporting on Haiti is centered on \"Haitian Gangs Expand , Police Face Execution Accusations.\"",
     "alliances_short": "The interim government remains dependent on U.S. backing, Haitian police operations, and an underpowered international mission.",
     "forecast": "Without a credible security plan for Port-au-Prince and key transport routes, the election timeline will remain highly fragile despite stronger political participation.",
-    "current_events": "Fresh source monitoring for Haiti points to Haitilibre Com on Mar 23, 2026: Haiti - Elections : Risks of infiltration on the CEP list by political parties complicit with gangs; Itnewsonline Com on Mar 23, 2026: ALLIANCE FOR WOMEN IN MEDIA FOUNDATION ANNOUNCES WINNERS OF THE 51ST ANNUAL GRACIE AWARDS®; Hartfordbusiness Com on Mar 23, 2026: Fight for generational change takes aim at U . S . Rep . John Larson.",
+    "current_events": "Fresh source monitoring for Haiti points to Miragenews Com on Mar 24, 2026: Haitian Gangs Expand , Police Face Execution Accusations.",
     "alliances": "The Haitian government relies on U.S. political support and an international mission that has been too small and too slow. Domestic legitimacy remains thin because state reach remains weak.",
     "next_actions": "Watch whether the electoral council can certify parties credibly, whether the government publishes a workable election security plan, and whether gang control over key transport corridors eases at all. Otherwise the electoral schedule will keep slipping.",
-    "last_updated": "2026-03-23T18:00:00.000Z",
+    "last_updated": "2026-03-24T12:45:00.000Z",
     "story_rank": 15,
     "briefing_note": "Haiti has an election calendar again, but the security situation still dominates everything that matters.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Haiti - Elections : Risks of infiltration on the CEP list by political parties complicit with gangs.",
-      "Also worth watching: ALLIANCE FOR WOMEN IN MEDIA FOUNDATION ANNOUNCES WINNERS OF THE 51ST ANNUAL GRACIE AWARDS®."
+      "Watch signal: Haitian Gangs Expand , Police Face Execution Accusations."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -584,20 +547,8 @@
     ],
     "sources": [
       {
-        "label": "Haitilibre Com, Mar 23, 2026: Haiti - Elections : Risks of infiltration on the CEP list by political parties complicit with gangs",
-        "url": "https://www.haitilibre.com/en/news-47128-haiti-elections-risks-of-infiltration-on-the-cep-list-by-political-parties-complicit-with-gangs.html"
-      },
-      {
-        "label": "Itnewsonline Com, Mar 23, 2026: ALLIANCE FOR WOMEN IN MEDIA FOUNDATION ANNOUNCES WINNERS OF THE 51ST ANNUAL GRACIE AWARDS®",
-        "url": "https://www.itnewsonline.com/PRNewswire/ALLIANCE-FOR-WOMEN-IN-MEDIA-FOUNDATION-ANNOUNCES-WINNERS-OF-THE-51ST-ANNUAL-GRACIE-AWARDS/1118485"
-      },
-      {
-        "label": "Hartfordbusiness Com, Mar 23, 2026: Fight for generational change takes aim at U . S . Rep . John Larson",
-        "url": "https://hartfordbusiness.com/article/fight-for-generational-change-takes-aim-at-u-s-rep-john-larson/"
-      },
-      {
-        "label": "Thenewdawnliberia Com, Mar 22, 2026: G7+ Leaders Tell UL Students : Be Agents of Peace , Reshape Your Nation Story - Liberia news The New Dawn Liberia , premier resource for...",
-        "url": "https://www.thenewdawnliberia.com/g7-leaders-tell-ul-students-be-agents-of-peace-reshape-your-nations-story/"
+        "label": "Miragenews Com, Mar 24, 2026: Haitian Gangs Expand , Police Face Execution Accusations",
+        "url": "https://www.miragenews.com/haitian-gangs-expand-police-face-execution-1643099/"
       }
     ]
   }

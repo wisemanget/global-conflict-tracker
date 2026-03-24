@@ -583,5 +583,50 @@
       "Indo-Pacific": 5,
       "Africa & Americas": 5
     }
+  },
+  {
+    "id": "2026-03-24",
+    "label": "Mar 2026",
+    "date_range": "Mar 24, 2026",
+    "captured_at": "2026-03-24T15:15:00.000Z",
+    "headline": "Strikes hit Iran as Tehran targets Israel and Gulf states",
+    "summary": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Eastern Europe",
+    "top_items": [
+      "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+      "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
+      "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Strikes hit Iran as Tehran targets Israel and Gulf states",
+        "note": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
+        "change_status": "watch"
+      },
+      {
+        "iso": "USA",
+        "country": "United States",
+        "headline": "Asian shares mostly rebound after Trump hints at a possible end to the Iran war",
+        "note": "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "Strikes hit Iran as Tehran targets Israel and Gulf states",
+        "note": "Iran is still trying to prove it can raise the regional cost of war even while under heavy military pressure.",
+        "change_status": "escalated"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 5,
+      "Eastern Europe": 5,
+      "Indo-Pacific": 5,
+      "Africa & Americas": 5
+    }
   }
 ]
