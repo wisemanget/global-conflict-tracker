@@ -5,20 +5,20 @@
     "theater": "Middle East",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Trump scolds MAGA outlet reporter for asking ICE question : Youre not doing a good job , you hear me ?",
-    "tldr": "Latest reporting on United States is centered on \"Trump scolds MAGA outlet reporter for asking ICE question : Youre not doing a good job , you hear me ?.\" A second fresh signal highlights \"Trump says the U . S . is in...",
+    "headline": "Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war",
+    "tldr": "Latest reporting on United States is centered on \"Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war.\" A second fresh signal highlights \"Iran Attacks Continue Amid Trump Talk Cla...",
     "alliances_short": "Israel remains the core military partner; Gulf states want U.S. protection and a controlled off-ramp.",
     "forecast": "Expect more air and missile defense moves, maritime security coordination, and pressure for a ceasefire if Gulf oil and shipping disruptions deepen.",
-    "current_events": "Fresh source monitoring for United States points to Independent Co Uk on Mar 23, 2026: Trump scolds MAGA outlet reporter for asking ICE question : Youre not doing a good job , you hear me ?; Apr Org on Mar 23, 2026: Trump says the U . S . is in talks with Iran to end the war , which Iran denies; Southcoastregister Com Au on Mar 23, 2026: What to do if you need to travel by air during Middle East war | South Coast Register.",
+    "current_events": "Fresh source monitoring for United States points to Krmg Com on Mar 24, 2026: Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war; Deccanchronicle Com on Mar 24, 2026: Iran Attacks Continue Amid Trump Talk Claims.",
     "alliances": "The U.S.-Israel security partnership is driving the current campaign. Saudi Arabia, the UAE, Bahrain, and Kuwait are relying on American air and missile defense support even as they push for de-escalation. NATO allies are watching for spillover risks rather than joining the war directly.",
     "next_actions": "Watch whether the U.S. adds more maritime escorts or missile defenses, and whether Washington can pair force protection with a credible diplomatic off-ramp.",
-    "last_updated": "2026-03-23T20:00:00.000Z",
+    "last_updated": "2026-03-24T07:15:00.000Z",
     "story_rank": 2,
     "briefing_note": "Washington is trying to keep a regional war from becoming a longer Gulf protection mission.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Trump scolds MAGA outlet reporter for asking ICE question : Youre not doing a good job , you hear me ?.",
-      "Also worth watching: Trump says the U . S . is in talks with Iran to end the war , which Iran denies."
+      "Escalated signal: Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war.",
+      "Also worth watching: Iran Attacks Continue Amid Trump Talk Claims."
     ],
     "impact_tags": [
       "U.S. Policy",
@@ -28,20 +28,12 @@
     ],
     "sources": [
       {
-        "label": "Independent Co Uk, Mar 23, 2026: Trump scolds MAGA outlet reporter for asking ICE question : Youre not doing a good job , you hear me ?",
-        "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-newsmax-reporter-air-force-one-b2944012.html"
+        "label": "Krmg Com, Mar 24, 2026: Iran targets Israel and Gulf Arab states even as Trump says US is in talks to end the war",
+        "url": "https://krmg.com/2026/03/24/iran-targets-israel-and-gulf-arab-states-even-as-trump-says-us-is-in-talks-to-end-the-war/"
       },
       {
-        "label": "Apr Org, Mar 23, 2026: Trump says the U . S . is in talks with Iran to end the war , which Iran denies",
-        "url": "https://www.apr.org/2026-03-23/trump-says-the-u-s-is-in-talks-with-iran-to-end-the-war-which-iran-denies"
-      },
-      {
-        "label": "Southcoastregister Com Au, Mar 23, 2026: What to do if you need to travel by air during Middle East war | South Coast Register",
-        "url": "https://www.southcoastregister.com.au/story/9204634/what-to-do-if-you-need-to-travel-by-air-during-middle-east-war/"
-      },
-      {
-        "label": "Finanznachrichten De, Mar 23, 2026: Treasuries Rebound As Trump Backs Down On Threats To Attack Iran Power Plants",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-03/68015429-treasuries-rebound-as-trump-backs-down-on-threats-to-attack-iran-s-power-plants-020.htm"
+        "label": "Deccanchronicle Com, Mar 24, 2026: Iran Attacks Continue Amid Trump Talk Claims",
+        "url": "https://www.deccanchronicle.com/west-asia/iran-attacks-continue-amid-trumps-talk-claims-1945910"
       }
     ]
   },
@@ -51,20 +43,19 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Trump says the U . S . is in talks with Iran to end the war , which Iran denies",
-    "tldr": "Latest reporting on Israel is centered on \"Trump says the U . S . is in talks with Iran to end the war , which Iran denies.\" A second fresh signal highlights \"Why didnt Trump foresee the fuel shock ? Now we pay the pr...",
+    "headline": "Israeli Strikes Near Beirut Kill 2 , Hit Targets in Southern Lebanon",
+    "tldr": "Latest reporting on Israel is centered on \"Israeli Strikes Near Beirut Kill 2 , Hit Targets in Southern Lebanon.\"",
     "alliances_short": "Military coordination with Washington is tight, with quiet alignment from Gulf states against Iranian escalation.",
     "forecast": "The main near-term risks are deeper strikes in Lebanon, heavier exchanges with Iran, and more pressure from partners over civilian harm.",
-    "current_events": "Fresh source monitoring for Israel points to Apr Org on Mar 23, 2026: Trump says the U . S . is in talks with Iran to end the war , which Iran denies; Northerndailyleader Com Au on Mar 23, 2026: Why didnt Trump foresee the fuel shock ? Now we pay the price | The Northern Daily Leader; Dailypost Ng on Mar 23, 2026: Iran ambassador in united kingdom summoned after spying charges.",
+    "current_events": "Fresh source monitoring for Israel points to Deccanchronicle Com on Mar 24, 2026: Israeli Strikes Near Beirut Kill 2 , Hit Targets in Southern Lebanon.",
     "alliances": "The United States remains Israel's essential military and diplomatic backstop. Saudi and other Gulf states are not aligned publicly with Israeli operations, but they share the objective of containing Iranian regional power.",
     "next_actions": "Watch whether Israel widens operations in Beirut's southern suburbs or shifts more assets back toward direct confrontation with Iran.",
-    "last_updated": "2026-03-23T20:00:00.000Z",
+    "last_updated": "2026-03-24T07:15:00.000Z",
     "story_rank": 1,
     "briefing_note": "Israel is fighting Iran directly while still trying to keep the Lebanon front from becoming a war of attrition it cannot control.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Trump says the U . S . is in talks with Iran to end the war , which Iran denies.",
-      "Also worth watching: Why didnt Trump foresee the fuel shock ? Now we pay the price | The Northern Daily Leader."
+      "Watch signal: Israeli Strikes Near Beirut Kill 2 , Hit Targets in Southern Lebanon."
     ],
     "impact_tags": [
       "Military",
@@ -73,20 +64,8 @@
     ],
     "sources": [
       {
-        "label": "Apr Org, Mar 23, 2026: Trump says the U . S . is in talks with Iran to end the war , which Iran denies",
-        "url": "https://www.apr.org/2026-03-23/trump-says-the-u-s-is-in-talks-with-iran-to-end-the-war-which-iran-denies"
-      },
-      {
-        "label": "Northerndailyleader Com Au, Mar 23, 2026: Why didnt Trump foresee the fuel shock ? Now we pay the price | The Northern Daily Leader",
-        "url": "https://www.northerndailyleader.com.au/story/9204974/why-didnt-trump-foresee-the-fuel-shock-now-we-pay-the-price/"
-      },
-      {
-        "label": "Dailypost Ng, Mar 23, 2026: Iran ambassador in united kingdom summoned after spying charges",
-        "url": "https://dailypost.ng/2026/03/23/iran-ambassador-in-uk-summoned-after-spying-charges/"
-      },
-      {
-        "label": "Southcoastregister Com Au, Mar 23, 2026: What to do if you need to travel by air during Middle East war | South Coast Register",
-        "url": "https://www.southcoastregister.com.au/story/9204634/what-to-do-if-you-need-to-travel-by-air-during-middle-east-war/"
+        "label": "Deccanchronicle Com, Mar 24, 2026: Israeli Strikes Near Beirut Kill 2 , Hit Targets in Southern Lebanon",
+        "url": "https://www.deccanchronicle.com/west-asia/israeli-strikes-near-beirut-kill-2-hit-targets-in-southern-lebanon-1945899"
       }
     ]
   },
