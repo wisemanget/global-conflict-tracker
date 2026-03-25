@@ -231,19 +231,19 @@
     "theater": "Eastern Europe",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Russia vast daytime drone attack kills three , wounds 30 in Ukraine",
-    "tldr": "Latest reporting on Russia is centered on \"Russia vast daytime drone attack kills three , wounds 30 in Ukraine.\"",
+    "headline": "In rare daytime drone blitz , Russia attacks western Ukrainian city largely spared from war damage",
+    "tldr": "Latest reporting on Russia is centered on \"In rare daytime drone blitz , Russia attacks western Ukrainian city largely spared from war damage.\"",
     "alliances_short": "Russia still leans on North Korean support and Chinese diplomatic cover, but neither has changed the war's core trajectory.",
     "forecast": "Expect continued long-range strikes and narrow diplomatic engagement focused on leverage rather than compromise.",
-    "current_events": "Fresh source monitoring for Russia points to Channelnewsasia Com on Mar 24, 2026: Russia vast daytime drone attack kills three , wounds 30 in Ukraine.",
+    "current_events": "Fresh source monitoring for Russia points to Cbc Ca on Mar 25, 2026: In rare daytime drone blitz , Russia attacks western Ukrainian city largely spared from war damage.",
     "alliances": "North Korea remains a material partner, especially on ammunition and military symbolism. China is still the more important strategic relationship, especially for sanctions resilience and diplomatic breathing room.",
     "next_actions": "Watch whether Russia uses the talks track to pursue an energy truce or simply to buy time while strikes continue.",
-    "last_updated": "2026-03-24T19:30:00.000Z",
+    "last_updated": "2026-03-25T19:30:00.000Z",
     "story_rank": 6,
     "briefing_note": "Russia is still fighting an attritional war while treating diplomacy as an instrument of pressure, not de-escalation.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Russia vast daytime drone attack kills three , wounds 30 in Ukraine."
+      "Escalated signal: In rare daytime drone blitz , Russia attacks western Ukrainian city largely spared from war damage."
     ],
     "impact_tags": [
       "Military",
@@ -252,8 +252,8 @@
     ],
     "sources": [
       {
-        "label": "Channelnewsasia Com, Mar 24, 2026: Russia vast daytime drone attack kills three , wounds 30 in Ukraine",
-        "url": "https://www.channelnewsasia.com/world/ukraine-russia-putin-zelenskyy-daytime-drone-strikes-6014426"
+        "label": "Cbc Ca, Mar 25, 2026: In rare daytime drone blitz , Russia attacks western Ukrainian city largely spared from war damage",
+        "url": "https://www.cbc.ca/news/world/russia-drone-attack-lviv-9.7141478"
       }
     ]
   },
@@ -333,19 +333,20 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson",
-    "tldr": "Latest reporting on Taiwan is centered on \"Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson.\"",
+    "headline": "Taiwan wary of China exploiting U Iran war",
+    "tldr": "Latest reporting on Taiwan is centered on \"Taiwan wary of China exploiting U Iran war.\" A second fresh signal highlights \"Examining the Lull in Chinese Military Activity Around Taiwan.\"",
     "alliances_short": "Taiwan's security still rests on U.S. backing, even as domestic politics shape the pace of defense reform.",
     "forecast": "Taiwan still has a brief window to strengthen readiness, but the resumed tempo suggests Beijing can raise pressure again quickly.",
-    "current_events": "Fresh source monitoring for Taiwan points to Africaleader Com on Mar 24, 2026: Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson.",
+    "current_events": "Fresh source monitoring for Taiwan points to Taipeitimes Com on Mar 25, 2026: Taiwan wary of China exploiting U Iran war; Dailysignal Com on Mar 25, 2026: Examining the Lull in Chinese Military Activity Around Taiwan.",
     "alliances": "The island's unofficial alliance with the United States remains central. Japan and other regional democracies matter politically, but Washington remains the decisive external security partner.",
     "next_actions": "Watch whether the renewed sorties continue after summit diplomacy and whether Taiwan can turn political urgency into actual procurement and readiness gains.",
-    "last_updated": "2026-03-24T15:00:00.000Z",
+    "last_updated": "2026-03-25T19:15:00.000Z",
     "story_rank": 9,
     "briefing_note": "Taipei got only a brief breathing spell; the renewed PLA presence puts the deterrence debate back on a hotter footing.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson."
+      "Watch signal: Taiwan wary of China exploiting U Iran war.",
+      "Also worth watching: Examining the Lull in Chinese Military Activity Around Taiwan."
     ],
     "impact_tags": [
       "Military",
@@ -354,8 +355,12 @@
     ],
     "sources": [
       {
-        "label": "Africaleader Com, Mar 24, 2026: Update : One - China principle is political premise for Taiwan participation in WTO : spokesperson",
-        "url": "http://www.africaleader.com/news/278941061/update-one-china-principle-is-political-premise-for-taiwan-participation-in-wto-spokesperson"
+        "label": "Taipeitimes Com, Mar 25, 2026: Taiwan wary of China exploiting U Iran war",
+        "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/03/26/2003854503"
+      },
+      {
+        "label": "Dailysignal Com, Mar 25, 2026: Examining the Lull in Chinese Military Activity Around Taiwan",
+        "url": "https://www.dailysignal.com/2026/03/25/a-diplomatic-gesture-or-something-else-examining-the-temporary-lull-in-chinese-military-activity-around-taiwan/"
       }
     ]
   },
