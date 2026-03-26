@@ -2165,6 +2165,13 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   line-height: 1.5;
 }
 
+.detail-quick-sublabel {
+  margin-top: 4px;
+  font-size: 10px;
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
 .detail-impact-chip-row {
   display: flex;
   flex-wrap: wrap;

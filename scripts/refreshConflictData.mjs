@@ -3,6 +3,7 @@ import { resolve } from "node:path";
 
 const root = process.cwd();
 const conflictPath = resolve(root, "public/conflict_data.json");
+const metadataPath = resolve(root, "public/metadata.json");
 
 const GDELT_ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc";
 const REQUEST_TIMEOUT_MS = 20000;
@@ -654,6 +655,8 @@ async function main() {
   if (currentSerialized !== refreshedSerialized) {
     writeJson(conflictPath, refreshed);
   }
+
+  writeJson(metadataPath, { data_refreshed_at: new Date().toISOString() });
 
   const refreshedAt = refreshed
     .map((conflict) => conflict.last_updated)

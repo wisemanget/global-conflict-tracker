@@ -115,6 +115,7 @@ export default function App() {
   const [timelinesData, setTimelinesData] = useState({});
   const [impactData, setImpactData] = useState({});
   const [connectionsData, setConnectionsData] = useState([]);
+  const [dataRefreshedAt, setDataRefreshedAt] = useState(null);
   const [viewMode, setViewMode] = useState("map");
   const [activeSnapshotIndex, setActiveSnapshotIndex] = useState(0);
   const [currentFilter, setCurrentFilter] = useState("all");
@@ -139,13 +140,14 @@ export default function App() {
     const setter = isRefresh ? setRefreshing : setLoading;
     try {
       setter(true);
-      const [conflicts, history, leaders, timelines, impacts, connections] = await Promise.all([
+      const [conflicts, history, leaders, timelines, impacts, connections, metadata] = await Promise.all([
         fetchJson("/conflict_data.json"),
         fetchJson("/history_snapshots.json"),
         fetchJson("/leaders_data.json"),
         fetchJson("/timelines_data.json"),
         fetchJson("/impact_data.json"),
         fetchJson("/connections_data.json"),
+        fetchJson("/metadata.json").catch(() => null),
       ]);
 
       if (!activeRef.current) {
@@ -158,6 +160,7 @@ export default function App() {
       setTimelinesData(timelines);
       setImpactData(impacts);
       setConnectionsData(connections);
+      setDataRefreshedAt(metadata?.data_refreshed_at || null);
       setError("");
       return {
         conflicts,
@@ -705,6 +708,7 @@ export default function App() {
         onToggleLeader={toggleLeader}
         onToggleTimeline={toggleTimeline}
         detailInnerRef={detailInnerRef}
+        dataRefreshedAt={dataRefreshedAt}
       />
     </>
   );

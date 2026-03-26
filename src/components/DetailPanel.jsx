@@ -23,6 +23,7 @@ export default function DetailPanel({
   onToggleLeader,
   onToggleTimeline,
   detailInnerRef,
+  dataRefreshedAt,
 }) {
   return (
     <>
@@ -119,8 +120,13 @@ export default function DetailPanel({
                   </div>
 
                   <div className="detail-quick-card">
-                    <span className="detail-quick-label">Refreshed</span>
+                    <span className="detail-quick-label">Last Reported</span>
                     <span className="detail-quick-value">{formatTimestamp(selectedCountry.last_updated)}</span>
+                    {dataRefreshedAt && (
+                      <span className="detail-quick-sublabel" title="When the data pipeline last ran">
+                        Pipeline: {formatTimestamp(dataRefreshedAt)}
+                      </span>
+                    )}
                   </div>
 
                   <div className="detail-quick-card">
@@ -148,7 +154,10 @@ export default function DetailPanel({
                         {getChangeMeta(selectedCountry.change_status).label}
                       </span>
                       <span className="detail-updated-at">
-                        Refreshed {formatTimestamp(selectedCountry.last_updated)}
+                        Reported {formatTimestamp(selectedCountry.last_updated)}
+                        {dataRefreshedAt && (
+                          <> &middot; Pipeline {formatTimestamp(dataRefreshedAt)}</>
+                        )}
                       </span>
                     </div>
                     <ul className="detail-change-list">
