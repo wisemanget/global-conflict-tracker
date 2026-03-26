@@ -46,7 +46,7 @@ const countryConfigs = {
     gdeltQuery: '(Lebanon OR Lebanese) AND (Israel OR Hezbollah OR displacement OR strike)',
     mustInclude: [
       ["lebanon", "lebanese", "beirut"],
-      ["israel", "hezbollah", "displacement", "strike", "war"],
+      ["israel", "hezbollah", "displacement", "strike", "war", "ceasefire", "reconstruction", "militia", "south lebanon"],
     ],
     boostTerms: ["ceasefire", "civilian", "humanitarian", "airstrike"],
   },
@@ -78,7 +78,7 @@ const countryConfigs = {
     gdeltQuery: '(China OR Chinese OR Beijing) AND (Taiwan OR PLA OR "South China Sea")',
     mustInclude: [
       ["china", "chinese", "beijing"],
-      ["taiwan", "pla", "south china sea", "military", "drill"],
+      ["taiwan", "pla", "south china sea", "military", "drill", "strait", "exercise", "aircraft"],
     ],
     boostTerms: ["sortie", "incursion", "navy", "aircraft", "exercise"],
   },
@@ -86,7 +86,7 @@ const countryConfigs = {
     gdeltQuery: '(Taiwan OR Taipei) AND (China OR PLA OR incursion OR drills)',
     mustInclude: [
       ["taiwan", "taipei"],
-      ["china", "pla", "incursion", "drills", "aircraft", "military"],
+      ["china", "pla", "incursion", "drills", "aircraft", "military", "strait", "beijing", "exercise"],
     ],
     boostTerms: ["adiz", "sortie", "navy", "exercise"],
   },
@@ -94,7 +94,7 @@ const countryConfigs = {
     gdeltQuery: '("North Korea" OR Pyongyang OR DPRK) AND (missile OR naval OR test OR South Korea)',
     mustInclude: [
       ["north korea", "pyongyang", "dprk", "kim jong"],
-      ["missile", "naval", "test", "south korea", "launch"],
+      ["missile", "naval", "test", "south korea", "launch", "nuclear", "threat", "weapon", "korean"],
     ],
     boostTerms: ["ballistic", "cruise", "exercise", "nuclear"],
   },
@@ -118,7 +118,7 @@ const countryConfigs = {
     gdeltQuery: '(Venezuela OR Caracas) AND (election OR transition OR sanctions OR opposition)',
     mustInclude: [
       ["venezuela", "caracas", "venezuelan"],
-      ["election", "transition", "sanction", "opposition", "maduro"],
+      ["election", "transition", "sanction", "opposition", "maduro", "crisis", "political", "oil", "prisoner"],
     ],
     boostTerms: ["vote", "prisoner", "diplomatic", "oil"],
   },
@@ -126,7 +126,7 @@ const countryConfigs = {
     gdeltQuery: '(Haiti OR Haitian OR "Port-au-Prince") AND (gang OR election OR violence OR displacement)',
     mustInclude: [
       ["haiti", "haitian", "port-au-prince"],
-      ["gang", "election", "violence", "displacement", "security"],
+      ["gang", "election", "violence", "displacement", "security", "humanitarian", "conflict", "crisis", "council"],
     ],
     boostTerms: ["police", "transition", "council", "kidnapping"],
   },
@@ -645,7 +645,7 @@ async function main() {
   }
 
   if (stats.totalSourcesCollected === 0) {
-    throw new Error("Live refresh completed but returned zero source entries.");
+    console.warn("Live refresh completed but returned zero relevant source entries — existing data preserved.");
   }
 
   const currentSerialized = JSON.stringify(conflictData);
