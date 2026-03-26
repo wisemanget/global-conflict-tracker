@@ -103,20 +103,19 @@
     "theater": "Middle East",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Global Carbon Fiber & Composites Market to Reach USD 45 . 65 Billion by 2032 , Says MarkNtel Advisors",
-    "tldr": "Latest reporting on Saudi Arabia is centered on \"Global Carbon Fiber & Composites Market to Reach USD 45 . 65 Billion by 2032 , Says MarkNtel Advisors.\" A second fresh signal highlights \"Trump says the U . S . is in t...",
+    "headline": "Kuwait , Saudi Arabia shoot down UAVs launched by Iran",
+    "tldr": "Latest reporting on Saudi Arabia is centered on \"Kuwait , Saudi Arabia shoot down UAVs launched by Iran.\"",
     "alliances_short": "Saudi Arabia is coordinating closely with Gulf partners and relying on U.S. security guarantees while publicly urging restraint.",
     "forecast": "Threat levels stay high while Iran keeps probing Gulf defenses and while oil export routes remain vulnerable.",
-    "current_events": "Fresh source monitoring for Saudi Arabia points to Finanznachrichten De on Mar 23, 2026: Global Carbon Fiber & Composites Market to Reach USD 45 . 65 Billion by 2032 , Says MarkNtel Advisors; Apr Org on Mar 23, 2026: Trump says the U . S . is in talks with Iran to end the war , which Iran denies; Middleeasteye Net on Mar 23, 2026: This war is not of their making , Omani foreign minister says of Iran.",
+    "current_events": "Fresh source monitoring for Saudi Arabia points to Jpost Com on Mar 26, 2026: Kuwait , Saudi Arabia shoot down UAVs launched by Iran.",
     "alliances": "Saudi Arabia is working through the GCC and leaning on U.S. defense support. Coordination with the UAE, Bahrain, and Kuwait is centered on shared air defense and infrastructure protection.",
     "next_actions": "Watch energy sites, export terminals, and whether Riyadh shifts from defensive messaging toward a more openly coercive posture with partners.",
-    "last_updated": "2026-03-23T20:00:00.000Z",
+    "last_updated": "2026-03-26T05:30:00.000Z",
     "story_rank": 6,
     "briefing_note": "Saudi Arabia is still trying to stay out of direct war while its energy infrastructure sits inside Iran's threat envelope.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Global Carbon Fiber & Composites Market to Reach USD 45 . 65 Billion by 2032 , Says MarkNtel Advisors.",
-      "Also worth watching: Trump says the U . S . is in talks with Iran to end the war , which Iran denies."
+      "Watch signal: Kuwait , Saudi Arabia shoot down UAVs launched by Iran."
     ],
     "impact_tags": [
       "Energy",
@@ -125,20 +124,8 @@
     ],
     "sources": [
       {
-        "label": "Finanznachrichten De, Mar 23, 2026: Global Carbon Fiber & Composites Market to Reach USD 45 . 65 Billion by 2032 , Says MarkNtel Advisors",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-03/68015430-global-carbon-fiber-composites-market-to-reach-usd-45-65-billion-by-2032-says-markntel-advisors-008.htm"
-      },
-      {
-        "label": "Apr Org, Mar 23, 2026: Trump says the U . S . is in talks with Iran to end the war , which Iran denies",
-        "url": "https://www.apr.org/2026-03-23/trump-says-the-u-s-is-in-talks-with-iran-to-end-the-war-which-iran-denies"
-      },
-      {
-        "label": "Middleeasteye Net, Mar 23, 2026: This war is not of their making , Omani foreign minister says of Iran",
-        "url": "https://www.middleeasteye.net/news/war-not-their-making-omani-foreign-minister-says-iran"
-      },
-      {
-        "label": "Oilprice Com, Mar 23, 2026: China Sinopec not Buying Iranian Crude despite U . S . Waiver",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Sinopec-not-Buying-Iranian-Crude-despite-US-Waiver.html"
+        "label": "Jpost Com, Mar 26, 2026: Kuwait , Saudi Arabia shoot down UAVs launched by Iran",
+        "url": "https://www.jpost.com/middle-east/article-891226"
       }
     ]
   },
@@ -263,19 +250,19 @@
     "theater": "Eastern Europe",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Russia vast daytime drone attack kills three , wounds 30 in Ukraine",
-    "tldr": "Latest reporting on Ukraine is centered on \"Russia vast daytime drone attack kills three , wounds 30 in Ukraine.\"",
+    "headline": "Ukraine finally got battlefield momentum . Now comes a Russian offensive .",
+    "tldr": "Latest reporting on Ukraine is centered on \"Ukraine finally got battlefield momentum . Now comes a Russian offensive ..\"",
     "alliances_short": "Ukraine still depends on Western air defense, intelligence, financing, and political attention.",
     "forecast": "Air defense supply, energy resilience, and whether the talks track produces anything practical remain the decisive near-term variables.",
-    "current_events": "Fresh source monitoring for Ukraine points to Channelnewsasia Com on Mar 24, 2026: Russia vast daytime drone attack kills three , wounds 30 in Ukraine.",
+    "current_events": "Fresh source monitoring for Ukraine points to Bostonglobe Com on Mar 26, 2026: Ukraine finally got battlefield momentum . Now comes a Russian offensive ..",
     "alliances": "The United States and European partners remain central to Ukraine's survival. Kyiv is also trying to convert its drone warfare expertise into additional support, including through security cooperation abroad.",
     "next_actions": "Watch whether talks resume soon, whether Ukraine secures substitute air-defense support, and whether Russian barrage tempo rises while diplomacy is in limbo.",
-    "last_updated": "2026-03-24T19:30:00.000Z",
+    "last_updated": "2026-03-26T05:15:00.000Z",
     "story_rank": 5,
     "briefing_note": "Ukraine is still under acute military pressure and now also risks losing attention to the Middle East war.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Russia vast daytime drone attack kills three , wounds 30 in Ukraine."
+      "Escalated signal: Ukraine finally got battlefield momentum . Now comes a Russian offensive .."
     ],
     "impact_tags": [
       "Military",
@@ -285,8 +272,8 @@
     ],
     "sources": [
       {
-        "label": "Channelnewsasia Com, Mar 24, 2026: Russia vast daytime drone attack kills three , wounds 30 in Ukraine",
-        "url": "https://www.channelnewsasia.com/world/ukraine-russia-putin-zelenskyy-daytime-drone-strikes-6014426"
+        "label": "Bostonglobe Com, Mar 26, 2026: Ukraine finally got battlefield momentum . Now comes a Russian offensive .",
+        "url": "https://www.bostonglobe.com/2026/03/25/world/ukraine-finally-got-battlefield-momentum-now-comes-russian-offensive/"
       }
     ]
   },
@@ -333,20 +320,19 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "Taiwan wary of China exploiting U Iran war",
-    "tldr": "Latest reporting on Taiwan is centered on \"Taiwan wary of China exploiting U Iran war.\" A second fresh signal highlights \"Examining the Lull in Chinese Military Activity Around Taiwan.\"",
+    "headline": "Taiwan Arms Deal on Track Despite U . S .- China Summit Uncertainty",
+    "tldr": "Latest reporting on Taiwan is centered on \"Taiwan Arms Deal on Track Despite U . S .- China Summit Uncertainty.\"",
     "alliances_short": "Taiwan's security still rests on U.S. backing, even as domestic politics shape the pace of defense reform.",
     "forecast": "Taiwan still has a brief window to strengthen readiness, but the resumed tempo suggests Beijing can raise pressure again quickly.",
-    "current_events": "Fresh source monitoring for Taiwan points to Taipeitimes Com on Mar 25, 2026: Taiwan wary of China exploiting U Iran war; Dailysignal Com on Mar 25, 2026: Examining the Lull in Chinese Military Activity Around Taiwan.",
+    "current_events": "Fresh source monitoring for Taiwan points to Econotimes Com on Mar 26, 2026: Taiwan Arms Deal on Track Despite U . S .- China Summit Uncertainty.",
     "alliances": "The island's unofficial alliance with the United States remains central. Japan and other regional democracies matter politically, but Washington remains the decisive external security partner.",
     "next_actions": "Watch whether the renewed sorties continue after summit diplomacy and whether Taiwan can turn political urgency into actual procurement and readiness gains.",
-    "last_updated": "2026-03-25T19:15:00.000Z",
+    "last_updated": "2026-03-26T04:45:00.000Z",
     "story_rank": 9,
     "briefing_note": "Taipei got only a brief breathing spell; the renewed PLA presence puts the deterrence debate back on a hotter footing.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Taiwan wary of China exploiting U Iran war.",
-      "Also worth watching: Examining the Lull in Chinese Military Activity Around Taiwan."
+      "Watch signal: Taiwan Arms Deal on Track Despite U . S .- China Summit Uncertainty."
     ],
     "impact_tags": [
       "Military",
@@ -355,12 +341,8 @@
     ],
     "sources": [
       {
-        "label": "Taipeitimes Com, Mar 25, 2026: Taiwan wary of China exploiting U Iran war",
-        "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/03/26/2003854503"
-      },
-      {
-        "label": "Dailysignal Com, Mar 25, 2026: Examining the Lull in Chinese Military Activity Around Taiwan",
-        "url": "https://www.dailysignal.com/2026/03/25/a-diplomatic-gesture-or-something-else-examining-the-temporary-lull-in-chinese-military-activity-around-taiwan/"
+        "label": "Econotimes Com, Mar 26, 2026: Taiwan Arms Deal on Track Despite U . S .- China Summit Uncertainty",
+        "url": "http://www.econotimes.com/Taiwan-Arms-Deal-on-Track-Despite-US-China-Summit-Uncertainty-1737342"
       }
     ]
   },
@@ -413,19 +395,20 @@
     "theater": "Africa & Americas",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Civilian Deaths Surge Amid Escalating Sudan Conflict",
-    "tldr": "Latest reporting on Sudan is centered on \"Civilian Deaths Surge Amid Escalating Sudan Conflict.\"",
+    "headline": "Drone strike on major hospital in Darfur leaves millions without care",
+    "tldr": "Latest reporting on Sudan is centered on \"Drone strike on major hospital in Darfur leaves millions without care.\" A second fresh signal highlights \"Sudan War Spillover Kills 17 More Civilians in Chad.\"",
     "alliances_short": "Both the SAF and RSF still rely on foreign support networks, keeping outside actors central to the war.",
     "forecast": "Expect continued fragmentation, more attacks on civilian sites, and no serious settlement without pressure on the war's foreign enablers.",
-    "current_events": "Fresh source monitoring for Sudan points to Miragenews Com on Mar 24, 2026: Civilian Deaths Surge Amid Escalating Sudan Conflict.",
+    "current_events": "Fresh source monitoring for Sudan points to Cp24 Com on Mar 26, 2026: Drone strike on major hospital in Darfur leaves millions without care; Allafrica Com on Mar 26, 2026: Sudan War Spillover Kills 17 More Civilians in Chad.",
     "alliances": "Army chief Abdel Fattah al-Burhan and the SAF retain backing from states that fear RSF dominance, while the RSF benefits from external logistical and political networks that keep it viable despite global condemnation.",
     "next_actions": "Watch Darfur, attacks on schools and medical infrastructure, aid access, and cross-border military involvement. The conflict is unlikely to cool without outside pressure on the war's foreign enablers, not just its internal commanders.",
-    "last_updated": "2026-03-24T11:15:00.000Z",
+    "last_updated": "2026-03-26T05:30:00.000Z",
     "story_rank": 11,
     "briefing_note": "Sudan remains one of the worst humanitarian and atrocity crises in the world, even when global attention goes elsewhere.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Civilian Deaths Surge Amid Escalating Sudan Conflict."
+      "Escalated signal: Drone strike on major hospital in Darfur leaves millions without care.",
+      "Also worth watching: Sudan War Spillover Kills 17 More Civilians in Chad."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -433,8 +416,12 @@
     ],
     "sources": [
       {
-        "label": "Miragenews Com, Mar 24, 2026: Civilian Deaths Surge Amid Escalating Sudan Conflict",
-        "url": "https://www.miragenews.com/civilian-deaths-surge-amid-escalating-sudan-1643047/"
+        "label": "Cp24 Com, Mar 26, 2026: Drone strike on major hospital in Darfur leaves millions without care",
+        "url": "https://www.cp24.com/news/world/2026/03/25/more-than-2-million-people-in-darfur-left-without-proper-care-after-drone-strike-on-major-hospital/"
+      },
+      {
+        "label": "Allafrica Com, Mar 26, 2026: Sudan War Spillover Kills 17 More Civilians in Chad",
+        "url": "https://allafrica.com/stories/202603260018.html"
       }
     ]
   },
