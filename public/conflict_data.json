@@ -320,19 +320,19 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "Taiwan Arms Deal on Track Despite U . S .- China Summit Uncertainty",
-    "tldr": "Latest reporting on Taiwan is centered on \"Taiwan Arms Deal on Track Despite U . S .- China Summit Uncertainty.\"",
+    "headline": "U . S . lawmakers condemn China over Taiwan WTO snub",
+    "tldr": "Latest reporting on Taiwan is centered on \"U . S . lawmakers condemn China over Taiwan WTO snub.\"",
     "alliances_short": "Taiwan's security still rests on U.S. backing, even as domestic politics shape the pace of defense reform.",
     "forecast": "Taiwan still has a brief window to strengthen readiness, but the resumed tempo suggests Beijing can raise pressure again quickly.",
-    "current_events": "Fresh source monitoring for Taiwan points to Econotimes Com on Mar 26, 2026: Taiwan Arms Deal on Track Despite U . S .- China Summit Uncertainty.",
+    "current_events": "Fresh source monitoring for Taiwan points to Focustaiwan Tw on Mar 26, 2026: U . S . lawmakers condemn China over Taiwan WTO snub.",
     "alliances": "The island's unofficial alliance with the United States remains central. Japan and other regional democracies matter politically, but Washington remains the decisive external security partner.",
     "next_actions": "Watch whether the renewed sorties continue after summit diplomacy and whether Taiwan can turn political urgency into actual procurement and readiness gains.",
-    "last_updated": "2026-03-26T04:45:00.000Z",
+    "last_updated": "2026-03-26T08:15:00.000Z",
     "story_rank": 9,
     "briefing_note": "Taipei got only a brief breathing spell; the renewed PLA presence puts the deterrence debate back on a hotter footing.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Taiwan Arms Deal on Track Despite U . S .- China Summit Uncertainty."
+      "Watch signal: U . S . lawmakers condemn China over Taiwan WTO snub."
     ],
     "impact_tags": [
       "Military",
@@ -341,8 +341,8 @@
     ],
     "sources": [
       {
-        "label": "Econotimes Com, Mar 26, 2026: Taiwan Arms Deal on Track Despite U . S .- China Summit Uncertainty",
-        "url": "http://www.econotimes.com/Taiwan-Arms-Deal-on-Track-Despite-US-China-Summit-Uncertainty-1737342"
+        "label": "Focustaiwan Tw, Mar 26, 2026: U . S . lawmakers condemn China over Taiwan WTO snub",
+        "url": "https://focustaiwan.tw/politics/202603260012"
       }
     ]
   },
@@ -463,19 +463,20 @@
     "theater": "Africa & Americas",
     "threat_level": 2,
     "threat_label": "GUARDED",
-    "headline": "Trump has destroyed Venezuela socialist ideology : opposition leader",
-    "tldr": "Latest reporting on Venezuela is centered on \"Trump has destroyed Venezuela socialist ideology : opposition leader.\"",
+    "headline": "Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him",
+    "tldr": "Latest reporting on Venezuela is centered on \"Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him.\" A second fresh signal highlights \"Ousted Venezuelan President Nicolas Maduro...",
     "alliances_short": "Washington has regained leverage while opposition figures are trying to shape the next phase of the transition.",
     "forecast": "The next test is whether the current opening becomes a credible electoral process instead of a tactical reset.",
-    "current_events": "Fresh source monitoring for Venezuela points to Ktbs Com on Mar 24, 2026: Trump has destroyed Venezuela socialist ideology : opposition leader.",
+    "current_events": "Fresh source monitoring for Venezuela points to Wboc Com on Mar 26, 2026: Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him; Thejournal Ie on Mar 26, 2026: Ousted Venezuelan President Nicolas Maduro to appear in US court today; Abcnews Com on Mar 26, 2026: Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him.",
     "alliances": "Delcy Rodriguez is balancing between regime continuity and international normalization. Maria Corina Machado and the broader opposition remain politically important but are no longer dealing with the exact same power structure as under Maduro.",
     "next_actions": "Watch whether releases continue, whether international monitors gain better access, and whether the acting government sets a credible election path. Symbolic openings are not yet a durable transition.",
-    "last_updated": "2026-03-24T19:45:00.000Z",
+    "last_updated": "2026-03-26T08:15:00.000Z",
     "story_rank": 14,
     "briefing_note": "Venezuela is still fragile, but the immediate trajectory is more transitional than explosive.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Trump has destroyed Venezuela socialist ideology : opposition leader."
+      "Watch signal: Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him.",
+      "Also worth watching: Ousted Venezuelan President Nicolas Maduro to appear in US court today."
     ],
     "impact_tags": [
       "Markets",
@@ -485,8 +486,16 @@
     ],
     "sources": [
       {
-        "label": "Ktbs Com, Mar 24, 2026: Trump has destroyed Venezuela socialist ideology : opposition leader",
-        "url": "https://www.ktbs.com/news/national/trump-has-destroyed-venezuelas-socialist-ideology-opposition-leader/article_2b7c6267-1606-5d2c-91dd-cf9bcb2ca5a2.html"
+        "label": "Wboc Com, Mar 26, 2026: Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him",
+        "url": "https://www.wboc.com/news/national/nicol-s-maduro-heads-back-to-a-us-court-fighting-charges-as-venezuela-moves-on/article_5c588e9c-6cf8-5cc4-bc3d-fd309ec7f072.html"
+      },
+      {
+        "label": "Thejournal Ie, Mar 26, 2026: Ousted Venezuelan President Nicolas Maduro to appear in US court today",
+        "url": "https://www.thejournal.ie/nicolas-maduro-venezuela-president-new-york-court-6994855-Mar2026/"
+      },
+      {
+        "label": "Abcnews Com, Mar 26, 2026: Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him",
+        "url": "https://abcnews.com/US/wireStory/nicols-maduro-heads-back-us-court-fighting-charges-131421676"
       }
     ]
   },
