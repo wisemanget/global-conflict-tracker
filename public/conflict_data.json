@@ -463,20 +463,20 @@
     "theater": "Africa & Americas",
     "threat_level": 2,
     "threat_label": "GUARDED",
-    "headline": "Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him",
-    "tldr": "Latest reporting on Venezuela is centered on \"Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him.\" A second fresh signal highlights \"Ousted Venezuelan President Nicolas Maduro...",
+    "headline": "The Latest : Former Venezuelan President Nicolás Maduro appears in New York City court",
+    "tldr": "Latest reporting on Venezuela is centered on \"The Latest : Former Venezuelan President Nicolás Maduro appears in New York City court.\" A second fresh signal highlights \"Judge weighs whether Venezuela can pay Maduro le...",
     "alliances_short": "Washington has regained leverage while opposition figures are trying to shape the next phase of the transition.",
     "forecast": "The next test is whether the current opening becomes a credible electoral process instead of a tactical reset.",
-    "current_events": "Fresh source monitoring for Venezuela points to Wboc Com on Mar 26, 2026: Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him; Thejournal Ie on Mar 26, 2026: Ousted Venezuelan President Nicolas Maduro to appear in US court today; Abcnews Com on Mar 26, 2026: Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him.",
+    "current_events": "Fresh source monitoring for Venezuela points to Clickondetroit Com on Mar 26, 2026: The Latest : Former Venezuelan President Nicolás Maduro appears in New York City court; Local10 Com on Mar 26, 2026: Judge weighs whether Venezuela can pay Maduro legal costs in US drug trafficking case.",
     "alliances": "Delcy Rodriguez is balancing between regime continuity and international normalization. Maria Corina Machado and the broader opposition remain politically important but are no longer dealing with the exact same power structure as under Maduro.",
     "next_actions": "Watch whether releases continue, whether international monitors gain better access, and whether the acting government sets a credible election path. Symbolic openings are not yet a durable transition.",
-    "last_updated": "2026-03-26T08:15:00.000Z",
+    "last_updated": "2026-03-26T18:45:00.000Z",
     "story_rank": 14,
     "briefing_note": "Venezuela is still fragile, but the immediate trajectory is more transitional than explosive.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him.",
-      "Also worth watching: Ousted Venezuelan President Nicolas Maduro to appear in US court today."
+      "Watch signal: The Latest : Former Venezuelan President Nicolás Maduro appears in New York City court.",
+      "Also worth watching: Judge weighs whether Venezuela can pay Maduro legal costs in US drug trafficking case."
     ],
     "impact_tags": [
       "Markets",
@@ -486,16 +486,12 @@
     ],
     "sources": [
       {
-        "label": "Wboc Com, Mar 26, 2026: Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him",
-        "url": "https://www.wboc.com/news/national/nicol-s-maduro-heads-back-to-a-us-court-fighting-charges-as-venezuela-moves-on/article_5c588e9c-6cf8-5cc4-bc3d-fd309ec7f072.html"
+        "label": "Clickondetroit Com, Mar 26, 2026: The Latest : Former Venezuelan President Nicolás Maduro appears in New York City court",
+        "url": "https://www.clickondetroit.com/news/2026/03/26/the-latest-former-venezuelan-president-nicolas-maduro-to-appear-in-new-york-city-court/"
       },
       {
-        "label": "Thejournal Ie, Mar 26, 2026: Ousted Venezuelan President Nicolas Maduro to appear in US court today",
-        "url": "https://www.thejournal.ie/nicolas-maduro-venezuela-president-new-york-court-6994855-Mar2026/"
-      },
-      {
-        "label": "Abcnews Com, Mar 26, 2026: Nicolás Maduro heads back to a US court , fighting charges as Venezuela moves on without him",
-        "url": "https://abcnews.com/US/wireStory/nicols-maduro-heads-back-us-court-fighting-charges-131421676"
+        "label": "Local10 Com, Mar 26, 2026: Judge weighs whether Venezuela can pay Maduro legal costs in US drug trafficking case",
+        "url": "https://www.local10.com/news/2026/03/26/nicolas-maduros-lawyer-argues-against-us-blocking-funding-for-drug-trafficking-case-defense/"
       }
     ]
   },
