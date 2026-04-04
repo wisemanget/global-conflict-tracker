@@ -628,5 +628,50 @@
       "Indo-Pacific": 5,
       "Africa & Americas": 5
     }
+  },
+  {
+    "id": "2026-04-04",
+    "label": "Apr 2026",
+    "date_range": "Apr 4, 2026",
+    "captured_at": "2026-04-04T09:00:00.000Z",
+    "headline": "Israel opens ground front in Lebanon as ceasefire talks begin in Doha and Russia attacks in Zaporizhzhia",
+    "summary": "Day 35 of the Iran war sees Israel expand into a two-theater ground and air campaign, the first formal ceasefire channel open in Qatar, and Russia launch a major offensive in Ukraine as diplomacy collapses.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Middle East",
+    "top_items": [
+      "Israel has opened a southern Lebanon ground front while the Iran air campaign continues, raising the risk of a two-theater war without an off-ramp.",
+      "Trump's Doha ceasefire proposal and Iran's conditional signal represent the first serious diplomatic contact, but fighting is intensifying simultaneously.",
+      "Russia's Zaporizhzhia offensive and the collapse of Riyadh talks show European security deteriorating while global attention stays fixed on the Middle East."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Israel confirms ground forces have crossed the Litani into southern Lebanon as Iran war enters day 35",
+        "note": "Israel has opened a ground front in Lebanon while the air campaign against Iran continues, raising the strategic risk of a two-theater war without a clear off-ramp.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "RUS",
+        "country": "Russia",
+        "headline": "Russia launches major ground offensive in Zaporizhzhia sector as ceasefire talks in Riyadh collapse",
+        "note": "Russia has shifted from attritional holding to active offensive pressure in Zaporizhzhia, using the collapse of diplomacy as cover for a fresh push.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "Iran's new Supreme Leader makes first wartime address vowing resistance as Kharg Island oil terminal takes damage",
+        "note": "Iran is simultaneously projecting resolve through its new leadership and testing the diplomatic door, signaling attrition risk but not readiness to concede.",
+        "change_status": "escalated"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 6,
+      "Eastern Europe": 6,
+      "Indo-Pacific": 6,
+      "Africa & Americas": 6
+    }
   }
 ]

@@ -24,6 +24,11 @@
       "date": "Mar 15, 2026",
       "event": "Fresh Iranian missile and drone attacks keep Gulf states on alert",
       "detail": "Another round of interceptions underscored that the regional war is still widening through Gulf air defense, shipping, and energy-security stress."
+    },
+    {
+      "date": "Apr 4, 2026",
+      "event": "Israel crosses the Litani as Doha ceasefire talks open and Iran signals conditional engagement",
+      "detail": "IDF ground forces entered southern Lebanon past the Litani River while Qatar hosted the first formal ceasefire channel. Iran's new Supreme Leader gave his first public wartime address as Kharg Island terminal took strike damage, and the Houthis resumed Red Sea anti-ship operations citing Lebanon solidarity."
     }
   ],
   "Eastern Europe": [
@@ -51,6 +56,11 @@
       "date": "Mar 15, 2026",
       "event": "Ukraine waits for the next talks round while warning about air-defense strain",
       "detail": "Kyiv says it is ready to resume talks, but delays and competing crises are raising concern that military support could come under more pressure."
+    },
+    {
+      "date": "Apr 3, 2026",
+      "event": "Russia launches Zaporizhzhia offensive as Riyadh ceasefire talks collapse",
+      "detail": "Russia opened a significant ground push south of Orikhiv in Zaporizhzhia while diplomacy stalled in Riyadh. The EU approved a €4.5 billion emergency air defense package for Ukraine in response, and Kim Jong Un arrived in Moscow for a fourth summit with Putin, deepening the Russia-North Korea military axis."
     }
   ],
   "Indo-Pacific": [
@@ -78,6 +88,11 @@
       "date": "Mar 15, 2026",
       "event": "Taiwan reports another large PLA air presence after a short lull",
       "detail": "The return of 26 Chinese aircraft near Taiwan reinforced that Beijing's recent pause looked tactical, not conciliatory."
+    },
+    {
+      "date": "Apr 2, 2026",
+      "event": "PLA Taiwan Strait exercises triggered by U.S. tariff escalation as Kim-Putin summit deepens axis",
+      "detail": "China launched large-scale Taiwan Strait exercises after Trump's new tariff package strained the Xi-Trump summit track, while U.S. destroyers conducted a strait transit during the drill window. Simultaneously, Kim Jong Un's arrival in Moscow for a fourth summit signaled a deeper Pyongyang-Moscow military axis, with South Korea raising its alert level after a North Korean short-range ballistic missile launch."
     }
   ],
   "Africa & Americas": [
@@ -105,6 +120,11 @@
       "date": "Mar 13-15, 2026",
       "event": "Haiti election interest rises while Congo and Sudan remain defined by civilian danger",
       "detail": "Political registration in Haiti continued despite gang dominance, while eastern Congo and Sudan stayed centered on attacks that diplomacy still has not contained."
+    },
+    {
+      "date": "Apr 3-4, 2026",
+      "event": "ICJ order on Sudan, Congo ceasefire violations, U.S. Haiti package, and Venezuela court proceedings advance simultaneously",
+      "detail": "The ICJ issued an emergency order on RSF attacks on Darfur medical infrastructure as a UN famine declaration covered four Darfur states. In Congo, M23 violated a freshly signed Luanda ceasefire within 48 hours. The U.S. announced a $200 million Haiti security package even as the electoral council postponed registration deadlines. Venezuela's U.S. extradition proceedings advanced with a May hearing date set, while Caracas released 12 more political prisoners."
     }
   ]
 }
