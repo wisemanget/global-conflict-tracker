@@ -29,6 +29,11 @@
       "date": "Apr 4, 2026",
       "event": "Israel crosses the Litani as Doha ceasefire talks open and Iran signals conditional engagement",
       "detail": "IDF ground forces entered southern Lebanon past the Litani River while Qatar hosted the first formal ceasefire channel. Iran's new Supreme Leader gave his first public wartime address as Kharg Island terminal took strike damage, and the Houthis resumed Red Sea anti-ship operations citing Lebanon solidarity."
+    },
+    {
+      "date": "Apr 9-10, 2026",
+      "event": "U.S.-Iran 48-hour pause agreed in Doha; Israel strikes Ahvaz IRGC node, threatening collapse of ceasefire channel",
+      "detail": "Qatar brokered the first formal U.S.-Iran strike pause after 41 days of war. Israel, excluded from the talks, struck an IRGC command node near Ahvaz within hours of the announcement, placing the pause at immediate risk. Iran's IRGC was placed on highest readiness, the Lebanese army began deploying into the Litani buffer zone, and the Houthis declared their own Red Sea pause in solidarity with the Doha process."
     }
   ],
   "Eastern Europe": [
@@ -61,6 +66,11 @@
       "date": "Apr 3, 2026",
       "event": "Russia launches Zaporizhzhia offensive as Riyadh ceasefire talks collapse",
       "detail": "Russia opened a significant ground push south of Orikhiv in Zaporizhzhia while diplomacy stalled in Riyadh. The EU approved a €4.5 billion emergency air defense package for Ukraine in response, and Kim Jong Un arrived in Moscow for a fourth summit with Putin, deepening the Russia-North Korea military axis."
+    },
+    {
+      "date": "Apr 10, 2026",
+      "event": "Kim-Putin military pact signed; Russia widens Zaporizhzhia offensive as Ukraine holds with EU air defense arriving",
+      "detail": "Kim Jong Un and Vladimir Putin signed a formal joint military pact in Moscow, committing North Korea to accelerated artillery and ammunition transfers. Pyongyang fired an ICBM into the East Sea within hours as a capability signal. Russia widened its Zaporizhzhia push and resumed Kharkiv energy strikes. Ukraine held the line as the first EU air defense systems arrived in Dnipro. Zelensky addressed the European Parliament on the pact's implications."
     }
   ],
   "Indo-Pacific": [
@@ -93,6 +103,11 @@
       "date": "Apr 2, 2026",
       "event": "PLA Taiwan Strait exercises triggered by U.S. tariff escalation as Kim-Putin summit deepens axis",
       "detail": "China launched large-scale Taiwan Strait exercises after Trump's new tariff package strained the Xi-Trump summit track, while U.S. destroyers conducted a strait transit during the drill window. Simultaneously, Kim Jong Un's arrival in Moscow for a fourth summit signaled a deeper Pyongyang-Moscow military axis, with South Korea raising its alert level after a North Korean short-range ballistic missile launch."
+    },
+    {
+      "date": "Apr 9-10, 2026",
+      "event": "China ends exercises and calls for Xi-Trump summit; Taiwan signs Patriot interceptor deal as Kim-Putin military pact signed",
+      "detail": "China ended its Taiwan Strait exercises and offered a Xi-Trump summit as market instability from the tariff-and-war combination gave Beijing a forcing function for diplomacy. Beijing also backed the Doha ceasefire channel and offered to host a parallel Iran-Gulf diplomatic track. Taiwan's legislature approved an emergency defense supplement and signed a fast-track deal for 400 additional Patriot interceptors with Washington. The Kim-Putin military pact, formalized in Moscow, represents the deepest North Korea-Russia alignment since the Cold War."
     }
   ],
   "Africa & Americas": [
@@ -125,6 +140,11 @@
       "date": "Apr 3-4, 2026",
       "event": "ICJ order on Sudan, Congo ceasefire violations, U.S. Haiti package, and Venezuela court proceedings advance simultaneously",
       "detail": "The ICJ issued an emergency order on RSF attacks on Darfur medical infrastructure as a UN famine declaration covered four Darfur states. In Congo, M23 violated a freshly signed Luanda ceasefire within 48 hours. The U.S. announced a $200 million Haiti security package even as the electoral council postponed registration deadlines. Venezuela's U.S. extradition proceedings advanced with a May hearing date set, while Caracas released 12 more political prisoners."
+    },
+    {
+      "date": "Apr 9-10, 2026",
+      "event": "Sudan AU suspension, Congo ceasefire void, Venezuela electoral roadmap, and Haiti Jacmel breakthrough mark diverging trajectories",
+      "detail": "The African Union suspended Sudan as the RSF ignored the ICJ order and famine projections exceeded 2011 Somalia levels. In Congo, Kinshasa formally declared the Luanda ceasefire void after M23 seized Rutshuru; the U.S. sanctioned Kigali officials. Venezuela's opposition and acting government agreed on an August electoral roadmap with U.S. sanctions relief linked to progress. Haiti achieved its first significant security success as police broke the Jacmel port siege with U.S.-funded equipment, opening a revised May electoral registration window."
     }
   ]
 }

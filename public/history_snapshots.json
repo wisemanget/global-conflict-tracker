@@ -673,5 +673,50 @@
       "Indo-Pacific": 6,
       "Africa & Americas": 6
     }
+  },
+  {
+    "id": "2026-04-10",
+    "label": "Apr 2026",
+    "date_range": "Apr 10, 2026",
+    "captured_at": "2026-04-10T09:00:00.000Z",
+    "headline": "Doha ceasefire pause on knife's edge as Israel's Ahvaz strike and Kim-Putin military pact reshape the global risk picture",
+    "summary": "The first U.S.-Iran diplomatic breakthrough in 41 days of war is immediately stressed by an Israeli strike on an IRGC command node. Simultaneously, the Kim-Putin military pact institutionalizes the Russia-North Korea axis, the Congo ceasefire collapses, and Venezuela achieves its most credible transition step yet.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Middle East",
+    "top_items": [
+      "The U.S.-Iran 48-hour Doha pause is the war's first diplomatic opening — and Israel's Ahvaz strike is its first serious threat.",
+      "The Kim-Putin military pact formalizes the deepest Russia-North Korea alignment since the Cold War, with direct implications for Ukraine's front-line resupply balance.",
+      "Sudan's AU suspension, Congo's collapsed ceasefire, and Haiti's Jacmel breakthrough show how Africa's conflicts are diverging — some escalating, some showing the first signs of stabilization."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war",
+        "note": "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "RUS",
+        "country": "Russia",
+        "headline": "Russia widens Zaporizhzhia push and signs Kim-Putin joint military pact in Moscow",
+        "note": "The Kim-Putin pact signals Moscow is building a durable alternative security architecture rather than seeking reintegration with the West.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "VEN",
+        "country": "Venezuela",
+        "headline": "Venezuela opposition and acting government agree on August electoral roadmap; U.S. suspends sanctions tranche",
+        "note": "Venezuela's transition has taken its most concrete step so far, though durability depends on the acting government following through under Maduro loyalist pressure.",
+        "change_status": "improving"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 7,
+      "Eastern Europe": 7,
+      "Indo-Pacific": 7,
+      "Africa & Americas": 7
+    }
   }
 ]
