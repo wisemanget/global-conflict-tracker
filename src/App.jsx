@@ -3,7 +3,7 @@ import DashboardOverview from "./components/DashboardOverview";
 import DetailPanel from "./components/DetailPanel";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
-import { theaterColors, theaterOrder, threatColors } from "./constants";
+import { theaterOrder, threatColors } from "./constants";
 import { fetchJson, formatRefreshStatus } from "./utils";
 
 const BriefingView = lazy(() => import("./components/BriefingView"));
@@ -124,6 +124,7 @@ export default function App() {
   const [currentSidebarTab, setCurrentSidebarTab] = useState("intel");
   const [mapFocusMode, setMapFocusMode] = useState("urgent");
   const [mapOverlayMode, setMapOverlayMode] = useState("pressure");
+  const [mapControlHint, setMapControlHint] = useState("");
   const [selectedIso, setSelectedIso] = useState(null);
   const [highlightedIsos, setHighlightedIsos] = useState([]);
   const [expandedLeaderIndexes, setExpandedLeaderIndexes] = useState([]);
@@ -134,6 +135,7 @@ export default function App() {
   const [error, setError] = useState("");
   const detailInnerRef = useRef(null);
   const activeRef = useRef(true);
+  const mapControlHintTimerRef = useRef(null);
   const refreshEndpoint = import.meta.env.VITE_REFRESH_ENDPOINT?.trim() || "/api/refresh";
 
   async function loadData(isRefresh = false) {
@@ -370,8 +372,11 @@ export default function App() {
   const leaders = selectedCountry ? leadersData[selectedCountry.iso_code] || [] : [];
   const timelineEvents = selectedCountry ? timelinesData[selectedCountry.theater] || [] : [];
   const impact = selectedCountry ? impactData[selectedCountry.iso_code] : null;
-  const currentRegionLabel = currentFilter === "all" ? "Global view" : currentFilter;
   const activeOverlayLegend = overlayLegendItems[mapOverlayMode];
+  const isMarkersFiltered = mapFocusMode === "urgent" && currentFilter === "all";
+  const hiddenMarkersCount = isMarkersFiltered
+    ? Math.max(0, conflictData.length - focusedIsos.length)
+    : 0;
 
   function openDetail(iso) {
     setSelectedIso(iso);
@@ -403,6 +408,35 @@ export default function App() {
     setCurrentFilter(theater || "all");
     setViewMode("map");
   }
+
+  function flashMapControlHint(text) {
+    setMapControlHint(text);
+    if (mapControlHintTimerRef.current) {
+      window.clearTimeout(mapControlHintTimerRef.current);
+    }
+    mapControlHintTimerRef.current = window.setTimeout(() => {
+      setMapControlHint("");
+      mapControlHintTimerRef.current = null;
+    }, 5000);
+  }
+
+  function selectMapFocusMode(modeKey) {
+    setMapFocusMode(modeKey);
+    flashMapControlHint(mapFocusModes[modeKey].description);
+  }
+
+  function selectMapOverlayMode(modeKey) {
+    setMapOverlayMode(modeKey);
+    flashMapControlHint(mapOverlayModes[modeKey].description);
+  }
+
+  useEffect(() => {
+    return () => {
+      if (mapControlHintTimerRef.current) {
+        window.clearTimeout(mapControlHintTimerRef.current);
+      }
+    };
+  }, []);
 
   function openFocusedCountry(conflict) {
     setCurrentFilter(conflict.theater || "all");
@@ -535,84 +569,61 @@ export default function App() {
                   />
                 </Suspense>
 
-                <div className="map-legend">
-                  <span className="legend-title">Theaters of Operation</span>
-                  <div className="legend-items">
-                    <button
-                      type="button"
-                      className={`legend-item ${currentFilter === "all" ? "active" : ""}`}
-                      onClick={() => setCurrentFilter("all")}
-                    >
-                      <span className="legend-dot legend-dot-global" />
-                      <span>Global view</span>
-                    </button>
-                    {Object.entries(theaterColors).map(([theater, color]) => (
-                      <button
-                        key={theater}
-                        type="button"
-                        className={`legend-item ${currentFilter === theater ? "active" : ""}`}
-                        onClick={() => setCurrentFilter(theater)}
-                      >
-                        <span className="legend-dot" style={{ background: color }} />
-                        <span>
-                          {theater === "Eastern Europe"
-                            ? "E. Europe"
-                            : theater === "Africa & Americas"
-                              ? "Africa/Americas"
-                              : theater}
-                        </span>
-                      </button>
-                    ))}
+                {hiddenMarkersCount > 0 ? (
+                  <div className="map-hidden-marker-hint" aria-live="polite">
+                    +{hiddenMarkersCount} more — switch to Standard lens to reveal
                   </div>
-                </div>
-
-                <div className="map-overlay-legend">
-                  <div className="map-overlay-legend-header">
-                    <span className="legend-title">Overlay key</span>
-                    <span className="map-overlay-context">{currentRegionLabel}</span>
-                  </div>
-                  <div className="map-overlay-legend-items">
-                    {activeOverlayLegend.map((item) => (
-                      <div key={`${mapOverlayMode}-${item.label}`} className="map-overlay-legend-item">
-                        <span className={`map-overlay-swatch ${item.tone}`} />
-                        <span>{item.label}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
+                ) : null}
               </div>
 
-              <div className="map-toolbar-stack">
-                <div className="map-focus-toolbar">
+              <div className="map-controls-bar" role="toolbar" aria-label="Map lens and overlay">
+                <div className="map-controls-group">
                   <span className="map-toolbar-label">Lens</span>
                   {Object.entries(mapFocusModes).map(([modeKey, mode]) => (
                     <button
                       key={modeKey}
                       type="button"
                       className={`map-focus-chip ${mapFocusMode === modeKey ? "active" : ""}`}
-                      onClick={() => setMapFocusMode(modeKey)}
+                      title={mode.description}
+                      onClick={() => selectMapFocusMode(modeKey)}
                     >
                       {mode.label}
                     </button>
                   ))}
-                  <span className="map-shell-copy">{mapFocusModes[mapFocusMode].description}</span>
                 </div>
 
-                <div className="map-focus-toolbar map-overlay-toolbar">
+                <span className="map-controls-divider" aria-hidden="true" />
+
+                <div className="map-controls-group">
                   <span className="map-toolbar-label">Overlay</span>
                   {Object.entries(mapOverlayModes).map(([modeKey, mode]) => (
                     <button
                       key={modeKey}
                       type="button"
                       className={`map-focus-chip ${mapOverlayMode === modeKey ? "active" : ""}`}
-                      onClick={() => setMapOverlayMode(modeKey)}
+                      title={mode.description}
+                      onClick={() => selectMapOverlayMode(modeKey)}
                     >
                       {mode.label}
                     </button>
                   ))}
-                  <span className="map-shell-copy">{mapOverlayModes[mapOverlayMode].description}</span>
                 </div>
               </div>
+
+              {mapControlHint ? (
+                <div className="map-controls-hint" aria-live="polite">{mapControlHint}</div>
+              ) : null}
+
+              {mapOverlayMode !== "theaters" ? (
+                <div className="map-overlay-inline-legend" aria-label="Overlay legend">
+                  {activeOverlayLegend.map((item) => (
+                    <div key={`${mapOverlayMode}-${item.label}`} className="map-overlay-inline-legend-item">
+                      <span className={`map-overlay-swatch ${item.tone}`} />
+                      <span>{item.label}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : null}
 
               <div className="map-focus-rail">
                 {mapFocusItems.map((conflict, index) => (

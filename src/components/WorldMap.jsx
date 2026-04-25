@@ -447,10 +447,15 @@ function buildMapTraces(conflictData, connectionsData, focusMode, focusedIsos, o
     }));
   });
 
+  const restrictMarkersToFocus = focusMode === "urgent" && currentFilter === "all" && hasFocus;
   conflictData.forEach((conflict) => {
     const coord = countryCoords[conflict.iso_code];
 
     if (!coord) {
+      return;
+    }
+
+    if (restrictMarkersToFocus && !focusedSet.has(conflict.iso_code)) {
       return;
     }
 
