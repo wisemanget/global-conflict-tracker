@@ -1,6 +1,11 @@
-import { getChangeMeta } from "../utils";
 import { theaterColors } from "../constants";
 import CountryCard from "./CountryCard";
+
+const sortLabels = {
+  threat: "By Threat",
+  theater: "By Theater",
+  alpha: "A-Z",
+};
 
 export default function Sidebar({
   currentSidebarTab,
@@ -14,7 +19,6 @@ export default function Sidebar({
   onSortChange,
   loading,
   error,
-  totalCount,
   filteredConflicts,
   connectionsData,
   selectedIso,
@@ -55,11 +59,6 @@ export default function Sidebar({
           </button>
         </div>
 
-        <div className={`sidebar-title-row ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
-          <h2 className="sidebar-title">Explore Reports</h2>
-          <span className="feed-badge">{filteredConflicts.length} shown</span>
-        </div>
-
         <div className={`theater-filters ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
           <button
             type="button"
@@ -85,44 +84,74 @@ export default function Sidebar({
           ))}
         </div>
 
-        <div className={`impact-filters ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
-          <span className="filter-label">View by impact</span>
-          <div className="impact-chip-row">
-            <button
-              type="button"
-              className={`filter-chip ${impactFilter === "all" ? "active" : ""}`}
-              onClick={() => onImpactFilterChange("all")}
-            >
-              All impacts
-            </button>
-            {impactOptions.map((tag) => (
-              <button
-                key={tag}
-                type="button"
-                className={`filter-chip ${impactFilter === tag ? "active" : ""}`}
-                onClick={() => onImpactFilterChange(tag)}
-              >
-                {tag}
-              </button>
-            ))}
-          </div>
-        </div>
+        <div className={`sidebar-tools ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
+          <details className="sidebar-disclosure">
+            <summary className="sidebar-disclosure-summary">
+              <span>Filter</span>
+              {impactFilter !== "all" ? (
+                <span className="sidebar-disclosure-pill">
+                  Impact: {impactFilter}
+                  <span
+                    className="sidebar-disclosure-pill-clear"
+                    role="button"
+                    tabIndex={0}
+                    aria-label="Clear impact filter"
+                    onClick={(event) => {
+                      event.preventDefault();
+                      event.stopPropagation();
+                      onImpactFilterChange("all");
+                    }}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        onImpactFilterChange("all");
+                      }
+                    }}
+                  >
+                    {"✕"}
+                  </span>
+                </span>
+              ) : null}
+              <span className="sidebar-disclosure-caret" aria-hidden="true">{"▾"}</span>
+            </summary>
+            <div className="sidebar-disclosure-content">
+              <div className="impact-chip-row">
+                <button
+                  type="button"
+                  className={`filter-chip ${impactFilter === "all" ? "active" : ""}`}
+                  onClick={() => onImpactFilterChange("all")}
+                >
+                  All impacts
+                </button>
+                {impactOptions.map((tag) => (
+                  <button
+                    key={tag}
+                    type="button"
+                    className={`filter-chip ${impactFilter === tag ? "active" : ""}`}
+                    onClick={() => onImpactFilterChange(tag)}
+                  >
+                    {tag}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </details>
 
-        <div className={`sort-controls ${currentSidebarTab === "intel" ? "" : "hidden"}`}>
-          {[
-            ["threat", "By Threat"],
-            ["theater", "By Theater"],
-            ["alpha", "A-Z"],
-          ].map(([sortKey, label]) => (
-            <button
-              key={sortKey}
-              type="button"
-              className={`sort-btn ${currentSort === sortKey ? "active" : ""}`}
-              onClick={() => onSortChange(sortKey)}
+          <label className="sidebar-sort">
+            <span className="sidebar-sort-label">Sort:</span>
+            <select
+              className="sidebar-sort-select"
+              value={currentSort}
+              onChange={(event) => onSortChange(event.target.value)}
             >
-              {label}
-            </button>
-          ))}
+              {Object.entries(sortLabels).map(([key, label]) => (
+                <option key={key} value={key}>
+                  {label}
+                </option>
+              ))}
+            </select>
+          </label>
         </div>
       </div>
 
@@ -166,7 +195,7 @@ export default function Sidebar({
             >
               <div className="connection-route">
                 <span>{getCountryName(connection.from)}</span>
-                <span className="connection-arrow">{"\u2192"}</span>
+                <span className="connection-arrow">{"→"}</span>
                 <span>{getCountryName(connection.to)}</span>
                 <span className="connection-type-badge" data-type={connection.type}>
                   {typeLabel}

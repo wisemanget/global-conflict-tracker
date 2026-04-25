@@ -3,7 +3,7 @@ import DashboardOverview from "./components/DashboardOverview";
 import DetailPanel from "./components/DetailPanel";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
-import { theaterColors, theaterOrder, threatColors } from "./constants";
+import { theaterOrder, threatColors } from "./constants";
 import { fetchJson, formatRefreshStatus } from "./utils";
 
 const BriefingView = lazy(() => import("./components/BriefingView"));
@@ -124,22 +124,20 @@ export default function App() {
   const [currentSidebarTab, setCurrentSidebarTab] = useState("intel");
   const [mapFocusMode, setMapFocusMode] = useState("urgent");
   const [mapOverlayMode, setMapOverlayMode] = useState("pressure");
+  const [mapControlHint, setMapControlHint] = useState("");
   const [selectedIso, setSelectedIso] = useState(null);
   const [highlightedIsos, setHighlightedIsos] = useState([]);
   const [expandedLeaderIndexes, setExpandedLeaderIndexes] = useState([]);
   const [expandedTimelineIndexes, setExpandedTimelineIndexes] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [refreshing, setRefreshing] = useState(false);
-  const [refreshFeedback, setRefreshFeedback] = useState("");
   const [error, setError] = useState("");
   const detailInnerRef = useRef(null);
   const activeRef = useRef(true);
-  const refreshEndpoint = import.meta.env.VITE_REFRESH_ENDPOINT?.trim() || "/api/refresh";
+  const mapControlHintTimerRef = useRef(null);
 
-  async function loadData(isRefresh = false) {
-    const setter = isRefresh ? setRefreshing : setLoading;
+  async function loadData() {
     try {
-      setter(true);
+      setLoading(true);
       const [conflicts, history, leaders, timelines, impacts, connections, metadata] = await Promise.all([
         fetchJson("/conflict_data.json"),
         fetchJson("/history_snapshots.json"),
@@ -179,7 +177,7 @@ export default function App() {
       return null;
     } finally {
       if (activeRef.current) {
-        setter(false);
+        setLoading(false);
       }
     }
   }
@@ -370,8 +368,11 @@ export default function App() {
   const leaders = selectedCountry ? leadersData[selectedCountry.iso_code] || [] : [];
   const timelineEvents = selectedCountry ? timelinesData[selectedCountry.theater] || [] : [];
   const impact = selectedCountry ? impactData[selectedCountry.iso_code] : null;
-  const currentRegionLabel = currentFilter === "all" ? "Global view" : currentFilter;
   const activeOverlayLegend = overlayLegendItems[mapOverlayMode];
+  const isMarkersFiltered = mapFocusMode === "urgent" && currentFilter === "all";
+  const hiddenMarkersCount = isMarkersFiltered
+    ? Math.max(0, conflictData.length - focusedIsos.length)
+    : 0;
 
   function openDetail(iso) {
     setSelectedIso(iso);
@@ -404,75 +405,34 @@ export default function App() {
     setViewMode("map");
   }
 
-  function openFocusedCountry(conflict) {
-    setCurrentFilter(conflict.theater || "all");
-    openDetail(conflict.iso_code);
+  function flashMapControlHint(text) {
+    setMapControlHint(text);
+    if (mapControlHintTimerRef.current) {
+      window.clearTimeout(mapControlHintTimerRef.current);
+    }
+    mapControlHintTimerRef.current = window.setTimeout(() => {
+      setMapControlHint("");
+      mapControlHintTimerRef.current = null;
+    }, 5000);
   }
 
-  async function waitForUpdatedDataset(previousTimestamp) {
-    for (let attempt = 0; attempt < 10; attempt += 1) {
-      if (attempt > 0) {
-        await sleep(8000);
-      }
-
-      const payload = await loadData(true);
-      const nextTimestamp = getLatestTimestampFromConflicts(payload?.conflicts || []);
-      if (nextTimestamp && nextTimestamp !== previousTimestamp) {
-        return nextTimestamp;
-      }
-    }
-
-    return null;
+  function selectMapFocusMode(modeKey) {
+    setMapFocusMode(modeKey);
+    flashMapControlHint(mapFocusModes[modeKey].description);
   }
 
-  async function handleRefresh() {
-    const previousTimestamp = latestDatasetTimestamp;
-
-    if (!refreshEndpoint) {
-      setRefreshFeedback("Reloaded the latest published dataset. Live refresh endpoint is not configured.");
-      await loadData(true);
-      return;
-    }
-
-    try {
-      setRefreshing(true);
-      setRefreshFeedback("Requesting a live refresh...");
-
-      const response = await fetch(refreshEndpoint, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          requested_at: new Date().toISOString(),
-          source: "app",
-        }),
-      });
-
-      const payload = await response.json().catch(() => null);
-      const message = payload?.message || "";
-
-      if (!response.ok) {
-        throw new Error(message || `Refresh request failed (${response.status})`);
-      }
-
-      setRefreshFeedback(message || "Live refresh requested. Waiting for the new dataset to publish...");
-      const nextTimestamp = await waitForUpdatedDataset(previousTimestamp);
-
-      if (nextTimestamp) {
-        setRefreshFeedback("Live data updated.");
-      } else {
-        setRefreshFeedback("Refresh requested, but the new dataset is still publishing.");
-      }
-    } catch (refreshError) {
-      setRefreshFeedback(refreshError.message || "Unable to request a live refresh.");
-      await loadData(true);
-    } finally {
-      if (activeRef.current) {
-        setRefreshing(false);
-      }
-    }
+  function selectMapOverlayMode(modeKey) {
+    setMapOverlayMode(modeKey);
+    flashMapControlHint(mapOverlayModes[modeKey].description);
   }
+
+  useEffect(() => {
+    return () => {
+      if (mapControlHintTimerRef.current) {
+        window.clearTimeout(mapControlHintTimerRef.current);
+      }
+    };
+  }, []);
 
   return (
     <>
@@ -484,10 +444,6 @@ export default function App() {
           activeCount={activeCount}
           criticalCount={criticalCount}
           timestamp={timestamp}
-          refreshing={refreshing}
-          refreshFeedback={refreshFeedback}
-          liveRefreshEnabled={Boolean(refreshEndpoint)}
-          onRefresh={handleRefresh}
         />
 
         <main className={`map-workspace ${viewMode === "map" ? "" : "hidden"}`}>
@@ -496,7 +452,7 @@ export default function App() {
               <div className="map-shell-header">
                 <div className="map-shell-summary">
                   <span className="map-shell-kicker">Live Map</span>
-                  <h3 className="map-shell-title">
+                  <h3 className="map-shell-title" title={leadStory ? `${leadStory.country}: ${leadStory.briefing_note || leadStory.tldr}` : undefined}>
                     {leadStory
                       ? `${leadStory.country}: ${leadStory.briefing_note || leadStory.tldr}`
                       : "Track the most important active conflict signals on the map."}
@@ -510,15 +466,6 @@ export default function App() {
                   >
                     Open briefing
                   </button>
-                  {leadStory ? (
-                    <button
-                      type="button"
-                      className="map-shell-brief-btn"
-                      onClick={() => openDetail(leadStory.iso_code)}
-                    >
-                      Open lead report
-                    </button>
-                  ) : null}
                 </div>
               </div>
 
@@ -535,106 +482,61 @@ export default function App() {
                   />
                 </Suspense>
 
-                <div className="map-legend">
-                  <span className="legend-title">Theaters of Operation</span>
-                  <div className="legend-items">
-                    <button
-                      type="button"
-                      className={`legend-item ${currentFilter === "all" ? "active" : ""}`}
-                      onClick={() => setCurrentFilter("all")}
-                    >
-                      <span className="legend-dot legend-dot-global" />
-                      <span>Global view</span>
-                    </button>
-                    {Object.entries(theaterColors).map(([theater, color]) => (
-                      <button
-                        key={theater}
-                        type="button"
-                        className={`legend-item ${currentFilter === theater ? "active" : ""}`}
-                        onClick={() => setCurrentFilter(theater)}
-                      >
-                        <span className="legend-dot" style={{ background: color }} />
-                        <span>
-                          {theater === "Eastern Europe"
-                            ? "E. Europe"
-                            : theater === "Africa & Americas"
-                              ? "Africa/Americas"
-                              : theater}
-                        </span>
-                      </button>
-                    ))}
+                {hiddenMarkersCount > 0 ? (
+                  <div className="map-hidden-marker-hint" aria-live="polite">
+                    +{hiddenMarkersCount} more — switch to Standard lens to reveal
                   </div>
-                </div>
-
-                <div className="map-overlay-legend">
-                  <div className="map-overlay-legend-header">
-                    <span className="legend-title">Overlay key</span>
-                    <span className="map-overlay-context">{currentRegionLabel}</span>
-                  </div>
-                  <div className="map-overlay-legend-items">
-                    {activeOverlayLegend.map((item) => (
-                      <div key={`${mapOverlayMode}-${item.label}`} className="map-overlay-legend-item">
-                        <span className={`map-overlay-swatch ${item.tone}`} />
-                        <span>{item.label}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
+                ) : null}
               </div>
 
-              <div className="map-toolbar-stack">
-                <div className="map-focus-toolbar">
+              <div className="map-controls-bar" role="toolbar" aria-label="Map lens and overlay">
+                <div className="map-controls-group">
                   <span className="map-toolbar-label">Lens</span>
                   {Object.entries(mapFocusModes).map(([modeKey, mode]) => (
                     <button
                       key={modeKey}
                       type="button"
                       className={`map-focus-chip ${mapFocusMode === modeKey ? "active" : ""}`}
-                      onClick={() => setMapFocusMode(modeKey)}
+                      title={mode.description}
+                      onClick={() => selectMapFocusMode(modeKey)}
                     >
                       {mode.label}
                     </button>
                   ))}
-                  <span className="map-shell-copy">{mapFocusModes[mapFocusMode].description}</span>
                 </div>
 
-                <div className="map-focus-toolbar map-overlay-toolbar">
+                <span className="map-controls-divider" aria-hidden="true" />
+
+                <div className="map-controls-group">
                   <span className="map-toolbar-label">Overlay</span>
                   {Object.entries(mapOverlayModes).map(([modeKey, mode]) => (
                     <button
                       key={modeKey}
                       type="button"
                       className={`map-focus-chip ${mapOverlayMode === modeKey ? "active" : ""}`}
-                      onClick={() => setMapOverlayMode(modeKey)}
+                      title={mode.description}
+                      onClick={() => selectMapOverlayMode(modeKey)}
                     >
                       {mode.label}
                     </button>
                   ))}
-                  <span className="map-shell-copy">{mapOverlayModes[mapOverlayMode].description}</span>
                 </div>
               </div>
 
-              <div className="map-focus-rail">
-                {mapFocusItems.map((conflict, index) => (
-                  <button
-                    key={`${mapFocusMode}-${conflict.iso_code}`}
-                    type="button"
-                    className="map-focus-card"
-                    onClick={() => openFocusedCountry(conflict)}
-                  >
-                    <span className="map-focus-rank">{index + 1}</span>
-                    <div className="map-focus-copy">
-                      <div className="map-focus-top">
-                        <span className="map-focus-country">{conflict.country}</span>
-                        <span className="map-focus-theater">{conflict.theater}</span>
-                      </div>
-                      <div className="map-focus-note">
-                        {conflict.briefing_note || conflict.tldr || conflict.headline}
-                      </div>
+              {mapControlHint ? (
+                <div className="map-controls-hint" aria-live="polite">{mapControlHint}</div>
+              ) : null}
+
+              {mapOverlayMode !== "theaters" ? (
+                <div className="map-overlay-inline-legend" aria-label="Overlay legend">
+                  {activeOverlayLegend.map((item) => (
+                    <div key={`${mapOverlayMode}-${item.label}`} className="map-overlay-inline-legend-item">
+                      <span className={`map-overlay-swatch ${item.tone}`} />
+                      <span>{item.label}</span>
                     </div>
-                  </button>
-                ))}
-              </div>
+                  ))}
+                </div>
+              ) : null}
             </section>
           </section>
         </main>

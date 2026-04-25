@@ -675,6 +675,51 @@
     }
   },
   {
+    "id": "2026-04-09",
+    "label": "Apr 2026",
+    "date_range": "Apr 9, 2026",
+    "captured_at": "2026-04-09T18:00:00.000Z",
+    "headline": "Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war",
+    "summary": "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Middle East",
+    "top_items": [
+      "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+      "The U.S.-Iran pause is the most significant diplomatic development since the war began, but its durability depends entirely on Israeli restraint and Iranian compliance — two variables Washington does not fully control.",
+      "The Israeli Ahvaz strike has put Iran in the position of choosing between diplomatic credibility and military response — and the IRGC at highest readiness suggests the military option is dominating the internal debate."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war",
+        "note": "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "USA",
+        "country": "United States",
+        "headline": "U.S. and Iran agree to 48-hour strike pause after Doha talks yield preliminary framework",
+        "note": "The U.S.-Iran pause is the most significant diplomatic development since the war began, but its durability depends entirely on Israeli restraint and Iranian compliance — two variables Washington does not fully control.",
+        "change_status": "watch"
+      },
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "Iran suspends Hormuz interdiction threat during pause but vows full retaliation if Israel strikes continue",
+        "note": "The Israeli Ahvaz strike has put Iran in the position of choosing between diplomatic credibility and military response — and the IRGC at highest readiness suggests the military option is dominating the internal debate.",
+        "change_status": "escalated"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 7,
+      "Eastern Europe": 7,
+      "Indo-Pacific": 7,
+      "Africa & Americas": 7
+    }
+  },
+  {
     "id": "2026-04-10",
     "label": "Apr 2026",
     "date_range": "Apr 10, 2026",
@@ -710,6 +755,96 @@
         "headline": "Venezuela opposition and acting government agree on August electoral roadmap; U.S. suspends sanctions tranche",
         "note": "Venezuela's transition has taken its most concrete step so far, though durability depends on the acting government following through under Maduro loyalist pressure.",
         "change_status": "improving"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 7,
+      "Eastern Europe": 7,
+      "Indo-Pacific": 7,
+      "Africa & Americas": 7
+    }
+  },
+  {
+    "id": "2026-04-25",
+    "label": "Apr 2026",
+    "date_range": "Apr 25, 2026",
+    "captured_at": "2026-04-25T14:27:49.977Z",
+    "headline": "Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war",
+    "summary": "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Middle East",
+    "top_items": [
+      "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+      "The U.S.-Iran pause is the most significant diplomatic development since the war began, but its durability depends entirely on Israeli restraint and Iranian compliance — two variables Washington does not fully control.",
+      "The Israeli Ahvaz strike has put Iran in the position of choosing between diplomatic credibility and military response — and the IRGC at highest readiness suggests the military option is dominating the internal debate."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war",
+        "note": "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "USA",
+        "country": "United States",
+        "headline": "U.S. and Iran agree to 48-hour strike pause after Doha talks yield preliminary framework",
+        "note": "The U.S.-Iran pause is the most significant diplomatic development since the war began, but its durability depends entirely on Israeli restraint and Iranian compliance — two variables Washington does not fully control.",
+        "change_status": "watch"
+      },
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "Iran suspends Hormuz interdiction threat during pause but vows full retaliation if Israel strikes continue",
+        "note": "The Israeli Ahvaz strike has put Iran in the position of choosing between diplomatic credibility and military response — and the IRGC at highest readiness suggests the military option is dominating the internal debate.",
+        "change_status": "escalated"
+      }
+    ],
+    "timeline_counts": {
+      "Middle East": 7,
+      "Eastern Europe": 7,
+      "Indo-Pacific": 7,
+      "Africa & Americas": 7
+    }
+  },
+  {
+    "id": "2026-04-25",
+    "label": "Apr 2026",
+    "date_range": "Apr 25, 2026",
+    "captured_at": "2026-04-25T15:10:45.091Z",
+    "headline": "Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war",
+    "summary": "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+    "global_threat_label": "CRITICAL",
+    "global_threat_value": 5,
+    "dominant_theater": "Middle East",
+    "top_items": [
+      "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+      "The U.S.-Iran pause is the most significant diplomatic development since the war began, but its durability depends entirely on Israeli restraint and Iranian compliance — two variables Washington does not fully control.",
+      "The Israeli Ahvaz strike has put Iran in the position of choosing between diplomatic credibility and military response — and the IRGC at highest readiness suggests the military option is dominating the internal debate."
+    ],
+    "story_threads": [
+      {
+        "iso": "ISR",
+        "country": "Israel",
+        "headline": "Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war",
+        "note": "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+        "change_status": "escalated"
+      },
+      {
+        "iso": "USA",
+        "country": "United States",
+        "headline": "U.S. and Iran agree to 48-hour strike pause after Doha talks yield preliminary framework",
+        "note": "The U.S.-Iran pause is the most significant diplomatic development since the war began, but its durability depends entirely on Israeli restraint and Iranian compliance — two variables Washington does not fully control.",
+        "change_status": "watch"
+      },
+      {
+        "iso": "IRN",
+        "country": "Iran",
+        "headline": "Iran suspends Hormuz interdiction threat during pause but vows full retaliation if Israel strikes continue",
+        "note": "The Israeli Ahvaz strike has put Iran in the position of choosing between diplomatic credibility and military response — and the IRGC at highest readiness suggests the military option is dominating the internal debate.",
+        "change_status": "escalated"
       }
     ],
     "timeline_counts": {
