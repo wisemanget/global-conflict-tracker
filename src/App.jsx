@@ -438,11 +438,6 @@ export default function App() {
     };
   }, []);
 
-  function openFocusedCountry(conflict) {
-    setCurrentFilter(conflict.theater || "all");
-    openDetail(conflict.iso_code);
-  }
-
   async function waitForUpdatedDataset(previousTimestamp) {
     for (let attempt = 0; attempt < 10; attempt += 1) {
       if (attempt > 0) {
@@ -615,28 +610,6 @@ export default function App() {
                   ))}
                 </div>
               ) : null}
-
-              <div className="map-focus-rail">
-                {mapFocusItems.map((conflict, index) => (
-                  <button
-                    key={`${mapFocusMode}-${conflict.iso_code}`}
-                    type="button"
-                    className="map-focus-card"
-                    onClick={() => openFocusedCountry(conflict)}
-                  >
-                    <span className="map-focus-rank">{index + 1}</span>
-                    <div className="map-focus-copy">
-                      <div className="map-focus-top">
-                        <span className="map-focus-country">{conflict.country}</span>
-                        <span className="map-focus-theater">{conflict.theater}</span>
-                      </div>
-                      <div className="map-focus-note">
-                        {conflict.briefing_note || conflict.tldr || conflict.headline}
-                      </div>
-                    </div>
-                  </button>
-                ))}
-              </div>
             </section>
           </section>
         </main>

@@ -887,7 +887,7 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   height: min(72vh, 820px);
   padding: var(--space-3);
   display: grid;
-  grid-template-rows: auto minmax(0, 1fr) auto auto;
+  grid-template-rows: auto minmax(0, 1fr) auto;
   gap: var(--space-3);
   overflow: hidden;
 }
@@ -1015,77 +1015,6 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   border-color: rgba(108,138,255,0.35);
   background: rgba(108,138,255,0.12);
   color: var(--color-text);
-}
-
-.map-focus-rail {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: var(--space-2);
-}
-
-.map-focus-card {
-  display: flex;
-  gap: var(--space-2);
-  align-items: flex-start;
-  padding: var(--space-3);
-  border-radius: var(--radius-lg);
-  border: 1px solid rgba(255,255,255,0.06);
-  background: rgba(255,255,255,0.03);
-  text-align: left;
-  transition: all var(--transition);
-}
-
-.map-focus-card:hover {
-  border-color: rgba(108,138,255,0.28);
-  background: rgba(108,138,255,0.06);
-}
-
-.map-focus-rank {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: rgba(108,138,255,0.15);
-  color: var(--color-primary-hover);
-  font-family: var(--font-mono);
-  font-size: 10px;
-  font-weight: 700;
-}
-
-.map-focus-copy {
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.map-focus-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-2);
-}
-
-.map-focus-country {
-  color: var(--color-text);
-  font-size: var(--text-xs);
-  font-weight: 700;
-}
-
-.map-focus-theater {
-  color: var(--color-text-faint);
-  font-size: 10px;
-  font-family: var(--font-mono);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.map-focus-note {
-  color: var(--color-text-muted);
-  font-size: 11px;
-  line-height: 1.5;
 }
 
 .briefing-view {
@@ -2513,16 +2442,6 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
     grid-template-columns: 1fr;
   }
 
-  /* Focus rail becomes horizontally scrollable at tablet */
-  .map-focus-rail {
-    grid-template-columns: repeat(5, minmax(180px, 1fr));
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    padding-bottom: var(--space-1);
-  }
-  .map-focus-rail::-webkit-scrollbar { display: none; }
-
   .primary-stage {
     overflow-y: auto;
   }
@@ -2530,7 +2449,7 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   .map-shell {
     min-height: 460px;
     height: min(62vh, 640px);
-    grid-template-rows: auto minmax(0, 1fr) auto auto;
+    grid-template-rows: auto minmax(0, 1fr) auto;
   }
 
   .map-stage .map-shell {
@@ -2654,13 +2573,6 @@ html, body { height: 100%; overflow: hidden; margin: 0; }
   }
 
   .map-shell-header { display: none; }
-
-  .map-toolbar-stack { gap: var(--space-1); }
-
-  /* Focus rail: fixed-width cards, scroll horizontally */
-  .map-focus-rail {
-    grid-template-columns: repeat(5, minmax(150px, 1fr));
-  }
 
   /* Sidebar filters: horizontal scroll instead of wrap */
   .theater-filters {
