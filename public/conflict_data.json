@@ -5,20 +5,21 @@
     "theater": "Middle East",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "Trump extends Iran ceasefire indefinitely pending Tehran's formal proposal; nuclear talks stall on enrichment question",
-    "tldr": "Latest reporting on United States is centered on \"Trump extends Iran ceasefire indefinitely pending Tehran's formal proposal; nuclear talks stall on enrichment question.\" A second fresh signal highlights \"US continues Hormuz blockade despite partial Iranian shipping reopening, keeping tanker crisis unresolved.\"",
+    "headline": "Witkoff and Kushner fly to Pakistan as Araghchi delivers Tehran's war-end demands; ceasefire holds on day 57",
+    "tldr": "Trump extended the US-Iran ceasefire on April 21 citing a 'seriously fractured' Iranian government. On April 25, envoys Witkoff and Kushner flew to Islamabad after Iran's FM Araghchi delivered Tehran's war-end demands to Pakistani officials and then departed. Iran's foreign ministry publicly denied direct talks were planned. The US naval blockade remains in place; nuclear enrichment talks remain deadlocked. Oil above $106/bbl.",
     "alliances_short": "Israel remains the core military partner but is operating outside the ceasefire framework; Gulf states are pressing for a durable deal to restore oil flows.",
-    "forecast": "The extended ceasefire gives diplomacy more runway but does not resolve the core nuclear impasse. Washington's continued Hormuz blockade signals the U.S. is using economic pressure as leverage even during the truce.",
-    "current_events": "Fresh source monitoring for United States points to Apr 21, 2026: Trump announces extending Iran ceasefire but says blockade remains. A second signal highlights Apr 13, 2026: Mediators rush to revive U.S.-Iran nuclear talks before original ceasefire expires — with enrichment limits as the core sticking point.",
-    "alliances": "The U.S.-Israel alliance remains intact but Israel is operating independently of the ceasefire framework, conducting its own strikes in Lebanon. Gulf states want a permanent deal to restore Strait of Hormuz shipping. The Islamabad talks brought Vance, Witkoff, and Kushner into direct contact with Iranian officials but produced no agreement.",
-    "next_actions": "Watch whether Iran submits a formal proposal that restarts structured talks, whether the Hormuz blockade is eased as a confidence measure, and whether Israel's continued Lebanon strikes break the broader ceasefire architecture.",
-    "last_updated": "2026-04-25T15:01:15.356Z",
+    "forecast": "The Pakistan channel is the only active diplomatic thread. Whether it yields a direct meeting or indirect message-passing, the outcome of the Witkoff-Kushner trip will determine whether the ceasefire extends further or collapses into resumed hostilities.",
+    "current_events": "On April 25, US envoys Witkoff and Kushner flew to Islamabad after Iran FM Araghchi had already delivered Tehran's war-end demands to Pakistani officials and departed. Iran's foreign ministry stated: 'No meeting is planned to take place between Iran and the US.' Pakistani officials are relaying messages between delegations. Trump extended the ceasefire April 21 citing Iran's 'seriously fractured' government, while keeping the naval blockade and demanding a unified Iranian proposal. Iran rejected Trump's demand to halt all uranium enrichment. Oil prices remain above $106 per barrel.",
+    "alliances": "The U.S.-Israel alliance remains intact but Israel is operating independently of the ceasefire framework, conducting its own strikes in Lebanon. Gulf states want a permanent deal to restore Strait of Hormuz shipping. The Pakistan channel has replaced the Islamabad direct talks format — message relaying through Pakistani officials rather than face-to-face negotiation.",
+    "next_actions": "Watch whether Iran submits a formal unified proposal through Pakistan that restarts structured talks, whether the Hormuz blockade is eased as a confidence measure, and whether Israel's continued Lebanon strikes break the broader ceasefire architecture.",
+    "last_updated": "2026-04-25T18:00:00.000Z",
     "story_rank": 2,
-    "briefing_note": "The ceasefire extension buys time but not resolution. The nuclear enrichment question — the one point Trump said 'really mattered' — remains unresolved, and the continued Hormuz blockade shows Washington is keeping maximum economic pressure in place even during the truce.",
+    "briefing_note": "The dispatch of Witkoff and Kushner to Pakistan is the highest-stakes diplomatic move since the ceasefire began — but Iran's public denial of direct talks and continued blockade tensions mean the window for a deal remains dangerously narrow.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Trump extends Iran ceasefire indefinitely pending Tehran's formal proposal; nuclear talks stall on enrichment question.",
-      "Also worth watching: US continues Hormuz blockade despite partial Iranian shipping reopening, keeping nearly 800 tankers stranded."
+      "Witkoff and Kushner fly to Pakistan April 25 after Araghchi delivers Tehran's war-end demands and departs.",
+      "Iran denies direct talks planned; Pakistani officials relaying messages between delegations.",
+      "Naval blockade remains; uranium enrichment talks deadlocked; oil above $106/bbl."
     ],
     "impact_tags": [
       "U.S. Policy",
@@ -28,12 +29,16 @@
     ],
     "sources": [
       {
-        "label": "Al Jazeera, Apr 21, 2026: Trump announces extending Iran ceasefire but says blockade remains",
-        "url": "https://www.aljazeera.com/news/2026/4/21/trump-announces-extending-iran-ceasefire-but-says-blockade-remains"
+        "label": "Al Jazeera, Apr 25, 2026: Iran war live — Araghchi delivers Tehran's demands for war end to Pakistan",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/4/25/iran-war-live-tehrans-fm-in-islamabad-us-says-envoys-to-travel-for-talks"
       },
       {
-        "label": "Axios, Apr 13, 2026: Mediators rush to revive U.S.-Iran nuclear talks before ceasefire expires",
-        "url": "https://www.axios.com/2026/04/13/us-iran-nuclear-talks-ceasefire-deal"
+        "label": "CNBC, Apr 24, 2026: Kushner and Witkoff heading to Pakistan for direct talks with Iran",
+        "url": "https://www.cnbc.com/2026/04/24/iran-war-pakistan-trump-hegseth.html"
+      },
+      {
+        "label": "Al Jazeera, Apr 21, 2026: Trump announces extending Iran ceasefire but says blockade remains",
+        "url": "https://www.aljazeera.com/news/2026/4/21/trump-announces-extending-iran-ceasefire-but-says-blockade-remains"
       }
     ]
   },
@@ -245,20 +250,21 @@
     "theater": "Eastern Europe",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Russia continues Zaporizhzhia offensive with redeployed paratroopers; rejects ceasefire proposals as front-line pressure mounts",
-    "tldr": "Latest reporting on Russia is centered on \"Russia continues Zaporizhzhia offensive with redeployed paratroopers; rejects ceasefire proposals as front-line pressure mounts.\" A second fresh signal highlights \"44 settlements in Zaporizhzhia and Dnipropetrovsk oblasts under mandatory evacuation as fighting intensifies.\"",
-    "alliances_short": "Russia is deepening its military posture in Zaporizhzhia with elite unit redeployments, signaling no interest in the ceasefire framework being pushed by the U.S. and Europe.",
-    "forecast": "Russia's continued offensive in Zaporizhzhia with paratroopers signals an attempt to achieve territorial facts before any ceasefire framework can be finalized. Moscow has rejected every ceasefire proposal and is betting on Western fatigue.",
-    "current_events": "Fresh source monitoring for Russia points to Apr 24, 2026: Russia-Ukraine war update — fighting ongoing across Zaporizhzhia front including in Orikhiv, Huliaipilske, and Charivne. A second signal highlights Apr 22, 2026: Russian elite units including paratroopers redeployed to Zaporizhzhia region as activity on both sides notably increases.",
-    "alliances": "North Korea's ongoing ammunition pipeline — upwards of 5 million shells sent — remains Russia's most critical resupply relationship. China continues strategic backing. The Kim-Putin military pact institutionalizes the Russia-DPRK axis. Putin rejected the U.S.-proposed 30-day ceasefire in March and has not engaged since.",
-    "next_actions": "Watch whether Russian paratroopers attempt to cut Ukrainian logistics routes near Orikhiv, whether mandatory evacuations expand further into Dnipropetrovsk, and whether U.S. or European attention shifts back to Ukraine from the Middle East crisis.",
-    "last_updated": "2026-04-25T15:01:15.356Z",
+    "headline": "Russia launches largest aerial barrage of 2026 — 47 missiles and 619 drones kill seven across Ukraine on April 25",
+    "tldr": "Russia launched one of its largest aerial strikes of 2026 on April 25, deploying 47 missiles and 619 drones targeting Dnipro, Kharkiv, Chernihiv, Sumy, Odesa, and Kyiv oblasts — killing seven and injuring 57. Separately, Duma Speaker Volodin visited Pyongyang marking the 7th anniversary of the Kim-Putin summit as North Korea pledged expanded military cooperation.",
+    "alliances_short": "Russia is applying maximum military pressure concurrent with peace talk momentum — classic Russian negotiating from strength while the leaked Trump plan would deliver territorial gains without negotiation.",
+    "forecast": "Russia's mass strikes signal continued pressure regardless of peace talk optics. Moscow will accept a ceasefire only on terms that lock in territorial gains — and the leaked Trump plan elements suggest Washington may be willing to offer those terms.",
+    "current_events": "On April 25, Russia deployed 47 missiles and 619 drones against Ukraine — the largest aerial barrage of 2026. Dnipro was the hardest hit; Chernihiv's Nizhyn saw two killed; Odesa port infrastructure and a Panamanian-flagged vessel were damaged. Ukrainian air defenses intercepted 580 drones and 30 missiles. Russian Duma Speaker Volodin visited Pyongyang on the 7th anniversary of the first Kim-Putin summit as North Korea pledged to 'continuously and comprehensively expand' military cooperation with Russia. A leaked Trump peace plan would freeze front lines, have the US recognize Russian Crimea, ban Ukraine from NATO, and lift US sanctions on Russia.",
+    "alliances": "North Korea's ongoing ammunition pipeline — upwards of 5 million shells sent — remains Russia's most critical resupply relationship. Volodin's Pyongyang visit for the Kursk memorial deepens the institutional relationship. China continues strategic backing. Putin rejected the U.S.-proposed 30-day ceasefire in March; the leaked Trump plan suggests Washington may now accept Russian territorial gains.",
+    "next_actions": "Watch whether Russia signals acceptance of the leaked Trump plan elements or escalates to extract more concessions, whether the mass April 25 drone-missile strikes are part of a coordinated offensive push near Orikhiv, and whether EU capitals accelerate heavy weapons deliveries in response.",
+    "last_updated": "2026-04-25T18:00:00.000Z",
     "story_rank": 5,
-    "briefing_note": "Russia is using the Middle East crisis to press its Zaporizhzhia offensive with elite units, betting that Western diplomatic bandwidth is consumed by Iran. The ceasefire rejection pattern is consistent — Moscow sees no off-ramp it needs to accept.",
+    "briefing_note": "Russia's April 25 mass strike — the largest drone-missile barrage of 2026 — signals Moscow is applying maximum pressure concurrent with peace talk momentum, a classic Russian tactic to negotiate from strength while weakening the adversary's will to resist.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Russia redeploys paratroopers to Zaporizhzhia; 14 front-line settlements under active fighting as of April 24.",
-      "Also worth watching: 44 settlements in Zaporizhzhia and Dnipropetrovsk oblasts under mandatory evacuation."
+      "Russia launches largest aerial barrage of 2026: 47 missiles + 619 drones, 7 killed, 57 injured on April 25.",
+      "Duma Speaker Volodin visits Pyongyang for Kim-Putin anniversary; North Korea pledges expanded military cooperation.",
+      "Leaked Trump peace plan would freeze front lines and have US recognize Russian Crimea — Russia has not accepted."
     ],
     "impact_tags": [
       "Military",
@@ -267,12 +273,16 @@
     ],
     "sources": [
       {
-        "label": "EMPR Media, Apr 24, 2026: Russia-Ukraine War Updates: Key Developments as of April 24, 2026",
-        "url": "https://empr.media/news/war/russia-ukraine-war-updates-key-developments-as-of-april-24-2026/"
+        "label": "Kyiv Independent, Apr 25, 2026: 7 killed, 57 injured as Russia launches mass strike on Dnipro and cities across Ukraine",
+        "url": "https://kyivindependent.com/russian-attack-april-25/"
       },
       {
-        "label": "EMPR Media, Apr 22, 2026: Russia-Ukraine War April 22: Frontline Escalation Continues",
-        "url": "https://empr.media/news/war/russia-ukraine-war-updates-key-developments-as-of-april-22-2026/"
+        "label": "Al Jazeera, Apr 25, 2026: Overnight Russian attacks on Ukraine kill five, injure 30",
+        "url": "https://www.aljazeera.com/news/2026/4/25/overnight-russian-attacks-on-ukraine-kill-five-wound-over-30"
+      },
+      {
+        "label": "Seoul Economic Daily, Apr 25, 2026: North Korea vows expanded cooperation with Russia on 7th anniversary of Kim-Putin summit",
+        "url": "https://en.sedaily.com/finance/2026/04/25/north-korea-vows-expanded-cooperation-with-russia-on-7th"
       }
     ]
   },
@@ -282,20 +292,21 @@
     "theater": "Eastern Europe",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Ukraine holds Zaporizhzhia line against intensified Russian paratrooper pressure; Odesa port struck as Zelensky presses security guarantee",
-    "tldr": "Latest reporting on Ukraine is centered on \"Ukraine holds Zaporizhzhia line against intensified Russian paratrooper pressure; Odesa port struck as Zelensky presses security guarantee.\" A second fresh signal highlights \"Zelensky says U.S.-Ukraine security guarantee text is 'essentially ready' to be finalized with Trump.\"",
-    "alliances_short": "Ukraine is holding the line but under intensified pressure as Russian elite units redeploy to Zaporizhzhia while Western attention is partly diverted to the Middle East.",
-    "forecast": "Ukraine's ability to hold the Zaporizhzhia front will depend on the speed of Western resupply and whether the security guarantee text Zelensky says is 'essentially ready' can be finalized before Russian gains create new negotiating facts.",
-    "current_events": "Fresh source monitoring for Ukraine points to Apr 22, 2026: Russian drone strikes hit Odesa port and kill a railway worker in Zaporizhzhia as infrastructure attacks persist. A second signal highlights Apr 2026: Zelensky says U.S.-Ukraine security guarantee text is 'essentially ready' to be finalized — a cornerstone of any settlement.",
-    "alliances": "The United States and European partners remain central to Ukraine's survival. Zelensky's security guarantee push is the diplomatic priority alongside the front-line defense. Russia rejected the U.S.-proposed 30-day ceasefire in March. Trump has indicated Ukraine should come to the table quickly, creating pressure on Kyiv.",
-    "next_actions": "Watch whether the security guarantee text is finalized and what it commits the U.S. to, whether Russian paratroopers achieve a breakthrough near Orikhiv, and whether U.S. weapons resupply continues at current pace despite Middle East focus.",
-    "last_updated": "2026-04-25T15:01:15.356Z",
+    "headline": "Russia's largest 2026 aerial barrage kills seven across Ukraine as leaked Trump peace plan would freeze front lines and cede Crimea",
+    "tldr": "Ukraine endured Russia's largest aerial attack of 2026 on April 25 — 47 missiles and 619 drones targeting multiple cities, killing seven and injuring 57. Ukraine's air defenses intercepted 580 drones and 30 missiles. The leaked Trump peace plan would freeze front lines, ban NATO membership, and have the US recognize Russian Crimea — a deal Kyiv has not endorsed. Zelensky presses for security guarantees as the diplomatic and military pressure converge.",
+    "alliances_short": "Ukraine depends on Western air defense and intelligence; the leaked Trump plan would trade NATO membership for a ceasefire — a deal Kyiv has not endorsed.",
+    "forecast": "Ukraine faces a double pressure: Russian mass strikes testing its air defenses and a US peace framework that would lock in Russian territorial gains. Zelensky's ability to hold European political support is the critical variable.",
+    "current_events": "On April 25, Ukraine's air defenses intercepted 580 of 619 Russian drones and 30 of 47 missiles, but strikes killed seven and wounded 57 across Dnipro, Chernihiv's Nizhyn, Odesa, and other cities. Zelensky stated: 'Russia's tactics remain unchanged — attack drones, cruise missiles, and ballistic missiles targeting civilian infrastructure.' The leaked Trump peace plan includes freezing front lines, US legal recognition of Russian Crimea, a Ukraine NATO ban, US management of Zaporizhzhia Nuclear Plant, and a minerals deal with security guarantees delegated to Europe. Zelensky says the US security guarantee text is 'essentially ready' to be finalized.",
+    "alliances": "The United States and European partners remain central to Ukraine's survival, but the Trump peace plan signals a potential US pivot toward a settlement that Ukraine views as capitulation. A 35-nation 'coalition of the willing' has pledged to deploy troops to Ukrainian territory if a ceasefire is reached. Zelensky is using the Trump plan threat to accelerate European commitments.",
+    "next_actions": "Watch whether Ukraine formally rejects or conditionally accepts elements of the Trump peace plan, whether European forces deployment commitments materialize into credible security guarantees, and whether Russian mass strikes are part of a coordinated offensive push to capture more territory before any ceasefire.",
+    "last_updated": "2026-04-25T18:00:00.000Z",
     "story_rank": 6,
     "briefing_note": "Ukraine is in a grinding defensive posture in Zaporizhzhia against intensified Russian elite pressure, while simultaneously trying to lock in a security guarantee before any peace framework forces it to negotiate under duress. The two tracks — military defense and diplomatic positioning — are in direct tension.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Ukraine holds Zaporizhzhia line as Russia redeploys paratroopers; Odesa port struck by drones.",
-      "Also worth watching: Zelensky says U.S. security guarantee text 'essentially ready' — a cornerstone of any peace settlement."
+      "Russia's largest 2026 aerial barrage kills 7, wounds 57 across Ukraine on April 25; air defenses intercept 580 drones and 30 missiles.",
+      "Leaked Trump peace plan would freeze front lines, recognize Russian Crimea, ban Ukraine from NATO.",
+      "Zelensky says US security guarantee text 'essentially ready'; 35-nation coalition of the willing pledges troops if ceasefire reached."
     ],
     "impact_tags": [
       "Military",
@@ -305,12 +316,16 @@
     ],
     "sources": [
       {
-        "label": "Al Jazeera, Apr 22, 2026: Russian drone attacks in Ukraine strike Odesa port and kill railway worker in Zaporizhia",
-        "url": "https://www.aljazeera.com/news/2026/4/22/russian-drone-attacks-in-ukraine-strike-odesa-port-and-kill-railway-worker"
+        "label": "Kyiv Independent, Apr 25, 2026: 7 killed, 57 injured as Russia launches mass strike on Dnipro and cities across Ukraine",
+        "url": "https://kyivindependent.com/russian-attack-april-25/"
       },
       {
-        "label": "Al Jazeera, Jan 8, 2026: Zelenskyy says US security guarantee text ready to be finalised with Trump",
-        "url": "https://www.aljazeera.com/news/2026/1/8/zelenskyy-says-us-security-guarantee-text-ready-to-be-finalised-with-trump"
+        "label": "Al Jazeera, Apr 25, 2026: Overnight Russian attacks on Ukraine kill five, injure 30",
+        "url": "https://www.aljazeera.com/news/2026/4/25/overnight-russian-attacks-on-ukraine-kill-five-wound-over-30"
+      },
+      {
+        "label": "RFE/RL, Apr 2026: Chronology of Ukraine peace talks — Trump plan elements",
+        "url": "https://www.rferl.org/a/putin-alaska-ukraine-trump-interactive/33503122.html"
       }
     ]
   },
@@ -394,32 +409,37 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "North Korea tests tactical ballistic missiles and new solid-propellant ICBM motor; Kim signals 'limitless expansion' of nuclear forces",
-    "tldr": "Latest reporting on North Korea is centered on \"North Korea tests tactical ballistic missiles and new solid-propellant ICBM motor; Kim signals 'limitless expansion' of nuclear forces.\" A second fresh signal highlights \"Seoul reports North Korea developing carbon-fibre ICBM for multi-warhead delivery capability.\"",
-    "alliances_short": "The Kim-Putin military pact institutionalized in late 2024 continues to channel North Korean ammunition to Russia while Pyongyang advances its own ICBM capabilities.",
-    "forecast": "North Korea's April test cycle — tactical missiles plus a new solid-propellant ICBM motor — signals it is advancing on both battlefield and strategic deterrence tracks simultaneously. The carbon-fibre multi-warhead ICBM program, if confirmed, represents the next qualitative leap in North Korean nuclear capability.",
-    "current_events": "Fresh source monitoring for North Korea points to Apr 18-19, 2026: North Korea fires five tactical ballistic missiles (Hwasong-11 variants) hitting targets 136 km away with high precision; Kim expresses 'great satisfaction.' A second signal highlights Apr 6, 2026: Seoul reports North Korea is developing a carbon-fibre ICBM for multi-warhead delivery capability.",
-    "alliances": "The Kim-Putin treaty (ratified December 2024) has delivered upwards of 5 million shells to Russian forces in Ukraine. Russia is sharing space, nuclear, and missile-applicable technology with North Korea in return, with U.S. Forces Korea commander warning this cooperation will enable North Korean WMD advances over the next 3-5 years. China watches the pact with unease but has not publicly opposed it.",
-    "next_actions": "Watch whether the new solid-propellant ICBM motor is tested in a full flight test, whether the carbon-fibre multi-warhead program advances to a test phase, and whether the U.S.-South Korea-Japan response includes new exercises or capability deployments.",
-    "last_updated": "2026-04-25T15:01:15.356Z",
+    "headline": "North Korea marks 7th Kim-Putin summit anniversary with expanded cooperation pledge as Volodin visits Pyongyang for Kursk memorial",
+    "tldr": "On April 25 — the 7th anniversary of the first Kim-Putin summit — North Korea pledged to 'continuously and comprehensively expand and strengthen cooperation in all areas including military.' Russian Duma Speaker Volodin arrived in Pyongyang for the completion ceremony of a memorial hall for North Korean soldiers deployed to Kursk. This follows North Korea's April 18-19 test of five tactical ballistic missiles and Seoul's report that Pyongyang is developing a carbon-fibre ICBM for multi-warhead delivery.",
+    "alliances_short": "The Kim-Putin partnership is deepening institutionally; the Kursk memorial visit signals Pyongyang is publicly celebrating its war role rather than concealing it.",
+    "forecast": "North Korea's willingness to publicly celebrate its Kursk deployment and announce expanded cooperation signals Pyongyang views the Russia partnership as a long-term cornerstone of its security posture — and will deepen the relationship regardless of Western sanctions.",
+    "current_events": "On April 25, North Korea marked the 7th anniversary of the first Kim-Putin summit, pledging to 'continuously and comprehensively expand and strengthen communication and cooperation in all areas, including politics, economy, military, and culture.' Russian Duma Speaker Volodin arrived in Pyongyang for the completion ceremony of a memorial hall commemorating North Korean soldiers deployed to Kursk, Russia. Earlier this month (Apr 18-19), North Korea fired five tactical ballistic missiles (Hwasong-11 variants) hitting targets 136 km away; Kim expressed 'great satisfaction.' Seoul reported (Apr 6) that North Korea is developing a carbon-fibre ICBM for multi-warhead delivery. A report estimates North Korea has earned up to $14.4 billion through Russia military cooperation.",
+    "alliances": "The Kim-Putin treaty (ratified December 2024) has delivered upwards of 5 million shells to Russian forces in Ukraine. Russia shares space, nuclear, and missile-applicable technology with North Korea in return. The Kursk memorial institutionalizes the wartime alliance into a long-term strategic relationship. China watches the deepening axis with unease but has not publicly opposed it.",
+    "next_actions": "Watch whether Volodin's Pyongyang visit produces new military-technical transfer agreements, whether the solid-propellant ICBM motor is tested in a full flight test, and whether the U.S.-South Korea-Japan response includes new exercises or capability deployments.",
+    "last_updated": "2026-04-25T18:00:00.000Z",
     "story_rank": 10,
-    "briefing_note": "North Korea is running a dual-track weapons program: supplying Russia's conventional war in Ukraine while advancing its own strategic nuclear capability with new ICBM motors and a multi-warhead development program. Kim's 'limitless expansion' language signals no intention to negotiate limits.",
-    "change_status": "watch",
+    "briefing_note": "North Korea is now publicly celebrating its military partnership with Russia via a Kursk memorial and a 7th anniversary cooperation pledge — a propaganda milestone that cements domestic support for the alliance and signals to Washington that Pyongyang views the relationship as a cornerstone of its security posture.",
+    "change_status": "escalated",
     "change_summary": [
-      "Watch signal: North Korea tests five tactical ballistic missiles with high precision; Kim signals 'limitless expansion' of nuclear forces.",
-      "Also worth watching: Seoul reports DPRK developing carbon-fibre ICBM for multi-warhead delivery; new solid-propellant ICBM motor tested."
+      "North Korea marks 7th Kim-Putin summit anniversary with pledge to expand all-domain cooperation on April 25.",
+      "Russian Duma Speaker Volodin in Pyongyang for memorial to Kursk-deployed North Korean soldiers.",
+      "INSS estimates North Korea earned up to $14.4 billion from Russia military cooperation; carbon-fibre ICBM program underway."
     ],
     "impact_tags": [
       "Military"
     ],
     "sources": [
       {
-        "label": "Bloomberg, Apr 19, 2026: North Korea Test-Fires Tactical Missile as Kim Hails Accuracy",
+        "label": "Seoul Economic Daily, Apr 25, 2026: North Korea vows expanded cooperation with Russia on 7th anniversary of Kim-Putin summit",
+        "url": "https://en.sedaily.com/finance/2026/04/25/north-korea-vows-expanded-cooperation-with-russia-on-7th"
+      },
+      {
+        "label": "Bloomberg, Apr 19, 2026: North Korea test-fires tactical missile as Kim hails accuracy",
         "url": "https://www.bloomberg.com/news/articles/2026-04-19/north-korea-test-fires-tactical-missile-as-kim-hails-accuracy"
       },
       {
-        "label": "US News, Apr 6, 2026: North Korea Working on Carbon-Fibre ICBM for Multi-Warhead Delivery, Seoul Says",
-        "url": "https://www.usnews.com/news/world/articles/2026-04-06/north-korea-working-on-carbon-fibre-icbm-for-multi-warhead-delivery-seoul-says"
+        "label": "The Defense Post, Mar 17, 2026: North Korea earns billions from Russia-linked military activities",
+        "url": "https://thedefensepost.com/2026/03/17/n-korea-earnings-russia-military/"
       }
     ]
   },
@@ -429,20 +449,21 @@
     "theater": "Africa & Americas",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Sudan enters fourth year of war with RSF-controlled El Fasher under genocide finding; 14 million displaced, 800,000 facing severe acute malnutrition",
-    "tldr": "Latest reporting on Sudan is centered on \"Sudan enters fourth year of war with RSF-controlled El Fasher under genocide finding; 14 million displaced, 800,000 facing severe acute malnutrition.\" A second fresh signal highlights \"Millions surviving on one meal a day as Sudan's food crisis deepens to worst in the world.\"",
-    "alliances_short": "The conflict enters its fourth year with the RSF holding El Fasher after an 18-month siege, a UN genocide finding, and no enforcement mechanism in sight.",
-    "forecast": "The war is entering its most catastrophic humanitarian phase with genocide confirmed in Darfur, famine spreading, and the international community unable to enforce any access or accountability mechanism. Without external pressure on RSF supply networks, the situation will continue to deteriorate.",
-    "current_events": "Fresh source monitoring for Sudan points to Apr 15, 2026: Sudan enters fourth year of war — RSF captured El Fasher on October 27, 2025 after 18-month siege; UN fact-finding mission finds evidence of genocide against Fur and Zaghawa communities. A second signal highlights Apr 13, 2026: Millions in war-ravaged Sudan surviving on one meal a day; 800,000 people expected to face severe acute malnutrition.",
-    "alliances": "The SAF retains international backing from states fearing RSF dominance. The RSF benefits from external logistical and political networks. The AU suspension and ICJ order (from earlier in the year) remain unenforced. The war is now widely described as an 'abandoned crisis' — the most underreported humanitarian catastrophe in the world.",
-    "next_actions": "Watch whether the UN Security Council moves beyond statements to enforcement-capable resolutions, whether third-country RSF support networks face new sanctions pressure, and whether the famine declaration triggers any meaningful humanitarian access breakthrough.",
-    "last_updated": "2026-04-25T15:01:15.356Z",
+    "headline": "Sudan enters fourth year of war in SAF-RSF military impasse; US imposes new sanctions as UN warns 34 million need urgent aid",
+    "tldr": "Sudan's civil war passed the three-year mark on April 15 with both the SAF and RSF locked in military impasse — the RSF captured El Fasher in October 2025, while the SAF retook Khartoum. The US State Department marked the anniversary by imposing new sanctions and calling for a humanitarian truce. The UN warned 34 million people — 65% of the population — urgently need humanitarian support; international aid is only 16% funded for 2026. The war is now widely characterized as an 'abandoned crisis.'",
+    "alliances_short": "The conflict enters its fourth year with the RSF holding Darfur, the SAF holding Khartoum, a UN genocide finding, a US sanctions action, and no enforcement mechanism that reaches the battlefield.",
+    "forecast": "The military impasse will persist without external enforcement capable of reaching RSF supply networks. The US sanctions and UN appeals carry political weight but no operational impact on the ground. Sudan risks becoming a permanently frozen conflict with an ongoing famine.",
+    "current_events": "On April 15, Sudan's civil war entered its fourth year. The US State Department marked the anniversary by imposing new sanctions designations and appealing for a humanitarian truce. Al Jazeera reported (April 16) that both the SAF and RSF are locked in a military impasse — RSF controls Darfur, SAF controls Khartoum. The Soufan Center (April 21) characterized Sudan as an 'abandoned crisis' as diplomatic bandwidth shifted entirely to the Iran war. Total figures: 150,000+ killed, 14 million+ displaced, 34 million people (65% of population) in urgent need, 28.9 million acutely food insecure. International aid is only 16% funded for 2026. UN fact-finding mission found evidence of genocide against Fur and Zaghawa communities in El Fasher.",
+    "alliances": "SAF chief al-Burhan retains backing from states fearing RSF dominance, while the RSF benefits from external logistical and political networks that keep it viable. The AU suspension and ICJ order remain unenforced. The US sanctions are the most recent direct Western penalty but lack enforcement reach to RSF supply chains.",
+    "next_actions": "Watch whether the US sanctions produce any change in third-country RSF support networks, whether the 16% aid funding gap triggers a UN Security Council emergency session, and whether the SAF-RSF impasse produces any diplomatic opening as both sides exhaust offensive capacity.",
+    "last_updated": "2026-04-25T18:00:00.000Z",
     "story_rank": 11,
-    "briefing_note": "Sudan is the most catastrophic abandoned crisis in the world right now — genocide confirmed in Darfur, 14 million displaced, famine spreading to more towns, and the international community has no enforcement mechanism that reaches the RSF's external support network. Four years in and the situation is still worsening.",
+    "briefing_note": "Sudan has passed three years of war in near-total international neglect — the Iran war has consumed the diplomatic bandwidth that might have produced RSF supply-chain pressure, and without that pressure the impasse and famine will deepen through 2026.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Sudan enters fourth year of war; UN fact-finding confirms genocide hallmarks in El Fasher; 14 million displaced.",
-      "Also worth watching: 800,000 people facing severe acute malnutrition; millions surviving on one meal a day across Sudan."
+      "Sudan war enters fourth year in SAF-RSF military impasse; US imposes new sanctions marking the anniversary.",
+      "34 million people (65% of population) need urgent humanitarian aid; international funding only 16% of target.",
+      "Soufan Center: Sudan is an 'abandoned crisis' — diplomatic bandwidth consumed by Iran war."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -450,12 +471,16 @@
     ],
     "sources": [
       {
-        "label": "NPR, Apr 15, 2026: 'Humiliated, broken, powerless': Sudan enters fourth year of war",
-        "url": "https://www.npr.org/2026/04/15/nx-s1-5781032/sudan-darfur-war-genocide-famine"
+        "label": "US State Department, Apr 2026: Marking three years of conflict in Sudan with sanctions and humanitarian truce appeal",
+        "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/marking-three-years-of-conflict-in-sudan-with-sanctions-and-appeal-for-humanitarian-truce"
       },
       {
-        "label": "Al Jazeera, Apr 13, 2026: Millions in war-ravaged Sudan surviving on one meal a day, say NGOs",
-        "url": "https://www.aljazeera.com/news/2026/4/13/millions-in-war-ravaged-sudan-surviving-on-one-meal-a-day-say-ngos"
+        "label": "Al Jazeera, Apr 16, 2026: After three years of war, Sudan army and RSF locked in military impasse",
+        "url": "https://www.aljazeera.com/news/2026/4/16/after-three-years-of-war-sudan-army-and-rsf-locked-in-military-impasse"
+      },
+      {
+        "label": "The Soufan Center, Apr 21, 2026: Sudan at three years — a war overshadowed, a crisis unmanaged",
+        "url": "https://thesoufancenter.org/intelbrief-2026-april-21/"
       }
     ]
   },
