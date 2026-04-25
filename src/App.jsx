@@ -530,7 +530,7 @@ export default function App() {
               <div className="map-shell-header">
                 <div className="map-shell-summary">
                   <span className="map-shell-kicker">Live Map</span>
-                  <h3 className="map-shell-title">
+                  <h3 className="map-shell-title" title={leadStory ? `${leadStory.country}: ${leadStory.briefing_note || leadStory.tldr}` : undefined}>
                     {leadStory
                       ? `${leadStory.country}: ${leadStory.briefing_note || leadStory.tldr}`
                       : "Track the most important active conflict signals on the map."}
@@ -544,15 +544,6 @@ export default function App() {
                   >
                     Open briefing
                   </button>
-                  {leadStory ? (
-                    <button
-                      type="button"
-                      className="map-shell-brief-btn"
-                      onClick={() => openDetail(leadStory.iso_code)}
-                    >
-                      Open lead report
-                    </button>
-                  ) : null}
                 </div>
               </div>
 

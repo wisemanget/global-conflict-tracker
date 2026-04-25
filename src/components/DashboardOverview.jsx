@@ -11,6 +11,7 @@ export default function DashboardOverview({
   const [activeStoryIndex, setActiveStoryIndex] = useState(0);
   const [autoplay, setAutoplay] = useState(true);
   const leadStory = topDevelopments[activeStoryIndex] || topDevelopments[0] || null;
+  const leadReport = topDevelopments[0] || null;
   const watchList = topDevelopments.filter((_, index) => index !== activeStoryIndex).slice(0, 4);
   const criticalCount = conflictData.filter((conflict) => (conflict.threat_level || 0) >= 5).length;
   const escalatedCount = conflictData.filter((conflict) => conflict.change_status === "escalated").length;
@@ -91,6 +92,18 @@ export default function DashboardOverview({
 
   return (
     <section className="glance-shell">
+      {leadReport ? (
+        <button
+          type="button"
+          className="briefing-lead-cta"
+          onClick={() => onOpenDetail(leadReport.iso_code)}
+        >
+          <span className="briefing-lead-cta-kicker">Lead report</span>
+          <span className="briefing-lead-cta-country">{leadReport.country}</span>
+          <span className="briefing-lead-cta-headline">{leadReport.headline}</span>
+          <span className="briefing-lead-cta-arrow" aria-hidden="true">{"→"}</span>
+        </button>
+      ) : null}
       <section className="glance-hero">
         <div className="glance-hero-copy">
           <span className="glance-kicker">At a Glance</span>
