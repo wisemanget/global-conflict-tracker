@@ -3,22 +3,22 @@
     "country": "United States",
     "iso_code": "USA",
     "theater": "Middle East",
-    "threat_level": 4,
-    "threat_label": "HIGH",
-    "headline": "U.S. and Iran agree to 48-hour strike pause after Doha talks yield preliminary framework",
-    "tldr": "Latest reporting on United States is centered on \"U.S. and Iran agree to 48-hour strike pause after Doha talks yield preliminary framework.\" A second fresh signal highlights \"White House says Israel was not a party to the pause and retains operational freedom.\"",
-    "alliances_short": "Israel remains the core military partner; Gulf states want U.S. protection and a controlled off-ramp.",
-    "forecast": "The 48-hour pause is a tactical opening, not a ceasefire. Watch whether it holds, whether Israel observes it, and whether Iran uses the window to resupply proxies rather than stand down.",
-    "current_events": "Fresh source monitoring for United States points to Apr 9, 2026: U.S. and Iran agree to 48-hour strike pause after Doha talks yield preliminary framework. A second signal highlights Apr 9, 2026: White House says Israel was not a party to the pause and retains operational freedom.",
-    "alliances": "The U.S.-Israel security partnership is showing its first visible strain as Washington pursues a diplomatic channel Israel has not endorsed. Gulf states are relieved by the pause but worried it collapses without Israeli buy-in. NATO allies are watching for spillover risks rather than joining the war directly.",
-    "next_actions": "Watch whether the 48-hour pause holds or breaks, whether Israel conducts strikes during the window, and whether Iran uses the pause to resupply Hezbollah or signals genuine interest in a longer ceasefire.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "threat_level": 3,
+    "threat_label": "ELEVATED",
+    "headline": "Trump extends Iran ceasefire indefinitely pending Tehran's formal proposal; nuclear talks stall on enrichment question",
+    "tldr": "Latest reporting on United States is centered on \"Trump extends Iran ceasefire indefinitely pending Tehran's formal proposal; nuclear talks stall on enrichment question.\" A second fresh signal highlights \"US continues Hormuz blockade despite partial Iranian shipping reopening, keeping tanker crisis unresolved.\"",
+    "alliances_short": "Israel remains the core military partner but is operating outside the ceasefire framework; Gulf states are pressing for a durable deal to restore oil flows.",
+    "forecast": "The extended ceasefire gives diplomacy more runway but does not resolve the core nuclear impasse. Washington's continued Hormuz blockade signals the U.S. is using economic pressure as leverage even during the truce.",
+    "current_events": "Fresh source monitoring for United States points to Apr 21, 2026: Trump announces extending Iran ceasefire but says blockade remains. A second signal highlights Apr 13, 2026: Mediators rush to revive U.S.-Iran nuclear talks before original ceasefire expires — with enrichment limits as the core sticking point.",
+    "alliances": "The U.S.-Israel alliance remains intact but Israel is operating independently of the ceasefire framework, conducting its own strikes in Lebanon. Gulf states want a permanent deal to restore Strait of Hormuz shipping. The Islamabad talks brought Vance, Witkoff, and Kushner into direct contact with Iranian officials but produced no agreement.",
+    "next_actions": "Watch whether Iran submits a formal proposal that restarts structured talks, whether the Hormuz blockade is eased as a confidence measure, and whether Israel's continued Lebanon strikes break the broader ceasefire architecture.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 2,
-    "briefing_note": "The U.S.-Iran pause is the most significant diplomatic development since the war began, but its durability depends entirely on Israeli restraint and Iranian compliance — two variables Washington does not fully control.",
+    "briefing_note": "The ceasefire extension buys time but not resolution. The nuclear enrichment question — the one point Trump said 'really mattered' — remains unresolved, and the continued Hormuz blockade shows Washington is keeping maximum economic pressure in place even during the truce.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: U.S. and Iran agree to 48-hour strike pause after Doha talks yield preliminary framework.",
-      "Also worth watching: White House says Israel was not a party to the pause and retains operational freedom."
+      "Watch signal: Trump extends Iran ceasefire indefinitely pending Tehran's formal proposal; nuclear talks stall on enrichment question.",
+      "Also worth watching: US continues Hormuz blockade despite partial Iranian shipping reopening, keeping nearly 800 tankers stranded."
     ],
     "impact_tags": [
       "U.S. Policy",
@@ -28,12 +28,12 @@
     ],
     "sources": [
       {
-        "label": "Reuters, Apr 9, 2026: U.S. and Iran agree to 48-hour strike pause after Doha talks",
-        "url": "https://www.reuters.com/world/middle-east/us-iran-48-hour-pause-doha-2026-04-09/"
+        "label": "Al Jazeera, Apr 21, 2026: Trump announces extending Iran ceasefire but says blockade remains",
+        "url": "https://www.aljazeera.com/news/2026/4/21/trump-announces-extending-iran-ceasefire-but-says-blockade-remains"
       },
       {
-        "label": "Washington Post, Apr 9, 2026: White House says Israel retains operational freedom during pause",
-        "url": "https://www.washingtonpost.com/world/2026/04/09/israel-iran-pause-us-doha/"
+        "label": "Axios, Apr 13, 2026: Mediators rush to revive U.S.-Iran nuclear talks before ceasefire expires",
+        "url": "https://www.axios.com/2026/04/13/us-iran-nuclear-talks-ceasefire-deal"
       }
     ]
   },
@@ -41,22 +41,22 @@
     "country": "Israel",
     "iso_code": "ISR",
     "theater": "Middle East",
-    "threat_level": 5,
-    "threat_label": "CRITICAL",
-    "headline": "Israel expands ground operations into western Iran after Iranian ballistic strike on Tel Aviv; war enters new phase on day 56",
-    "tldr": "Latest reporting on Israel is centered on \"Israel expands ground operations into western Iran after Iranian ballistic strike on Tel Aviv; war enters new phase on day 56.\" A second fresh signal highlights \"Netanyahu convenes emergency war cabinet as IDF reports 340 casualties in 72-hour escalation.\"",
-    "alliances_short": "Washington has imposed an emergency arms-transfer review but stopped short of a freeze; the U.S.-Israel alliance is under unprecedented strain as the conflict crosses into Iranian territory.",
-    "forecast": "The war has crossed a threshold: Israeli ground forces operating inside Iran and an Iranian ballistic strike on Tel Aviv represent mutual escalation with no established off-ramp. The next 72 hours will determine whether a U.S.-brokered pause can be re-established or whether both sides commit to a sustained exchange.",
-    "current_events": "Fresh source monitoring for Israel points to Apr 25, 2026: Israel expands ground operations into western Iran after Iranian ballistic strike on Tel Aviv; war enters new phase on day 56. A second signal highlights Apr 24, 2026: Netanyahu convenes emergency war cabinet as IDF reports 340 casualties in 72-hour escalation.",
-    "alliances": "The United States has called for an immediate halt to further escalation but has not suspended weapons transfers. The emergency arms review is the strongest U.S. pressure signal yet. Gulf states are evacuating diplomatic staff from Tehran and Beirut. European allies have invoked emergency consultations under NATO Article 4.",
-    "next_actions": "Watch whether the U.S. arms review results in any actual supply suspension, whether the IDF ground incursion into western Iran advances beyond the initial bridgehead, and whether Iran's ballistic salvo on Tel Aviv triggers an Israeli nuclear-posture declaration.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "threat_level": 4,
+    "threat_label": "HIGH",
+    "headline": "Israel continues strikes in Lebanon despite ceasefire extension; enforces 10-km southern Lebanon security buffer zone",
+    "tldr": "Latest reporting on Israel is centered on \"Israel continues strikes in Lebanon despite ceasefire extension; enforces 10-km southern Lebanon security buffer zone.\" A second fresh signal highlights \"Netanyahu: buffer zone is permanent — a 'much stronger, more intense' version of Israel's pre-2000 south Lebanon security zone.\"",
+    "alliances_short": "The U.S.-Israel alliance holds but Israel is operating outside the ceasefire framework Washington helped broker, straining the diplomatic architecture.",
+    "forecast": "Israel's unilateral continuation of strikes in Lebanon during the ceasefire extension risks collapsing the broader U.S.-Iran diplomatic track. The 10-km buffer zone assertion will be a persistent friction point with Lebanon and Hezbollah.",
+    "current_events": "Fresh source monitoring for Israel points to Apr 24, 2026: Israel continues attacks on Lebanon despite extension of ceasefire — IDF says it eliminated six Hezbollah fighters in Bint Jbeil. A second signal highlights Apr 19, 2026: Israel's 'Yellow Line' 10-km buffer zone in southern Lebanon draws charges of ceasefire violation from Beirut and Hezbollah.",
+    "alliances": "The United States extended the Israel-Lebanon ceasefire for three weeks on April 23, but Israel's strikes are undermining the agreement. Hezbollah has dismissed the extension as 'meaningless' given continued IDF operations. Lebanon-Israel talks are set to resume in Washington.",
+    "next_actions": "Watch whether Lebanon-Israel Washington talks produce a withdrawal timeline for the buffer zone, whether Hezbollah escalates in response to continued IDF strikes, and whether the U.S. applies meaningful pressure on Israel to halt operations during the truce.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 1,
-    "briefing_note": "Israel's ground entry into Iranian territory and Iran's ballistic strike on Tel Aviv mark the most significant mutual escalation of the conflict — the war is no longer contained to proxies or airstrikes and both sides are now directly at war on each other's soil.",
-    "change_status": "escalated",
+    "briefing_note": "Israel is effectively conducting its own war inside the ceasefire — holding a 10-km buffer zone in Lebanon and striking Hezbollah targets while Washington tries to use the truce as a diplomatic foundation. The gap between U.S. and Israeli objectives is the central tension in the regional architecture right now.",
+    "change_status": "watch",
     "change_summary": [
-      "Escalated signal: Israel expands ground operations into western Iran after Iranian ballistic strike on Tel Aviv; war enters new phase on day 56.",
-      "Also worth watching: Netanyahu convenes emergency war cabinet as IDF reports 340 casualties in 72-hour escalation."
+      "Watch signal: Israel continues strikes in Lebanon despite ceasefire extension; enforces 10-km southern Lebanon security buffer zone.",
+      "Also worth watching: Lebanon-Israel talks set to resume in Washington amid shaky Hezbollah ceasefire."
     ],
     "impact_tags": [
       "Military",
@@ -65,12 +65,12 @@
     ],
     "sources": [
       {
-        "label": "Times of Israel, Apr 25, 2026: IDF ground forces enter western Iran as war enters day 56",
-        "url": "https://www.timesofisrael.com/idf-ground-forces-western-iran-day-56-2026-04-25/"
+        "label": "Al Jazeera, Apr 24, 2026: Israel continues attacks on Lebanon despite extension of ceasefire",
+        "url": "https://www.aljazeera.com/news/2026/4/24/israel-continues-attacks-on-lebanon-despite-extension-of-ceasefire"
       },
       {
-        "label": "Haaretz, Apr 24, 2026: Netanyahu war cabinet convenes after IDF reports 340 casualties in 72-hour escalation",
-        "url": "https://www.haaretz.com/israel-news/2026-04-24/netanyahu-war-cabinet-idf-casualties-escalation"
+        "label": "Al Jazeera, Apr 19, 2026: Does Israel's 'Yellow Line' violate the Lebanon ceasefire?",
+        "url": "https://www.aljazeera.com/news/2026/4/19/does-israels-yellow-line-violate-the-lebanon-ceasefire"
       }
     ]
   },
@@ -78,22 +78,22 @@
     "country": "Iran",
     "iso_code": "IRN",
     "theater": "Middle East",
-    "threat_level": 5,
-    "threat_label": "CRITICAL",
-    "headline": "Iran fires 120-missile ballistic salvo at Tel Aviv and Haifa after Israeli forces enter Khuzestan province",
-    "tldr": "Latest reporting on Iran is centered on \"Iran fires 120-missile ballistic salvo at Tel Aviv and Haifa after Israeli forces enter Khuzestan province.\" A second fresh signal highlights \"Tehran activates full Hormuz closure; tanker traffic halted and global oil prices spike above $140/bbl.\"",
-    "alliances_short": "Iran has executed its long-threatened retaliation and simultaneously closed Hormuz — the twin escalation moves its leadership has held in reserve since the war began.",
-    "forecast": "Iran's simultaneous missile salvo and Hormuz closure represent a deliberate two-front escalation designed to impose maximum economic and military cost. The critical question is whether the IRGC has more salvo capacity in reserve and whether China's diplomatic intervention can produce a pause before the energy shock becomes self-reinforcing.",
-    "current_events": "Fresh source monitoring for Iran points to Apr 25, 2026: Iran fires 120-missile ballistic salvo at Tel Aviv and Haifa after Israeli forces enter Khuzestan province. A second signal highlights Apr 24, 2026: Tehran activates full Hormuz closure; tanker traffic halted and global oil prices spike above $140/bbl.",
-    "alliances": "Russia and China are calling for an emergency UN Security Council session but neither has publicly condemned the Iranian salvo. Hezbollah has reopened a northern front against Israel simultaneously with the salvo. The Doha diplomatic channel has formally collapsed; Qatar has suspended its mediation role.",
-    "next_actions": "Watch whether the IRGC has additional ballistic salvo capacity to sustain the pressure, whether China uses its oil-dependence leverage to push Tehran toward a halt, whether the U.S. Navy initiates Hormuz escort operations, and whether Israel's Iron Dome interception rate was sufficient to limit civilian casualties in Tel Aviv.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
-    "story_rank": 2,
-    "briefing_note": "Iran's 120-missile salvo on Israeli population centers and the simultaneous Hormuz closure mark the most dangerous single day of the conflict — Tehran has crossed every threshold it previously held as deterrence leverage and there is no diplomatic framework left to catch the fall.",
-    "change_status": "escalated",
+    "threat_level": 4,
+    "threat_label": "HIGH",
+    "headline": "Iran re-imposes Hormuz restrictions after U.S. maintains blockade; nuclear talks deadlocked on enrichment as ceasefire holds",
+    "tldr": "Latest reporting on Iran is centered on \"Iran re-imposes Hormuz restrictions after U.S. maintains blockade; nuclear talks deadlocked on enrichment as ceasefire holds.\" A second fresh signal highlights \"Iran's top diplomat heads to Pakistan as fresh round of talks expected.\"",
+    "alliances_short": "Iran is engaging diplomatically through Pakistan as an intermediary while maintaining Hormuz leverage; the ceasefire is holding but the nuclear impasse is deepening.",
+    "forecast": "Iran's re-imposition of Hormuz restrictions after announcing a brief opening shows Tehran is tying shipping access directly to U.S. sanctions relief — a dynamic that keeps the tanker crisis alive even during the ceasefire.",
+    "current_events": "Fresh source monitoring for Iran points to Apr 24, 2026: Iran's top diplomat heads to Pakistan as fresh round of nuclear talks expected. A second signal highlights Apr 21, 2026: Despite Iran announcing Hormuz open to commercial shipping, U.S. continued blockade prompted Iran to re-impose restrictions — nearly 800 vessels including 426 crude tankers remain stranded.",
+    "alliances": "Pakistan is serving as the key diplomatic intermediary. Russia and China continue providing diplomatic cover at the UN. Iran's ceasefire posture is holding, but the nuclear enrichment demand — a clear and enforceable commitment to no weapons capability — remains Iran's core red line.",
+    "next_actions": "Watch whether the Pakistan-mediated talks produce an Iranian formal proposal, whether Iran fully reopens Hormuz as a confidence measure, and whether the ceasefire holds through continued Israeli operations in Lebanon.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
+    "story_rank": 3,
+    "briefing_note": "Iran is holding the ceasefire while keeping the Hormuz lever active — a calibrated pressure posture that gives it diplomatic credibility while maintaining economic coercive capability. The nuclear enrichment question is the wall neither side has found a way around.",
+    "change_status": "watch",
     "change_summary": [
-      "Escalated signal: Iran fires 120-missile ballistic salvo at Tel Aviv and Haifa after Israeli forces enter Khuzestan province.",
-      "Also worth watching: Tehran activates full Hormuz closure; tanker traffic halted and global oil prices spike above $140/bbl."
+      "Watch signal: Iran re-imposes Hormuz restrictions after U.S. continues blockade; nearly 800 vessels stranded in Arabian Gulf.",
+      "Also worth watching: Iran's top diplomat heads to Pakistan for fresh round of nuclear talks."
     ],
     "impact_tags": [
       "Military",
@@ -103,12 +103,12 @@
     ],
     "sources": [
       {
-        "label": "Al Jazeera, Apr 25, 2026: Iran launches 120-missile salvo at Tel Aviv and Haifa as Israeli ground forces enter Khuzestan",
-        "url": "https://www.aljazeera.com/news/2026/4/25/iran-ballistic-salvo-tel-aviv-haifa-khuzestan"
+        "label": "CNN Live Updates, Apr 24, 2026: Iran's top diplomat heads to Pakistan as fresh talks expected",
+        "url": "https://www.cnn.com/2026/04/24/world/live-news/iran-war-trump-israel-lebanon"
       },
       {
-        "label": "Reuters, Apr 24, 2026: Tehran closes Strait of Hormuz; oil prices surge above $140 per barrel",
-        "url": "https://www.reuters.com/world/middle-east/iran-hormuz-closure-oil-price-surge-2026-04-24/"
+        "label": "Al Jazeera, Apr 12, 2026: Oil tankers exit Strait of Hormuz amid fragile US-Iran ceasefire",
+        "url": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire"
       }
     ]
   },
@@ -116,22 +116,22 @@
     "country": "Saudi Arabia",
     "iso_code": "SAU",
     "theater": "Middle East",
-    "threat_level": 4,
-    "threat_label": "HIGH",
-    "headline": "Saudi Arabia chairs Arab League emergency session backing Doha pause as Aramco raises security posture at key terminals",
-    "tldr": "Latest reporting on Saudi Arabia is centered on \"Saudi Arabia chairs Arab League emergency session backing Doha pause as Aramco raises security posture at key terminals.\" A second fresh signal highlights \"Riyadh privately warns Israel that Ahvaz strike endangers the ceasefire window.\"",
-    "alliances_short": "Saudi Arabia is coordinating closely with Gulf partners and relying on U.S. security guarantees while publicly backing the Doha pause.",
-    "forecast": "Saudi Arabia's diplomatic window is narrow: if Iran retaliates over Ahvaz and the pause collapses, Riyadh will face renewed direct threat to oil infrastructure with no diplomatic buffer.",
-    "current_events": "Fresh source monitoring for Saudi Arabia points to Apr 9, 2026: Saudi Arabia chairs Arab League emergency session backing Doha pause as Aramco raises security posture at key terminals. A second signal highlights Apr 10, 2026: Riyadh privately warns Israel that Ahvaz strike endangers the ceasefire window.",
-    "alliances": "Saudi Arabia is working through the GCC and leaning on U.S. defense support. Coordination with the UAE, Bahrain, and Kuwait is centered on shared air defense and infrastructure protection. Riyadh is also now a quiet diplomatic player urging Israeli restraint.",
-    "next_actions": "Watch whether the Aramco security posture elevation indicates a credible internal threat assessment, whether Riyadh's warning to Israel produces any Israeli restraint, and whether oil prices spike on Ahvaz strike fears.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "threat_level": 3,
+    "threat_label": "ELEVATED",
+    "headline": "Saudi East-West pipeline restored to full capacity after attacks; Aramco rerouting exports via Yanbu as Hormuz remains constrained",
+    "tldr": "Latest reporting on Saudi Arabia is centered on \"Saudi East-West pipeline restored to full capacity after attacks; Aramco rerouting exports via Yanbu as Hormuz remains constrained.\" A second fresh signal highlights \"Gulf states united behind ceasefire but divided over pace of diplomacy as Hormuz tanker crisis drags on.\"",
+    "alliances_short": "Saudi Arabia has restored pipeline capacity and is backing the ceasefire, but Hormuz restrictions and Houthi missile range over the Red Sea corridor create compounding infrastructure risk.",
+    "forecast": "Saudi Arabia has demonstrated pipeline resilience, but rerouting 2.5 million bpd through Yanbu keeps export volumes within Houthi missile range for the duration of the Hormuz crisis. A durable Hormuz resolution is Riyadh's primary interest.",
+    "current_events": "Fresh source monitoring for Saudi Arabia points to Apr 12, 2026: Saudi Arabia says key oil pipeline back to full capacity after attacks — East-West pipeline now pumping approximately 7 million barrels per day. A second signal highlights Apr 2026: Gulf states united behind ceasefire even as divisions loom over pace and terms of U.S.-Iran diplomacy.",
+    "alliances": "Saudi Arabia is coordinating closely with Gulf partners through the GCC. Riyadh's position is that the ceasefire must translate into a permanent Hormuz reopening and a nuclear deal that removes the threat of future conflict. The U.S. security umbrella over Gulf infrastructure remains the bedrock of Saudi export confidence.",
+    "next_actions": "Watch whether the Hormuz tanker backlog begins clearing, whether Houthi threats to Bab al-Mandeb materialize, and whether the ceasefire diplomacy produces enough certainty for Aramco to shift export routing back to normal channels.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 6,
-    "briefing_note": "Saudi Arabia has moved from passive defender to active ceasefire diplomat, but the Ahvaz strike now puts Riyadh's investment in the Doha channel at risk of a rapid Iranian escalation.",
-    "change_status": "watch",
+    "briefing_note": "Saudi Arabia has shown impressive infrastructure resilience by restoring the East-West pipeline, but the Hormuz crisis means Riyadh is still exporting at a discount through a riskier route — and the Houthi threat to Bab al-Mandeb would close the last viable oil corridor if realized.",
+    "change_status": "improving",
     "change_summary": [
-      "Watch signal: Saudi Arabia chairs Arab League emergency session backing Doha pause as Aramco raises security posture at key terminals.",
-      "Also worth watching: Riyadh privately warns Israel that Ahvaz strike endangers the ceasefire window."
+      "Improving signal: Saudi East-West pipeline restored to full 7-million-bpd capacity after Iranian attacks.",
+      "Also worth watching: Gulf states backing ceasefire but divided on pace; Hormuz tanker backlog of 800 vessels unresolved."
     ],
     "impact_tags": [
       "Energy",
@@ -140,12 +140,12 @@
     ],
     "sources": [
       {
-        "label": "Arab News, Apr 9, 2026: Saudi Arabia chairs Arab League emergency session backing Doha pause",
-        "url": "https://www.arabnews.com/node/arab-league-doha-pause-session-2026-04-09"
+        "label": "Al Jazeera, Apr 12, 2026: Saudi Arabia says key oil pipeline back to full capacity after attacks",
+        "url": "https://www.aljazeera.com/economy/2026/4/12/saudi-arabia-says-key-oil-pipeline-back-to-full-capacity-after-attacks"
       },
       {
-        "label": "Bloomberg, Apr 10, 2026: Riyadh privately warns Israel that Ahvaz strike endangers ceasefire window",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-10/riyadh-israel-warning-ahvaz-ceasefire"
+        "label": "ACLED, Apr 2026: Gulf countries navigate US-Iran talks united behind ceasefire even as divisions loom",
+        "url": "https://acleddata.com/report/united-behind-ceasefire-even-divisions-loom-gulf-countries-navigate-us-iran-talks"
       }
     ]
   },
@@ -153,22 +153,22 @@
     "country": "Lebanon",
     "iso_code": "LBN",
     "theater": "Middle East",
-    "threat_level": 5,
-    "threat_label": "CRITICAL",
-    "headline": "Lebanese army begins deploying into Litani buffer zone as Hezbollah repositions north of river",
-    "tldr": "Latest reporting on Lebanon is centered on \"Lebanese army begins deploying into Litani buffer zone as Hezbollah repositions north of river.\" A second fresh signal highlights \"UN estimates 1.2 million internally displaced in Lebanon since Feb 28 as aid access remains restricted.\"",
-    "alliances_short": "The Lebanese state is attempting to assert itself in the buffer zone, but its capacity and Hezbollah's continued armed presence set hard limits on what it can deliver.",
-    "forecast": "Lebanon's ability to hold the buffer zone and maintain even minimal state authority depends on whether the IDF halt holds and whether Hezbollah accepts a de facto repositioning rather than treating the line as temporary.",
-    "current_events": "Fresh source monitoring for Lebanon points to Apr 9, 2026: Lebanese army begins deploying into Litani buffer zone as Hezbollah repositions north of river. A second signal highlights Apr 9, 2026: UN estimates 1.2 million internally displaced in Lebanon since Feb 28 as aid access remains restricted.",
-    "alliances": "President Joseph Aoun and Prime Minister Nawaf Salam are aligned with international donors and Arab states that want a stronger Lebanese state. Hezbollah remains tied to Iran and is repositioning rather than disarming. The Lebanese army deployment is internationally supported but internally fragile.",
-    "next_actions": "Watch whether the Lebanese army can actually establish a credible presence in areas IDF vacates, whether Hezbollah treats the repositioning as permanent or tactical, and whether the humanitarian corridor from Tyre north remains open.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "threat_level": 4,
+    "threat_label": "HIGH",
+    "headline": "Israel-Lebanon ceasefire extended three weeks but IDF strikes continue; Hezbollah calls extension 'meaningless'",
+    "tldr": "Latest reporting on Lebanon is centered on \"Israel-Lebanon ceasefire extended three weeks but IDF strikes continue; Hezbollah calls extension 'meaningless'.\" A second fresh signal highlights \"Civilians rush home in south Lebanon amid ceasefire, finding destruction; Lebanon-Israel talks resume in Washington.\"",
+    "alliances_short": "The Lebanese state is caught between Israeli buffer zone assertions, Hezbollah's defiance, and a ceasefire framework it cannot enforce on either party.",
+    "forecast": "The three-week ceasefire extension creates a diplomatic window, but Israel's continued strikes and its 10-km buffer zone assertion undermine Lebanese sovereignty and Hezbollah's incentive to comply with any framework.",
+    "current_events": "Fresh source monitoring for Lebanon points to Apr 23-24, 2026: Trump announces Israel-Lebanon ceasefire extended for three weeks — but IDF strikes in Bint Jbeil continue hours after extension. A second signal highlights Apr 24, 2026: Hezbollah dismisses ceasefire extension as 'meaningless' given Israel's continued hostile acts including assassinations and shelling.",
+    "alliances": "President Aoun and PM Salam are working through the Washington talks channel. The Lebanese army is deployed in the south but cannot challenge either IDF or Hezbollah. The U.S. ceasefire brokerage is the only framework keeping the situation from re-escalating, but Israeli non-compliance is eroding its credibility.",
+    "next_actions": "Watch whether Washington talks produce a concrete Israeli withdrawal timeline from the buffer zone, whether Hezbollah converts its 'meaningless' rhetoric into resumed rocket fire, and whether the three-week window produces a lasting framework.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 4,
-    "briefing_note": "The Lebanese army deployment into the buffer zone is the most meaningful assertion of state authority since the war began, but its success depends on Hezbollah's cooperation and IDF restraint — neither of which is guaranteed.",
+    "briefing_note": "The Lebanon ceasefire is holding in name but not in practice — Israel is striking, Hezbollah is furious, and civilians returning home are finding destruction. The Washington talks are the only mechanism that could convert this fragile pause into a durable arrangement.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Lebanese army begins deploying into Litani buffer zone as Hezbollah repositions north of river.",
-      "Also worth watching: UN estimates 1.2 million internally displaced in Lebanon since Feb 28 as aid access remains restricted."
+      "Watch signal: Israel-Lebanon ceasefire extended three weeks but IDF continues strikes in Bint Jbeil; Hezbollah calls extension 'meaningless'.",
+      "Also worth watching: Lebanon-Israel talks resume in Washington; civilians return to devastated south Lebanon villages."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -177,12 +177,12 @@
     ],
     "sources": [
       {
-        "label": "Reuters, Apr 9, 2026: Lebanese army begins deploying into Litani buffer zone",
-        "url": "https://www.reuters.com/world/middle-east/lebanon-army-litani-buffer-zone-2026-04-09/"
+        "label": "Washington Post, Apr 24, 2026: Hezbollah defiant as Trump says Israel-Lebanon ceasefire extended for 3 weeks",
+        "url": "https://www.washingtonpost.com/world/2026/04/24/iran-us-israel-lebanon-ceasefire/"
       },
       {
-        "label": "OCHA, Apr 9, 2026: Lebanon displacement crisis reaches 1.2 million since February 28",
-        "url": "https://www.unocha.org/publications/report/lebanon/lebanon-situation-report-2026-04-09"
+        "label": "Al Jazeera, Apr 24, 2026: Israel continues attacks on Lebanon despite extension of ceasefire",
+        "url": "https://www.aljazeera.com/news/2026/4/24/israel-continues-attacks-on-lebanon-despite-extension-of-ceasefire"
       }
     ]
   },
@@ -190,22 +190,22 @@
     "country": "Yemen",
     "iso_code": "YEM",
     "theater": "Middle East",
-    "threat_level": 5,
-    "threat_label": "CRITICAL",
-    "headline": "Houthis resume full Red Sea operations and sink a U.S.-flagged container vessel as Hormuz closure compounds global shipping crisis",
-    "tldr": "Latest reporting on Yemen is centered on \"Houthis resume full Red Sea operations and sink a U.S.-flagged container vessel as Hormuz closure compounds global shipping crisis.\" A second fresh signal highlights \"U.S. Navy launches retaliatory strikes on Houthi missile sites in Hudaydah and Sanaa governorates.\"",
-    "alliances_short": "The Houthis ended their Red Sea pause immediately after the Doha channel collapsed and have now sunk their first vessel, directly drawing U.S. naval forces into a retaliatory exchange.",
-    "forecast": "With Hormuz closed by Iran and the Red Sea actively contested by the Houthis, global maritime shipping faces a dual chokepoint crisis with no near-term resolution. U.S. Navy retaliatory strikes will degrade but not neutralize Houthi launch capacity, and the sinking of a U.S.-flagged vessel raises the prospect of a broader U.S. military commitment.",
-    "current_events": "Fresh source monitoring for Yemen points to Apr 25, 2026: Houthis resume full Red Sea operations and sink a U.S.-flagged container vessel as Hormuz closure compounds global shipping crisis. A second signal highlights Apr 24, 2026: U.S. Navy launches retaliatory strikes on Houthi missile sites in Hudaydah and Sanaa governorates.",
-    "alliances": "The Houthis are coordinating directly with Tehran, with the Red Sea resumption timed to the Iranian ballistic salvo on Israel. The U.S. retaliatory strikes represent a significant re-escalation of direct American military engagement with the Houthis. Saudi Arabia and the UAE have quietly endorsed the U.S. strikes but are not participating.",
-    "next_actions": "Watch whether the U.S. Navy moves to enforce a maritime exclusion zone in the Red Sea, whether the Houthis have sufficient surviving launch capacity to continue anti-ship operations after the strikes, and whether the dual Hormuz-Red Sea chokepoint closure triggers emergency IEA strategic reserve releases.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
-    "story_rank": 3,
-    "briefing_note": "The Houthi sinking of a U.S.-flagged vessel marks a major escalation — it transforms the Red Sea campaign from harassment to an act of war against U.S.-flagged shipping and makes a sustained American military response nearly unavoidable.",
+    "threat_level": 4,
+    "threat_label": "HIGH",
+    "headline": "US Operation Rough Rider strikes continue across Yemen; Houthis threaten Bab al-Mandeb as second Red Sea chokepoint",
+    "tldr": "Latest reporting on Yemen is centered on \"US Operation Rough Rider strikes continue across Yemen; Houthis threaten Bab al-Mandeb as second Red Sea chokepoint.\" A second fresh signal highlights \"April 17 strike on Ras Issa port kills 74 in deadliest US Yemen strike of the operation.\"",
+    "alliances_short": "The Houthis have pivoted from Red Sea commercial shipping attacks to direct missile and drone strikes on Israel and threats to close Bab al-Mandeb if Gulf states join the war.",
+    "forecast": "U.S. airstrikes are degrading Houthi capability but not their strategic posture. The Bab al-Mandeb threat is the most significant shipping risk signal since the Hormuz crisis began — if realized, it would close the last alternative oil export corridor for Gulf producers.",
+    "current_events": "Fresh source monitoring for Yemen points to Apr 17, 2026: US strike on Ras Issa port kills 74 — deadliest strike of Operation Rough Rider. A second signal highlights Apr 14, 2026: Experts warn Houthis threaten Bab al-Mandeb as second chokepoint amid focus on Strait of Hormuz.",
+    "alliances": "The Houthis are aligned with Iran and have entered the 2026 war with missile and drone strikes on Israel. U.S. Operation Rough Rider has struck over 1,000 targets in Yemen. The UN Security Council extended reporting on Houthi Red Sea attacks in April via Resolution 2812 (2026). The humanitarian cost of U.S. strikes — including 68 African migrants killed at a Saada detention center — is drawing international criticism.",
+    "next_actions": "Watch whether the Houthis execute on their Bab al-Mandeb threat, whether a U.S.-Houthi ceasefire deal materializes, and whether civilian casualties from U.S. strikes generate pressure to modify the operation.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
+    "story_rank": 7,
+    "briefing_note": "Yemen has shifted from Red Sea commercial shipping disruption to a direct theater of the Iran war. U.S. strikes are heavy but the Houthi Bab al-Mandeb threat — if executed — would compound the Hormuz crisis with a second chokepoint closure and devastate remaining Gulf oil export routes.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Houthis resume full Red Sea operations and sink a U.S.-flagged container vessel as Hormuz closure compounds global shipping crisis.",
-      "Also worth watching: U.S. Navy launches retaliatory strikes on Houthi missile sites in Hudaydah and Sanaa governorates."
+      "Escalated signal: US Operation Rough Rider strikes Yemen; Apr 17 Ras Issa port strike kills 74 in deadliest strike of the operation.",
+      "Also worth watching: Houthis threaten Bab al-Mandeb as second Red Sea chokepoint if Gulf states join the Iran war."
     ],
     "impact_tags": [
       "Shipping",
@@ -215,12 +215,12 @@
     ],
     "sources": [
       {
-        "label": "Lloyd's List, Apr 25, 2026: Houthis sink U.S.-flagged container ship as Red Sea operations fully resume",
-        "url": "https://www.lloydslist.com/LL1150287/houthis-us-flagged-vessel-red-sea-resume-2026-04-25"
+        "label": "Military Times, Apr 14, 2026: Amid focus on Strait of Hormuz, experts sound warning on Yemen's Houthis and Red Sea",
+        "url": "https://www.militarytimes.com/news/pentagon-congress/2026/04/14/amid-focus-on-strait-of-hormuz-experts-sound-warning-on-yemens-houthis-and-red-sea/"
       },
       {
-        "label": "Reuters, Apr 24, 2026: U.S. Navy strikes Houthi missile sites in Hudaydah and Sanaa after Red Sea attack",
-        "url": "https://www.reuters.com/world/middle-east/us-navy-strikes-houthi-hudaydah-sanaa-2026-04-24/"
+        "label": "Jerusalem Post, Apr 2026: Houthis signal return, warn of broader regional escalation",
+        "url": "https://www.jpost.com/middle-east/article-893824"
       }
     ]
   },
@@ -230,20 +230,20 @@
     "theater": "Eastern Europe",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Russia widens Zaporizhzhia push and resumes Kharkiv energy strikes as Kim-Putin joint military pact signed in Moscow",
-    "tldr": "Latest reporting on Russia is centered on \"Russia widens Zaporizhzhia push and resumes Kharkiv energy strikes as Kim-Putin joint military pact signed in Moscow.\" A second fresh signal highlights \"Moscow rejects renewed EU ceasefire mediation offer as offensive gains momentum.\"",
-    "alliances_short": "The Kim-Putin military pact formalizes Russia's deepest wartime partnership and signals Moscow sees no off-ramp it needs to accept.",
-    "forecast": "Expect sustained offensive pressure in Zaporizhzhia and continued energy infrastructure strikes. The Kim-Putin pact will further entrench Moscow's attritional posture and reduce its incentive to negotiate.",
-    "current_events": "Fresh source monitoring for Russia points to Apr 10, 2026: Russia widens Zaporizhzhia push and resumes Kharkiv energy strikes as Kim-Putin joint military pact signed in Moscow. A second signal highlights Apr 9, 2026: Moscow rejects renewed EU ceasefire mediation offer as offensive gains momentum.",
-    "alliances": "North Korea's military pact is now the most explicit alignment of the war. China is still the more important strategic relationship for sanctions resilience, but the Kim-Putin agreement signals Moscow is building a durable alternative security architecture rather than seeking reintegration with the West.",
-    "next_actions": "Watch what specific military-technical provisions the Kim-Putin pact contains, whether the Zaporizhzhia push attempts to cut Ukrainian logistics routes, and whether EU capitals accelerate additional heavy weapons deliveries in response.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "headline": "Russia continues Zaporizhzhia offensive with redeployed paratroopers; rejects ceasefire proposals as front-line pressure mounts",
+    "tldr": "Latest reporting on Russia is centered on \"Russia continues Zaporizhzhia offensive with redeployed paratroopers; rejects ceasefire proposals as front-line pressure mounts.\" A second fresh signal highlights \"44 settlements in Zaporizhzhia and Dnipropetrovsk oblasts under mandatory evacuation as fighting intensifies.\"",
+    "alliances_short": "Russia is deepening its military posture in Zaporizhzhia with elite unit redeployments, signaling no interest in the ceasefire framework being pushed by the U.S. and Europe.",
+    "forecast": "Russia's continued offensive in Zaporizhzhia with paratroopers signals an attempt to achieve territorial facts before any ceasefire framework can be finalized. Moscow has rejected every ceasefire proposal and is betting on Western fatigue.",
+    "current_events": "Fresh source monitoring for Russia points to Apr 24, 2026: Russia-Ukraine war update — fighting ongoing across Zaporizhzhia front including in Orikhiv, Huliaipilske, and Charivne. A second signal highlights Apr 22, 2026: Russian elite units including paratroopers redeployed to Zaporizhzhia region as activity on both sides notably increases.",
+    "alliances": "North Korea's ongoing ammunition pipeline — upwards of 5 million shells sent — remains Russia's most critical resupply relationship. China continues strategic backing. The Kim-Putin military pact institutionalizes the Russia-DPRK axis. Putin rejected the U.S.-proposed 30-day ceasefire in March and has not engaged since.",
+    "next_actions": "Watch whether Russian paratroopers attempt to cut Ukrainian logistics routes near Orikhiv, whether mandatory evacuations expand further into Dnipropetrovsk, and whether U.S. or European attention shifts back to Ukraine from the Middle East crisis.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 5,
-    "briefing_note": "The Kim-Putin military pact and the widening Zaporizhzhia offensive together signal that Russia is not looking for an exit — it is building the architecture for an extended war on its own terms.",
+    "briefing_note": "Russia is using the Middle East crisis to press its Zaporizhzhia offensive with elite units, betting that Western diplomatic bandwidth is consumed by Iran. The ceasefire rejection pattern is consistent — Moscow sees no off-ramp it needs to accept.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Russia widens Zaporizhzhia push and resumes Kharkiv energy strikes as Kim-Putin joint military pact signed in Moscow.",
-      "Also worth watching: Moscow rejects renewed EU ceasefire mediation offer as offensive gains momentum."
+      "Escalated signal: Russia redeploys paratroopers to Zaporizhzhia; 14 front-line settlements under active fighting as of April 24.",
+      "Also worth watching: 44 settlements in Zaporizhzhia and Dnipropetrovsk oblasts under mandatory evacuation."
     ],
     "impact_tags": [
       "Military",
@@ -252,12 +252,12 @@
     ],
     "sources": [
       {
-        "label": "Reuters, Apr 10, 2026: Kim-Putin joint military pact signed in Moscow as Zaporizhzhia offensive widens",
-        "url": "https://www.reuters.com/world/europe/kim-putin-military-pact-zaporizhzhia-2026-04-10/"
+        "label": "EMPR Media, Apr 24, 2026: Russia-Ukraine War Updates: Key Developments as of April 24, 2026",
+        "url": "https://empr.media/news/war/russia-ukraine-war-updates-key-developments-as-of-april-24-2026/"
       },
       {
-        "label": "Institute for the Study of War, Apr 9, 2026: Russia rejects EU mediation; offensive gains south of Orikhiv confirmed",
-        "url": "https://www.understandingwar.org/backgrounder/ukraine-war-update-2026-04-09"
+        "label": "EMPR Media, Apr 22, 2026: Russia-Ukraine War April 22: Frontline Escalation Continues",
+        "url": "https://empr.media/news/war/russia-ukraine-war-updates-key-developments-as-of-april-22-2026/"
       }
     ]
   },
@@ -267,20 +267,20 @@
     "theater": "Eastern Europe",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Russia launches overnight strikes killing five as Easter ceasefire collapses; EU adopts 20th sanctions package and NATO pledges $60B in 2026 military aid",
-    "tldr": "Latest reporting on Ukraine is centered on \"Russia launches overnight strikes on Dnipro and Kharkiv killing five and wounding 30 as the Easter ceasefire collapsed after thousands of mutual violations.\" A second fresh signal highlights \"EU adopts 20th sanctions package targeting Russia's energy and crypto sectors; NATO allies pledge $60 billion in military aid for 2026.\"",
-    "alliances_short": "European allies are stepping up dramatically as U.S. attention is pulled toward the Middle East; Zelensky secured close to $17 billion in new military commitments during a mid-April European tour.",
-    "forecast": "The war has settled into a high-intensity attritional grind. Russia cannot translate tactical gains into operational breakthroughs, but Ukraine's persistent manpower crisis — frontline units at as low as 30% strength — limits counterattack capacity. The $60B NATO pledge and EU loan will matter, but the rate of delivery relative to Russian shell output is the decisive variable.",
-    "current_events": "Fresh source monitoring for Ukraine points to Apr 25, 2026: Russia launches overnight strikes on Dnipro, Kharkiv, Sumy, Kyiv, and Zaporizhzhia regions killing at least five and wounding 30 — Air Force tallied 619 drones and 47 missiles, with 610 shot down. A second signal highlights Apr 23, 2026: EU adopts 20th sanctions package — the largest set of individual listings in two years — targeting Russia's shadow-fleet tankers, crypto infrastructure, and 20 Russian banks, while simultaneously unlocking the €90 billion Ukraine loan.",
-    "alliances": "European partners have sharply escalated financial and military commitments. Zelensky's mid-April tour yielded a $4.7B German defense package, a $10.6B Norwegian pledge, 120,000 UK drones, and a non-binding NATO pledge of at least $60 billion in 2026 military assistance. The EU's 20th sanctions package added 120 individual listings, banned Russia-based crypto providers, and sanctioned 46 additional shadow-fleet ships (total now 632). U.S. military aid has declined as the Middle East crisis dominates Washington's attention, pushing Zelensky to accelerate European weapons production partnerships. Peace talks brokered by the U.S. have stalled over territorial disputes — Russia demands all of Donetsk Oblast, Ukraine proposes freezing the current frontlines, neither position is acceptable to the other.",
-    "next_actions": "Watch whether the NATO $60B pledge translates into actual delivery timelines, whether the EU €90B loan begins disbursing and on what conditions, whether Russian overnight strike campaigns continue to degrade energy infrastructure ahead of summer, and whether US-brokered peace talks resume after stalling over the Middle East crisis.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "headline": "Ukraine holds Zaporizhzhia line against intensified Russian paratrooper pressure; Odesa port struck as Zelensky presses security guarantee",
+    "tldr": "Latest reporting on Ukraine is centered on \"Ukraine holds Zaporizhzhia line against intensified Russian paratrooper pressure; Odesa port struck as Zelensky presses security guarantee.\" A second fresh signal highlights \"Zelensky says U.S.-Ukraine security guarantee text is 'essentially ready' to be finalized with Trump.\"",
+    "alliances_short": "Ukraine is holding the line but under intensified pressure as Russian elite units redeploy to Zaporizhzhia while Western attention is partly diverted to the Middle East.",
+    "forecast": "Ukraine's ability to hold the Zaporizhzhia front will depend on the speed of Western resupply and whether the security guarantee text Zelensky says is 'essentially ready' can be finalized before Russian gains create new negotiating facts.",
+    "current_events": "Fresh source monitoring for Ukraine points to Apr 22, 2026: Russian drone strikes hit Odesa port and kill a railway worker in Zaporizhzhia as infrastructure attacks persist. A second signal highlights Apr 2026: Zelensky says U.S.-Ukraine security guarantee text is 'essentially ready' to be finalized — a cornerstone of any settlement.",
+    "alliances": "The United States and European partners remain central to Ukraine's survival. Zelensky's security guarantee push is the diplomatic priority alongside the front-line defense. Russia rejected the U.S.-proposed 30-day ceasefire in March. Trump has indicated Ukraine should come to the table quickly, creating pressure on Kyiv.",
+    "next_actions": "Watch whether the security guarantee text is finalized and what it commits the U.S. to, whether Russian paratroopers achieve a breakthrough near Orikhiv, and whether U.S. weapons resupply continues at current pace despite Middle East focus.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 6,
-    "briefing_note": "Ukraine's intelligence describes the frontline as the best-positioned in 10 months, but that coexists with a manpower crisis leaving some sectors at 30% strength. The Easter ceasefire collapsed within hours under thousands of mutual violations, peace talks remain stalled, and Europe is writing large checks to fill the gap left by declining U.S. engagement.",
+    "briefing_note": "Ukraine is in a grinding defensive posture in Zaporizhzhia against intensified Russian elite pressure, while simultaneously trying to lock in a security guarantee before any peace framework forces it to negotiate under duress. The two tracks — military defense and diplomatic positioning — are in direct tension.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Easter ceasefire collapsed after 7,696 alleged Russian violations and 1,971 alleged Ukrainian violations; overnight strikes on April 25 killed five and wounded 30 across Dnipro, Kharkiv, and four other regions.",
-      "Also worth watching: EU 20th sanctions package adopted April 23 — largest listing tranche in two years — plus NATO $60B 2026 military aid pledge and EU €90B loan unblocked."
+      "Watch signal: Ukraine holds Zaporizhzhia line as Russia redeploys paratroopers; Odesa port struck by drones.",
+      "Also worth watching: Zelensky says U.S. security guarantee text 'essentially ready' — a cornerstone of any peace settlement."
     ],
     "impact_tags": [
       "Military",
@@ -290,20 +290,12 @@
     ],
     "sources": [
       {
-        "label": "Al Jazeera, Apr 25, 2026: Overnight Russian attacks on Ukraine kill five, injure 30",
-        "url": "https://www.aljazeera.com/news/2026/4/25/overnight-russian-attacks-on-ukraine-kill-five-wound-over-30"
+        "label": "Al Jazeera, Apr 22, 2026: Russian drone attacks in Ukraine strike Odesa port and kill railway worker in Zaporizhia",
+        "url": "https://www.aljazeera.com/news/2026/4/22/russian-drone-attacks-in-ukraine-strike-odesa-port-and-kill-railway-worker"
       },
       {
-        "label": "EU Council, Apr 23, 2026: 20th round of EU sanctions hits Russia's energy revenues, military-industrial complex, crypto",
-        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/04/23/russia-s-war-of-aggression-against-ukraine-20th-round-of-stern-eu-sanctions-hits-energy-military-industrial-complex-trade-and-financial-services-including-crypto/"
-      },
-      {
-        "label": "Al Jazeera, Apr 12, 2026: Ukraine and Russia accuse each other of breaching Easter ceasefire",
-        "url": "https://www.aljazeera.com/news/2026/4/12/ukraine-and-russia-accuse-each-other-of-breaching-easter-ceasefire"
-      },
-      {
-        "label": "Military.com, Apr 15, 2026: Zelensky pursues arms deals with allies; NATO pledges $60B for 2026",
-        "url": "https://www.military.com/daily-news/2026/04/15/ukraines-zelenskyy-pursues-more-arms-deals-allies-help-check-russias-invasion.html"
+        "label": "Al Jazeera, Jan 8, 2026: Zelenskyy says US security guarantee text ready to be finalised with Trump",
+        "url": "https://www.aljazeera.com/news/2026/1/8/zelenskyy-says-us-security-guarantee-text-ready-to-be-finalised-with-trump"
       }
     ]
   },
@@ -313,20 +305,20 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "China ends Taiwan Strait exercises and calls for Xi-Trump summit after markets rattle on tariff-plus-war combination",
-    "tldr": "Latest reporting on China is centered on \"China ends Taiwan Strait exercises and calls for Xi-Trump summit after markets rattle on tariff-plus-war combination.\" A second fresh signal highlights \"Beijing formally backs Doha ceasefire channel and offers to host parallel Iran-Gulf diplomatic track.\"",
-    "alliances_short": "China is pivoting from military pressure signaling to active diplomatic engagement as global market instability gives it leverage to seek a summit.",
-    "forecast": "Expect China to sustain the diplomatic pivot while maintaining an elevated but not escalatory military posture near Taiwan. The summit offer is a genuine signal that Beijing wants to manage the bilateral crisis before it compounds with Middle East instability.",
-    "current_events": "Fresh source monitoring for China points to Apr 9, 2026: China ends Taiwan Strait exercises and calls for Xi-Trump summit after markets rattle on tariff-plus-war combination. A second signal highlights Apr 9, 2026: Beijing formally backs Doha ceasefire channel and offers to host parallel Iran-Gulf diplomatic track.",
-    "alliances": "China's most important external relationship remains the United States, even in rivalry. Russia remains a strategic partner, and the Kim-Putin military pact gives Beijing some concern about being pulled into a destabilizing axis. Beijing's support for the Doha channel signals it wants to be seen as a responsible actor in the current crisis.",
-    "next_actions": "Watch whether the Trump administration accepts the summit call, whether Beijing's offer to host an Iran-Gulf track gains traction, and whether PLA air activity near Taiwan decreases or holds at the new elevated baseline.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "headline": "KMT chairwoman visits Beijing, meets Xi in first CCP-KMT leader meeting in nearly a decade; PLA gray-zone activity continues at elevated baseline",
+    "tldr": "Latest reporting on China is centered on \"KMT chairwoman visits Beijing, meets Xi in first CCP-KMT leader meeting in nearly a decade; PLA gray-zone activity continues at elevated baseline.\" A second fresh signal highlights \"Beijing resumes Taiwan aquaculture imports as diplomatic de-escalation gesture following Kuomintang visit.\"",
+    "alliances_short": "China is pursuing cross-strait diplomatic engagement through the KMT channel while maintaining daily gray-zone military pressure — a dual-track approach signaling tactical restraint without strategic concession.",
+    "forecast": "The KMT-CCP leadership meeting is the most significant cross-strait political engagement in years but does not change the underlying deterrence equation. PLA gray-zone activity at the elevated baseline is the new normal.",
+    "current_events": "Fresh source monitoring for China points to Apr 2026: KMT chairwoman Cheng Li-wun visits mainland China and meets Xi Jinping — first CCP-KMT leader meeting in nearly ten years. Xi states China and Taiwan should avoid conflict and focus on peace and prosperity. A second signal highlights Apr 2026: PLA deployed approximately 100 coast guard and naval vessels near Taiwan's ADIZ during the visit, up from the usual 50-60.",
+    "alliances": "China's most important external relationship remains the United States, even in rivalry. The U.S. intelligence community's March 2026 Annual Threat Assessment concluded China is unlikely to invade Taiwan in 2027. Beijing's diplomatic pivot through the KMT channel is designed to signal restraint without conceding sovereignty claims.",
+    "next_actions": "Watch how Beijing responds to any new U.S.-Taiwan arms sales in the wake of the KMT visit, whether the aquaculture import resumption expands to other confidence-building measures, and whether PLA vessel counts near Taiwan's ADIZ decrease from the elevated baseline.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 8,
-    "briefing_note": "China has shifted from coercive signaling to diplomatic initiative, using market instability as a forcing function to open a summit track with Washington before the combined tariff-and-war crisis spirals further.",
+    "briefing_note": "The Xi-Cheng meeting is a meaningful diplomatic signal but should not be mistaken for a strategic shift — the PLA ran 100 vessels near Taiwan's ADIZ during the same visit. China is using the KMT channel to manage the optics of cross-strait tension while maintaining maximum military posture.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: China ends Taiwan Strait exercises and calls for Xi-Trump summit after markets rattle on tariff-plus-war combination.",
-      "Also worth watching: Beijing formally backs Doha ceasefire channel and offers to host parallel Iran-Gulf diplomatic track."
+      "Watch signal: KMT chairwoman meets Xi Jinping in Beijing — first CCP-KMT leader meeting in nearly ten years; Beijing resumes Taiwan aquaculture imports.",
+      "Also worth watching: PLA deployed 100 coast guard and naval vessels near Taiwan's ADIZ during the KMT visit — up from baseline of 50-60."
     ],
     "impact_tags": [
       "Markets",
@@ -335,12 +327,12 @@
     ],
     "sources": [
       {
-        "label": "SCMP, Apr 9, 2026: China ends Taiwan Strait exercises and calls for Xi-Trump summit amid market instability",
-        "url": "https://www.scmp.com/news/china/diplomacy/article/china-ends-taiwan-exercises-xi-trump-summit-2026-04-09"
+        "label": "AEI, Apr 24, 2026: China & Taiwan Update, April 24, 2026",
+        "url": "https://www.aei.org/articles/china-taiwan-update-april-24-2026/"
       },
       {
-        "label": "Xinhua, Apr 9, 2026: Beijing backs Doha channel and offers to host Iran-Gulf diplomatic track",
-        "url": "https://www.xinhuanet.com/english/2026-04/09/c_china-doha-iran-gulf-diplomatic-track.htm"
+        "label": "AEI, Apr 17, 2026: China & Taiwan Update, April 17, 2026",
+        "url": "https://www.aei.org/articles/china-taiwan-update-april-17-2026/"
       }
     ]
   },
@@ -350,20 +342,20 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "Taiwan welcomes end of PLA exercises but accelerates drone and missile defense procurement as relief proves temporary",
-    "tldr": "Latest reporting on Taiwan is centered on \"Taiwan welcomes end of PLA exercises but accelerates drone and missile defense procurement as relief proves temporary.\" A second fresh signal highlights \"Taipei signs fast-track munitions agreement with Washington covering 400 additional Patriot interceptors.\"",
-    "alliances_short": "Taiwan is using the brief exercise pause to accelerate procurement before Beijing's next pressure cycle.",
-    "forecast": "The PLA exercise pause gives Taiwan a narrow window to advance readiness before the next coercion cycle. The fast-track munitions deal is the most concrete readiness step since the defense supplement was approved.",
-    "current_events": "Fresh source monitoring for Taiwan points to Apr 9, 2026: Taiwan welcomes end of PLA exercises but accelerates drone and missile defense procurement as relief proves temporary. A second signal highlights Apr 9, 2026: Taipei signs fast-track munitions agreement with Washington covering 400 additional Patriot interceptors.",
-    "alliances": "The island's unofficial alliance with the United States remains central. The fast-track munitions deal signals Washington is using the diplomatic window with Beijing to also accelerate Taiwan's readiness rather than slow it. Japan and Australia have both quietly indicated support for the accelerated procurement.",
-    "next_actions": "Watch how Beijing responds to the Patriot interceptor deal, whether the Xi-Trump summit offer absorbs or sharpens the Taiwan arms sale tension, and whether the defense supplement translates into operational readiness gains by mid-year.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "headline": "Taiwan navigates KMT-Beijing diplomatic opening while monitoring elevated PLA naval presence; U.S. intel assessment says invasion unlikely before 2027",
+    "tldr": "Latest reporting on Taiwan is centered on \"Taiwan navigates KMT-Beijing diplomatic opening while monitoring elevated PLA naval presence; U.S. intel assessment says invasion unlikely before 2027.\" A second fresh signal highlights \"PLA deployed 100 vessels near Taiwan's ADIZ during KMT chairwoman's Beijing visit — nearly double the routine level.\"",
+    "alliances_short": "Taiwan is in a delicate position as the KMT's Beijing engagement creates political optics at home while PLA activity at elevated levels continues.",
+    "forecast": "The March 2026 U.S. intel assessment ruling out a 2027 invasion provides a degree of near-term reassurance, but Taiwan's defense establishment is watching the doubled PLA vessel count during the KMT visit as a signal of coercive intent beneath the diplomatic surface.",
+    "current_events": "Fresh source monitoring for Taiwan points to Apr 17-24, 2026: AEI China-Taiwan updates confirm PLA gray-zone activity continuing with 2-6 aircraft sorties and 7-9 ships in Taiwan's ADIZ daily. During KMT chairwoman's Beijing visit, PLA raised vessel count to approximately 100 — nearly double normal levels. A second signal highlights: U.S. intelligence March 2026 Annual Threat Assessment concluded China unlikely to invade Taiwan in 2027.",
+    "alliances": "Taiwan's unofficial alliance with the United States is the security cornerstone. The U.S. intelligence assessment providing a 2027 planning horizon gives Taiwan's defense procurement timeline more clarity. Japan and Australia continue quiet support. The KMT visit creates some domestic political friction with the governing DPP.",
+    "next_actions": "Watch whether the KMT's Beijing engagement produces any concrete cross-strait confidence-building measures endorsed by the Taiwanese government, whether PLA vessel counts return to baseline after the visit, and whether any new U.S. arms sales announcements follow.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 9,
-    "briefing_note": "Taiwan is treating the PLA exercise pause as a procurement window rather than a de-escalation signal — and Washington is enabling that interpretation with the Patriot interceptor fast-track.",
+    "briefing_note": "Taiwan is in an unusual moment: the KMT is opening a political channel to Beijing while the PLA nearly doubled its vessel presence during the visit. The U.S. intel assessment removes the 2027 invasion alarm bell, but Taiwan's defense establishment cannot treat elevated PLA posture as a de-escalation signal.",
     "change_status": "watch",
     "change_summary": [
-      "Watch signal: Taiwan welcomes end of PLA exercises but accelerates drone and missile defense procurement as relief proves temporary.",
-      "Also worth watching: Taipei signs fast-track munitions agreement with Washington covering 400 additional Patriot interceptors."
+      "Watch signal: PLA deploys 100 vessels near Taiwan's ADIZ during KMT chairwoman's Beijing visit — nearly double routine levels.",
+      "Also worth watching: U.S. March 2026 intel assessment concludes China unlikely to invade Taiwan before 2027."
     ],
     "impact_tags": [
       "Military",
@@ -372,12 +364,12 @@
     ],
     "sources": [
       {
-        "label": "Focus Taiwan, Apr 9, 2026: Taiwan accelerates procurement after PLA exercise pause; Patriot interceptor deal signed",
-        "url": "https://focustaiwan.tw/politics/202604090020"
+        "label": "AEI, Apr 24, 2026: China & Taiwan Update, April 24, 2026",
+        "url": "https://www.aei.org/articles/china-taiwan-update-april-24-2026/"
       },
       {
-        "label": "Defense News, Apr 9, 2026: Taiwan and U.S. sign fast-track deal for 400 additional Patriot interceptors",
-        "url": "https://www.defensenews.com/global/asia-pacific/2026/04/09/taiwan-patriot-interceptor-fast-track/"
+        "label": "AEI, Apr 3, 2026: China & Taiwan Update, April 3, 2026",
+        "url": "https://www.aei.org/articles/china-taiwan-update-april-3-2026/"
       }
     ]
   },
@@ -387,32 +379,32 @@
     "theater": "Indo-Pacific",
     "threat_level": 3,
     "threat_label": "ELEVATED",
-    "headline": "Kim-Putin joint military pact signed; North Korea commits to accelerated artillery and ammunition transfers to Russia",
-    "tldr": "Latest reporting on North Korea is centered on \"Kim-Putin joint military pact signed; North Korea commits to accelerated artillery and ammunition transfers to Russia.\" A second fresh signal highlights \"Pyongyang fires ICBM into East Sea hours after summit concludes as a capability signal.\"",
-    "alliances_short": "The formal Kim-Putin military pact is the deepest institutional alignment North Korea has had with any major power since the Cold War.",
-    "forecast": "Expect an accelerated North Korean ammunition pipeline to Russia, renewed pressure on U.S.-South Korea-Japan exercises, and a test-fire signaling cycle tied to any U.S. or allied response to the pact.",
-    "current_events": "Fresh source monitoring for North Korea points to Apr 10, 2026: Kim-Putin joint military pact signed; North Korea commits to accelerated artillery and ammunition transfers to Russia. A second signal highlights Apr 10, 2026: Pyongyang fires ICBM into East Sea hours after summit concludes as a capability signal.",
-    "alliances": "North Korea's military pact with Russia now institutionalizes what was previously an informal wartime arrangement. China is watching the pact with some unease, as it deepens the Russia-North Korea axis in ways that complicate Beijing's own strategic positioning.",
-    "next_actions": "Watch how quickly new North Korean ammunition shipments reach Ukrainian front lines, whether the U.S.-South Korea response includes new military exercises or THAAD deployments, and whether China signals concern about the pact's implications for regional stability.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "headline": "North Korea tests tactical ballistic missiles and new solid-propellant ICBM motor; Kim signals 'limitless expansion' of nuclear forces",
+    "tldr": "Latest reporting on North Korea is centered on \"North Korea tests tactical ballistic missiles and new solid-propellant ICBM motor; Kim signals 'limitless expansion' of nuclear forces.\" A second fresh signal highlights \"Seoul reports North Korea developing carbon-fibre ICBM for multi-warhead delivery capability.\"",
+    "alliances_short": "The Kim-Putin military pact institutionalized in late 2024 continues to channel North Korean ammunition to Russia while Pyongyang advances its own ICBM capabilities.",
+    "forecast": "North Korea's April test cycle — tactical missiles plus a new solid-propellant ICBM motor — signals it is advancing on both battlefield and strategic deterrence tracks simultaneously. The carbon-fibre multi-warhead ICBM program, if confirmed, represents the next qualitative leap in North Korean nuclear capability.",
+    "current_events": "Fresh source monitoring for North Korea points to Apr 18-19, 2026: North Korea fires five tactical ballistic missiles (Hwasong-11 variants) hitting targets 136 km away with high precision; Kim expresses 'great satisfaction.' A second signal highlights Apr 6, 2026: Seoul reports North Korea is developing a carbon-fibre ICBM for multi-warhead delivery capability.",
+    "alliances": "The Kim-Putin treaty (ratified December 2024) has delivered upwards of 5 million shells to Russian forces in Ukraine. Russia is sharing space, nuclear, and missile-applicable technology with North Korea in return, with U.S. Forces Korea commander warning this cooperation will enable North Korean WMD advances over the next 3-5 years. China watches the pact with unease but has not publicly opposed it.",
+    "next_actions": "Watch whether the new solid-propellant ICBM motor is tested in a full flight test, whether the carbon-fibre multi-warhead program advances to a test phase, and whether the U.S.-South Korea-Japan response includes new exercises or capability deployments.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 10,
-    "briefing_note": "The Kim-Putin military pact and the paired ICBM test represent the most significant formalization of the Russia-North Korea axis since the Ukraine war began, with direct implications for both the Ukrainian front and Korean Peninsula deterrence.",
-    "change_status": "escalated",
+    "briefing_note": "North Korea is running a dual-track weapons program: supplying Russia's conventional war in Ukraine while advancing its own strategic nuclear capability with new ICBM motors and a multi-warhead development program. Kim's 'limitless expansion' language signals no intention to negotiate limits.",
+    "change_status": "watch",
     "change_summary": [
-      "Escalated signal: Kim-Putin joint military pact signed; North Korea commits to accelerated artillery and ammunition transfers to Russia.",
-      "Also worth watching: Pyongyang fires ICBM into East Sea hours after summit concludes as a capability signal."
+      "Watch signal: North Korea tests five tactical ballistic missiles with high precision; Kim signals 'limitless expansion' of nuclear forces.",
+      "Also worth watching: Seoul reports DPRK developing carbon-fibre ICBM for multi-warhead delivery; new solid-propellant ICBM motor tested."
     ],
     "impact_tags": [
       "Military"
     ],
     "sources": [
       {
-        "label": "Reuters, Apr 10, 2026: Kim-Putin joint military pact signed in Moscow with accelerated ammunition transfer commitment",
-        "url": "https://www.reuters.com/world/asia-pacific/kim-putin-military-pact-signed-ammunition-2026-04-10/"
+        "label": "Bloomberg, Apr 19, 2026: North Korea Test-Fires Tactical Missile as Kim Hails Accuracy",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-19/north-korea-test-fires-tactical-missile-as-kim-hails-accuracy"
       },
       {
-        "label": "Yonhap News, Apr 10, 2026: North Korea fires ICBM into East Sea hours after Kim-Putin summit concludes",
-        "url": "https://en.yna.co.kr/view/AEN20260410012000315"
+        "label": "US News, Apr 6, 2026: North Korea Working on Carbon-Fibre ICBM for Multi-Warhead Delivery, Seoul Says",
+        "url": "https://www.usnews.com/news/world/articles/2026-04-06/north-korea-working-on-carbon-fibre-icbm-for-multi-warhead-delivery-seoul-says"
       }
     ]
   },
@@ -422,20 +414,20 @@
     "theater": "Africa & Americas",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "RSF ignores ICJ order with renewed Darfur attacks as WFP warns famine death toll will exceed 2011 Somalia without immediate access",
-    "tldr": "Latest reporting on Sudan is centered on \"RSF ignores ICJ order with renewed Darfur attacks as WFP warns famine death toll will exceed 2011 Somalia without immediate access.\" A second fresh signal highlights \"African Union suspends Sudan from all bodies pending ICJ compliance review.\"",
-    "alliances_short": "Both the SAF and RSF still rely on foreign support networks, keeping outside actors central to the war.",
-    "forecast": "The AU suspension adds political pressure but not enforcement capacity. Without access to external RSF support networks, the ICJ order will remain a legal record rather than an operational constraint.",
-    "current_events": "Fresh source monitoring for Sudan points to Apr 10, 2026: RSF ignores ICJ order with renewed Darfur attacks as WFP warns famine death toll will exceed 2011 Somalia without immediate access. A second signal highlights Apr 9, 2026: African Union suspends Sudan from all bodies pending ICJ compliance review.",
-    "alliances": "Army chief Abdel Fattah al-Burhan and the SAF retain backing from states that fear RSF dominance, while the RSF benefits from external logistical and political networks that keep it viable despite global condemnation. The AU suspension is the first institutional consequence of the ICJ order.",
-    "next_actions": "Watch whether the AU suspension produces any change in third-country support to the RSF, whether WFP can force an emergency humanitarian corridor through diplomatic pressure, and whether the famine declaration triggers a UN Security Council session.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "headline": "Sudan enters fourth year of war with RSF-controlled El Fasher under genocide finding; 14 million displaced, 800,000 facing severe acute malnutrition",
+    "tldr": "Latest reporting on Sudan is centered on \"Sudan enters fourth year of war with RSF-controlled El Fasher under genocide finding; 14 million displaced, 800,000 facing severe acute malnutrition.\" A second fresh signal highlights \"Millions surviving on one meal a day as Sudan's food crisis deepens to worst in the world.\"",
+    "alliances_short": "The conflict enters its fourth year with the RSF holding El Fasher after an 18-month siege, a UN genocide finding, and no enforcement mechanism in sight.",
+    "forecast": "The war is entering its most catastrophic humanitarian phase with genocide confirmed in Darfur, famine spreading, and the international community unable to enforce any access or accountability mechanism. Without external pressure on RSF supply networks, the situation will continue to deteriorate.",
+    "current_events": "Fresh source monitoring for Sudan points to Apr 15, 2026: Sudan enters fourth year of war — RSF captured El Fasher on October 27, 2025 after 18-month siege; UN fact-finding mission finds evidence of genocide against Fur and Zaghawa communities. A second signal highlights Apr 13, 2026: Millions in war-ravaged Sudan surviving on one meal a day; 800,000 people expected to face severe acute malnutrition.",
+    "alliances": "The SAF retains international backing from states fearing RSF dominance. The RSF benefits from external logistical and political networks. The AU suspension and ICJ order (from earlier in the year) remain unenforced. The war is now widely described as an 'abandoned crisis' — the most underreported humanitarian catastrophe in the world.",
+    "next_actions": "Watch whether the UN Security Council moves beyond statements to enforcement-capable resolutions, whether third-country RSF support networks face new sanctions pressure, and whether the famine declaration triggers any meaningful humanitarian access breakthrough.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 11,
-    "briefing_note": "Sudan now has an ICJ order, an AU suspension, and a famine declaration — and none of them have changed anything on the ground because none of them carry enforcement teeth that reach the RSF's external support network.",
+    "briefing_note": "Sudan is the most catastrophic abandoned crisis in the world right now — genocide confirmed in Darfur, 14 million displaced, famine spreading to more towns, and the international community has no enforcement mechanism that reaches the RSF's external support network. Four years in and the situation is still worsening.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: RSF ignores ICJ order with renewed Darfur attacks as WFP warns famine death toll will exceed 2011 Somalia without immediate access.",
-      "Also worth watching: African Union suspends Sudan from all bodies pending ICJ compliance review."
+      "Escalated signal: Sudan enters fourth year of war; UN fact-finding confirms genocide hallmarks in El Fasher; 14 million displaced.",
+      "Also worth watching: 800,000 people facing severe acute malnutrition; millions surviving on one meal a day across Sudan."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -443,12 +435,12 @@
     ],
     "sources": [
       {
-        "label": "WFP, Apr 10, 2026: Famine death toll projections exceed 2011 Somalia without immediate Darfur access",
-        "url": "https://www.wfp.org/news/sudan-famine-projection-2011-comparison-2026-04-10"
+        "label": "NPR, Apr 15, 2026: 'Humiliated, broken, powerless': Sudan enters fourth year of war",
+        "url": "https://www.npr.org/2026/04/15/nx-s1-5781032/sudan-darfur-war-genocide-famine"
       },
       {
-        "label": "AU Peace and Security Council, Apr 9, 2026: African Union suspends Sudan from all bodies pending ICJ compliance",
-        "url": "https://www.peaceau.org/en/article/sudan-au-suspension-icj-2026-04-09"
+        "label": "Al Jazeera, Apr 13, 2026: Millions in war-ravaged Sudan surviving on one meal a day, say NGOs",
+        "url": "https://www.aljazeera.com/news/2026/4/13/millions-in-war-ravaged-sudan-surviving-on-one-meal-a-day-say-ngos"
       }
     ]
   },
@@ -456,22 +448,22 @@
     "country": "Democratic Republic of Congo",
     "iso_code": "COD",
     "theater": "Africa & Americas",
-    "threat_level": 4,
-    "threat_label": "HIGH",
-    "headline": "Kinshasa formally declares Luanda ceasefire void after M23 seizes Rutshuru town; U.S. sanctions Kigali officials",
-    "tldr": "Latest reporting on Democratic Republic of Congo is centered on \"Kinshasa formally declares Luanda ceasefire void after M23 seizes Rutshuru town; U.S. sanctions Kigali officials.\" A second fresh signal highlights \"DRC requests UN Security Council emergency session as humanitarian corridor to Goma closes.\"",
-    "alliances_short": "With the Luanda ceasefire dead, Kinshasa is escalating to international institutions while M23 consolidates its territorial gains.",
-    "forecast": "The ceasefire's collapse and U.S. sanctions on Kigali officials represent the most serious diplomatic escalation of the conflict so far, but without military enforcement the sanctions will not reverse M23's territorial gains.",
-    "current_events": "Fresh source monitoring for Congo points to Apr 10, 2026: Kinshasa formally declares Luanda ceasefire void after M23 seizes Rutshuru town; U.S. sanctions Kigali officials. A second signal highlights Apr 9, 2026: DRC requests UN Security Council emergency session as humanitarian corridor to Goma closes.",
-    "alliances": "President Felix Tshisekedi has now exhausted two ceasefire frameworks and is turning to international legal and sanctions pressure. The U.S. Kigali sanctions are the first direct Western penalty applied to Rwanda over the M23 conflict. M23's durability still depends on external backing that the sanctions may not yet reach.",
-    "next_actions": "Watch whether the UN Security Council session produces anything beyond a statement, whether additional Kigali officials or entities are added to sanctions lists, and whether the Goma humanitarian corridor can be reopened through a new local agreement.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "threat_level": 3,
+    "threat_label": "ELEVATED",
+    "headline": "DRC and M23 agree to aid delivery, prisoner release, and ceasefire verification after Switzerland talks; fighting continues in South Kivu",
+    "tldr": "Latest reporting on Democratic Republic of Congo is centered on \"DRC and M23 agree to aid delivery, prisoner release, and ceasefire verification after Switzerland talks; fighting continues in South Kivu.\" A second fresh signal highlights \"US pressure forestalls further M23 advances; pro-government Wazalendo fighters recapture villages in Kalehe.\"",
+    "alliances_short": "The Switzerland talks produced a joint statement on aid and prisoner release, but fighting continues in South Kivu — signaling the agreement is fragile and implementation is not yet real.",
+    "forecast": "The Switzerland joint statement is a meaningful step but follows the pattern of agreements that have not held. Fighting in South Kivu after signing is a warning sign. U.S. pressure is doing more to forestall M23 advances than the formal peace process.",
+    "current_events": "Fresh source monitoring for Congo points to Apr 19, 2026: DRC government and M23 rebels commit to protecting civilians and facilitating aid deliveries after five days of Switzerland talks; joint statement released by U.S. State Department. A second signal highlights Apr 2026: US pressure forestalls further M23 advances; pro-Congolese Wazalendo fighters recapture several villages from M23 in north and central Kalehe district, South Kivu.",
+    "alliances": "President Tshisekedi is backed by international mediators including the U.S. The U.S.-brokered December peace deal has not held, and M23 continues to operate across South Kivu. Over 7 million people are internally displaced across DRC — one of the world's largest displacement crises.",
+    "next_actions": "Watch whether the prisoner release and ceasefire verification mechanisms established in Switzerland are actually implemented within the agreed 10-day window, whether M23 uses the talks period to consolidate South Kivu positions, and whether U.S. sanctions pressure on Rwanda expands.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 13,
-    "briefing_note": "Eastern Congo has moved from failed ceasefire to active diplomatic escalation, with U.S. sanctions on Kigali officials marking the first direct Western cost on Rwanda — but M23's advance on the ground has not stopped.",
-    "change_status": "escalated",
+    "briefing_note": "The Switzerland agreement is the most concrete diplomatic progress since the December peace deal, but fighting in South Kivu after signing tracks the pattern of agreements that produce statements and not compliance. U.S. diplomatic pressure — not the formal process — is the operative constraint on M23 advances.",
+    "change_status": "watch",
     "change_summary": [
-      "Escalated signal: Kinshasa formally declares Luanda ceasefire void after M23 seizes Rutshuru town; U.S. sanctions Kigali officials.",
-      "Also worth watching: DRC requests UN Security Council emergency session as humanitarian corridor to Goma closes."
+      "Watch signal: DRC and M23 agree on aid, prisoner release, and ceasefire verification after Switzerland talks — U.S. State Department releases joint statement.",
+      "Also worth watching: Fighting continues in South Kivu post-agreement; Wazalendo fighters recapture villages in Kalehe."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -480,12 +472,12 @@
     ],
     "sources": [
       {
-        "label": "Reuters, Apr 10, 2026: DRC declares Luanda ceasefire void as M23 seizes Rutshuru; U.S. sanctions Kigali officials",
-        "url": "https://www.reuters.com/world/africa/drc-ceasefire-void-m23-rutshuru-us-sanctions-kigali-2026-04-10/"
+        "label": "Al Jazeera, Apr 19, 2026: DRC government, M23 rebels commit to protecting civilians, aid deliveries",
+        "url": "https://www.aljazeera.com/news/2026/4/19/drc-government-m23-rebels-commit-to-protect-civilians-aid-deliveries"
       },
       {
-        "label": "UN News, Apr 9, 2026: DRC requests UN Security Council emergency session as Goma humanitarian corridor closes",
-        "url": "https://news.un.org/en/story/2026/04/drc-security-council-goma-corridor-2026-04-09"
+        "label": "African Business, Apr 2026: US pressure forestalls further M23 advances in DRC",
+        "url": "https://african.business/2026/04/long-reads/us-pressure-forestalls-further-m23-advances-in-drc"
       }
     ]
   },
@@ -495,20 +487,20 @@
     "theater": "Africa & Americas",
     "threat_level": 2,
     "threat_label": "GUARDED",
-    "headline": "Venezuela opposition and acting government agree on electoral roadmap with August vote date; U.S. suspends one sanctions tranche",
-    "tldr": "Latest reporting on Venezuela is centered on \"Venezuela opposition and acting government agree on electoral roadmap with August vote date; U.S. suspends one sanctions tranche.\" A second fresh signal highlights \"Maduro's legal team files jurisdictional challenge to delay May extradition hearing.\"",
-    "alliances_short": "Washington has regained leverage; the electoral roadmap and partial sanctions relief represent the most meaningful transition progress since Maduro's removal.",
-    "forecast": "The August vote date is credible only if the acting government continues releasing prisoners, international monitors gain real access, and gang and paramilitary pressure on the electoral council stays manageable.",
-    "current_events": "Fresh source monitoring for Venezuela points to Apr 9, 2026: Venezuela opposition and acting government agree on electoral roadmap with August vote date; U.S. suspends one sanctions tranche. A second signal highlights Apr 10, 2026: Maduro's legal team files jurisdictional challenge to delay May extradition hearing.",
-    "alliances": "Delcy Rodriguez and the acting government have made the most concrete transition commitment so far by agreeing to the August vote date. Maria Corina Machado and the broader opposition accepted the roadmap conditionally. The U.S. sanctions suspension creates an economic incentive structure that is now tied to the electoral process.",
-    "next_actions": "Watch whether the August vote date survives Maduro's legal maneuvering and whether the acting government implements the roadmap steps before any sanction relief becomes permanent, and whether international monitors are formally invited in.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "headline": "Venezuela opposition unites behind Machado for presidential election as transition faces complex democratic challenges",
+    "tldr": "Latest reporting on Venezuela is centered on \"Venezuela opposition unites behind Machado for presidential election as transition faces complex democratic challenges.\" A second fresh signal highlights \"Venezuela's transition is a 'contested transitional phase' — judiciary, military, and electoral council remain aligned with old power structure.\"",
+    "alliances_short": "The opposition coalition is unified behind Machado with a 9-10 month election timeline, but institutional control by the old guard remains the core obstacle to a genuine transition.",
+    "forecast": "Venezuela's transition is real but fragile. The opposition unification behind Machado is significant, but without judicial, military, and electoral council reform, any vote will occur on a tilted playing field. The U.S. has restored diplomatic relations and reopened its Caracas embassy, giving it direct leverage.",
+    "current_events": "Fresh source monitoring for Venezuela points to Apr 12, 2026: Venezuela opposition coalition unifies behind María Corina Machado as candidate for next presidential election; conditions for political transition outlined. A second signal highlights Apr 2026: Chatham House analysis warns democratic elections 'won't happen overnight' — National Electoral Council unreformed, judiciary aligned with ruling party, military still controls key security functions.",
+    "alliances": "The U.S. has restored full diplomatic relations with Venezuela and reopened the Caracas embassy following Maduro's January 2026 extraction and extradition. Acting President Delcy Rodríguez introduced an amnesty law as a confidence-building measure. Machado's Politico interview indicates elections in 9-10 months using manual voting.",
+    "next_actions": "Watch whether the National Electoral Council is reformed before any election date, whether the military's alignment with the transition holds under pressure from Maduro loyalists, and whether the U.S. uses its restored diplomatic presence to accelerate institutional reform conditions.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 14,
-    "briefing_note": "Venezuela's transition has taken its most concrete step with an agreed electoral roadmap and partial U.S. sanctions relief, but the durability of this opening still depends on the acting government's willingness to follow through under pressure from Maduro loyalists.",
-    "change_status": "improving",
+    "briefing_note": "Venezuela's transition has more political momentum than at any point since the Maduro era, but the opposition winning an election and a democratic transition actually occurring are two different things — the judiciary, military, and electoral council remain misaligned with any genuine democratic outcome.",
+    "change_status": "watch",
     "change_summary": [
-      "Improving signal: Venezuela opposition and acting government agree on electoral roadmap with August vote date; U.S. suspends one sanctions tranche.",
-      "Also worth watching: Maduro's legal team files jurisdictional challenge to delay May extradition hearing."
+      "Watch signal: Venezuela opposition unifies behind Machado for presidential election; 9-10 month election timeline indicated.",
+      "Also worth watching: Chatham House warns judiciary, military, and electoral council remain unreformed — transition is 'contested,' not assured."
     ],
     "impact_tags": [
       "Markets",
@@ -518,12 +510,12 @@
     ],
     "sources": [
       {
-        "label": "AP News, Apr 9, 2026: Venezuela opposition and acting government agree on August electoral roadmap",
-        "url": "https://apnews.com/article/venezuela-electoral-roadmap-august-2026-04-09"
+        "label": "Bloomberg, Apr 12, 2026: Venezuela Opposition Unites Behind Machado for Presidential Election Bid",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-12/venezuela-opposition-backs-machado-as-candidate-in-next-vote"
       },
       {
-        "label": "Reuters, Apr 10, 2026: Maduro legal team files jurisdictional challenge to delay May extradition hearing",
-        "url": "https://www.reuters.com/world/americas/maduro-legal-challenge-extradition-hearing-2026-04-10/"
+        "label": "Chatham House, Apr 2026: Democratic elections in Venezuela won't happen overnight — groundwork needed first",
+        "url": "https://www.chathamhouse.org/2026/04/democratic-elections-venezuela-wont-happen-overnight-heres-groundwork-thats-needed-first"
       }
     ]
   },
@@ -533,20 +525,20 @@
     "theater": "Africa & Americas",
     "threat_level": 4,
     "threat_label": "HIGH",
-    "headline": "Haiti's Jacmel port siege broken by Haitian police with U.S.-funded equipment as gang coalition fractures in south",
-    "tldr": "Latest reporting on Haiti is centered on \"Haiti's Jacmel port siege broken by Haitian police with U.S.-funded equipment as gang coalition fractures in south.\" A second fresh signal highlights \"Electoral council sets revised voter registration window for May 15; international monitors invited.\"",
-    "alliances_short": "The interim government's Jacmel success is the most meaningful security gain in months and has given the electoral timeline a fragile new lease.",
-    "forecast": "The Jacmel breakthrough is significant but not generalized. Port-au-Prince's gang control remains intact, and the revised May registration window will only be viable if the south's security gains hold and don't trigger gang retaliation in the capital.",
-    "current_events": "Fresh source monitoring for Haiti points to Apr 9, 2026: Haiti's Jacmel port siege broken by Haitian police with U.S.-funded equipment as gang coalition fractures in south. A second signal highlights Apr 9, 2026: Electoral council sets revised voter registration window for May 15; international monitors invited.",
-    "alliances": "The Haitian government's Jacmel operation succeeded because U.S. equipment arrived faster than expected and gang cohesion in the south broke under sustained pressure. The international mission remains undersized for Port-au-Prince, but the southern success may attract additional contributions.",
-    "next_actions": "Watch whether the gang coalition fracturing in the south allows the police to consolidate before retaliation, whether May 15 registration can proceed in the liberated southern departments, and whether the UN mission receives new troop commitments following the Jacmel success.",
-    "last_updated": "2026-04-25T14:52:43.698Z",
+    "headline": "UN-backed Gang Suppression Force exceeds troop pledge targets with Chad deployed; August 2026 elections planned but gangs control 90% of Port-au-Prince",
+    "tldr": "Latest reporting on Haiti is centered on \"UN-backed Gang Suppression Force exceeds troop pledge targets with Chad deployed; August 2026 elections planned but gangs control 90% of Port-au-Prince.\" A second fresh signal highlights \"6.4 million Haitians need humanitarian assistance; 1.45 million internally displaced — approaching 2010 earthquake levels.\"",
+    "alliances_short": "The Gang Suppression Force is better resourced than expected, but Port-au-Prince gang control at 90% means the August election calendar is built on deeply unstable ground.",
+    "forecast": "The UN force exceeding its pledge targets is the most positive security signal in months. But with gangs controlling 90% of the capital, an August first-round election is only viable if the GSF can make meaningful inroads in Port-au-Prince — something it has not yet demonstrated.",
+    "current_events": "Fresh source monitoring for Haiti points to Apr 23, 2026: Haiti's new UN-backed Gang Suppression Force has received more pledges than its 5,500 target; Chadian troops already deployed in Port-au-Prince. A second signal highlights Apr 2026: Transitional Presidential Council approves electoral decree — first round scheduled for August 2026, contingent on security improvement; 300+ political parties registered.",
+    "alliances": "The international community is more invested than at any point since the 2010 earthquake. The GSF is the primary security mechanism. The U.S. funded earlier Haitian police operations. BINUH head Ruiz Massieu briefed the Security Council in April. The 90-day Security Council briefing cycle continues.",
+    "next_actions": "Watch whether the GSF makes meaningful security gains in Port-au-Prince before the August election date, whether the gang coalition continues to fracture outside the capital, and whether humanitarian access to the 6.4 million in need improves as the force deploys.",
+    "last_updated": "2026-04-25T14:57:59.266Z",
     "story_rank": 15,
-    "briefing_note": "The Jacmel port breakthrough is the first genuine security success Haiti has had in years, but it is localized — and the test is whether it can be held and expanded before gang networks regroup.",
-    "change_status": "improving",
+    "briefing_note": "Haiti's UN Gang Suppression Force is better resourced than anyone expected, but the security math is stark: gangs control 90% of the capital and 6.4 million people need humanitarian assistance at levels approaching the 2010 earthquake disaster. The August election date requires security gains the GSF has not yet delivered.",
+    "change_status": "watch",
     "change_summary": [
-      "Improving signal: Haiti's Jacmel port siege broken by Haitian police with U.S.-funded equipment as gang coalition fractures in south.",
-      "Also worth watching: Electoral council sets revised voter registration window for May 15; international monitors invited."
+      "Watch signal: UN-backed Gang Suppression Force exceeds 5,500 troop pledge targets; Chad deployed in Port-au-Prince.",
+      "Also worth watching: Gangs control 90% of Port-au-Prince; August 2026 election calendar contingent on security improvement that has not yet materialized."
     ],
     "impact_tags": [
       "Humanitarian",
@@ -556,12 +548,12 @@
     ],
     "sources": [
       {
-        "label": "AP News, Apr 9, 2026: Haiti Jacmel port siege broken as gang coalition fractures in south",
-        "url": "https://apnews.com/article/haiti-jacmel-port-siege-broken-gang-2026-04-09"
+        "label": "Washington Post, Apr 23, 2026: Haiti's new UN-backed gang-fighting force exceeds funding expectations",
+        "url": "https://www.washingtonpost.com/world/2026/04/23/un-haiti-gangs-force-deployment-chad-elections/964b5880-3f5e-11f1-bb46-ed564688d953_story.html"
       },
       {
-        "label": "Haiti Libre, Apr 9, 2026: Electoral council sets May 15 voter registration window as international monitors invited",
-        "url": "https://www.haitilibre.com/article-electoral-council-may-registration-monitors-2026-04-09.html"
+        "label": "Security Council Report, Apr 2026: Haiti Monthly Forecast — elections, humanitarian crisis, gang violence",
+        "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-04/haiti-34.php"
       }
     ]
   }
