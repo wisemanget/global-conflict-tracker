@@ -1,3 +1,5 @@
+import { useEffect, useRef, useState } from "react";
+
 export default function Header({
   globalThreat,
   viewMode,
@@ -10,6 +12,39 @@ export default function Header({
   liveRefreshEnabled,
   onRefresh,
 }) {
+  const [overflowOpen, setOverflowOpen] = useState(false);
+  const overflowRef = useRef(null);
+
+  useEffect(() => {
+    if (!overflowOpen) {
+      return undefined;
+    }
+
+    function onDocumentClick(event) {
+      if (overflowRef.current && !overflowRef.current.contains(event.target)) {
+        setOverflowOpen(false);
+      }
+    }
+
+    function onKeyDown(event) {
+      if (event.key === "Escape") {
+        setOverflowOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", onDocumentClick);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("mousedown", onDocumentClick);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [overflowOpen]);
+
+  function selectSecondaryView(mode) {
+    onViewModeChange(mode);
+    setOverflowOpen(false);
+  }
+
   return (
     <header className="header">
       <div className="header-left">
@@ -54,16 +89,26 @@ export default function Header({
                   background: globalThreat.fillBackground,
                 }}
               />
-              <div className="threat-bar-segments">
-                <span />
-                <span />
-                <span />
-                <span />
-              </div>
             </div>
-            <span className="threat-meter-value" style={{ color: globalThreat.labelColor }}>
-              {globalThreat.label}
-            </span>
+            <div className="threat-status-pill" style={{ color: globalThreat.labelColor }}>
+              <span
+                className="threat-status-dot"
+                style={{ background: globalThreat.labelColor }}
+                aria-hidden="true"
+              />
+              <span className="threat-status-label">{globalThreat.label}</span>
+              <span className="threat-status-sep" aria-hidden="true">·</span>
+              <span className="threat-status-stat">
+                <span className="threat-status-num">{activeCount}</span> active
+              </span>
+              <span className="threat-status-sep" aria-hidden="true">·</span>
+              <span
+                className="threat-status-stat"
+                style={{ color: criticalCount > 0 ? "#ff3b3b" : "#3dd98a" }}
+              >
+                <span className="threat-status-num">{criticalCount}</span> critical
+              </span>
+            </div>
           </div>
 
           <div className="view-switcher" role="tablist" aria-label="View mode">
@@ -81,31 +126,35 @@ export default function Header({
             >
               Briefing
             </button>
-            <button
-              type="button"
-              className={`view-switch-btn ${viewMode === "replay" ? "active" : ""}`}
-              onClick={() => onViewModeChange("replay")}
-            >
-              Replay
-            </button>
+            <div className="view-switch-overflow" ref={overflowRef}>
+              <button
+                type="button"
+                className={`view-switch-btn view-switch-overflow-btn ${viewMode === "replay" ? "active" : ""}`}
+                aria-haspopup="menu"
+                aria-expanded={overflowOpen}
+                aria-label="More views"
+                onClick={() => setOverflowOpen((open) => !open)}
+              >
+                ···
+              </button>
+              {overflowOpen ? (
+                <div className="view-switch-menu" role="menu">
+                  <button
+                    type="button"
+                    role="menuitem"
+                    className={`view-switch-menu-item ${viewMode === "replay" ? "active" : ""}`}
+                    onClick={() => selectSecondaryView("replay")}
+                  >
+                    Replay
+                  </button>
+                </div>
+              ) : null}
+            </div>
           </div>
         </div>
       </div>
 
       <div className="header-right">
-        <div className="stat-pill">
-          <span className="stat-number">{activeCount}</span>
-          <span className="stat-label">Active</span>
-        </div>
-        <div className="stat-pill">
-          <span
-            className="stat-number"
-            style={{ color: criticalCount > 0 ? "#ff3b3b" : "#3dd98a" }}
-          >
-            {criticalCount}
-          </span>
-          <span className="stat-label">Critical</span>
-        </div>
         <div className={`last-updated-pill ${timestamp.stale ? "stale" : ""}`}>
           <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
             <circle cx="8" cy="8" r="6" />
