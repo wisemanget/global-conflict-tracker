@@ -130,18 +130,14 @@ export default function App() {
   const [expandedLeaderIndexes, setExpandedLeaderIndexes] = useState([]);
   const [expandedTimelineIndexes, setExpandedTimelineIndexes] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [refreshing, setRefreshing] = useState(false);
-  const [refreshFeedback, setRefreshFeedback] = useState("");
   const [error, setError] = useState("");
   const detailInnerRef = useRef(null);
   const activeRef = useRef(true);
   const mapControlHintTimerRef = useRef(null);
-  const refreshEndpoint = import.meta.env.VITE_REFRESH_ENDPOINT?.trim() || "/api/refresh";
 
-  async function loadData(isRefresh = false) {
-    const setter = isRefresh ? setRefreshing : setLoading;
+  async function loadData() {
     try {
-      setter(true);
+      setLoading(true);
       const [conflicts, history, leaders, timelines, impacts, connections, metadata] = await Promise.all([
         fetchJson("/conflict_data.json"),
         fetchJson("/history_snapshots.json"),
@@ -181,7 +177,7 @@ export default function App() {
       return null;
     } finally {
       if (activeRef.current) {
-        setter(false);
+        setLoading(false);
       }
     }
   }
@@ -438,71 +434,6 @@ export default function App() {
     };
   }, []);
 
-  async function waitForUpdatedDataset(previousTimestamp) {
-    for (let attempt = 0; attempt < 10; attempt += 1) {
-      if (attempt > 0) {
-        await sleep(8000);
-      }
-
-      const payload = await loadData(true);
-      const nextTimestamp = getLatestTimestampFromConflicts(payload?.conflicts || []);
-      if (nextTimestamp && nextTimestamp !== previousTimestamp) {
-        return nextTimestamp;
-      }
-    }
-
-    return null;
-  }
-
-  async function handleRefresh() {
-    const previousTimestamp = latestDatasetTimestamp;
-
-    if (!refreshEndpoint) {
-      setRefreshFeedback("Reloaded the latest published dataset. Live refresh endpoint is not configured.");
-      await loadData(true);
-      return;
-    }
-
-    try {
-      setRefreshing(true);
-      setRefreshFeedback("Requesting a live refresh...");
-
-      const response = await fetch(refreshEndpoint, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          requested_at: new Date().toISOString(),
-          source: "app",
-        }),
-      });
-
-      const payload = await response.json().catch(() => null);
-      const message = payload?.message || "";
-
-      if (!response.ok) {
-        throw new Error(message || `Refresh request failed (${response.status})`);
-      }
-
-      setRefreshFeedback(message || "Live refresh requested. Waiting for the new dataset to publish...");
-      const nextTimestamp = await waitForUpdatedDataset(previousTimestamp);
-
-      if (nextTimestamp) {
-        setRefreshFeedback("Live data updated.");
-      } else {
-        setRefreshFeedback("Refresh requested, but the new dataset is still publishing.");
-      }
-    } catch (refreshError) {
-      setRefreshFeedback(refreshError.message || "Unable to request a live refresh.");
-      await loadData(true);
-    } finally {
-      if (activeRef.current) {
-        setRefreshing(false);
-      }
-    }
-  }
-
   return (
     <>
       <div className="dashboard">
@@ -513,10 +444,6 @@ export default function App() {
           activeCount={activeCount}
           criticalCount={criticalCount}
           timestamp={timestamp}
-          refreshing={refreshing}
-          refreshFeedback={refreshFeedback}
-          liveRefreshEnabled={Boolean(refreshEndpoint)}
-          onRefresh={handleRefresh}
         />
 
         <main className={`map-workspace ${viewMode === "map" ? "" : "hidden"}`}>

@@ -7,10 +7,6 @@ export default function Header({
   activeCount,
   criticalCount,
   timestamp,
-  refreshing,
-  refreshFeedback,
-  liveRefreshEnabled,
-  onRefresh,
 }) {
   const [overflowOpen, setOverflowOpen] = useState(false);
   const overflowRef = useRef(null);
@@ -161,29 +157,6 @@ export default function Header({
             <path d="M8 4.5v4l2.5 1.5" />
           </svg>
           <span>{timestamp.text}</span>
-        </div>
-        <div className="refresh-stack">
-          <button
-            type="button"
-            className={`refresh-btn ${refreshing ? "refreshing" : ""}`}
-            onClick={onRefresh}
-            disabled={refreshing}
-            aria-label={liveRefreshEnabled ? "Request live refresh" : "Reload current dataset"}
-            title={
-              liveRefreshEnabled
-                ? "Requests a live source refresh, then waits for the newly published dataset."
-                : "Reloads the current published dataset. Configure VITE_REFRESH_ENDPOINT to request a live refresh."
-            }
-          >
-            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8">
-              <path d="M13.5 8A5.5 5.5 0 1 1 8 2.5c1.8 0 3.4.87 4.4 2.2" />
-              <path d="M13.5 2.5v2.5H11" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            <span className="refresh-btn-label">
-              {refreshing ? "Refreshing..." : liveRefreshEnabled ? "Refresh live" : "Reload data"}
-            </span>
-          </button>
-          {refreshFeedback ? <div className="refresh-feedback">{refreshFeedback}</div> : null}
         </div>
       </div>
     </header>
