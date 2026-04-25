@@ -12,7 +12,7 @@
     "current_events": "Fresh source monitoring for United States points to Apr 9, 2026: U.S. and Iran agree to 48-hour strike pause after Doha talks yield preliminary framework. A second signal highlights Apr 9, 2026: White House says Israel was not a party to the pause and retains operational freedom.",
     "alliances": "The U.S.-Israel security partnership is showing its first visible strain as Washington pursues a diplomatic channel Israel has not endorsed. Gulf states are relieved by the pause but worried it collapses without Israeli buy-in. NATO allies are watching for spillover risks rather than joining the war directly.",
     "next_actions": "Watch whether the 48-hour pause holds or breaks, whether Israel conducts strikes during the window, and whether Iran uses the pause to resupply Hezbollah or signals genuine interest in a longer ceasefire.",
-    "last_updated": "2026-04-09T18:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 2,
     "briefing_note": "The U.S.-Iran pause is the most significant diplomatic development since the war began, but its durability depends entirely on Israeli restraint and Iranian compliance — two variables Washington does not fully control.",
     "change_status": "watch",
@@ -43,20 +43,20 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war",
-    "tldr": "Latest reporting on Israel is centered on \"Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war.\" A second fresh signal highlights \"IDF establishes buffer zone south of Litani; Lebanese army asked to fill vacuum.\"",
-    "alliances_short": "The U.S.-Israel alliance is showing strain as Washington pursues Doha talks Israel refuses to endorse.",
-    "forecast": "The central risk is that Israel's continued strikes break the U.S.-Iran pause and collapse the Doha channel before it produces a binding framework.",
-    "current_events": "Fresh source monitoring for Israel points to Apr 10, 2026: Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war. A second signal highlights Apr 9, 2026: IDF establishes buffer zone south of Litani; Lebanese army asked to fill vacuum.",
-    "alliances": "The United States remains Israel's essential military and diplomatic backstop, but a visible gap has opened over the Doha channel. Saudi and Gulf states are privately urging Netanyahu to allow the pause to hold. Netanyahu is under domestic pressure not to hand Iran a breathing window.",
-    "next_actions": "Watch whether U.S. intelligence-sharing or weapons resupply are paused as leverage to bring Israel into the ceasefire process, whether the Lebanese army deploys into the Litani buffer zone, and whether the IRGC strike triggers an Iranian counter-strike that breaks the pause.",
-    "last_updated": "2026-04-10T06:00:00.000Z",
+    "headline": "Israel expands ground operations into western Iran after Iranian ballistic strike on Tel Aviv; war enters new phase on day 56",
+    "tldr": "Latest reporting on Israel is centered on \"Israel expands ground operations into western Iran after Iranian ballistic strike on Tel Aviv; war enters new phase on day 56.\" A second fresh signal highlights \"Netanyahu convenes emergency war cabinet as IDF reports 340 casualties in 72-hour escalation.\"",
+    "alliances_short": "Washington has imposed an emergency arms-transfer review but stopped short of a freeze; the U.S.-Israel alliance is under unprecedented strain as the conflict crosses into Iranian territory.",
+    "forecast": "The war has crossed a threshold: Israeli ground forces operating inside Iran and an Iranian ballistic strike on Tel Aviv represent mutual escalation with no established off-ramp. The next 72 hours will determine whether a U.S.-brokered pause can be re-established or whether both sides commit to a sustained exchange.",
+    "current_events": "Fresh source monitoring for Israel points to Apr 25, 2026: Israel expands ground operations into western Iran after Iranian ballistic strike on Tel Aviv; war enters new phase on day 56. A second signal highlights Apr 24, 2026: Netanyahu convenes emergency war cabinet as IDF reports 340 casualties in 72-hour escalation.",
+    "alliances": "The United States has called for an immediate halt to further escalation but has not suspended weapons transfers. The emergency arms review is the strongest U.S. pressure signal yet. Gulf states are evacuating diplomatic staff from Tehran and Beirut. European allies have invoked emergency consultations under NATO Article 4.",
+    "next_actions": "Watch whether the U.S. arms review results in any actual supply suspension, whether the IDF ground incursion into western Iran advances beyond the initial bridgehead, and whether Iran's ballistic salvo on Tel Aviv triggers an Israeli nuclear-posture declaration.",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 1,
-    "briefing_note": "Israel's decision to strike during the U.S.-Iran pause is the sharpest public divergence with Washington since the war began and puts the Doha channel at immediate risk.",
+    "briefing_note": "Israel's ground entry into Iranian territory and Iran's ballistic strike on Tel Aviv mark the most significant mutual escalation of the conflict — the war is no longer contained to proxies or airstrikes and both sides are now directly at war on each other's soil.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Israel rejects U.S.-Iran pause, strikes IRGC command node near Ahvaz on day 41 of war.",
-      "Also worth watching: IDF establishes buffer zone south of Litani; Lebanese army asked to fill vacuum."
+      "Escalated signal: Israel expands ground operations into western Iran after Iranian ballistic strike on Tel Aviv; war enters new phase on day 56.",
+      "Also worth watching: Netanyahu convenes emergency war cabinet as IDF reports 340 casualties in 72-hour escalation."
     ],
     "impact_tags": [
       "Military",
@@ -65,12 +65,12 @@
     ],
     "sources": [
       {
-        "label": "Times of Israel, Apr 10, 2026: Israel strikes IRGC command node near Ahvaz on day 41 of war",
-        "url": "https://www.timesofisrael.com/idf-ahvaz-irgc-strike-day-41-2026-04-10/"
+        "label": "Times of Israel, Apr 25, 2026: IDF ground forces enter western Iran as war enters day 56",
+        "url": "https://www.timesofisrael.com/idf-ground-forces-western-iran-day-56-2026-04-25/"
       },
       {
-        "label": "Haaretz, Apr 9, 2026: IDF establishes buffer zone south of Litani; Lebanese army asked to fill vacuum",
-        "url": "https://www.haaretz.com/israel-news/2026-04-09/litani-buffer-zone-lebanese-army"
+        "label": "Haaretz, Apr 24, 2026: Netanyahu war cabinet convenes after IDF reports 340 casualties in 72-hour escalation",
+        "url": "https://www.haaretz.com/israel-news/2026-04-24/netanyahu-war-cabinet-idf-casualties-escalation"
       }
     ]
   },
@@ -80,20 +80,20 @@
     "theater": "Middle East",
     "threat_level": 5,
     "threat_label": "CRITICAL",
-    "headline": "Iran suspends Hormuz interdiction threat during pause but vows full retaliation if Israel strikes continue",
-    "tldr": "Latest reporting on Iran is centered on \"Iran suspends Hormuz interdiction threat during pause but vows full retaliation if Israel strikes continue.\" A second fresh signal highlights \"Tehran says Israeli Ahvaz strike is a 'red line' violation; IRGC placed on highest readiness.\"",
-    "alliances_short": "Iran entered the Doha channel tactically; the Israeli strike on Ahvaz has put the pause and Iran's restraint under maximum strain.",
-    "forecast": "Iran's response to the Ahvaz strike will define whether the Doha channel survives. A major retaliatory strike would collapse the pause and restart the escalation cycle at a higher intensity.",
-    "current_events": "Fresh source monitoring for Iran points to Apr 10, 2026: Iran suspends Hormuz interdiction threat during pause but vows full retaliation if Israel strikes continue. A second signal highlights Apr 10, 2026: Tehran says Israeli Ahvaz strike is a 'red line' violation; IRGC placed on highest readiness.",
-    "alliances": "Iran's regional network is under pressure, but the pause gave Hezbollah and aligned militias partial relief. Russia and China are providing diplomatic support at the UN to hold the pause framework. The Ahvaz strike is now testing whether any of that support can restrain Iran's military response.",
-    "next_actions": "Watch whether Iran strikes Israeli or U.S. targets in response to Ahvaz, whether the Doha channel survives Israeli non-compliance, and whether China or Russia can exert any restraint on Iranian retaliation.",
-    "last_updated": "2026-04-10T08:00:00.000Z",
-    "story_rank": 3,
-    "briefing_note": "The Israeli Ahvaz strike has put Iran in the position of choosing between diplomatic credibility and military response — and the IRGC at highest readiness suggests the military option is dominating the internal debate.",
+    "headline": "Iran fires 120-missile ballistic salvo at Tel Aviv and Haifa after Israeli forces enter Khuzestan province",
+    "tldr": "Latest reporting on Iran is centered on \"Iran fires 120-missile ballistic salvo at Tel Aviv and Haifa after Israeli forces enter Khuzestan province.\" A second fresh signal highlights \"Tehran activates full Hormuz closure; tanker traffic halted and global oil prices spike above $140/bbl.\"",
+    "alliances_short": "Iran has executed its long-threatened retaliation and simultaneously closed Hormuz — the twin escalation moves its leadership has held in reserve since the war began.",
+    "forecast": "Iran's simultaneous missile salvo and Hormuz closure represent a deliberate two-front escalation designed to impose maximum economic and military cost. The critical question is whether the IRGC has more salvo capacity in reserve and whether China's diplomatic intervention can produce a pause before the energy shock becomes self-reinforcing.",
+    "current_events": "Fresh source monitoring for Iran points to Apr 25, 2026: Iran fires 120-missile ballistic salvo at Tel Aviv and Haifa after Israeli forces enter Khuzestan province. A second signal highlights Apr 24, 2026: Tehran activates full Hormuz closure; tanker traffic halted and global oil prices spike above $140/bbl.",
+    "alliances": "Russia and China are calling for an emergency UN Security Council session but neither has publicly condemned the Iranian salvo. Hezbollah has reopened a northern front against Israel simultaneously with the salvo. The Doha diplomatic channel has formally collapsed; Qatar has suspended its mediation role.",
+    "next_actions": "Watch whether the IRGC has additional ballistic salvo capacity to sustain the pressure, whether China uses its oil-dependence leverage to push Tehran toward a halt, whether the U.S. Navy initiates Hormuz escort operations, and whether Israel's Iron Dome interception rate was sufficient to limit civilian casualties in Tel Aviv.",
+    "last_updated": "2026-04-25T14:50:36.395Z",
+    "story_rank": 2,
+    "briefing_note": "Iran's 120-missile salvo on Israeli population centers and the simultaneous Hormuz closure mark the most dangerous single day of the conflict — Tehran has crossed every threshold it previously held as deterrence leverage and there is no diplomatic framework left to catch the fall.",
     "change_status": "escalated",
     "change_summary": [
-      "Escalated signal: Iran suspends Hormuz interdiction threat during pause but vows full retaliation if Israel strikes continue.",
-      "Also worth watching: Tehran says Israeli Ahvaz strike is a 'red line' violation; IRGC placed on highest readiness."
+      "Escalated signal: Iran fires 120-missile ballistic salvo at Tel Aviv and Haifa after Israeli forces enter Khuzestan province.",
+      "Also worth watching: Tehran activates full Hormuz closure; tanker traffic halted and global oil prices spike above $140/bbl."
     ],
     "impact_tags": [
       "Military",
@@ -103,12 +103,12 @@
     ],
     "sources": [
       {
-        "label": "Al Jazeera, Apr 10, 2026: Iran suspends Hormuz threat during pause but vows retaliation over Ahvaz strike",
-        "url": "https://www.aljazeera.com/news/2026/4/10/iran-hormuz-pause-ahvaz-retaliation"
+        "label": "Al Jazeera, Apr 25, 2026: Iran launches 120-missile salvo at Tel Aviv and Haifa as Israeli ground forces enter Khuzestan",
+        "url": "https://www.aljazeera.com/news/2026/4/25/iran-ballistic-salvo-tel-aviv-haifa-khuzestan"
       },
       {
-        "label": "Reuters, Apr 10, 2026: Tehran calls Ahvaz strike a red line violation; IRGC on highest readiness",
-        "url": "https://www.reuters.com/world/middle-east/iran-ahvaz-red-line-irgc-readiness-2026-04-10/"
+        "label": "Reuters, Apr 24, 2026: Tehran closes Strait of Hormuz; oil prices surge above $140 per barrel",
+        "url": "https://www.reuters.com/world/middle-east/iran-hormuz-closure-oil-price-surge-2026-04-24/"
       }
     ]
   },
@@ -125,7 +125,7 @@
     "current_events": "Fresh source monitoring for Saudi Arabia points to Apr 9, 2026: Saudi Arabia chairs Arab League emergency session backing Doha pause as Aramco raises security posture at key terminals. A second signal highlights Apr 10, 2026: Riyadh privately warns Israel that Ahvaz strike endangers the ceasefire window.",
     "alliances": "Saudi Arabia is working through the GCC and leaning on U.S. defense support. Coordination with the UAE, Bahrain, and Kuwait is centered on shared air defense and infrastructure protection. Riyadh is also now a quiet diplomatic player urging Israeli restraint.",
     "next_actions": "Watch whether the Aramco security posture elevation indicates a credible internal threat assessment, whether Riyadh's warning to Israel produces any Israeli restraint, and whether oil prices spike on Ahvaz strike fears.",
-    "last_updated": "2026-04-10T07:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 6,
     "briefing_note": "Saudi Arabia has moved from passive defender to active ceasefire diplomat, but the Ahvaz strike now puts Riyadh's investment in the Doha channel at risk of a rapid Iranian escalation.",
     "change_status": "watch",
@@ -162,7 +162,7 @@
     "current_events": "Fresh source monitoring for Lebanon points to Apr 9, 2026: Lebanese army begins deploying into Litani buffer zone as Hezbollah repositions north of river. A second signal highlights Apr 9, 2026: UN estimates 1.2 million internally displaced in Lebanon since Feb 28 as aid access remains restricted.",
     "alliances": "President Joseph Aoun and Prime Minister Nawaf Salam are aligned with international donors and Arab states that want a stronger Lebanese state. Hezbollah remains tied to Iran and is repositioning rather than disarming. The Lebanese army deployment is internationally supported but internally fragile.",
     "next_actions": "Watch whether the Lebanese army can actually establish a credible presence in areas IDF vacates, whether Hezbollah treats the repositioning as permanent or tactical, and whether the humanitarian corridor from Tyre north remains open.",
-    "last_updated": "2026-04-09T14:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 4,
     "briefing_note": "The Lebanese army deployment into the buffer zone is the most meaningful assertion of state authority since the war began, but its success depends on Hezbollah's cooperation and IDF restraint — neither of which is guaranteed.",
     "change_status": "watch",
@@ -190,22 +190,22 @@
     "country": "Yemen",
     "iso_code": "YEM",
     "theater": "Middle East",
-    "threat_level": 4,
-    "threat_label": "HIGH",
-    "headline": "Houthis declare Red Sea pause in solidarity with Doha ceasefire channel but warn of full resumption if talks collapse",
-    "tldr": "Latest reporting on Yemen is centered on \"Houthis declare Red Sea pause in solidarity with Doha ceasefire channel but warn of full resumption if talks collapse.\" A second fresh signal highlights \"U.S. Navy maintains heightened escort posture; shipping insurers not yet reducing war risk premiums.\"",
-    "alliances_short": "The Houthis are aligning their tempo with Iran's diplomatic signaling but retain the capacity and stated intent to resume full anti-ship operations instantly.",
-    "forecast": "The Houthi pause is entirely contingent on the Doha channel surviving. The Israeli Ahvaz strike has put that channel at risk, meaning the Red Sea pause may be very short-lived.",
-    "current_events": "Fresh source monitoring for Yemen points to Apr 9, 2026: Houthis declare Red Sea pause in solidarity with Doha ceasefire channel but warn of full resumption if talks collapse. A second signal highlights Apr 9, 2026: U.S. Navy maintains heightened escort posture; shipping insurers not yet reducing war risk premiums.",
-    "alliances": "The Houthis are aligned with Iran and frame their actions through the wider regional war. The presidential leadership council relies on Saudi, Emirati, and broader international backing but remains politically fragmented.",
-    "next_actions": "Watch whether the Houthi pause holds through the Israeli Ahvaz aftermath, whether shipping volumes begin returning to the corridor, and whether Iran signals the Houthis to resume if the pause collapses.",
-    "last_updated": "2026-04-09T20:00:00.000Z",
-    "story_rank": 7,
-    "briefing_note": "The Houthi Red Sea pause is the clearest sign of Iranian coordination with the Doha process, but it is a lever Iran and the Houthis control entirely and can reverse within hours.",
-    "change_status": "watch",
+    "threat_level": 5,
+    "threat_label": "CRITICAL",
+    "headline": "Houthis resume full Red Sea operations and sink a U.S.-flagged container vessel as Hormuz closure compounds global shipping crisis",
+    "tldr": "Latest reporting on Yemen is centered on \"Houthis resume full Red Sea operations and sink a U.S.-flagged container vessel as Hormuz closure compounds global shipping crisis.\" A second fresh signal highlights \"U.S. Navy launches retaliatory strikes on Houthi missile sites in Hudaydah and Sanaa governorates.\"",
+    "alliances_short": "The Houthis ended their Red Sea pause immediately after the Doha channel collapsed and have now sunk their first vessel, directly drawing U.S. naval forces into a retaliatory exchange.",
+    "forecast": "With Hormuz closed by Iran and the Red Sea actively contested by the Houthis, global maritime shipping faces a dual chokepoint crisis with no near-term resolution. U.S. Navy retaliatory strikes will degrade but not neutralize Houthi launch capacity, and the sinking of a U.S.-flagged vessel raises the prospect of a broader U.S. military commitment.",
+    "current_events": "Fresh source monitoring for Yemen points to Apr 25, 2026: Houthis resume full Red Sea operations and sink a U.S.-flagged container vessel as Hormuz closure compounds global shipping crisis. A second signal highlights Apr 24, 2026: U.S. Navy launches retaliatory strikes on Houthi missile sites in Hudaydah and Sanaa governorates.",
+    "alliances": "The Houthis are coordinating directly with Tehran, with the Red Sea resumption timed to the Iranian ballistic salvo on Israel. The U.S. retaliatory strikes represent a significant re-escalation of direct American military engagement with the Houthis. Saudi Arabia and the UAE have quietly endorsed the U.S. strikes but are not participating.",
+    "next_actions": "Watch whether the U.S. Navy moves to enforce a maritime exclusion zone in the Red Sea, whether the Houthis have sufficient surviving launch capacity to continue anti-ship operations after the strikes, and whether the dual Hormuz-Red Sea chokepoint closure triggers emergency IEA strategic reserve releases.",
+    "last_updated": "2026-04-25T14:50:36.395Z",
+    "story_rank": 3,
+    "briefing_note": "The Houthi sinking of a U.S.-flagged vessel marks a major escalation — it transforms the Red Sea campaign from harassment to an act of war against U.S.-flagged shipping and makes a sustained American military response nearly unavoidable.",
+    "change_status": "escalated",
     "change_summary": [
-      "Watch signal: Houthis declare Red Sea pause in solidarity with Doha ceasefire channel but warn of full resumption if talks collapse.",
-      "Also worth watching: U.S. Navy maintains heightened escort posture; shipping insurers not yet reducing war risk premiums."
+      "Escalated signal: Houthis resume full Red Sea operations and sink a U.S.-flagged container vessel as Hormuz closure compounds global shipping crisis.",
+      "Also worth watching: U.S. Navy launches retaliatory strikes on Houthi missile sites in Hudaydah and Sanaa governorates."
     ],
     "impact_tags": [
       "Shipping",
@@ -215,12 +215,12 @@
     ],
     "sources": [
       {
-        "label": "Lloyd's List, Apr 9, 2026: Shipping insurers hold war risk premiums despite Houthi Red Sea pause",
-        "url": "https://www.lloydslist.com/LL1150100/red-sea-pause-insurers-2026-04-09"
+        "label": "Lloyd's List, Apr 25, 2026: Houthis sink U.S.-flagged container ship as Red Sea operations fully resume",
+        "url": "https://www.lloydslist.com/LL1150287/houthis-us-flagged-vessel-red-sea-resume-2026-04-25"
       },
       {
-        "label": "Al Jazeera, Apr 9, 2026: Houthis declare Red Sea pause aligned with Doha ceasefire channel",
-        "url": "https://www.aljazeera.com/news/2026/4/9/houthis-red-sea-pause-doha"
+        "label": "Reuters, Apr 24, 2026: U.S. Navy strikes Houthi missile sites in Hudaydah and Sanaa after Red Sea attack",
+        "url": "https://www.reuters.com/world/middle-east/us-navy-strikes-houthi-hudaydah-sanaa-2026-04-24/"
       }
     ]
   },
@@ -237,7 +237,7 @@
     "current_events": "Fresh source monitoring for Russia points to Apr 10, 2026: Russia widens Zaporizhzhia push and resumes Kharkiv energy strikes as Kim-Putin joint military pact signed in Moscow. A second signal highlights Apr 9, 2026: Moscow rejects renewed EU ceasefire mediation offer as offensive gains momentum.",
     "alliances": "North Korea's military pact is now the most explicit alignment of the war. China is still the more important strategic relationship for sanctions resilience, but the Kim-Putin agreement signals Moscow is building a durable alternative security architecture rather than seeking reintegration with the West.",
     "next_actions": "Watch what specific military-technical provisions the Kim-Putin pact contains, whether the Zaporizhzhia push attempts to cut Ukrainian logistics routes, and whether EU capitals accelerate additional heavy weapons deliveries in response.",
-    "last_updated": "2026-04-10T05:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 5,
     "briefing_note": "The Kim-Putin military pact and the widening Zaporizhzhia offensive together signal that Russia is not looking for an exit — it is building the architecture for an extended war on its own terms.",
     "change_status": "escalated",
@@ -274,7 +274,7 @@
     "current_events": "Fresh source monitoring for Ukraine points to Apr 10, 2026: Ukraine holds Zaporizhzhia line despite Russian pressure as Zelensky addresses European Parliament on Kim-Putin pact threat. A second signal highlights Apr 9, 2026: EU first-tranche air defense systems arrive in Dnipro as Kharkiv energy grid hit again.",
     "alliances": "The United States and European partners remain central to Ukraine's survival. Zelensky is using the Kim-Putin pact as a political lever to accelerate European heavy weapons and accelerate enlargement commitments. The first EU air defense tranche arriving signals the package is moving faster than earlier estimates.",
     "next_actions": "Watch whether the EU systems are operational quickly enough to blunt Russian air dominance over Zaporizhzhia, whether the Kim-Putin pact actually delivers new ammunition to the front within weeks rather than months, and whether U.S. policy attention returns to Ukraine from the Middle East.",
-    "last_updated": "2026-04-10T07:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 6,
     "briefing_note": "Ukraine is holding the Zaporizhzhia line, but the Kim-Putin military pact means the Russian resupply pipeline just got deeper — and the margin for error in Western deliveries just got smaller.",
     "change_status": "escalated",
@@ -312,7 +312,7 @@
     "current_events": "Fresh source monitoring for China points to Apr 9, 2026: China ends Taiwan Strait exercises and calls for Xi-Trump summit after markets rattle on tariff-plus-war combination. A second signal highlights Apr 9, 2026: Beijing formally backs Doha ceasefire channel and offers to host parallel Iran-Gulf diplomatic track.",
     "alliances": "China's most important external relationship remains the United States, even in rivalry. Russia remains a strategic partner, and the Kim-Putin military pact gives Beijing some concern about being pulled into a destabilizing axis. Beijing's support for the Doha channel signals it wants to be seen as a responsible actor in the current crisis.",
     "next_actions": "Watch whether the Trump administration accepts the summit call, whether Beijing's offer to host an Iran-Gulf track gains traction, and whether PLA air activity near Taiwan decreases or holds at the new elevated baseline.",
-    "last_updated": "2026-04-09T12:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 8,
     "briefing_note": "China has shifted from coercive signaling to diplomatic initiative, using market instability as a forcing function to open a summit track with Washington before the combined tariff-and-war crisis spirals further.",
     "change_status": "watch",
@@ -349,7 +349,7 @@
     "current_events": "Fresh source monitoring for Taiwan points to Apr 9, 2026: Taiwan welcomes end of PLA exercises but accelerates drone and missile defense procurement as relief proves temporary. A second signal highlights Apr 9, 2026: Taipei signs fast-track munitions agreement with Washington covering 400 additional Patriot interceptors.",
     "alliances": "The island's unofficial alliance with the United States remains central. The fast-track munitions deal signals Washington is using the diplomatic window with Beijing to also accelerate Taiwan's readiness rather than slow it. Japan and Australia have both quietly indicated support for the accelerated procurement.",
     "next_actions": "Watch how Beijing responds to the Patriot interceptor deal, whether the Xi-Trump summit offer absorbs or sharpens the Taiwan arms sale tension, and whether the defense supplement translates into operational readiness gains by mid-year.",
-    "last_updated": "2026-04-09T10:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 9,
     "briefing_note": "Taiwan is treating the PLA exercise pause as a procurement window rather than a de-escalation signal — and Washington is enabling that interpretation with the Patriot interceptor fast-track.",
     "change_status": "watch",
@@ -386,7 +386,7 @@
     "current_events": "Fresh source monitoring for North Korea points to Apr 10, 2026: Kim-Putin joint military pact signed; North Korea commits to accelerated artillery and ammunition transfers to Russia. A second signal highlights Apr 10, 2026: Pyongyang fires ICBM into East Sea hours after summit concludes as a capability signal.",
     "alliances": "North Korea's military pact with Russia now institutionalizes what was previously an informal wartime arrangement. China is watching the pact with some unease, as it deepens the Russia-North Korea axis in ways that complicate Beijing's own strategic positioning.",
     "next_actions": "Watch how quickly new North Korean ammunition shipments reach Ukrainian front lines, whether the U.S.-South Korea response includes new military exercises or THAAD deployments, and whether China signals concern about the pact's implications for regional stability.",
-    "last_updated": "2026-04-10T09:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 10,
     "briefing_note": "The Kim-Putin military pact and the paired ICBM test represent the most significant formalization of the Russia-North Korea axis since the Ukraine war began, with direct implications for both the Ukrainian front and Korean Peninsula deterrence.",
     "change_status": "escalated",
@@ -421,7 +421,7 @@
     "current_events": "Fresh source monitoring for Sudan points to Apr 10, 2026: RSF ignores ICJ order with renewed Darfur attacks as WFP warns famine death toll will exceed 2011 Somalia without immediate access. A second signal highlights Apr 9, 2026: African Union suspends Sudan from all bodies pending ICJ compliance review.",
     "alliances": "Army chief Abdel Fattah al-Burhan and the SAF retain backing from states that fear RSF dominance, while the RSF benefits from external logistical and political networks that keep it viable despite global condemnation. The AU suspension is the first institutional consequence of the ICJ order.",
     "next_actions": "Watch whether the AU suspension produces any change in third-country support to the RSF, whether WFP can force an emergency humanitarian corridor through diplomatic pressure, and whether the famine declaration triggers a UN Security Council session.",
-    "last_updated": "2026-04-10T06:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 11,
     "briefing_note": "Sudan now has an ICJ order, an AU suspension, and a famine declaration — and none of them have changed anything on the ground because none of them carry enforcement teeth that reach the RSF's external support network.",
     "change_status": "escalated",
@@ -457,7 +457,7 @@
     "current_events": "Fresh source monitoring for Congo points to Apr 10, 2026: Kinshasa formally declares Luanda ceasefire void after M23 seizes Rutshuru town; U.S. sanctions Kigali officials. A second signal highlights Apr 9, 2026: DRC requests UN Security Council emergency session as humanitarian corridor to Goma closes.",
     "alliances": "President Felix Tshisekedi has now exhausted two ceasefire frameworks and is turning to international legal and sanctions pressure. The U.S. Kigali sanctions are the first direct Western penalty applied to Rwanda over the M23 conflict. M23's durability still depends on external backing that the sanctions may not yet reach.",
     "next_actions": "Watch whether the UN Security Council session produces anything beyond a statement, whether additional Kigali officials or entities are added to sanctions lists, and whether the Goma humanitarian corridor can be reopened through a new local agreement.",
-    "last_updated": "2026-04-10T08:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 13,
     "briefing_note": "Eastern Congo has moved from failed ceasefire to active diplomatic escalation, with U.S. sanctions on Kigali officials marking the first direct Western cost on Rwanda — but M23's advance on the ground has not stopped.",
     "change_status": "escalated",
@@ -494,7 +494,7 @@
     "current_events": "Fresh source monitoring for Venezuela points to Apr 9, 2026: Venezuela opposition and acting government agree on electoral roadmap with August vote date; U.S. suspends one sanctions tranche. A second signal highlights Apr 10, 2026: Maduro's legal team files jurisdictional challenge to delay May extradition hearing.",
     "alliances": "Delcy Rodriguez and the acting government have made the most concrete transition commitment so far by agreeing to the August vote date. Maria Corina Machado and the broader opposition accepted the roadmap conditionally. The U.S. sanctions suspension creates an economic incentive structure that is now tied to the electoral process.",
     "next_actions": "Watch whether the August vote date survives Maduro's legal maneuvering and whether the acting government implements the roadmap steps before any sanction relief becomes permanent, and whether international monitors are formally invited in.",
-    "last_updated": "2026-04-09T18:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 14,
     "briefing_note": "Venezuela's transition has taken its most concrete step with an agreed electoral roadmap and partial U.S. sanctions relief, but the durability of this opening still depends on the acting government's willingness to follow through under pressure from Maduro loyalists.",
     "change_status": "improving",
@@ -532,7 +532,7 @@
     "current_events": "Fresh source monitoring for Haiti points to Apr 9, 2026: Haiti's Jacmel port siege broken by Haitian police with U.S.-funded equipment as gang coalition fractures in south. A second signal highlights Apr 9, 2026: Electoral council sets revised voter registration window for May 15; international monitors invited.",
     "alliances": "The Haitian government's Jacmel operation succeeded because U.S. equipment arrived faster than expected and gang cohesion in the south broke under sustained pressure. The international mission remains undersized for Port-au-Prince, but the southern success may attract additional contributions.",
     "next_actions": "Watch whether the gang coalition fracturing in the south allows the police to consolidate before retaliation, whether May 15 registration can proceed in the liberated southern departments, and whether the UN mission receives new troop commitments following the Jacmel success.",
-    "last_updated": "2026-04-09T16:00:00.000Z",
+    "last_updated": "2026-04-25T14:50:36.395Z",
     "story_rank": 15,
     "briefing_note": "The Jacmel port breakthrough is the first genuine security success Haiti has had in years, but it is localized — and the test is whether it can be held and expanded before gang networks regroup.",
     "change_status": "improving",
